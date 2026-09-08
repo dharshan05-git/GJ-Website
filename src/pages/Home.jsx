@@ -1,106 +1,88 @@
 import React from 'react';
 import { Hero } from '../components/Hero';
-import { ProductCard } from '../components/ProductCard';
+import { BrandValues } from '../components/BrandValues';
 import { CategoryGrid } from '../components/CategoryGrid';
 import { SignatureProduct } from '../components/SignatureProduct';
 import { WhyChooseUs } from '../components/WhyChooseUs';
 import { Testimonials } from '../components/Testimonials';
 import { PRODUCTS } from '../data/products';
+import { ProductCard } from '../components/ProductCard';
 import { useShop } from '../context/ShopContext';
-import { Truck, Star, RotateCcw, ShieldCheck, ArrowRight } from 'lucide-react';
+import { ArrowRight } from 'lucide-react';
+import { useScrollAnimation } from '../hooks/useScrollAnimation';
 
 export const Home = () => {
   const { navigateToPage } = useShop();
-  const bestSellers = PRODUCTS.slice(0, 4);
+  const bestSellers = PRODUCTS.filter(p => p.isBestSeller).slice(0, 4);
+
+  const [headingRef, headingVisible] = useScrollAnimation();
+  const [gridRef, gridVisible] = useScrollAnimation();
+  const [ctaRef, ctaVisible] = useScrollAnimation();
 
   return (
-    <div className="bg-[#FAF6F0]">
+    <div className="bg-[#FAF7F2] min-h-screen">
 
-      {/* 1. HERO — 1 Image + 1 Video, Left/Right Arrows, Auto 5s / 10s */}
+      {/* 1. Hero Slider */}
       <Hero />
 
-      {/* 2. TRUST PERKS BAR BELOW HERO */}
-      <section className="bg-[#FAF6F0] border-t border-b border-[#E8DFD7] py-5">
-        <div className="max-w-7xl mx-auto px-6 grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
-          
-          <div className="flex items-center justify-center gap-3">
-            <Truck size={22} className="text-[#7A2E3B] shrink-0" />
-            <div className="text-left">
-              <h4 className="font-sans text-xs font-bold tracking-wider text-[#2C2623] uppercase">Free Shipping</h4>
-              <p className="text-[11px] text-[#736B66]">Above ₹1,500</p>
-            </div>
-          </div>
+      {/* 2. Brand Values 4-column bar */}
+      <BrandValues />
 
-          <div className="flex items-center justify-center gap-3">
-            <Star size={22} className="text-[#7A2E3B] shrink-0" />
-            <div className="text-left">
-              <h4 className="font-sans text-xs font-bold tracking-wider text-[#2C2623] uppercase">18K Solid Gold</h4>
-              <p className="text-[11px] text-[#736B66]">Authentic & Hallmarked</p>
-            </div>
-          </div>
-
-          <div className="flex items-center justify-center gap-3">
-            <RotateCcw size={22} className="text-[#7A2E3B] shrink-0" />
-            <div className="text-left">
-              <h4 className="font-sans text-xs font-bold tracking-wider text-[#2C2623] uppercase">Easy Returns</h4>
-              <p className="text-[11px] text-[#736B66]">15 Days Hassle Free</p>
-            </div>
-          </div>
-
-          <div className="flex items-center justify-center gap-3">
-            <ShieldCheck size={22} className="text-[#7A2E3B] shrink-0" />
-            <div className="text-left">
-              <h4 className="font-sans text-xs font-bold tracking-wider text-[#2C2623] uppercase">Lifetime Shine</h4>
-              <p className="text-[11px] text-[#736B66]">Polish & Care Guarantee</p>
-            </div>
-          </div>
-
-        </div>
-      </section>
-
-      {/* 3. CATEGORIES — Spherical Icons */}
+      {/* 3. Our Collections Grid */}
       <CategoryGrid />
 
-      {/* 4. GEVARIYA'S BEST */}
-      <section className="bg-[#FAF6F0] py-14 border-b border-[#E8DFD7]">
-        <div className="max-w-7xl mx-auto px-6">
+      {/* 4. Best Sellers — Styled exactly matching Reference Image 1 */}
+      <section className="bg-[#FAF7F2] py-14 sm:py-20 border-b border-[#D8CFC3]">
+        <div className="max-w-[1320px] mx-auto px-4 sm:px-10">
 
-          <div className="text-center max-w-xl mx-auto mb-10">
-            <span className="text-[10px] font-bold tracking-[0.3em] text-[#7A2E3B] uppercase">
-              EXCLUSIVELY CURATED
-            </span>
-            <h2 className="font-serif text-3xl sm:text-4xl text-[#2C2623] uppercase mt-1 tracking-wider">
-              GEVARIYA'S BEST
+          {/* Heading — Clean Burgundy Serif "BEST SELLERS" */}
+          <div
+            ref={headingRef}
+            className={`text-center max-w-xl mx-auto mb-8 sm:mb-12 reveal-up ${headingVisible ? 'visible' : ''}`}
+          >
+            <h2 className="font-serif text-2xl sm:text-3xl lg:text-4xl text-[#7B3F42] uppercase tracking-[0.08em] font-light">
+              BEST SELLERS
             </h2>
-            <div className="w-14 h-0.5 bg-[#7A2E3B] mx-auto mt-2" />
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+          {/* 2-Column Mobile Grid / 4-Column Desktop Grid */}
+          <div
+            ref={gridRef}
+            className={`grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-4 gap-3.5 sm:gap-6 stagger-children ${gridVisible ? 'visible' : ''}`}
+          >
             {bestSellers.map(product => (
-              <ProductCard key={product.id} product={product} />
+              <div
+                key={product.id}
+                className={`reveal-up ${gridVisible ? 'visible' : ''}`}
+              >
+                <ProductCard product={product} />
+              </div>
             ))}
           </div>
 
-          <div className="mt-10 text-center">
-            <button 
+          <div
+            ref={ctaRef}
+            className={`mt-10 sm:mt-12 text-center reveal-up ${ctaVisible ? 'visible' : ''}`}
+          >
+            <button
               onClick={() => navigateToPage('shop', 'ALL')}
-              className="inline-flex items-center gap-2 font-sans font-semibold uppercase tracking-widest text-white bg-[#7A2E3B] hover:bg-[#5F222D] px-8 py-3.5 text-xs rounded-xs transition-colors shadow-sm"
+              className="luxury-shimmer-btn group inline-flex items-center gap-2 font-sans font-semibold uppercase tracking-widest text-white bg-[#7B3F42] hover:bg-[#623033] px-8 py-3.5 sm:px-9 sm:py-4 text-[11px] sm:text-xs transition-all duration-300 shadow-sm hover:shadow-md hover:-translate-y-0.5 active:scale-95 rounded-xs"
             >
               <span>VIEW ALL PRODUCTS</span>
-              <ArrowRight size={15} />
+              <ArrowRight size={13} className="transition-transform duration-300 group-hover:translate-x-1.5" />
             </button>
           </div>
 
         </div>
       </section>
 
-      {/* 5. SIGNATURE PRODUCT SHOWCASE (DIAMOND DROP EARRINGS) */}
+      {/* 5. Signature Craftsmanship */}
       <SignatureProduct />
 
-      {/* 6. WHY CHOOSE GEVARIYA (SIMPLE & SHORT) */}
+      {/* 6. Why Choose Us — Styled exactly matching Reference Image 2 */}
       <WhyChooseUs />
 
-      {/* 7. LEFT TO RIGHT MOVING TESTIMONIALS (PAUSES ON HOVER) */}
+      {/* 7. Testimonials / Reviews */}
       <Testimonials />
 
     </div>

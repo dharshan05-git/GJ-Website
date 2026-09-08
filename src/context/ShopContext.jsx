@@ -1,4 +1,4 @@
-import React, { createContext, useContext, useState, useEffect } from 'react';
+import React, { createContext, useContext, useState, useEffect, useRef } from 'react';
 import { PRODUCTS } from '../data/products';
 
 const ShopContext = createContext();
@@ -14,6 +14,15 @@ export const ShopProvider = ({ children }) => {
   const [quickViewProduct, setQuickViewProduct] = useState(null);
   const [sizeGuideOpen, setSizeGuideOpen] = useState(false);
   const [toastMessage, setToastMessage] = useState(null);
+  const [curtainLoaderActive, setCurtainLoaderActive] = useState(true);
+
+  // Fly-to-cart state
+  const [flyItem, setFlyItem]   = useState(null);
+  const cartIconRef             = useRef(null); // Navbar registers the cart button here
+
+  const replayCurtainLoader = () => {
+    setCurtainLoaderActive(true);
+  };
 
   const showToast = (msg) => {
     setToastMessage(msg);
@@ -21,6 +30,15 @@ export const ShopProvider = ({ children }) => {
       setToastMessage(null);
     }, 3000);
   };
+
+  // Trigger the fly-to-cart animation
+  const triggerFlyToCart = ({ image, fromRect }) => {
+    if (!cartIconRef.current) return;
+    const toRect = cartIconRef.current.getBoundingClientRect();
+    setFlyItem({ image, fromRect, toRect });
+  };
+
+  const clearFlyItem = () => setFlyItem(null);
 
   const addToCart = (product, metal = "18K Yellow Gold", size = "7", qty = 1) => {
     setCart(prevCart => {
@@ -116,7 +134,14 @@ export const ShopProvider = ({ children }) => {
         navigateToProduct,
         navigateToPage,
         toastMessage,
-        showToast
+        showToast,
+        curtainLoaderActive,
+        setCurtainLoaderActive,
+        replayCurtainLoader,
+        flyItem,
+        clearFlyItem,
+        triggerFlyToCart,
+        cartIconRef,
       }}
     >
       {children}

@@ -1,55 +1,78 @@
 import React from 'react';
 import { Star, Heart, Shield } from 'lucide-react';
+import { useScrollAnimation } from '../hooks/useScrollAnimation';
 
+/**
+ * WhyChooseUs — Exactly matches Reference Image 2:
+ * "WHY CHOOSE GEVARIYA?" centered serif header in burgundy.
+ * 2x2 Grid on mobile with solid burgundy filled icons, serif titles, and minimal descriptions.
+ */
 export const WhyChooseUs = () => {
   const points = [
     {
-      icon: <Star size={36} fill="#7A2E3B" stroke="none" className="text-[#7A2E3B]" />,
-      title: "Certified Excellence",
-      desc: "100% Hallmarked 18K Solid Gold & Certified Diamonds for lasting beauty."
+      icon: <Star size={30} fill="#7B3F42" stroke="none" />,
+      title: "Premium Quality",
+      desc: "Finest 925 Sterling Silver for lasting beauty."
     },
     {
-      icon: <Heart size={36} fill="#7A2E3B" stroke="none" className="text-[#7A2E3B]" />,
-      title: "Crafted with Devotion",
-      desc: "Every piece is delicately forged by skilled artisans in our studio."
+      icon: <Heart size={30} fill="#7B3F42" stroke="none" />,
+      title: "Crafted with Care",
+      desc: "Every piece is delicately crafted by skilled artisans."
     },
     {
-      icon: <Shield size={36} fill="#7A2E3B" stroke="none" className="text-[#7A2E3B]" />,
-      title: "Hypoallergenic & Pure",
-      desc: "Safe for sensitive skin. 100% Nickel-free and skin-conscious."
+      icon: <Shield size={30} fill="#7B3F42" stroke="none" />,
+      title: "Hypoallergenic",
+      desc: "Safe for sensitive skin. Nickel-free."
     },
     {
-      icon: <Star size={36} fill="#7A2E3B" stroke="none" className="text-[#7A2E3B]" />,
-      title: "Timeless Elegance",
-      desc: "Elegant heirloom designs created to never go out of style."
+      icon: <Star size={30} fill="#7B3F42" stroke="none" />,
+      title: "Timeless Designs",
+      desc: "Elegant pieces that never go out of style."
     }
   ];
 
+  const [headingRef, headingVisible] = useScrollAnimation(0.12);
+  const [gridRef, gridVisible] = useScrollAnimation(0.1);
+
   return (
-    <section className="bg-[#FAF6F0] py-20 border-b border-[#E8DFD7]">
-      <div className="max-w-7xl mx-auto px-6">
-        
-        {/* Main Title matching user image */}
-        <div className="text-center mb-14">
-          <h2 
-            className="font-serif text-3xl sm:text-4xl lg:text-5xl text-[#7A2E3B] tracking-wide"
-            style={{ fontWeight: 400 }}
-          >
+    <section className="bg-[#FAF7F2] py-16 sm:py-24 border-b border-[#D8CFC3]">
+      <div className="max-w-[1100px] mx-auto px-5 sm:px-10">
+
+        {/* Heading — Exactly matching Reference Image 2 */}
+        <div
+          ref={headingRef}
+          className={`text-center mb-12 sm:mb-16 reveal-up ${headingVisible ? 'visible' : ''}`}
+        >
+          <h2 className="font-serif text-2xl sm:text-3xl lg:text-4xl text-[#7B3F42] uppercase tracking-[0.06em] font-light">
             WHY CHOOSE GEVARIYA?
           </h2>
         </div>
 
-        {/* 4 Clean Columns matching user image */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 text-center">
+        {/* 2x2 Grid on Mobile (2 cols on mobile, 4 cols on desktop) */}
+        <div
+          ref={gridRef}
+          className="grid grid-cols-2 lg:grid-cols-4 gap-y-10 sm:gap-y-12 gap-x-4 sm:gap-x-8 text-center stagger-children"
+        >
           {points.map((item, idx) => (
-            <div key={idx} className="flex flex-col items-center max-w-xs mx-auto">
-              <div className="mb-5 flex items-center justify-center">
+            <div
+              key={idx}
+              className={`group flex flex-col items-center max-w-[180px] mx-auto reveal-up ${
+                gridVisible ? 'visible' : ''
+              }`}
+              style={{ transitionDelay: `${0.08 * idx}s` }}
+            >
+              {/* Solid Burgundy Filled Icon */}
+              <div className="mb-3 sm:mb-4 flex items-center justify-center transition-transform duration-300 group-hover:scale-115">
                 {item.icon}
               </div>
-              <h3 className="font-serif text-lg font-semibold text-[#2C2623] mb-2">
+
+              {/* Title in Serif Font */}
+              <h3 className="font-serif text-[14px] sm:text-base font-medium text-[#2E2B2B] mb-1.5 transition-colors duration-300">
                 {item.title}
               </h3>
-              <p className="text-xs text-[#736B66] leading-relaxed font-normal">
+
+              {/* Description */}
+              <p className="font-sans text-[10.5px] sm:text-xs text-[#5C4038] leading-relaxed max-w-[145px] sm:max-w-[180px]">
                 {item.desc}
               </p>
             </div>

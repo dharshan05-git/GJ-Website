@@ -1,102 +1,134 @@
-import React from 'react';
+import React, { useRef, useState } from 'react';
 import { Heart, Eye, ShoppingBag } from 'lucide-react';
 import { useShop } from '../context/ShopContext';
 
+/**
+ * ProductCard — Exactly matching Reference Image 1:
+ * Clean square image, burgundy/gold badge top-left, white circular wishlist top-right,
+ * elegant serif title and burgundy bold price below.
+ */
 export const ProductCard = ({ product }) => {
-  const { 
-    navigateToProduct, 
-    addToCart, 
-    toggleWishlist, 
-    isInWishlist, 
-    setQuickViewProduct 
+  const {
+    navigateToProduct,
+    addToCart,
+    toggleWishlist,
+    isInWishlist,
+    setQuickViewProduct,
+    triggerFlyToCart,
   } = useShop();
 
+  const imgRef = useRef(null);
   const isWishlisted = isInWishlist(product.id);
+  const [popHeart, setPopHeart] = useState(false);
 
-  // Badge styling matching Skyra screenshot
-  const getBadgeStyle = (badge) => {
-    if (badge === 'SIGNATURE') return { bg: '#D4AF37', text: '#1A1615' }; // Gold
-    if (badge === 'HOT') return { bg: '#7A2E3B', text: '#FFFFFF' }; // Burgundy
-    if (badge === 'NEW') return { bg: '#2C2623', text: '#FFFFFF' }; // Dark
-    return { bg: '#7A2E3B', text: '#FFFFFF' };
+  const handleWishlistClick = (e) => {
+    e.stopPropagation();
+    setPopHeart(true);
+    toggleWishlist(product);
+    setTimeout(() => setPopHeart(false), 450);
   };
 
-  const badgeObj = product.badge ? getBadgeStyle(product.badge) : null;
+  const handleAddToCart = (e) => {
+    e.stopPropagation();
+    if (imgRef.current && product.image) {
+      const fromRect = imgRef.current.getBoundingClientRect();
+      triggerFlyToCart({ image: product.image, fromRect });
+    }
+    setTimeout(() => addToCart(product), 80);
+  };
+
+  const isGoldBadge = product.badge === 'SIGNATURE' || product.badge === 'LUXURY' || product.badge === 'BESTSELLER';
 
   return (
-    <div className="group bg-white border border-[#E8DFD7] flex flex-col transition-all duration-300 hover:shadow-lg">
-      
-      {/* Cover Image Container */}
-      <div className="relative overflow-hidden bg-[#FAF6F0]" style={{ aspectRatio: '1 / 1' }}>
-        
-        {/* Skyra Style Top Badge */}
-        {product.badge && (
-          <div className="absolute top-3 left-3 z-10">
-            <span 
-              className="text-[10px] font-bold tracking-widest px-2.5 py-0.5 uppercase shadow-xs"
-              style={{ backgroundColor: badgeObj.bg, color: badgeObj.text }}
-            >
-              {product.badge}
-            </span>
-          </div>
-        )}
+    <div className="product-card-lift luxury-card-interactive group flex flex-col transition-all duration-300 select-none">
 
-        {/* Wishlist Button */}
-        <button 
-          onClick={(e) => {
-            e.stopPropagation();
-            toggleWishlist(product);
-          }}
-          className={`absolute top-3 right-3 z-10 w-8 h-8 rounded-full bg-white/90 backdrop-blur-xs flex items-center justify-center transition-all ${
-            isWishlisted ? 'text-[#7A2E3B]' : 'text-[#736B66] hover:text-[#7A2E3B]'
-          } shadow-xs`}
-          aria-label="Toggle Wishlist"
+      {/* ── Image Stage ── */}
+      <div
+        ref={imgRef}
+        className="relative overflow-hidden bg-[#F5F1EA] aspect-square cursor-pointer rounded-xs"
+        onClick={() => navigateToProduct(product)}
+      >
+        {/* Top-Right: Circular White Wishlist Button — matching Image 1 */}
+        <button
+          onClick={handleWishlistClick}
+          className={`absolute top-2.5 right-2.5 z-10 w-7 h-7 sm:w-8 sm:h-8 rounded-full bg-white shadow-xs flex items-center justify-center transition-all duration-300 hover:scale-110 active:scale-90 ${
+            isWishlisted ? 'text-[#7B3F42]' : 'text-[#2E2B2B] hover:text-[#7B3F42]'
+          } ${popHeart ? 'animate-heart-pop' : ''}`}
+          aria-label="Wishlist"
         >
-          <Heart size={16} fill={isWishlisted ? '#7A2E3B' : 'none'} />
+          <Heart size={13} fill={isWishlisted ? '#7B3F42' : 'none'} strokeWidth={1.6} />
         </button>
 
-        {/* Single Cover Image */}
-        <img 
-          src={product.image} 
+        {/* Main Product Image */}
+        <img
+          src={product.image}
           alt={product.name}
-          onClick={() => navigateToProduct(product)}
-          className="w-full h-full object-cover object-center cursor-pointer transition-transform duration-500 group-hover:scale-105"
+          className="w-full h-full object-cover object-center transition-transform duration-700 ease-out group-hover:scale-108"
+          loading="lazy"
         />
 
-        {/* Quick View Button on Hover */}
-        <div className="absolute inset-x-3 bottom-3 z-10 opacity-0 group-hover:opacity-100 transition-opacity duration-200">
-          <button 
-            onClick={() => setQuickViewProduct(product)}
-            className="w-full bg-white/90 hover:bg-white text-[#2C2623] text-[11px] font-bold py-2 flex items-center justify-center gap-1.5 uppercase tracking-wider transition-colors shadow-sm"
+        {/* Hover image swap for desktop */}
+        {product.hoverImage && (
+          <img
+            src={product.hoverImage}
+            alt={product.name}
+            className="absolute inset-0 w-full h-full object-cover object-center opacity-0 group-hover:opacity-100 transition-opacity duration-500 hidden sm:block"
+            loading="lazy"
+          />
+        )}
+
+        {/* Top-Left Badge — matching Image 1 */}
+        {product.badge && (
+          <span
+            className={`absolute top-2.5 left-2.5 text-[8px] sm:text-[9px] font-bold tracking-wider uppercase px-2 py-0.5 shadow-xs ${
+              isGoldBadge
+                ? 'bg-[#C6A46A] text-[#2E2B2B] rounded-full px-2.5'
+                : 'bg-[#622329] text-white rounded-none'
+            }`}
           >
-            <Eye size={13} /> QUICK VIEW
+            {product.badge}
+          </span>
+        )}
+
+        {/* Desktop Hover Quick Actions / Mobile Tap Bar */}
+        <div className="absolute inset-x-0 bottom-0 flex gap-0 sm:opacity-0 sm:group-hover:opacity-100 transition-all duration-300 sm:translate-y-2 sm:group-hover:translate-y-0">
+          <button
+            onClick={e => { e.stopPropagation(); setQuickViewProduct(product); }}
+            className="flex-1 bg-white/95 hover:bg-white text-[#2E2B2B] hover:text-[#7B3F42] text-[9px] sm:text-[10px] font-bold tracking-wider uppercase py-2 flex items-center justify-center gap-1 transition-colors border-t border-[#D8CFC3] shadow-xs active:bg-[#F5F1EA]"
+          >
+            <Eye size={12} /> <span className="hidden xs:inline">QUICK VIEW</span><span className="xs:hidden">VIEW</span>
+          </button>
+          <button
+            onClick={handleAddToCart}
+            className="w-10 bg-[#7B3F42] hover:bg-[#623033] text-white flex items-center justify-center transition-colors shadow-xs active:scale-95"
+            title="Add to Cart"
+          >
+            <ShoppingBag size={13} />
           </button>
         </div>
-
       </div>
 
-      {/* Cover Page & Price Info Only (matching Skyra screenshot) */}
-      <div className="p-4 flex-1 flex flex-col justify-between text-left bg-white border-t border-[#E8DFD7]/40">
-        <div>
-          <h3 
-            onClick={() => navigateToProduct(product)}
-            className="font-serif text-base font-medium tracking-wide text-[#2C2623] hover:text-[#7A2E3B] cursor-pointer transition-colors line-clamp-1"
-          >
-            {product.name}
-          </h3>
-          
-          <div className="mt-1 font-sans text-sm font-bold text-[#7A2E3B]">
-            ₹{product.price.toLocaleString('en-IN')}
-          </div>
-        </div>
+      {/* ── Info Area below Image — matching Image 1 ── */}
+      <div
+        className="pt-2.5 sm:pt-3 pb-1 flex flex-col cursor-pointer"
+        onClick={() => navigateToProduct(product)}
+      >
+        {/* Title in Elegant Serif Font */}
+        <h3 className="font-serif text-[12.5px] sm:text-[14px] text-[#2E2B2B] group-hover:text-[#7B3F42] font-normal tracking-normal transition-colors line-clamp-1 leading-snug">
+          {product.name}
+        </h3>
 
-        {/* Add to bag button */}
-        <button 
-          onClick={() => addToCart(product)}
-          className="mt-3 w-full flex items-center justify-center gap-1.5 font-semibold uppercase tracking-widest text-[11px] py-2 bg-[#FAF6F0] hover:bg-[#7A2E3B] text-[#7A2E3B] hover:text-white border border-[#E8DFD7] hover:border-[#7A2E3B] transition-all duration-300"
-        >
-          <ShoppingBag size={13} /> ADD TO BAG
-        </button>
+        {/* Price directly below Title in bold burgundy */}
+        <div className="flex items-baseline gap-1.5 mt-0.5">
+          <span className="font-sans text-[12px] sm:text-[13px] font-bold text-[#7B3F42]">
+            ₹{product.price.toLocaleString('en-IN')}
+          </span>
+          {product.originalPrice && (
+            <span className="font-sans text-[10px] text-[#8A726A] line-through">
+              ₹{product.originalPrice.toLocaleString('en-IN')}
+            </span>
+          )}
+        </div>
       </div>
 
     </div>

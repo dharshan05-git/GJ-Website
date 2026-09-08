@@ -1,204 +1,153 @@
 import React, { useState } from 'react';
-import { MapPin, Phone, Mail, Instagram, Facebook, Twitter, Calendar, CheckCircle2 } from 'lucide-react';
+import { User, Mail, Phone, Calendar, MapPin, Instagram, Facebook, CheckCircle2 } from 'lucide-react';
+import { GevariyaLogo } from '../components/GevariyaLogo';
 
+/**
+ * Contact page — Book a Private Consultation
+ * Optimized for mobile touch screens and desktop viewports.
+ */
 export const Contact = () => {
-  const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    phone: '',
-    preferredDate: '',
-    message: ''
-  });
-
+  const [formData, setFormData] = useState({ name: '', email: '', phone: '', preferredDate: '', message: '' });
   const [submitted, setSubmitted] = useState(false);
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    setSubmitted(true);
-  };
+  const handleSubmit = (e) => { e.preventDefault(); setSubmitted(true); };
+  const set = (k) => (e) => setFormData(d => ({ ...d, [k]: e.target.value }));
+
+  const inputCls = 'w-full bg-[#EDE7DE] border border-[#D8CFC3] pl-10 pr-4 py-3 text-xs font-sans text-[#2E2B2B] placeholder-[#8A726A] outline-none focus:border-[#7B3F42] transition-colors rounded-xs';
 
   return (
-    <div className="bg-[#FAF6F0] min-h-screen py-10 lg:py-16">
-      <div className="container">
-        
-        {/* Studio Consultation Grid matching View 5 */}
-        <div className="bg-white rounded-xs border border-[#E8DFD7] overflow-hidden shadow-lg grid grid-cols-1 lg:grid-cols-12 mb-16">
-          
-          {/* Left Column: Studio Interior Banner Picture matching View 5 */}
-          <div className="lg:col-span-6 relative bg-black min-h-[420px] lg:min-h-[600px] flex items-center justify-center">
-            <img 
-              src="https://images.unsplash.com/photo-1617038260897-41a1f14a8ca0?auto=format&fit=crop&w=1200&q=85" 
-              alt="Gevariya Jewels Private Studio Lounge"
-              className="w-full h-full object-cover opacity-80 absolute inset-0"
-            />
-            <div className="absolute inset-0 bg-gradient-to-t from-[#1A1615] via-[#1A1615]/30 to-transparent" />
-            
-            <div className="relative z-10 text-center p-8 text-white space-y-4">
-              <div className="w-16 h-16 rounded-full border-2 border-[#D4AF37] mx-auto flex items-center justify-center bg-[#7A2E3B] text-2xl font-serif font-bold shadow-xl">
-                GJ
-              </div>
-              <span className="text-xs font-bold tracking-[0.3em] text-[#D4AF37] uppercase">
-                GEVARIYA JEWELS
-              </span>
-              <h2 className="font-serif text-3xl sm:text-4xl font-light">
-                BOOK A PRIVATE CONSULTATION
-              </h2>
-              <p className="text-xs text-[#E8DFD7] max-w-md mx-auto font-light leading-relaxed">
-                Our gemologists and master designers are here to help you find or create the perfect bespoke piece in total privacy.
-              </p>
-            </div>
-          </div>
+    <div className="bg-[#F5F1EA] min-h-screen">
 
-          {/* Right Column: Consultation Booking Form matching View 5 */}
-          <div className="lg:col-span-6 p-8 lg:p-12 flex flex-col justify-center">
-            
-            {submitted ? (
-              <div className="text-center space-y-4 py-12">
-                <CheckCircle2 size={48} className="text-[#7A2E3B] mx-auto" />
-                <h3 className="font-serif text-2xl text-[#2C2623]">CONSULTATION REQUEST RECEIVED</h3>
-                <p className="text-xs text-[#736B66] max-w-sm mx-auto">
-                  Thank you, <span className="font-bold text-[#2C2623]">{formData.name}</span>. Our concierge team will contact you shortly at {formData.email} to confirm your appointment at our Bandra Kurla Complex studio.
-                </p>
-                <button 
-                  onClick={() => setSubmitted(false)}
-                  className="btn-primary text-xs py-2 px-6"
-                >
-                  BOOK ANOTHER SESSION
-                </button>
-              </div>
-            ) : (
-              <form onSubmit={handleSubmit} className="space-y-4">
-                <h3 className="font-serif text-2xl font-bold tracking-wider text-[#2C2623] uppercase mb-4">
-                  BOOK A PRIVATE CONSULTATION
-                </h3>
+      {/* ── 1. Consultation Room Hero Image with Logo Overlay ── */}
+      <section className="relative w-full overflow-hidden" style={{ height: '300px' }}>
+        <img
+          src="https://images.unsplash.com/photo-1617038260897-41a1f14a8ca0?auto=format&fit=crop&w=1800&q=85"
+          alt="Gevariya Jewels Private Consultation Studio"
+          className="w-full h-full object-cover object-center brightness-[0.82]"
+        />
+        {/* Dark overlay */}
+        <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/25 to-transparent" />
 
-                <div>
-                  <label className="block text-xs font-semibold text-[#736B66] uppercase mb-1">
-                    Your Name *
-                  </label>
-                  <input 
-                    type="text" 
-                    required
-                    placeholder="Enter your full name"
-                    value={formData.name}
-                    onChange={(e) => setFormData({ ...formData, name: e.target.value })}
-                    className="w-full bg-[#FAF6F0] border border-[#E8DFD7] px-4 py-2.5 text-xs text-[#2C2623] outline-none rounded-xs focus:border-[#7A2E3B]"
-                  />
+        {/* Centered logo + brand name */}
+        <div className="absolute inset-0 flex flex-col items-center justify-center text-center text-white px-4">
+          <GevariyaLogo size="xl" isDarkBackground={true} />
+        </div>
+      </section>
+
+      {/* ── 2. Title ── */}
+      <section className="pt-8 sm:pt-12 pb-6 sm:pb-8 text-center px-4">
+        <h1 className="font-serif text-2xl sm:text-3xl text-[#2E2B2B] uppercase font-light tracking-wider">
+          BOOK A PRIVATE CONSULTATION
+        </h1>
+        <p className="text-xs sm:text-[13px] font-sans text-[#5C4038] mt-2 max-w-md mx-auto">
+          Our master artisans and stylists are here to assist your bespoke requirements.
+        </p>
+      </section>
+
+      {/* ── 3. Form + Studio Info ── */}
+      <section className="pb-16 sm:pb-20">
+        <div className="max-w-5xl mx-auto px-4 sm:px-10">
+          <div className="bg-white border border-[#D8CFC3] grid grid-cols-1 lg:grid-cols-12 overflow-hidden shadow-sm rounded-xl">
+
+            {/* Left: Form */}
+            <div className="lg:col-span-7 p-5 sm:p-10 border-b lg:border-b-0 lg:border-r border-[#D8CFC3]">
+              {submitted ? (
+                <div className="text-center py-10 sm:py-12 space-y-4">
+                  <CheckCircle2 size={40} className="text-[#7B3F42] mx-auto" />
+                  <h3 className="font-serif text-2xl text-[#2E2B2B] uppercase">Consultation Confirmed</h3>
+                  <p className="text-xs text-[#5C4038] max-w-sm mx-auto leading-relaxed">
+                    Thank you, <span className="font-bold text-[#2E2B2B]">{formData.name}</span>. Our concierge will reach you at <span className="text-[#7B3F42]">{formData.email}</span>.
+                  </p>
+                  <button onClick={() => setSubmitted(false)} className="font-sans font-semibold text-xs tracking-widest text-white uppercase bg-[#7B3F42] hover:bg-[#623033] py-3 px-6 mt-2 rounded-xs">
+                    BOOK ANOTHER SESSION
+                  </button>
                 </div>
-
-                <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                  <div>
-                    <label className="block text-xs font-semibold text-[#736B66] uppercase mb-1">
-                      Email Address *
-                    </label>
-                    <input 
-                      type="email" 
-                      required
-                      placeholder="name@domain.com"
-                      value={formData.email}
-                      onChange={(e) => setFormData({ ...formData, email: e.target.value })}
-                      className="w-full bg-[#FAF6F0] border border-[#E8DFD7] px-4 py-2.5 text-xs text-[#2C2623] outline-none rounded-xs focus:border-[#7A2E3B]"
-                    />
+              ) : (
+                <form onSubmit={handleSubmit} className="space-y-3 sm:space-y-3.5">
+                  <div className="relative flex items-center">
+                    <User size={14} className="absolute left-3.5 text-[#8A726A]" />
+                    <input type="text" required placeholder="Your Name"     value={formData.name}         onChange={set('name')}          className={inputCls} />
                   </div>
-
-                  <div>
-                    <label className="block text-xs font-semibold text-[#736B66] uppercase mb-1">
-                      Phone Number *
-                    </label>
-                    <input 
-                      type="tel" 
-                      required
-                      placeholder="+91 98765 43210"
-                      value={formData.phone}
-                      onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
-                      className="w-full bg-[#FAF6F0] border border-[#E8DFD7] px-4 py-2.5 text-xs text-[#2C2623] outline-none rounded-xs focus:border-[#7A2E3B]"
-                    />
+                  <div className="relative flex items-center">
+                    <Mail size={14} className="absolute left-3.5 text-[#8A726A]" />
+                    <input type="email" required placeholder="Email Address" value={formData.email}        onChange={set('email')}         className={inputCls} />
                   </div>
-                </div>
-
-                <div>
-                  <label className="block text-xs font-semibold text-[#736B66] uppercase mb-1 flex items-center gap-1">
-                    <Calendar size={13} className="text-[#7A2E3B]" /> Preferred Date
-                  </label>
-                  <input 
-                    type="date" 
-                    required
-                    value={formData.preferredDate}
-                    onChange={(e) => setFormData({ ...formData, preferredDate: e.target.value })}
-                    className="w-full bg-[#FAF6F0] border border-[#E8DFD7] px-4 py-2.5 text-xs text-[#2C2623] outline-none rounded-xs focus:border-[#7A2E3B]"
-                  />
-                </div>
-
-                <div>
-                  <label className="block text-xs font-semibold text-[#736B66] uppercase mb-1">
-                    Message / Special Requests
-                  </label>
-                  <textarea 
+                  <div className="relative flex items-center">
+                    <Phone size={14} className="absolute left-3.5 text-[#8A726A]" />
+                    <input type="tel" required placeholder="Phone Number"   value={formData.phone}        onChange={set('phone')}         className={inputCls} />
+                  </div>
+                  <div className="relative flex items-center">
+                    <Calendar size={14} className="absolute left-3.5 text-[#8A726A]" />
+                    <input type="date" required                              value={formData.preferredDate} onChange={set('preferredDate')} className={inputCls} />
+                  </div>
+                  <textarea
                     rows={4}
-                    placeholder="Tell us about the ring or fine jewelry piece you are looking to explore..."
+                    placeholder="Tell us about the piece or occasion you have in mind…"
                     value={formData.message}
-                    onChange={(e) => setFormData({ ...formData, message: e.target.value })}
-                    className="w-full bg-[#FAF6F0] border border-[#E8DFD7] px-4 py-2.5 text-xs text-[#2C2623] outline-none rounded-xs focus:border-[#7A2E3B]"
+                    onChange={set('message')}
+                    className="w-full bg-[#EDE7DE] border border-[#D8CFC3] p-3.5 text-xs font-sans text-[#2E2B2B] placeholder-[#8A726A] outline-none focus:border-[#7B3F42] transition-colors resize-none rounded-xs"
                   />
+                  <button
+                    type="submit"
+                    className="w-full font-sans font-semibold text-xs tracking-[0.24em] text-white uppercase bg-[#7B3F42] hover:bg-[#623033] py-3.5 sm:py-4 transition-colors shadow-xs rounded-xs active:scale-98"
+                  >
+                    BOOK NOW
+                  </button>
+                </form>
+              )}
+            </div>
+
+            {/* Right: Studio Details */}
+            <div className="lg:col-span-5 bg-[#FAF7F2] p-5 sm:p-10 flex flex-col justify-between space-y-6">
+              <div className="space-y-4">
+                <h3 className="font-serif text-lg sm:text-xl font-semibold text-[#2E2B2B] uppercase tracking-wide">
+                  MUMBAI ATELIER
+                </h3>
+                
+                <div className="space-y-3 text-xs text-[#5C4038]">
+                  <p className="flex items-start gap-2.5">
+                    <MapPin size={15} className="text-[#7B3F42] shrink-0 mt-0.5" />
+                    <span>Bandra Kurla Complex, Bandra East, Mumbai, Maharashtra 400051</span>
+                  </p>
+                  <p className="flex items-center gap-2.5">
+                    <Phone size={14} className="text-[#7B3F42] shrink-0" />
+                    <span>+91 98765 43210</span>
+                  </p>
+                  <p className="flex items-center gap-2.5">
+                    <Mail size={14} className="text-[#7B3F42] shrink-0" />
+                    <span>hello@gevariyajewels.com</span>
+                  </p>
                 </div>
 
-                <button 
-                  type="submit"
-                  className="w-full btn-primary py-3.5 uppercase tracking-widest text-xs font-bold"
-                >
-                  BOOK NOW
-                </button>
-              </form>
-            )}
+                <div className="pt-3 border-t border-[#D8CFC3]">
+                  <h4 className="text-[10.5px] font-bold text-[#2E2B2B] uppercase tracking-wider mb-1">
+                    Operating Hours
+                  </h4>
+                  <p className="text-[11px] text-[#5C4038]">
+                    Monday – Saturday: 10:00 AM – 7:30 PM IST<br />
+                    Sunday: Private Appointments Only
+                  </p>
+                </div>
+              </div>
+
+              {/* Socials */}
+              <div className="pt-3 border-t border-[#D8CFC3] flex items-center gap-3">
+                {[Instagram, Facebook].map((Icon, idx) => (
+                  <a
+                    key={idx}
+                    href="#"
+                    className="w-9 h-9 rounded-full bg-white border border-[#D8CFC3] flex items-center justify-center text-[#5C4038] hover:text-[#7B3F42] hover:border-[#7B3F42] transition-colors"
+                  >
+                    <Icon size={15} />
+                  </a>
+                ))}
+              </div>
+            </div>
 
           </div>
-
         </div>
+      </section>
 
-        {/* Studio Info Panel matching View 5 */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 bg-white p-8 border border-[#E8DFD7] rounded-xs shadow-xs text-left">
-          
-          <div className="flex items-start gap-4">
-            <div className="w-10 h-10 rounded-full bg-[#FAF6F0] flex items-center justify-center text-[#7A2E3B] shrink-0">
-              <MapPin size={20} />
-            </div>
-            <div>
-              <h4 className="font-serif text-sm font-bold uppercase text-[#2C2623]">VISIT OUR STUDIO</h4>
-              <p className="text-xs text-[#736B66] mt-1 leading-relaxed">
-                Bandra Kurla Complex, Bandra East, Mumbai, 400051
-              </p>
-            </div>
-          </div>
-
-          <div className="flex items-start gap-4">
-            <div className="w-10 h-10 rounded-full bg-[#FAF6F0] flex items-center justify-center text-[#7A2E3B] shrink-0">
-              <Phone size={20} />
-            </div>
-            <div>
-              <h4 className="font-serif text-sm font-bold uppercase text-[#2C2623]">CALL US</h4>
-              <p className="text-xs text-[#736B66] mt-1">
-                +91 98765 43210
-              </p>
-              <p className="text-[11px] text-[#9E958F]">Mon - Sat: 10:00 AM - 8:00 PM</p>
-            </div>
-          </div>
-
-          <div className="flex items-start gap-4">
-            <div className="w-10 h-10 rounded-full bg-[#FAF6F0] flex items-center justify-center text-[#7A2E3B] shrink-0">
-              <Mail size={20} />
-            </div>
-            <div>
-              <h4 className="font-serif text-sm font-bold uppercase text-[#2C2623]">EMAIL US</h4>
-              <p className="text-xs text-[#736B66] mt-1">
-                hello@gevariyajewels.com
-              </p>
-              <p className="text-[11px] text-[#9E958F]">24/7 Concierge Support</p>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
     </div>
   );
 };

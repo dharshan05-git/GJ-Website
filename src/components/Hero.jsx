@@ -1,203 +1,174 @@
-import React, { useState, useRef, useEffect } from 'react';
-import { ChevronLeft, ChevronRight } from 'lucide-react';
+import React, { useState, useEffect, useRef } from 'react';
 import { useShop } from '../context/ShopContext';
 
-/* ── Two slides: 1 image, 1 video ── */
+/**
+ * Hero — Mobile Optimized & Touch Swipe Enabled
+ * Full-viewport image with high-contrast editorial text overlay.
+ */
+
 const SLIDES = [
   {
-    type: 'image',
-    src: 'https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?auto=format&fit=crop&w=1800&q=90',
-    alt: 'Woman wearing elegant diamond jewelry',
+    image: 'https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?auto=format&fit=crop&w=2000&q=90',
+    tag: 'New Collection',
+    titleLine1: 'TIMELESS',
+    titleLine2: 'ELEGANCE,',
+    titleLine3: 'CRAFTED FOR YOU',
+    subtitle: 'Handcrafted fine jewelry designed to be cherished for generations.',
+    cta: 'EXPLORE COLLECTION',
+    ctaCategory: 'ALL',
   },
   {
-    type: 'video',
-    /* 10-second royalty-free jewelry craftsmanship clip */
-    src: 'https://assets.mixkit.co/videos/preview/mixkit-hands-of-a-jeweler-setting-a-diamond-ring-41551-large.mp4',
-    poster: 'https://images.unsplash.com/photo-1605100804763-247f67b3557e?auto=format&fit=crop&w=1800&q=90',
-    alt: 'Artisan setting a diamond ring',
+    image: 'https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?auto=format&fit=crop&w=2000&q=90',
+    tag: 'Signature Pieces',
+    titleLine1: 'RADIANT',
+    titleLine2: 'BRILLIANCE,',
+    titleLine3: 'MADE TO ENDURE',
+    subtitle: '925 Sterling Silver with premium gold plating — crafted to endure.',
+    cta: 'SHOP NECKLACES',
+    ctaCategory: 'NECKLACES',
+  },
+  {
+    image: 'https://images.unsplash.com/photo-1605100804763-247f67b3557e?auto=format&fit=crop&w=2000&q=90',
+    tag: 'Bridal Suites',
+    titleLine1: 'CURATED',
+    titleLine2: 'SUITES,',
+    titleLine3: 'FOR BRIDAL MOMENTS',
+    subtitle: "Complete bespoke ensembles tailored for life's grandest celebrations.",
+    cta: 'VIEW BRIDAL SETS',
+    ctaCategory: 'SETS',
   },
 ];
 
 export const Hero = () => {
   const { navigateToPage } = useShop();
   const [current, setCurrent] = useState(0);
-  const videoRef = useRef(null);
-  const timerRef = useRef(null);
-
-  const goTo = (idx) => {
-    setCurrent(idx);
-    resetTimer(idx);
-  };
-
-  const prev = () => goTo((current - 1 + SLIDES.length) % SLIDES.length);
-  const next = () => goTo((current + 1) % SLIDES.length);
-
-  /* Auto-advance logic */
-  const resetTimer = (slideIdx) => {
-    clearInterval(timerRef.current);
-    const duration = SLIDES[slideIdx].type === 'video' ? 10000 : 5000;
-    timerRef.current = setTimeout(() => {
-      setCurrent(prev => {
-        const n = (prev + 1) % SLIDES.length;
-        resetTimer(n);
-        return n;
-      });
-    }, duration);
-  };
+  const [animating, setAnimating] = useState(false);
+  const touchStartX = useRef(null);
 
   useEffect(() => {
-    resetTimer(0);
-    return () => clearTimeout(timerRef.current);
-  }, []);
-
-  /* When video slide becomes active, restart the video */
-  useEffect(() => {
-    if (SLIDES[current].type === 'video' && videoRef.current) {
-      videoRef.current.currentTime = 0;
-      videoRef.current.play().catch(() => {});
-    }
+    const t = setInterval(() => {
+      handleNextSlide();
+    }, 6000);
+    return () => clearInterval(t);
   }, [current]);
+
+  const handleNextSlide = () => {
+    setAnimating(true);
+    setTimeout(() => {
+      setCurrent(p => (p + 1) % SLIDES.length);
+      setAnimating(false);
+    }, 450);
+  };
+
+  const handlePrevSlide = () => {
+    setAnimating(true);
+    setTimeout(() => {
+      setCurrent(p => (p - 1 + SLIDES.length) % SLIDES.length);
+      setAnimating(false);
+    }, 450);
+  };
+
+  // Touch swipe handling for mobile
+  const handleTouchStart = (e) => {
+    touchStartX.current = e.touches[0].clientX;
+  };
+
+  const handleTouchEnd = (e) => {
+    if (touchStartX.current === null) return;
+    const deltaX = e.changedTouches[0].clientX - touchStartX.current;
+    if (deltaX > 45) {
+      handlePrevSlide();
+    } else if (deltaX < -45) {
+      handleNextSlide();
+    }
+    touchStartX.current = null;
+  };
+
+  const slide = SLIDES[current];
 
   return (
     <section
-      className="relative w-full overflow-hidden"
-      style={{ height: '88vh', minHeight: '560px' }}
+      onTouchStart={handleTouchStart}
+      onTouchEnd={handleTouchEnd}
+      className="relative w-full overflow-hidden bg-[#FAF7F4] select-none"
+      style={{ minHeight: '520px', height: '80vh', maxHeight: '740px' }}
     >
-      {/* ── BACKGROUND SLIDES ── */}
-      {SLIDES.map((slide, i) => (
+      {/* Background slides */}
+      {SLIDES.map((s, idx) => (
         <div
-          key={i}
-          className="absolute inset-0 transition-opacity duration-700"
-          style={{ opacity: current === i ? 1 : 0, zIndex: 0 }}
+          key={idx}
+          className="absolute inset-0 transition-opacity duration-1000 ease-in-out"
+          style={{ opacity: current === idx ? 1 : 0, zIndex: 0 }}
         >
-          {slide.type === 'image' ? (
-            <img
-              src={slide.src}
-              alt={slide.alt}
-              className="w-full h-full object-cover object-center"
-            />
-          ) : (
-            <video
-              ref={videoRef}
-              muted
-              playsInline
-              poster={slide.poster}
-              className="w-full h-full object-cover object-center"
-              /* stop at 10 s and let the timer handle the slide change */
-              onTimeUpdate={(e) => {
-                if (e.currentTarget.currentTime >= 10) {
-                  e.currentTarget.pause();
-                }
-              }}
-            >
-              <source src={slide.src} type="video/mp4" />
-            </video>
-          )}
+          <img
+            src={s.image}
+            alt={s.titleLine1}
+            className="w-full h-full object-cover object-center"
+          />
         </div>
       ))}
 
-      {/* ── GRADIENT OVERLAY (cream left → transparent right, like reference) ── */}
+      {/* Warm editorial gradient — adaptive for mobile and desktop */}
       <div
-        className="absolute inset-0 pointer-events-none"
+        className="absolute inset-0 pointer-events-none z-1"
         style={{
           background:
-            'linear-gradient(to right, rgba(250,246,240,0.93) 0%, rgba(250,246,240,0.78) 28%, rgba(250,246,240,0.18) 55%, transparent 72%)',
-          zIndex: 1,
+            'linear-gradient(to right, rgba(255,252,250,0.96) 0%, rgba(255,252,250,0.92) 55%, rgba(255,252,250,0.65) 80%, rgba(255,252,250,0.2) 100%)',
         }}
       />
 
-      {/* ── TEXT OVERLAY (left side) ── */}
-      <div
-        className="absolute inset-0 flex items-center"
-        style={{ zIndex: 2 }}
-      >
-        <div className="w-full max-w-7xl mx-auto px-6 lg:px-12">
-          <div style={{ maxWidth: '420px' }}>
+      {/* Left editorial text */}
+      <div className="absolute inset-0 flex items-center z-10">
+        <div className="max-w-[1320px] mx-auto px-5 sm:px-14 w-full">
+          <div
+            className={`max-w-[420px] transition-opacity duration-500 ${animating ? 'opacity-0' : 'opacity-100'}`}
+          >
+            {/* Tag */}
+            <span className="hero-tag-animate text-[9px] sm:text-[10px] font-sans font-bold tracking-[0.28em] text-[#9B6668] uppercase mb-2 sm:mb-3 block">
+              {slide.tag}
+            </span>
+
+            {/* Main heading */}
             <h1
-              className="font-serif text-[#2C2623] leading-tight"
-              style={{
-                fontSize: 'clamp(2rem, 4.2vw, 3.1rem)',
-                fontWeight: 400,
-                letterSpacing: '-0.01em',
-              }}
+              className="hero-title-animate font-serif text-[#2E2B2B] uppercase leading-[1.1] tracking-tight"
+              style={{ fontSize: 'clamp(1.85rem, 5.5vw, 3.2rem)', fontWeight: 400 }}
             >
-              TIMELESS
+              <span>{slide.titleLine1}</span>
               <br />
-              <em style={{ color: '#7A2E3B', fontStyle: 'italic', fontWeight: 400 }}>
-                ELEGANCE,
-              </em>
+              <span className="italic font-light text-[#7B3F42]">{slide.titleLine2}</span>
               <br />
-              CRAFTED FOR YOU
+              <span>{slide.titleLine3}</span>
             </h1>
 
-            <p
-              className="text-[#4a4440] mt-4 leading-relaxed"
-              style={{ fontSize: '0.85rem' }}
-            >
-              Handcrafted fine jewelry designed to
-              <br />
-              be cherished for generations.
+            {/* Subtitle */}
+            <p className="hero-sub-animate text-xs sm:text-[13px] font-sans text-[#5C4038] mt-3.5 sm:mt-5 leading-relaxed max-w-[320px]">
+              {slide.subtitle}
             </p>
 
+            {/* CTA with Shimmer & Animated Arrow */}
             <button
-              onClick={() => navigateToPage('shop')}
-              className="mt-7 font-sans font-semibold text-white uppercase tracking-widest"
-              style={{
-                background: '#7A2E3B',
-                padding: '13px 28px',
-                fontSize: '0.78rem',
-                border: 'none',
-                cursor: 'pointer',
-              }}
-              onMouseEnter={(e) => (e.currentTarget.style.background = '#5F222D')}
-              onMouseLeave={(e) => (e.currentTarget.style.background = '#7A2E3B')}
+              onClick={() => navigateToPage('shop', slide.ctaCategory)}
+              className="hero-cta-animate luxury-shimmer-btn group mt-6 sm:mt-8 inline-flex items-center justify-center gap-2 font-sans font-semibold text-[11px] tracking-[0.22em] text-white uppercase bg-[#7B3F42] hover:bg-[#623033] py-3.5 px-7 sm:py-4 sm:px-9 rounded-xs transition-all duration-300 shadow-sm hover:shadow-md active:scale-95"
             >
-              EXPLORE COLLECTION
+              <span>{slide.cta}</span>
+              <span className="inline-block transition-transform duration-300 group-hover:translate-x-1">→</span>
             </button>
           </div>
         </div>
       </div>
 
-      {/* ── LEFT ARROW ── */}
-      <button
-        onClick={prev}
-        aria-label="Previous slide"
-        className="absolute left-4 top-1/2 -translate-y-1/2 flex items-center justify-center rounded-full bg-white/70 hover:bg-white text-[#2C2623] transition-all"
-        style={{ width: '42px', height: '42px', zIndex: 4, backdropFilter: 'blur(4px)' }}
-      >
-        <ChevronLeft size={22} />
-      </button>
-
-      {/* ── RIGHT ARROW ── */}
-      <button
-        onClick={next}
-        aria-label="Next slide"
-        className="absolute right-4 top-1/2 -translate-y-1/2 flex items-center justify-center rounded-full bg-white/70 hover:bg-white text-[#2C2623] transition-all"
-        style={{ width: '42px', height: '42px', zIndex: 4, backdropFilter: 'blur(4px)' }}
-      >
-        <ChevronRight size={22} />
-      </button>
-
-      {/* ── DOTS ── */}
-      <div
-        className="absolute bottom-6 left-0 right-0 flex justify-center gap-2"
-        style={{ zIndex: 3 }}
-      >
+      {/* Slide dots with luxury animated width */}
+      <div className="absolute bottom-5 sm:bottom-7 left-0 right-0 flex justify-center items-center gap-2.5 z-20">
         {SLIDES.map((_, i) => (
           <button
             key={i}
-            onClick={() => goTo(i)}
+            onClick={() => setCurrent(i)}
             aria-label={`Slide ${i + 1}`}
-            style={{
-              width: current === i ? '28px' : '10px',
-              height: '10px',
-              borderRadius: current === i ? '5px' : '50%',
-              background: current === i ? '#7A2E3B' : 'rgba(122,46,59,0.35)',
-              border: 'none',
-              cursor: 'pointer',
-              transition: 'all 0.3s',
-              padding: 0,
-            }}
+            className={`rounded-full transition-all duration-500 ease-out cursor-pointer ${
+              current === i
+                ? 'w-7 sm:w-8 h-1.5 bg-[#7B3F42] shadow-xs'
+                : 'w-2 h-1.5 bg-[#7B3F42]/30 hover:bg-[#7B3F42]/60'
+            }`}
           />
         ))}
       </div>

@@ -1,91 +1,85 @@
 import React from 'react';
 import { Sparkles, MapPin, Phone, Mail, Instagram, Facebook, Twitter, ArrowRight } from 'lucide-react';
 import { useShop } from '../context/ShopContext';
+import { GevariyaLogo } from './GevariyaLogo';
 
 export const Footer = () => {
-  const { navigateToPage } = useShop();
+  const { navigateToPage, setSizeGuideOpen } = useShop();
+
+  const customerCareLinks = [
+    { label: 'Book Private Consultation', action: () => navigateToPage('contact') },
+    { label: 'Ring Size & Fitting Guide', action: () => setSizeGuideOpen(true) },
+    { label: 'Insured Shipping & Delivery', action: () => navigateToPage('delivery') },
+    { label: 'Returns & Exchange Policy', action: () => navigateToPage('returns') },
+    { label: '90-Day Colour Warranty & Lifetime Care', action: () => navigateToPage('warranty') },
+  ];
 
   return (
-    <footer className="bg-[#1A1615] text-[#FAF6F0] pt-16 pb-8 border-t border-[#332B27]">
-      <div className="container">
-        
-        {/* Newsletter Banner */}
-        <div className="bg-[#26201E] border border-[#3E3532] p-8 rounded-xs mb-16 text-center max-w-3xl mx-auto shadow-xl">
-          <div className="inline-flex items-center gap-2 text-[#D4AF37] text-xs font-bold tracking-widest uppercase mb-2">
-            <Sparkles size={14} />
+    <footer className="bg-[#E8D5CE] text-[#2E2B2B] pt-16 pb-8 border-t border-[#DBC5B8]">
+      <div className="container mx-auto px-4 sm:px-8">
+
+        {/* Newsletter */}
+        <div className="bg-white border border-[#D8CFC3] p-6 sm:p-8 mb-10 sm:mb-16 text-center max-w-3xl mx-auto shadow-sm">
+          <div className="inline-flex items-center gap-2 text-[#7B3F42] text-xs font-bold tracking-widest uppercase mb-2">
+            <Sparkles size={13} className="text-[#C6A46A]" />
             <span>JOIN THE GEVARIYA CIRCLE</span>
           </div>
-          <h3 className="font-serif text-2xl sm:text-3xl text-white font-light">
-            Receive Exclusive Previews & Private Offers
+          <h3 className="font-serif text-xl sm:text-3xl text-[#2E2B2B] font-light">
+            Receive Exclusive Previews &amp; Private Offers
           </h3>
-          <p className="text-xs text-[#9E958F] mt-2 mb-6">
+          <p className="text-xs text-[#5C4038] mt-2 mb-6">
             Subscribe to our weekly curated newsletter. Enjoy 10% off your first handcrafted order.
           </p>
-
-          <form onSubmit={(e) => { e.preventDefault(); alert('Subscribed to Gevariya Jewels newsletter!'); }} className="flex flex-col sm:flex-row gap-2 max-w-md mx-auto">
-            <input 
-              type="email" 
+          <form onSubmit={e => { e.preventDefault(); alert('Subscribed to Gevariya Jewels!'); }} className="flex flex-col sm:flex-row gap-2 max-w-md mx-auto">
+            <input
+              type="email"
               placeholder="Enter your email address"
               required
-              className="flex-1 bg-[#1A1615] border border-[#3E3532] px-4 py-3 text-xs text-white placeholder-[#736B66] outline-none rounded-xs focus:border-[#D4AF37]"
+              className="flex-1 bg-[#F5F1EA] border border-[#D8CFC3] px-4 py-3 text-xs text-[#2E2B2B] placeholder-[#8A726A] outline-none focus:border-[#7B3F42]"
             />
-            <button 
+            <button
               type="submit"
-              className="bg-[#7A2E3B] hover:bg-[#5F222D] text-white text-xs font-bold tracking-widest uppercase px-6 py-3 rounded-xs flex items-center justify-center gap-2 transition-colors"
+              className="bg-[#7B3F42] hover:bg-[#623033] text-white text-xs font-bold tracking-widest uppercase px-6 py-3 flex items-center justify-center gap-2 transition-colors shadow-xs"
             >
               <span>SUBSCRIBE</span>
-              <ArrowRight size={14} />
+              <ArrowRight size={13} />
             </button>
           </form>
         </div>
 
-        {/* Main 4-Column Footer Navigation */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 pb-12 border-b border-[#332B27]">
-          
-          {/* Col 1: Brand Info */}
+        {/* 4-column grid */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 sm:gap-10 pb-12 border-b border-[#DBC5B8]">
+
+          {/* Col 1: Brand */}
           <div className="space-y-4">
-            <div className="flex items-center gap-3">
-              <div className="w-9 h-9 rounded-full border border-[#D4AF37] flex items-center justify-center bg-[#7A2E3B] text-white font-serif text-sm font-bold">
-                GJ
-              </div>
-              <span className="font-serif text-xl font-bold tracking-widest text-white">
-                GEVARIYA JEWELS
-              </span>
+            <div className="block sm:hidden">
+              <GevariyaLogo size="md" />
             </div>
-            <p className="text-xs text-[#9E958F] leading-relaxed">
-              Every piece of Gevariya Jewels is handcrafted by master artisans using 100% certified 18k solid gold and ethically sourced conflict-free diamonds.
+            <div className="hidden sm:block">
+              <GevariyaLogo size="lg" />
+            </div>
+            <p className="text-xs text-[#5C4038] leading-relaxed">
+              Every piece is handcrafted by master artisans using 100% certified 925 sterling silver with premium gold plating for lasting beauty.
             </p>
           </div>
 
-          {/* Col 2: Quick Links */}
+          {/* Col 2: Navigation */}
           <div className="space-y-3">
-            <h4 className="font-serif text-base font-bold tracking-widest text-[#D4AF37] uppercase">
-              NAVIGATION
-            </h4>
-            <ul className="space-y-2 text-xs text-[#9E958F]">
+            <h4 className="font-serif text-sm font-bold tracking-widest text-[#7B3F42] uppercase">NAVIGATION</h4>
+            <ul className="space-y-2 text-xs text-[#5C4038]">
+              {[
+                ['home', 'Home'],
+                ['shop', 'Shop All Collections'],
+                ['customise', 'Customise & Bespoke'],
+                ['about', 'Our Story & Journey'],
+              ].map(([pg, lbl]) => (
+                <li key={pg}>
+                  <button onClick={() => navigateToPage(pg)} className="hover:text-[#7B3F42] transition-colors text-left">{lbl}</button>
+                </li>
+              ))}
               <li>
-                <button onClick={() => navigateToPage('home')} className="hover:text-white transition-colors">
-                  Home
-                </button>
-              </li>
-              <li>
-                <button onClick={() => navigateToPage('shop', 'ALL')} className="hover:text-white transition-colors">
-                  Shop All Collections
-                </button>
-              </li>
-              <li>
-                <button onClick={() => navigateToPage('shop', 'RINGS')} className="hover:text-white transition-colors">
-                  Solitaire Rings
-                </button>
-              </li>
-              <li>
-                <button onClick={() => navigateToPage('shop', 'NECKLACES')} className="hover:text-white transition-colors">
-                  Diamond Necklaces
-                </button>
-              </li>
-              <li>
-                <button onClick={() => navigateToPage('about')} className="hover:text-white transition-colors">
-                  Our Story & Craftsmanship
+                <button onClick={() => navigateToPage('shop', 'SETS')} className="text-[#7B3F42] hover:text-[#623033] transition-colors font-semibold text-left">
+                  Curated Sets &amp; Bridal Suites
                 </button>
               </li>
             </ul>
@@ -93,65 +87,56 @@ export const Footer = () => {
 
           {/* Col 3: Customer Care */}
           <div className="space-y-3">
-            <h4 className="font-serif text-base font-bold tracking-widest text-[#D4AF37] uppercase">
-              CUSTOMER CARE
-            </h4>
-            <ul className="space-y-2 text-xs text-[#9E958F]">
-              <li>
-                <button onClick={() => navigateToPage('contact')} className="hover:text-white transition-colors">
-                  Book Private Consultation
-                </button>
-              </li>
-              <li><span>Ring Size & Fitting Guide</span></li>
-              <li><span>Insured Shipping & Delivery</span></li>
-              <li><span>Returns & Exchange Policy</span></li>
-              <li><span>Lifetime Warranty & Care</span></li>
+            <h4 className="font-serif text-sm font-bold tracking-widest text-[#7B3F42] uppercase">CUSTOMER CARE</h4>
+            <ul className="space-y-2 text-xs text-[#5C4038]">
+              {customerCareLinks.map((item, i) => (
+                <li key={i}>
+                  <button
+                    onClick={item.action}
+                    className="hover:text-[#7B3F42] transition-colors text-left cursor-pointer font-medium"
+                  >
+                    {item.label}
+                  </button>
+                </li>
+              ))}
             </ul>
           </div>
 
-          {/* Col 4: Studio Location matching Photo model */}
+          {/* Col 4: Studio */}
           <div className="space-y-3">
-            <h4 className="font-serif text-base font-bold tracking-widest text-[#D4AF37] uppercase">
-              VISIT OUR STUDIO
-            </h4>
-            <div className="space-y-2.5 text-xs text-[#9E958F]">
+            <h4 className="font-serif text-sm font-bold tracking-widest text-[#7B3F42] uppercase">VISIT OUR STUDIO</h4>
+            <div className="space-y-2.5 text-xs text-[#5C4038]">
               <p className="flex items-start gap-2">
-                <MapPin size={16} className="text-[#D4AF37] shrink-0 mt-0.5" />
+                <MapPin size={14} className="text-[#7B3F42] shrink-0 mt-0.5" />
                 <span>Bandra Kurla Complex, Bandra East, Mumbai, 400051</span>
               </p>
               <p className="flex items-center gap-2">
-                <Phone size={15} className="text-[#D4AF37] shrink-0" />
+                <Phone size={13} className="text-[#7B3F42] shrink-0" />
                 <span>+91 98765 43210</span>
               </p>
               <p className="flex items-center gap-2">
-                <Mail size={15} className="text-[#D4AF37] shrink-0" />
+                <Mail size={13} className="text-[#7B3F42] shrink-0" />
                 <span>hello@gevariyajewels.com</span>
               </p>
             </div>
-
-            {/* Social Icons */}
-            <div className="pt-2 flex items-center gap-3 text-[#9E958F]">
-              <a href="#instagram" className="w-8 h-8 rounded-full border border-[#332B27] flex items-center justify-center hover:text-[#D4AF37] hover:border-[#D4AF37] transition-colors">
-                <Instagram size={15} />
-              </a>
-              <a href="#facebook" className="w-8 h-8 rounded-full border border-[#332B27] flex items-center justify-center hover:text-[#D4AF37] hover:border-[#D4AF37] transition-colors">
-                <Facebook size={15} />
-              </a>
-              <a href="#twitter" className="w-8 h-8 rounded-full border border-[#332B27] flex items-center justify-center hover:text-[#D4AF37] hover:border-[#D4AF37] transition-colors">
-                <Twitter size={15} />
-              </a>
+            <div className="pt-2 flex items-center gap-3 text-[#5C4038]">
+              {[Instagram, Facebook, Twitter].map((Icon, i) => (
+                <a key={i} href="#" className="w-8 h-8 rounded-full border border-[#DBC5B8] bg-white flex items-center justify-center hover:text-[#7B3F42] hover:border-[#7B3F42] transition-colors">
+                  <Icon size={14} />
+                </a>
+              ))}
             </div>
           </div>
 
         </div>
 
-        {/* Bottom Credits */}
-        <div className="pt-8 flex flex-col sm:flex-row items-center justify-between text-[11px] text-[#736B66]">
-          <p>© 2026 GEVARIYA JEWELS. All Rights Reserved. Inspired by Skyra Jewels Design.</p>
+        {/* Bottom */}
+        <div className="pt-8 flex flex-col sm:flex-row items-center justify-between text-[11px] text-[#5C4038]">
+          <p>© 2026 GEVARIYA JEWELS. All Rights Reserved.</p>
           <div className="flex items-center gap-6 mt-4 sm:mt-0">
-            <span>Privacy Policy</span>
-            <span>Terms of Service</span>
-            <span>BIS Hallmarking</span>
+            <button onClick={() => navigateToPage('returns')} className="hover:text-[#7B3F42] transition-colors">Return Policy</button>
+            <button onClick={() => navigateToPage('delivery')} className="hover:text-[#7B3F42] transition-colors">Shipping Terms</button>
+            <button onClick={() => navigateToPage('warranty')} className="hover:text-[#7B3F42] transition-colors">90-Day Warranty</button>
           </div>
         </div>
 
