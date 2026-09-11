@@ -1,11 +1,10 @@
 import React, { useState, useEffect } from 'react';
-import { PRODUCTS } from '../data/products';
 import { ProductCard } from '../components/ProductCard';
 import { useShop } from '../context/ShopContext';
 import { SlidersHorizontal, ChevronDown } from 'lucide-react';
 
 export const Shop = () => {
-  const { selectedCategory, setSelectedCategory } = useShop();
+  const { selectedCategory, setSelectedCategory, products: PRODUCTS, productsLoading } = useShop();
   const [genderFilter, setGenderFilter] = useState('ALL');
   const [sortBy, setSortBy] = useState('featured');
   const [sortOpen, setSortOpen] = useState(false);
