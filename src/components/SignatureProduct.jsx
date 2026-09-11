@@ -1,5 +1,4 @@
 import React, { useRef, useState } from 'react';
-import { PRODUCTS } from '../data/products';
 import { useShop } from '../context/ShopContext';
 import { Heart, ShoppingBag, Eye, Sparkles } from 'lucide-react';
 import { useScrollAnimation } from '../hooks/useScrollAnimation';
@@ -12,6 +11,7 @@ export const SignatureProduct = () => {
     isInWishlist,
     setQuickViewProduct,
     triggerFlyToCart,
+    products: PRODUCTS,
   } = useShop();
 
   const imgRef = useRef(null);
