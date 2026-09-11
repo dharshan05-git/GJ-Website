@@ -1,0 +1,13 @@
+# Local environment files (never commit real credentials)
+.env
+.env.local
+.env.*.local
+
+# Backend
+backend/node_modules/
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# Logs
+*.log
+npm-debug.log*

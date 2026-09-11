@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { User, Mail, Phone, Calendar, MapPin, Instagram, Facebook, CheckCircle2 } from 'lucide-react';
 import { GevariyaLogo } from '../components/GevariyaLogo';
+import * as api from '../services/api';
 
 /**
  * Contact page — Book a Private Consultation
@@ -9,8 +10,23 @@ import { GevariyaLogo } from '../components/GevariyaLogo';
 export const Contact = () => {
   const [formData, setFormData] = useState({ name: '', email: '', phone: '', preferredDate: '', message: '' });
   const [submitted, setSubmitted] = useState(false);
+  const [submitting, setSubmitting] = useState(false);
+  const [error, setError] = useState('');
 
-  const handleSubmit = (e) => { e.preventDefault(); setSubmitted(true); };
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    setError('');
+    setSubmitting(true);
+
+    try {
+      await api.bookConsultation(formData);
+      setSubmitted(true);
+    } catch (err) {
+      setError(err.message || 'Could not send your request. Please try again.');
+    } finally {
+      setSubmitting(false);
+    }
+  };
   const set = (k) => (e) => setFormData(d => ({ ...d, [k]: e.target.value }));
 
   const inputCls = 'w-full bg-[#EDE7DE] border border-[#D8CFC3] pl-10 pr-4 py-3 text-xs font-sans text-[#2E2B2B] placeholder-[#8A726A] outline-none focus:border-[#7B3F42] transition-colors rounded-xs';
@@ -87,11 +103,18 @@ export const Contact = () => {
                     onChange={set('message')}
                     className="w-full bg-[#EDE7DE] border border-[#D8CFC3] p-3.5 text-xs font-sans text-[#2E2B2B] placeholder-[#8A726A] outline-none focus:border-[#7B3F42] transition-colors resize-none rounded-xs"
                   />
+                  {error && (
+                    <p className="text-[11px] text-[#B3261E] bg-[#FDECEA] border border-[#F5C6C0] px-3 py-2 rounded-xs">
+                      {error}
+                    </p>
+                  )}
+
                   <button
                     type="submit"
-                    className="w-full font-sans font-semibold text-xs tracking-[0.24em] text-white uppercase bg-[#7B3F42] hover:bg-[#623033] py-3.5 sm:py-4 transition-colors shadow-xs rounded-xs active:scale-98"
+                    disabled={submitting}
+                    className="w-full font-sans font-semibold text-xs tracking-[0.24em] text-white uppercase bg-[#7B3F42] hover:bg-[#623033] disabled:bg-[#B6ADA6] disabled:cursor-not-allowed py-3.5 sm:py-4 transition-colors shadow-xs rounded-xs active:scale-98"
                   >
-                    BOOK NOW
+                    {submitting ? 'SENDING…' : 'BOOK NOW'}
                   </button>
                 </form>
               )}

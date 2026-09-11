@@ -12,7 +12,9 @@ import { Warranty } from './pages/Warranty';
 import { Delivery } from './pages/Delivery';
 import { Returns } from './pages/Returns';
 import { NotFound } from './pages/NotFound';
+import { Maintenance } from './pages/Maintenance';
 import { CartDrawer } from './components/CartDrawer';
+import { CheckoutModal } from './components/CheckoutModal';
 import { WishlistDrawer } from './components/WishlistDrawer';
 import { QuickViewModal } from './components/QuickViewModal';
 import { SizeGuideModal } from './components/SizeGuideModal';
@@ -45,8 +47,17 @@ class SecurityErrorBoundary extends React.Component {
 }
 
 const AppContent = () => {
-  const { activePage, toastMessage } = useShop();
+  const { activePage, toastMessage, maintenance } = useShop();
   const [showLoader, setShowLoader] = React.useState(true);
+
+  // Maintenance Mode, flipped from the admin panel, replaces the whole store.
+  if (maintenance) {
+    return (
+      <SecurityErrorBoundary>
+        <Maintenance />
+      </SecurityErrorBoundary>
+    );
+  }
 
   // List of valid routes
   const validPages = ['home', 'shop', 'about', 'product', 'contact', 'customise', 'warranty', 'lifetime', 'delivery', 'shipping', 'returns', 'return'];
@@ -80,6 +91,7 @@ const AppContent = () => {
 
         {/* Global Shopping Drawers & Modals */}
         <CartDrawer />
+        <CheckoutModal />
         <WishlistDrawer />
         <QuickViewModal />
         <SizeGuideModal />

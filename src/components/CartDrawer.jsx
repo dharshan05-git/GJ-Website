@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { X, Trash2, Plus, Minus, ShoppingBag, ArrowRight, ShieldCheck, Truck } from 'lucide-react';
 import { useShop } from '../context/ShopContext';
+import * as api from '../services/api';
 
 export const CartDrawer = () => {
   const { 
@@ -11,7 +12,9 @@ export const CartDrawer = () => {
     setCartOpen, 
     removeFromCart, 
     updateCartQty,
-    navigateToPage
+    navigateToPage,
+    setCheckoutOpen,
+    settings
   } = useShop();
 
   const [promoCode, setPromoCode] = useState('');
@@ -20,16 +23,27 @@ export const CartDrawer = () => {
   const [isCheckoutStep, setIsCheckoutStep] = useState(false);
   const [checkoutSuccess, setCheckoutSuccess] = useState(false);
 
-  const handleApplyPromo = () => {
-    if (promoCode.trim().toUpperCase() === 'SKYRA10' || promoCode.trim().toUpperCase() === 'GEVARIYA10') {
-      setDiscount(cartTotal * 0.1);
+  const [promoError, setPromoError] = useState('');
+
+  // The backend owns the coupon rules, so the drawer asks it rather than
+  // hard-coding which codes are valid.
+  const handleApplyPromo = async () => {
+    setPromoError('');
+    const code = promoCode.trim().toUpperCase();
+    if (!code) return;
+
+    try {
+      const result = await api.validateCoupon(code, cartTotal);
+      setDiscount(result.discount);
       setPromoApplied(true);
-    } else {
-      alert('Invalid promo code. Try GEVARIYA10');
+    } catch (error) {
+      setDiscount(0);
+      setPromoApplied(false);
+      setPromoError(error.message);
     }
   };
 
-  const freeShippingThreshold = 1500;
+  const freeShippingThreshold = settings?.commerce?.freeShippingThreshold ?? 1500;
   const progressPercent = Math.min((cartTotal / freeShippingThreshold) * 100, 100);
 
   const finalTotal = Math.max(0, cartTotal - discount);
@@ -174,8 +188,12 @@ export const CartDrawer = () => {
 
             {promoApplied && (
               <p className="text-xs text-green-700 font-semibold">
-                10% Discount Applied! Saved ₹ {discount.toLocaleString('en-IN')}
+                Promo applied! Saved ₹ {discount.toLocaleString('en-IN')}
               </p>
+            )}
+
+            {promoError && (
+              <p className="text-xs text-[#B3261E] font-semibold">{promoError}</p>
             )}
 
             <div className="space-y-1.5 text-xs text-[#7A7270] pt-2 border-t border-[#EDE5DC]">
@@ -201,8 +219,8 @@ export const CartDrawer = () => {
 
             <button 
               onClick={() => {
-                alert('Thank you for testing Gevariya Jewels checkout! Order placed successfully.');
                 setCartOpen(false);
+                setCheckoutOpen(true);
               }}
               className="w-full btn-primary py-3 flex items-center justify-center gap-2"
             >

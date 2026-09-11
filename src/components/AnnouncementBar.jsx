@@ -14,27 +14,42 @@ const ANNOUNCEMENTS = [
 ];
 
 export const AnnouncementBar = () => {
-  const { navigateToPage } = useShop();
+  const { navigateToPage, settings } = useShop();
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isAnimating, setIsAnimating] = useState(false);
 
+  // An announcement written in the admin panel replaces the rotating defaults,
+  // so offers and launches go live without a code change.
+  const adminAnnouncement = settings?.announcement;
+  const messages = adminAnnouncement?.enabled && adminAnnouncement.text
+    ? [{ text: adminAnnouncement.text, page: null, link: adminAnnouncement.link }]
+    : ANNOUNCEMENTS;
+
   useEffect(() => {
+    setCurrentIndex(0);
+    if (messages.length < 2) return undefined;
+
     const interval = setInterval(() => {
       setIsAnimating(true);
       setTimeout(() => {
-        setCurrentIndex((prev) => (prev + 1) % ANNOUNCEMENTS.length);
+        setCurrentIndex((prev) => (prev + 1) % messages.length);
         setIsAnimating(false);
       }, 400);
     }, 3000);
 
     return () => clearInterval(interval);
-  }, []);
+  }, [messages.length]);
 
-  const current = ANNOUNCEMENTS[currentIndex];
+  const current = messages[currentIndex] || messages[0];
+
+  const handleClick = () => {
+    if (current.link) window.open(current.link, '_blank', 'noopener');
+    else if (current.page) navigateToPage(current.page);
+  };
 
   return (
     <div
-      onClick={() => navigateToPage(current.page)}
+      onClick={handleClick}
       className="bg-[#EDE7DE] hover:bg-[#E5DCD1] cursor-pointer text-[#7B3F42] text-[11px] py-2 px-4 text-center font-bold tracking-widest uppercase flex items-center justify-center gap-3 border-b border-[#D8CFC3] overflow-hidden relative h-[36px] transition-colors"
       title="Click to view details"
     >

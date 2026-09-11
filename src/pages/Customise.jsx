@@ -1,6 +1,7 @@
 import React, { useState, useRef } from 'react';
 import { Upload, X, ShoppingBag, Check, ChevronDown, Gem } from 'lucide-react';
 import { useShop } from '../context/ShopContext';
+import * as api from '../services/api';
 
 const RING_SIZES = [
   '5 (45.11 mm)', '6 (45.74 mm)', '7 (46.68 mm)', '8 (47.25 mm)', '9 (48.38 mm)',
@@ -32,6 +33,8 @@ export const Customise = () => {
   const [image, setImage]             = useState(null);
   const [dragging, setDragging]       = useState(false);
   const [submitted, setSubmitted]     = useState(false);
+  const [saving, setSaving]           = useState(false);
+  const [reference, setReference]     = useState('');
 
   const fileInputRef  = useRef(null);
   const bagBtnRef     = useRef(null);
@@ -48,19 +51,45 @@ export const Customise = () => {
   const onDragLeave  = ()  => setDragging(false);
   const removeImage  = ()  => { setImage(null); if (fileInputRef.current) fileInputRef.current.value = ''; };
 
-  const handleAddToCart = () => {
+  const handleAddToCart = async () => {
     if (!productName.trim()) { showToast('Please enter a product name'); return; }
     if (!productType)        { showToast('Please select a jewellery type'); return; }
     if (!plating)            { showToast('Please choose a metal plating'); return; }
 
     const customImg = image?.preview || 'https://images.unsplash.com/photo-1605100804763-247f67b3557e?auto=format&fit=crop&w=600&q=80';
+
+    // Register the bespoke brief with the atelier. The reference photo travels
+    // with it, and the returned reference is what the order will quote against.
+    let saved = null;
+    setSaving(true);
+    try {
+      const result = await api.createCustomRequest(
+        {
+          productName: productName.trim(),
+          productType,
+          plating,
+          ringSize,
+          bangleSize,
+          notes,
+        },
+        image?.file
+      );
+      saved = result.request;
+      setReference(saved.reference);
+    } catch (error) {
+      showToast(error.message || 'Could not reach the atelier — added to your bag anyway');
+    } finally {
+      setSaving(false);
+    }
+
     const customProduct = {
-      id:    `custom_${Date.now()}`,
+      id:    saved?.reference ? `custom_${saved.reference}` : `custom_${Date.now()}`,
       name:  productName.trim(),
       price: 0,
       image: customImg,
       badge: 'CUSTOM ORDER',
       isCustom: true,
+      customReference: saved?.reference || null,
     };
 
     const targetEl = imageStageRef.current || bagBtnRef.current;
@@ -78,7 +107,7 @@ export const Customise = () => {
   const resetForm = () => {
     setProductName(''); setProductType(''); setPlating('');
     setRingSize(''); setBangleSize(''); setNotes('');
-    removeImage(); setSubmitted(false);
+    removeImage(); setSubmitted(false); setReference('');
   };
 
   const showRingSize   = productType === 'Ring';
@@ -95,6 +124,12 @@ export const Customise = () => {
           <p className="text-xs text-[#5C4038] mb-6 leading-relaxed">
             Your custom piece <strong>"{productName}"</strong> has been added to your shopping bag. Our master karigars will review your reference image and specs.
           </p>
+          {reference && (
+            <div className="bg-[#F5F1EA] border border-[#DBC5B8] rounded-xl px-4 py-2.5 mb-6">
+              <div className="text-[9.5px] uppercase tracking-[0.2em] text-[#8A726A]">Reference</div>
+              <div className="text-xs font-bold tracking-[0.14em] text-[#7B3F42] mt-0.5">{reference}</div>
+            </div>
+          )}
           <button
             onClick={resetForm}
             className="w-full bg-[#7B3F42] text-white font-sans text-xs font-bold uppercase tracking-widest py-3.5 rounded-xl hover:bg-[#623033] transition-colors"
@@ -334,11 +369,12 @@ export const Customise = () => {
             <button
               ref={bagBtnRef}
               type="button"
+              disabled={saving}
               onClick={handleAddToCart}
               className="w-full bg-[#7B3F42] hover:bg-[#623033] text-white font-sans font-bold text-xs uppercase tracking-[0.22em] py-3.5 sm:py-4 rounded-xl flex items-center justify-center gap-2.5 transition-colors shadow-md active:scale-98"
             >
               <ShoppingBag size={16} />
-              <span>FLY TO CART</span>
+              <span>{saving ? 'SENDING TO ATELIER…' : 'FLY TO CART'}</span>
             </button>
           </div>
 

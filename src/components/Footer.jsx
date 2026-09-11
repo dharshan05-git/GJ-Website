@@ -1,10 +1,29 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Sparkles, MapPin, Phone, Mail, Instagram, Facebook, Twitter, ArrowRight } from 'lucide-react';
 import { useShop } from '../context/ShopContext';
 import { GevariyaLogo } from './GevariyaLogo';
+import * as api from '../services/api';
 
 export const Footer = () => {
-  const { navigateToPage, setSizeGuideOpen } = useShop();
+  const { navigateToPage, setSizeGuideOpen, showToast } = useShop();
+
+  const [email, setEmail] = useState('');
+  const [subscribing, setSubscribing] = useState(false);
+
+  const handleSubscribe = async (e) => {
+    e.preventDefault();
+    setSubscribing(true);
+
+    try {
+      const result = await api.subscribeNewsletter(email);
+      showToast(result?.message || 'Welcome to the Gevariya Circle');
+      setEmail('');
+    } catch (error) {
+      showToast(error.message || 'Could not subscribe, please try again');
+    } finally {
+      setSubscribing(false);
+    }
+  };
 
   const customerCareLinks = [
     { label: 'Book Private Consultation', action: () => navigateToPage('contact') },
@@ -30,18 +49,21 @@ export const Footer = () => {
           <p className="text-xs text-[#5C4038] mt-2 mb-6">
             Subscribe to our weekly curated newsletter. Enjoy 10% off your first handcrafted order.
           </p>
-          <form onSubmit={e => { e.preventDefault(); alert('Subscribed to Gevariya Jewels!'); }} className="flex flex-col sm:flex-row gap-2 max-w-md mx-auto">
+          <form onSubmit={handleSubscribe} className="flex flex-col sm:flex-row gap-2 max-w-md mx-auto">
             <input
               type="email"
               placeholder="Enter your email address"
+              value={email}
+              onChange={e => setEmail(e.target.value)}
               required
               className="flex-1 bg-[#F5F1EA] border border-[#D8CFC3] px-4 py-3 text-xs text-[#2E2B2B] placeholder-[#8A726A] outline-none focus:border-[#7B3F42]"
             />
             <button
               type="submit"
-              className="bg-[#7B3F42] hover:bg-[#623033] text-white text-xs font-bold tracking-widest uppercase px-6 py-3 flex items-center justify-center gap-2 transition-colors shadow-xs"
+              disabled={subscribing}
+              className="bg-[#7B3F42] hover:bg-[#623033] disabled:bg-[#B6ADA6] disabled:cursor-not-allowed text-white text-xs font-bold tracking-widest uppercase px-6 py-3 flex items-center justify-center gap-2 transition-colors shadow-xs"
             >
-              <span>SUBSCRIBE</span>
+              <span>{subscribing ? 'SUBSCRIBING…' : 'SUBSCRIBE'}</span>
               <ArrowRight size={13} />
             </button>
           </form>
