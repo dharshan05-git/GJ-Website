@@ -5,15 +5,14 @@ import { CategoryGrid } from '../components/CategoryGrid';
 import { SignatureProduct } from '../components/SignatureProduct';
 import { WhyChooseUs } from '../components/WhyChooseUs';
 import { Testimonials } from '../components/Testimonials';
-import { PRODUCTS } from '../data/products';
 import { ProductCard } from '../components/ProductCard';
 import { useShop } from '../context/ShopContext';
 import { ArrowRight } from 'lucide-react';
 import { useScrollAnimation } from '../hooks/useScrollAnimation';
 
 export const Home = () => {
-  const { navigateToPage } = useShop();
-  const bestSellers = PRODUCTS.filter(p => p.isBestSeller).slice(0, 4);
+  const { navigateToPage, products } = useShop();
+  const bestSellers = products.filter(p => p.isBestSeller).slice(0, 4);
 
   const [headingRef, headingVisible] = useScrollAnimation();
   const [gridRef, gridVisible] = useScrollAnimation();
