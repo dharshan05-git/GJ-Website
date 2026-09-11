@@ -35,6 +35,52 @@ export const ShopProvider = ({ children }) => {
     setCurtainLoaderActive(true);
   };
 
+  /** Pulls the catalog from the backend; keeps the bundled one if it is down. */
+  const refreshProducts = async () => {
+    setProductsLoading(true);
+    try {
+      const { products: live, source } = await api.getProducts();
+      setProducts(live);
+      setCatalogSource(source);
+      setMaintenance(null);
+    } catch (error) {
+      // A 503 means the admin switched maintenance mode on.
+      if (error.maintenance) setMaintenance(error.data || { title: error.message });
+    } finally {
+      setProductsLoading(false);
+    }
+  };
+
+  /** Maintenance page copy and the announcement bar text, both admin-editable. */
+  const refreshSettings = async () => {
+    try {
+      const live = await api.getPublicSettings();
+      setSettings(live);
+      setMaintenance(live.maintenance?.enabled ? live.maintenance : null);
+      return live;
+    } catch {
+      return null;
+    }
+  };
+
+  useEffect(() => {
+    refreshSettings().then((live) => {
+      // Skip the catalog call while the store is closed for maintenance.
+      if (live?.maintenance?.enabled) {
+        setProductsLoading(false);
+        return;
+      }
+      refreshProducts();
+    });
+  }, []);
+
+  /** Keeps `selectedProduct` pointing at the live copy after a refresh. */
+  useEffect(() => {
+    if (!selectedProduct) return;
+    const fresh = products.find((p) => p.id === selectedProduct.id);
+    if (fresh && fresh !== selectedProduct) setSelectedProduct(fresh);
+  }, [products]);
+
   const showToast = (msg) => {
     setToastMessage(msg);
     setTimeout(() => {
