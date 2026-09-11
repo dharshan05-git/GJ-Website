@@ -39,13 +39,17 @@ export const ProductCard = ({ product }) => {
 
   const isGoldBadge = product.badge === 'SIGNATURE' || product.badge === 'LUXURY' || product.badge === 'BESTSELLER';
 
+  // Driven by the admin panel's enable/disable switch and the live stock count.
+  const isUnavailable = product.isAvailable === false || product.stock === 0;
+  const unavailableLabel = product.availabilityLabel || (product.isAvailable === false ? 'UNAVAILABLE' : 'OUT OF STOCK');
+
   return (
     <div className="product-card-lift luxury-card-interactive group flex flex-col transition-all duration-300 select-none">
 
       {/* ── Image Stage ── */}
       <div
         ref={imgRef}
-        className="relative overflow-hidden bg-[#F5F1EA] aspect-square cursor-pointer rounded-xs"
+        className={`relative overflow-hidden bg-[#F5F1EA] aspect-square cursor-pointer rounded-xs ${isUnavailable ? 'opacity-70' : ''}`}
         onClick={() => navigateToProduct(product)}
       >
         {/* Top-Right: Circular White Wishlist Button — matching Image 1 */}
@@ -90,6 +94,15 @@ export const ProductCard = ({ product }) => {
           </span>
         )}
 
+        {/* Sold-out / disabled veil */}
+        {isUnavailable && (
+          <div className="absolute inset-0 z-10 flex items-center justify-center bg-white/55 backdrop-blur-[1px] pointer-events-none">
+            <span className="bg-[#2E2B2B] text-white text-[9px] sm:text-[10px] font-bold tracking-[0.18em] uppercase px-3 py-1.5 shadow-sm">
+              {unavailableLabel}
+            </span>
+          </div>
+        )}
+
         {/* Desktop Hover Quick Actions / Mobile Tap Bar */}
         <div className="absolute inset-x-0 bottom-0 flex gap-0 sm:opacity-0 sm:group-hover:opacity-100 transition-all duration-300 sm:translate-y-2 sm:group-hover:translate-y-0">
           <button
@@ -100,8 +113,13 @@ export const ProductCard = ({ product }) => {
           </button>
           <button
             onClick={handleAddToCart}
-            className="w-10 bg-[#7B3F42] hover:bg-[#623033] text-white flex items-center justify-center transition-colors shadow-xs active:scale-95"
-            title="Add to Cart"
+            disabled={isUnavailable}
+            className={`w-10 flex items-center justify-center transition-colors shadow-xs ${
+              isUnavailable
+                ? 'bg-[#B6ADA6] text-white cursor-not-allowed'
+                : 'bg-[#7B3F42] hover:bg-[#623033] text-white active:scale-95'
+            }`}
+            title={isUnavailable ? unavailableLabel : 'Add to Cart'}
           >
             <ShoppingBag size={13} />
           </button>
