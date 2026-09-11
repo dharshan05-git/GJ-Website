@@ -1,5 +1,6 @@
 import React, { createContext, useContext, useState, useEffect, useRef } from 'react';
 import { PRODUCTS } from '../data/products';
+import * as api from '../services/api';
 
 const ShopContext = createContext();
 
@@ -9,6 +10,16 @@ export const ShopProvider = ({ children }) => {
   const [selectedProduct, setSelectedProduct] = useState(PRODUCTS[0]);
   const [cart, setCart] = useState([]);
   const [wishlist, setWishlist] = useState([]);
+
+  // ── Live catalog & store settings (backend) ──────────────────────
+  // Starts with the bundled catalog so the first paint is never empty,
+  // then swaps in whatever the API returns.
+  const [products, setProducts] = useState(PRODUCTS);
+  const [catalogSource, setCatalogSource] = useState('static');
+  const [productsLoading, setProductsLoading] = useState(true);
+  const [settings, setSettings] = useState(null);
+  const [maintenance, setMaintenance] = useState(null);
+  const [checkoutOpen, setCheckoutOpen] = useState(false);
   const [cartOpen, setCartOpen] = useState(false);
   const [wishlistOpen, setWishlistOpen] = useState(false);
   const [quickViewProduct, setQuickViewProduct] = useState(null);
