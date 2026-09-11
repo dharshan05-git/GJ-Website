@@ -227,6 +227,18 @@ export const ShopProvider = ({ children }) => {
         clearFlyItem,
         triggerFlyToCart,
         cartIconRef,
+
+        // Backend-driven state
+        products,
+        productsLoading,
+        catalogSource,
+        refreshProducts,
+        settings,
+        refreshSettings,
+        maintenance,
+        checkoutOpen,
+        setCheckoutOpen,
+        placeOrder,
       }}
     >
       {children}
