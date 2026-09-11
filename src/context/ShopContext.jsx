@@ -98,6 +98,16 @@ export const ShopProvider = ({ children }) => {
   const clearFlyItem = () => setFlyItem(null);
 
   const addToCart = (product, metal = "18K Yellow Gold", size = "7", qty = 1) => {
+    // The admin panel can take a piece off sale at any time.
+    if (product.isAvailable === false) {
+      showToast(`"${product.name}" is currently unavailable`);
+      return;
+    }
+    if (!product.isCustom && product.stock === 0) {
+      showToast(`"${product.name}" is out of stock`);
+      return;
+    }
+
     setCart(prevCart => {
       const existingIndex = prevCart.findIndex(
         item => item.id === product.id && item.metal === metal && item.size === size
@@ -161,6 +171,24 @@ export const ShopProvider = ({ children }) => {
 
   const cartTotal = cart.reduce((sum, item) => sum + item.price * item.quantity, 0);
   const cartCount = cart.reduce((sum, item) => sum + item.quantity, 0);
+
+  /**
+   * Sends the bag to the backend. Only ids, options and quantities travel —
+   * the server prices the order itself, so the amount can never be tampered with.
+   */
+  const placeOrder = async ({ shippingAddress, couponCode = '', paymentMethod = 'COD', notes = '' }) => {
+    const items = cart.map(item => (
+      item.customReference
+        ? { customRequest: item.customReference, quantity: item.quantity }
+        : { productId: item.id, metal: item.metal, size: item.size, quantity: item.quantity }
+    ));
+
+    const { order } = await api.createOrder({ items, shippingAddress, couponCode, paymentMethod, notes });
+
+    setCart([]);
+    refreshProducts();
+    return order;
+  };
 
   return (
     <ShopContext.Provider
