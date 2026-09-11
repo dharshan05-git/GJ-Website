@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { useShop } from '../context/ShopContext';
 import { ProductCard } from '../components/ProductCard';
-import { PRODUCTS } from '../data/products';
 import { Heart, Search, ChevronRight, ChevronDown, Gem, Truck, ShieldCheck, RefreshCw } from 'lucide-react';
 
 /**
@@ -43,6 +42,7 @@ export const ProductPage = () => {
     setSizeGuideOpen,
     navigateToPage,
     triggerFlyToCart,
+    products: PRODUCTS,
   } = useShop();
 
   const product = selectedProduct || PRODUCTS[0];
