@@ -40,11 +40,12 @@ export const CheckoutModal = () => {
     placeOrder,
     showToast,
     settings,
+    couponCode,
+    setCouponCode,
   } = useShop();
 
   const [form, setForm] = useState(EMPTY_FORM);
   const [paymentMethod, setPaymentMethod] = useState('COD');
-  const [couponCode, setCouponCode] = useState('');
   const [notes, setNotes] = useState('');
   const [quote, setQuote] = useState(null);
   const [submitting, setSubmitting] = useState(false);

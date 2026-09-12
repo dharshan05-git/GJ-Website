@@ -20,6 +20,7 @@ export const ShopProvider = ({ children }) => {
   const [settings, setSettings] = useState(null);
   const [maintenance, setMaintenance] = useState(null);
   const [checkoutOpen, setCheckoutOpen] = useState(false);
+  const [couponCode, setCouponCode] = useState('');
   const [cartOpen, setCartOpen] = useState(false);
   const [wishlistOpen, setWishlistOpen] = useState(false);
   const [quickViewProduct, setQuickViewProduct] = useState(null);
@@ -238,6 +239,8 @@ export const ShopProvider = ({ children }) => {
         maintenance,
         checkoutOpen,
         setCheckoutOpen,
+        couponCode,
+        setCouponCode,
         placeOrder,
       }}
     >

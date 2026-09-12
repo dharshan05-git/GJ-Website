@@ -111,5 +111,49 @@ npm run build
 
 ---
 
+## 🔌 Backend API (`backend/`)
+
+The storefront is wired to a Node.js + Express + MongoDB API that owns the
+catalog, orders, payments, email automation and the admin surface.
+
+### Run both sides
+
+```bash
+npm install                 # frontend
+npm run backend:install     # backend deps
+
+cp .env.example .env                  # VITE_API_URL for the frontend
+cp backend/.env.example backend/.env  # MONGO_URI + JWT_SECRET
+
+npm run backend:seed        # 57 products, coupons, owner account, settings
+npm run backend:dev         # API  -> http://localhost:5000/api
+npm run dev                 # site -> http://localhost:5173
+```
+
+No MongoDB installed? `npm run backend:memory` runs the API against a throwaway
+in-memory database, already seeded. The storefront also falls back to the bundled
+catalog in `src/data/products.js` whenever the API is unreachable, so the site
+never renders empty.
+
+### What the backend powers
+
+| Feature | Where |
+| --- | --- |
+| Live catalog, filters, sorting | `ShopContext` → `GET /api/products` |
+| Checkout with COD or Razorpay | `CheckoutModal.jsx` → `POST /api/orders` |
+| Promo codes validated server-side | `CartDrawer.jsx` → `POST /api/coupons/validate` |
+| Consultation bookings | `Contact.jsx` → `POST /api/contact` |
+| Newsletter | `Footer.jsx` → `POST /api/newsletter/subscribe` |
+| Bespoke requests with photo upload | `Customise.jsx` → `POST /api/custom-requests` |
+| Product enable/disable switch | renders as *Unavailable* on the card, blocked at checkout |
+| Maintenance mode | `src/pages/Maintenance.jsx` replaces the whole site |
+| Editable announcement bar | `AnnouncementBar.jsx` reads `GET /api/settings/public` |
+| Order confirmation emails | HTML invoice sent automatically on every order |
+
+Full endpoint reference, staff permission tiers and email setup:
+[`backend/README.md`](backend/README.md).
+
+---
+
 ## 💎 License & Credits
 © 2026 **GEVARIYA JEWELS**. All Rights Reserved. Handcrafted fine jewelry atelier.

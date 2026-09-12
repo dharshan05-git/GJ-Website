@@ -44,6 +44,17 @@ const test = async (name, fn) => {
 
 const section = (title) => console.log(`\n${title}`);
 
+/** Polls until `check` returns something truthy, for work that finishes after a response. */
+const waitFor = async (check, { timeout = 25000, interval = 500, label = 'condition' } = {}) => {
+  const deadline = Date.now() + timeout;
+  while (Date.now() < deadline) {
+    const result = await check();
+    if (result) return result;
+    await new Promise((resolve) => setTimeout(resolve, interval));
+  }
+  throw new Error(`Timed out waiting for ${label}`);
+};
+
 /* ── Fixtures ─────────────────────────────────────────────────── */
 await Product.create([
   {
@@ -500,13 +511,23 @@ await test('switching it off reopens the storefront', async () => {
 section('Email automation');
 
 await test('logs the order confirmation and the admin alert', async () => {
-  // Emails are dispatched after the response; give them a moment.
-  await new Promise((resolve) => setTimeout(resolve, 1500));
+  // Emails are dispatched after the response, and the dev transport may need a
+  // moment to open a test inbox — so poll rather than guess a delay.
+  const logs = await waitFor(
+    async () => {
+      const found = await EmailLog.find({ relatedOrder: orderNumber });
+      const types = found.map((log) => log.type);
+      return types.includes('ORDER_CONFIRMATION') && types.includes('ADMIN_ORDER_ALERT')
+        ? found
+        : null;
+    },
+    { label: 'order emails' }
+  );
 
-  const logs = await EmailLog.find({ relatedOrder: orderNumber });
-  const types = logs.map((log) => log.type);
-  assert.ok(types.includes('ORDER_CONFIRMATION'), 'customer confirmation queued');
-  assert.ok(types.includes('ADMIN_ORDER_ALERT'), 'admin alert queued');
+  // Delivery itself needs network; the log row is written either way.
+  logs.forEach((log) => {
+    assert.ok(['SENT', 'FAILED', 'SKIPPED'].includes(log.status));
+  });
 });
 
 await test('exposes transport status to the panel', async () => {

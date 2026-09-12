@@ -14,6 +14,7 @@ export const CartDrawer = () => {
     updateCartQty,
     navigateToPage,
     setCheckoutOpen,
+    setCouponCode,
     settings
   } = useShop();
 
@@ -36,9 +37,11 @@ export const CartDrawer = () => {
       const result = await api.validateCoupon(code, cartTotal);
       setDiscount(result.discount);
       setPromoApplied(true);
+      setCouponCode(code); // carried into the checkout modal
     } catch (error) {
       setDiscount(0);
       setPromoApplied(false);
+      setCouponCode('');
       setPromoError(error.message);
     }
   };
