@@ -159,6 +159,7 @@ export const Footer = () => {
             <button onClick={() => navigateToPage('returns')} className="hover:text-[#7B3F42] transition-colors">Return Policy</button>
             <button onClick={() => navigateToPage('delivery')} className="hover:text-[#7B3F42] transition-colors">Shipping Terms</button>
             <button onClick={() => navigateToPage('warranty')} className="hover:text-[#7B3F42] transition-colors">90-Day Warranty</button>
+            <a href="/admin" className="text-[#8A726A] hover:text-[#7B3F42] transition-colors">Staff</a>
           </div>
         </div>
 
