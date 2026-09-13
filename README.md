@@ -155,5 +155,39 @@ Full endpoint reference, staff permission tiers and email setup:
 
 ---
 
+## 🔐 Admin panel (`/admin`)
+
+Sign in at **`/admin`** with a staff account — the owner account is created by
+`npm run backend:seed` from `ADMIN_EMAIL` / `ADMIN_PASSWORD` in `backend/.env`.
+There is also a discreet **Staff** link in the footer.
+
+| Section | What it does |
+| --- | --- |
+| Dashboard | Revenue, orders to action, stock warnings, recent orders |
+| Products | Search the catalog, edit price/stock/badge, and the **enable/disable switch** |
+| Orders | Filter, open, change status (emails the customer), resend the invoice |
+| Customers | Every buyer including guests — lifetime value, addresses, order history |
+| Custom Orders | Bespoke briefs with the reference photo; set status and quote a price |
+| Enquiries | Consultation bookings, and the newsletter list with CSV export |
+| Email Automation | Transport status, daily counts, send a test, full delivery log |
+| Store Settings | **Maintenance mode**, the **announcement bar**, shipping rules, contact details |
+| Staff & Access | *(owner only)* add members, set their tier, grant extra permissions |
+
+Tabs are hidden when the signed-in member lacks the permission, and the backend
+checks it again on every request.
+
+**Maintenance mode** swaps the whole storefront for the construction page while
+staff keep browsing normally — the API decides who sees what, so nothing has to
+be duplicated in the frontend.
+
+### Routing note for deployment
+
+The app now uses real URLs (`/shop/rings`, `/product/:id`, `/admin`), so the host
+must serve `index.html` for unknown paths or every link except `/` will 404.
+`public/_redirects` covers Netlify; on Vercel add a rewrite to `/index.html`, and
+on nginx use `try_files $uri /index.html;`.
+
+---
+
 ## 💎 License & Credits
 © 2026 **GEVARIYA JEWELS**. All Rights Reserved. Handcrafted fine jewelry atelier.
