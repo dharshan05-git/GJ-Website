@@ -11,8 +11,10 @@ import { useShop } from '../context/ShopContext';
 export const Maintenance = () => {
   const { maintenance, settings } = useShop();
 
+  // The copy arrives either from the settings endpoint (`message`) or from the
+  // 503 the API returns to shoppers (`body`).
   const title = maintenance?.title || 'Website Under Construction';
-  const message = maintenance?.message || 'Please wait for a while.';
+  const message = maintenance?.body || maintenance?.message || 'Please wait for a while.';
   const announcement = settings?.announcement || maintenance?.announcement;
   const store = settings?.store;
 
