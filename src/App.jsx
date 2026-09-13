@@ -1,4 +1,5 @@
 import React from 'react';
+import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 import { ShopProvider, useShop } from './context/ShopContext';
 import { AnnouncementBar } from './components/AnnouncementBar';
 import { Navbar } from './components/Navbar';
@@ -21,103 +22,119 @@ import { SizeGuideModal } from './components/SizeGuideModal';
 import { Footer } from './components/Footer';
 import { FlyToCart } from './components/FlyToCart';
 import { CurtainLoader } from './components/CurtainLoader';
+import { AdminApp } from './pages/admin/AdminApp';
 
-// Security Error Boundary to prevent stack trace leaks
-class SecurityErrorBoundary extends React.Component {
+/** Catches render errors instead of showing the visitor a blank screen. */
+class AppErrorBoundary extends React.Component {
   constructor(props) {
     super(props);
-    this.state = { hasError: false };
+    this.state = { error: null };
   }
 
-  static getDerivedStateFromError() {
-    return { hasError: true };
+  static getDerivedStateFromError(error) {
+    return { error };
   }
 
   componentDidCatch(error, errorInfo) {
-    // Silently log or capture in secure telemetry without exposing client-side leaks
-    console.warn('Gevariya Security Boundary: Protected route intercepted');
+    // Replace with a real reporting endpoint when one exists.
+    console.error('Gevariya app error:', error, errorInfo?.componentStack);
   }
 
   render() {
-    if (this.state.hasError) {
-      return <NotFound />;
+    if (this.state.error) {
+      return (
+        <div className="min-h-screen bg-[#F5F1EA] flex items-center justify-center px-4 text-center">
+          <div className="max-w-md bg-white border border-[#D8CFC3] rounded-2xl px-8 py-10 shadow-sm">
+            <h1 className="font-serif text-2xl text-[#2E2B2B] uppercase tracking-wide">
+              Something went wrong
+            </h1>
+            <p className="text-xs text-[#5C4038] mt-3 leading-relaxed">
+              Our apologies — this page could not be displayed. Please reload, or write to
+              hello@gevariyajewels.com if it keeps happening.
+            </p>
+            <button
+              onClick={() => window.location.reload()}
+              className="mt-6 bg-[#7B3F42] hover:bg-[#623033] text-white text-xs font-bold uppercase tracking-[0.2em] px-7 py-3 rounded-lg transition-colors"
+            >
+              Reload
+            </button>
+          </div>
+        </div>
+      );
     }
     return this.props.children;
   }
 }
 
-const AppContent = () => {
-  const { activePage, toastMessage, maintenance } = useShop();
+/** Chrome shared by every storefront page: bars, drawers, toast, footer. */
+const StorefrontLayout = ({ children }) => {
+  const { toastMessage, maintenance } = useShop();
   const [showLoader, setShowLoader] = React.useState(true);
 
-  // Maintenance Mode, flipped from the admin panel, replaces the whole store.
-  if (maintenance) {
-    return (
-      <SecurityErrorBoundary>
-        <Maintenance />
-      </SecurityErrorBoundary>
-    );
-  }
-
-  // List of valid routes
-  const validPages = ['home', 'shop', 'about', 'product', 'contact', 'customise', 'warranty', 'lifetime', 'delivery', 'shipping', 'returns', 'return'];
-  const isKnownRoute = validPages.includes(activePage);
+  // Maintenance mode, flipped from the admin panel, replaces the whole store.
+  // It deliberately does not cover /admin — staff still need a way in.
+  if (maintenance) return <Maintenance />;
 
   return (
-    <SecurityErrorBoundary>
-      <div className="min-h-screen flex flex-col bg-white selection:bg-[#A67B8A] selection:text-white relative overflow-x-hidden">
-        {/* Two-Curtain Pink Logo Loader with Subtle Silk Shine & Click-to-Skip */}
-        {showLoader && <CurtainLoader onComplete={() => setShowLoader(false)} />}
+    <div className="min-h-screen flex flex-col bg-white selection:bg-[#A67B8A] selection:text-white relative overflow-x-hidden">
+      {showLoader && <CurtainLoader onComplete={() => setShowLoader(false)} />}
 
-        {/* Top Announcement Bar */}
-        <AnnouncementBar />
+      <AnnouncementBar />
+      <Navbar />
 
-        {/* Main Navbar */}
-        <Navbar />
+      <main className="flex-1">{children}</main>
 
-        {/* Page View Router with 404 Security Fallback */}
-        <main className="flex-1">
-          {activePage === 'home' && <Home />}
-          {activePage === 'shop' && <Shop />}
-          {activePage === 'about' && <About />}
-          {activePage === 'product' && <ProductPage />}
-          {activePage === 'contact' && <Contact />}
-          {activePage === 'customise' && <Customise />}
-          {(activePage === 'warranty' || activePage === 'lifetime') && <Warranty />}
-          {(activePage === 'delivery' || activePage === 'shipping') && <Delivery />}
-          {(activePage === 'returns' || activePage === 'return') && <Returns />}
-          {!isKnownRoute && <NotFound />}
-        </main>
+      <CartDrawer />
+      <CheckoutModal />
+      <WishlistDrawer />
+      <QuickViewModal />
+      <SizeGuideModal />
 
-        {/* Global Shopping Drawers & Modals */}
-        <CartDrawer />
-        <CheckoutModal />
-        <WishlistDrawer />
-        <QuickViewModal />
-        <SizeGuideModal />
+      {toastMessage && (
+        <div className="fixed bottom-5 right-4 left-4 sm:left-auto sm:right-6 sm:bottom-6 z-[2000] bg-[#1A1615] text-white text-xs font-semibold px-4 py-3 sm:px-5 sm:py-3.5 shadow-2xl border border-[#A67B8A]/40 flex items-center justify-center sm:justify-start gap-2 rounded-lg">
+          <span className="w-2 h-2 rounded-full bg-[#A67B8A] shrink-0" />
+          <span className="truncate">{toastMessage}</span>
+        </div>
+      )}
 
-        {/* Toast Notification */}
-        {toastMessage && (
-          <div className="fixed bottom-5 right-4 left-4 sm:left-auto sm:right-6 sm:bottom-6 z-[2000] bg-[#1A1615] text-white text-xs font-semibold px-4 py-3 sm:px-5 sm:py-3.5 shadow-2xl border border-[#A67B8A]/40 flex items-center justify-center sm:justify-start gap-2 rounded-lg">
-            <span className="w-2 h-2 rounded-full bg-[#A67B8A] shrink-0" />
-            <span className="truncate">{toastMessage}</span>
-          </div>
-        )}
-
-        {/* Fly-to-Cart global animation overlay */}
-        <FlyToCart />
-
-        {/* Footer */}
-        <Footer />
-      </div>
-    </SecurityErrorBoundary>
+      <FlyToCart />
+      <Footer />
+    </div>
   );
 };
 
+const storefront = (element) => <StorefrontLayout>{element}</StorefrontLayout>;
+
 export default function App() {
   return (
-    <ShopProvider>
-      <AppContent />
-    </ShopProvider>
+    <AppErrorBoundary>
+      <BrowserRouter>
+        <ShopProvider>
+          <Routes>
+            {/* Staff area — no storefront chrome, and reachable during maintenance. */}
+            <Route path="/admin/*" element={<AdminApp />} />
+
+            {/* Storefront */}
+            <Route path="/" element={storefront(<Home />)} />
+            <Route path="/shop" element={storefront(<Shop />)} />
+            <Route path="/shop/:category" element={storefront(<Shop />)} />
+            <Route path="/product/:id" element={storefront(<ProductPage />)} />
+            <Route path="/about" element={storefront(<About />)} />
+            <Route path="/contact" element={storefront(<Contact />)} />
+            <Route path="/customise" element={storefront(<Customise />)} />
+            <Route path="/warranty" element={storefront(<Warranty />)} />
+            <Route path="/delivery" element={storefront(<Delivery />)} />
+            <Route path="/returns" element={storefront(<Returns />)} />
+
+            {/* Legacy aliases kept so older links still resolve */}
+            <Route path="/lifetime" element={<Navigate to="/warranty" replace />} />
+            <Route path="/shipping" element={<Navigate to="/delivery" replace />} />
+            <Route path="/return" element={<Navigate to="/returns" replace />} />
+
+            <Route path="*" element={storefront(<NotFound />)} />
+          </Routes>
+        </ShopProvider>
+      </BrowserRouter>
+    </AppErrorBoundary>
   );
 }

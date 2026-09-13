@@ -1,11 +1,39 @@
 import React, { createContext, useContext, useState, useEffect, useRef } from 'react';
+import { useLocation, useNavigate } from 'react-router-dom';
 import { PRODUCTS } from '../data/products';
 import * as api from '../services/api';
 
 const ShopContext = createContext();
 
+/* Page name → URL. The old `navigateToPage('warranty')` style calls are kept
+   working so no component had to change when real routing was introduced. */
+const PATHS = {
+  home: '/',
+  shop: '/shop',
+  about: '/about',
+  contact: '/contact',
+  customise: '/customise',
+  warranty: '/warranty',
+  lifetime: '/warranty',
+  delivery: '/delivery',
+  shipping: '/delivery',
+  returns: '/returns',
+  return: '/returns',
+};
+
+/** URL → page name, for components that highlight the active nav item. */
+const pageFromPath = (pathname) => {
+  if (pathname === '/') return 'home';
+  const segment = pathname.split('/')[1] || 'home';
+  if (segment === 'product') return 'product';
+  return segment;
+};
+
 export const ShopProvider = ({ children }) => {
-  const [activePage, setActivePage] = useState('home');
+  const navigate = useNavigate();
+  const location = useLocation();
+
+  const activePage = pageFromPath(location.pathname);
   const [selectedCategory, setSelectedCategory] = useState('ALL');
   const [selectedProduct, setSelectedProduct] = useState(PRODUCTS[0]);
   const [cart, setCart] = useState([]);
@@ -158,17 +186,25 @@ export const ShopProvider = ({ children }) => {
 
   const navigateToProduct = (product) => {
     setSelectedProduct(product);
-    setActivePage('product');
+    navigate(`/product/${product.id}`);
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
   const navigateToPage = (pageName, category = 'ALL') => {
-    setActivePage(pageName);
-    if (category) {
-      setSelectedCategory(category);
-    }
+    if (category) setSelectedCategory(category);
+
+    const path = PATHS[pageName] || `/${pageName}`;
+    // A category on the shop page becomes part of the URL, so /shop/rings is shareable.
+    navigate(
+      pageName === 'shop' && category && category !== 'ALL'
+        ? `/shop/${category.toLowerCase()}`
+        : path
+    );
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
+
+  /** Kept for backwards compatibility with anything still setting a page by name. */
+  const setActivePage = (pageName) => navigateToPage(pageName);
 
   const cartTotal = cart.reduce((sum, item) => sum + item.price * item.quantity, 0);
   const cartCount = cart.reduce((sum, item) => sum + item.quantity, 0);

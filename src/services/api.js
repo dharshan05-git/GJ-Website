@@ -191,4 +191,61 @@ export const createCustomRequest = (fields, imageFile) => {
   return request('/custom-requests', { method: 'POST', body: form, isForm: true });
 };
 
+/* ── Admin panel ─────────────────────────────────────────────── */
+/**
+ * Every call below needs a staff token. The backend checks the caller's
+ * permission on each route, so a 403 here means the account's tier is too low —
+ * the UI hides what the signed-in user cannot use, and this is the backstop.
+ */
+export const admin = {
+  stats: () => request('/admin/stats'),
+
+  // Catalog
+  products: (params = {}) => request(`/admin/products${toQuery(params)}`),
+  setAvailability: (id, body) =>
+    request(`/admin/products/${id}/availability`, { method: 'PATCH', body }),
+  updateProduct: (id, body) => request(`/products/${id}`, { method: 'PUT', body }),
+  createProduct: (body) => request('/products', { method: 'POST', body }),
+  archiveProduct: (id) => request(`/products/${id}`, { method: 'DELETE' }),
+
+  // Orders
+  orders: (params = {}) => request(`/admin/orders${toQuery(params)}`),
+  setOrderStatus: (id, body) => request(`/admin/orders/${id}/status`, { method: 'PUT', body }),
+  resendOrderEmail: (orderNumber) =>
+    request(`/admin/orders/${orderNumber}/resend-email`, { method: 'POST' }),
+
+  // Customers
+  customers: (params = {}) => request(`/admin/customers${toQuery(params)}`),
+  customer: (email) => request(`/admin/customers/${encodeURIComponent(email)}`),
+
+  // Enquiries, newsletter, bespoke
+  enquiries: (params = {}) => request(`/contact${toQuery(params)}`),
+  updateEnquiry: (id, body) => request(`/contact/${id}`, { method: 'PUT', body }),
+  subscribers: () => request('/newsletter'),
+  customRequests: (params = {}) => request(`/custom-requests${toQuery(params)}`),
+  updateCustomRequest: (id, body) => request(`/custom-requests/${id}`, { method: 'PUT', body }),
+
+  // Email automation
+  emailLogs: (params = {}) => request(`/admin/emails/logs${toQuery(params)}`),
+  emailStatus: () => request('/admin/emails/status'),
+  sendTestEmail: (to) => request('/admin/emails/test', { method: 'POST', body: { to } }),
+
+  // Settings, maintenance mode, announcement
+  settings: () => request('/admin/settings'),
+  saveSettings: (body) => request('/admin/settings', { method: 'PUT', body }),
+  setMaintenance: (body) => request('/admin/settings/maintenance', { method: 'POST', body }),
+  saveAnnouncement: (body) => request('/admin/settings/announcement', { method: 'PUT', body }),
+
+  // Staff & access tiers (owner only)
+  staff: () => request('/admin/staff'),
+  createStaff: (body) => request('/admin/staff', { method: 'POST', body }),
+  updateStaff: (id, body) => request(`/admin/staff/${id}`, { method: 'PUT', body }),
+
+  // Coupons
+  coupons: () => request('/coupons'),
+  createCoupon: (body) => request('/coupons', { method: 'POST', body }),
+  updateCoupon: (id, body) => request(`/coupons/${id}`, { method: 'PUT', body }),
+  deleteCoupon: (id) => request(`/coupons/${id}`, { method: 'DELETE' }),
+};
+
 export const apiBaseUrl = BASE_URL;

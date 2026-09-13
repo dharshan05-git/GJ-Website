@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { useShop } from '../context/ShopContext';
+import { useParams } from 'react-router-dom';
 import { ProductCard } from '../components/ProductCard';
 import { Heart, Search, ChevronRight, ChevronDown, Gem, Truck, ShieldCheck, RefreshCw } from 'lucide-react';
 
@@ -45,7 +46,9 @@ export const ProductPage = () => {
     products: PRODUCTS,
   } = useShop();
 
-  const product = selectedProduct || PRODUCTS[0];
+  // The URL is the source of truth, so a shared /product/:id link opens the right piece.
+  const { id } = useParams();
+  const product = PRODUCTS.find(p => p.id === id) || selectedProduct || PRODUCTS[0];
   const mainImgRef = React.useRef(null);
 
   const isRingProduct = product.category === 'RINGS';

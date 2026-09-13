@@ -1,10 +1,18 @@
 import React, { useState, useEffect } from 'react';
+import { useParams } from 'react-router-dom';
 import { ProductCard } from '../components/ProductCard';
 import { useShop } from '../context/ShopContext';
 import { SlidersHorizontal, ChevronDown } from 'lucide-react';
 
 export const Shop = () => {
-  const { selectedCategory, setSelectedCategory, products: PRODUCTS, productsLoading } = useShop();
+  const { selectedCategory, setSelectedCategory, products: PRODUCTS, navigateToPage } = useShop();
+  const { category: categoryParam } = useParams();
+
+  // /shop/rings and the category tabs stay in step, so the URL is always shareable.
+  useEffect(() => {
+    const fromUrl = (categoryParam || 'ALL').toUpperCase();
+    if (fromUrl !== selectedCategory) setSelectedCategory(fromUrl);
+  }, [categoryParam]);
   const [genderFilter, setGenderFilter] = useState('ALL');
   const [sortBy, setSortBy] = useState('featured');
   const [sortOpen, setSortOpen] = useState(false);
@@ -91,7 +99,7 @@ export const Shop = () => {
           {MAIN_CATS.map(cat => (
             <button
               key={cat}
-              onClick={() => setSelectedCategory(cat)}
+              onClick={() => navigateToPage('shop', cat)}
               className={mainTabCls(cat)}
               style={{ marginBottom: '-1px' }}
             >
