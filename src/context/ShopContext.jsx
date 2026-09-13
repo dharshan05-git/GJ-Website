@@ -85,7 +85,6 @@ export const ShopProvider = ({ children }) => {
     try {
       const live = await api.getPublicSettings();
       setSettings(live);
-      setMaintenance(live.maintenance?.enabled ? live.maintenance : null);
       return live;
     } catch {
       return null;
@@ -93,14 +92,11 @@ export const ShopProvider = ({ children }) => {
   };
 
   useEffect(() => {
-    refreshSettings().then((live) => {
-      // Skip the catalog call while the store is closed for maintenance.
-      if (live?.maintenance?.enabled) {
-        setProductsLoading(false);
-        return;
-      }
-      refreshProducts();
-    });
+    // The catalog call is what decides whether the store is open: the backend
+    // answers 503 to shoppers during maintenance, but waves staff straight
+    // through — so the rule lives in one place instead of being guessed here.
+    refreshSettings();
+    refreshProducts();
   }, []);
 
   /** Keeps `selectedProduct` pointing at the live copy after a refresh. */
