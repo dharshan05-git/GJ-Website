@@ -91,7 +91,8 @@ const toQuery = (params = {}) => {
  */
 export const getProducts = async (params = {}) => {
   try {
-    const data = await request(`/products${toQuery({ limit: 100, ...params })}`, { auth: false });
+    // The token travels when there is one, so staff keep browsing during maintenance.
+    const data = await request(`/products${toQuery({ limit: 100, ...params })}`);
     return { products: data.products, source: 'api', pagination: data.pagination };
   } catch (error) {
     if (error.maintenance) throw error;
@@ -102,7 +103,7 @@ export const getProducts = async (params = {}) => {
 
 export const getProduct = async (id) => {
   try {
-    return await request(`/products/${id}`, { auth: false });
+    return await request(`/products/${id}`);
   } catch (error) {
     if (error.maintenance) throw error;
     const product = PRODUCTS.find((p) => p.id === id);
