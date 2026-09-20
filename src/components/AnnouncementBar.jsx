@@ -1,0 +1,75 @@
+import React, { useState, useEffect } from 'react';
+import { Sparkles } from 'lucide-react';
+import { useShop } from '../context/ShopContext';
+
+const ANNOUNCEMENTS = [
+  {
+    text: 'EXTRA DISCOUNT AT CHECKOUT • USE CODE: LUXE10',
+    page: 'shop',
+  },
+  {
+    text: 'DELIVERY IN 5 TO 7 DAYS • FREE INSURED SHIPPING',
+    page: 'delivery',
+  },
+  {
+    text: '100% CERTIFIED 925 STERLING SILVER JEWELLERY',
+    page: 'about',
+  },
+];
+
+export const AnnouncementBar = () => {
+  const { navigateToPage, settings } = useShop();
+  const [currentIndex, setCurrentIndex] = useState(0);
+  const [isAnimating, setIsAnimating] = useState(false);
+
+  // An announcement written in the admin panel replaces the rotating defaults,
+  // so offers and launches go live without a code change.
+  const adminAnnouncement = settings?.announcement;
+  const messages = adminAnnouncement?.enabled && adminAnnouncement.text
+    ? [{ text: adminAnnouncement.text, page: null, link: adminAnnouncement.link }]
+    : ANNOUNCEMENTS;
+
+  useEffect(() => {
+    setCurrentIndex(0);
+    if (messages.length < 2) return undefined;
+
+    const interval = setInterval(() => {
+      setIsAnimating(true);
+      setTimeout(() => {
+        setCurrentIndex((prev) => (prev + 1) % messages.length);
+        setIsAnimating(false);
+      }, 400);
+    }, 3200);
+
+    return () => clearInterval(interval);
+  }, [messages.length]);
+
+  const current = messages[currentIndex] || messages[0];
+
+  const handleClick = () => {
+    if (current.link) window.open(current.link, '_blank', 'noopener');
+    else if (current.page) navigateToPage(current.page);
+  };
+
+  return (
+    <div
+      onClick={handleClick}
+      className="bg-[#EDE7DE] hover:bg-[#E5DCD1] cursor-pointer text-[#7B3F42] text-[9.5px] sm:text-[11px] py-2 px-2 sm:px-4 text-center font-bold tracking-[0.05em] sm:tracking-[0.14em] uppercase flex items-center justify-center gap-1.5 sm:gap-2.5 border-b border-[#D8CFC3] overflow-hidden relative min-h-[32px] sm:h-[36px] transition-colors select-none"
+      title="Click to view details"
+    >
+      <Sparkles size={11} className="animate-pulse text-[#C6A46A] shrink-0" />
+      <div className="relative overflow-hidden h-[16px] sm:h-[18px] flex items-center justify-center text-center px-1">
+        <span
+          className="inline-block transition-all duration-400 ease-in-out text-center whitespace-nowrap"
+          style={{
+            transform: isAnimating ? 'translateY(-100%)' : 'translateY(0)',
+            opacity: isAnimating ? 0 : 1,
+          }}
+        >
+          {current.text}
+        </span>
+      </div>
+      <Sparkles size={11} className="animate-pulse text-[#C6A46A] shrink-0" />
+    </div>
+  );
+};
