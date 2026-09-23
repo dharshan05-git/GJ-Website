@@ -208,7 +208,7 @@ export const Shop = () => {
                   SOLITAIRE &amp; DIAMOND STUDS
                 </h2>
               </div>
-              {renderProductGrid(PRODUCTS.filter(p => p.category === 'STUDS' || p.subCategory === 'UNISEX STUDS' || p.name.toLowerCase().includes('stud')))}
+              {renderProductGrid(PRODUCTS.filter(p => p.category === 'STUDS'))}
             </div>
           </div>
         )}

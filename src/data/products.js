@@ -1,1434 +1,2226 @@
-// GEVARIYA JEWELS - Full 57-Product Master Catalog
+// GEVARIYA JEWELS - Full 56-Product Master Catalog
+// Auto-generated from official product catalog & assets
 
 export const PRODUCTS = [
-  // ==========================================
-  // 1. PENDANTS / NECKLACES (10 PRODUCTS)
-  // ==========================================
   {
-    id: "classic-solitaire-pendant",
-    name: "Classic Solitaire Pendant",
-    category: "NECKLACES",
-    gender: "WOMEN",
-    subCategory: "PENDANTS",
-    price: 1450,
-    originalPrice: 1900,
-    rating: 4.8,
-    reviewsCount: 29,
-    badge: "HOT",
-    isBestSeller: false,
-    isNew: false,
-    images: [
-      "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?auto=format&fit=crop&w=900&q=80",
-      "https://images.unsplash.com/photo-1611591475281-b1e96497f51e?auto=format&fit=crop&w=900&q=80",
+    "id": "blue-stone-set",
+    "name": "Blue Stone Set",
+    "category": "SETS",
+    "gender": "WOMEN",
+    "subCategory": "BRIDAL & OCCASION SETS",
+    "price": 4499,
+    "originalPrice": 5949,
+    "rating": 4.7,
+    "reviewsCount": 19,
+    "badge": "BESTSELLER",
+    "isBestSeller": true,
+    "isNew": false,
+    "images": [
+      "/products/blue-stone-set/image-1.webp",
+      "/products/blue-stone-set/image-2.webp",
+      "/products/blue-stone-set/image-3.webp",
+      "/products/blue-stone-set/image-4.webp"
     ],
-    image: "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?auto=format&fit=crop&w=900&q=80",
-    hoverImage: "https://images.unsplash.com/photo-1611591475281-b1e96497f51e?auto=format&fit=crop&w=900&q=80",
-    description: "An iconic round pendant with a halo cluster of sparkling accents on a delicate 18k solid gold cable chain.",
-    metals: ["18K Yellow Gold", "18K Rose Gold", "18K White Gold"],
-    sizes: ["16-18 Inch Adjustable"],
-    details: ["Chain Length: 18 Inches with 2-inch extender", "Spring Ring Clasp", "Pendant Diameter: 10mm", "Includes Certificate of Authenticity"]
-  },
-  {
-    id: "halo-diamond-necklace",
-    name: "Halo Diamond Pendant",
-    category: "NECKLACES",
-    gender: "WOMEN",
-    subCategory: "PENDANTS",
-    price: 1950,
-    originalPrice: 2500,
-    rating: 4.9,
-    reviewsCount: 61,
-    badge: "HOT",
-    isBestSeller: true,
-    isNew: false,
-    images: [
-      "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?auto=format&fit=crop&w=900&q=80",
-      "https://images.unsplash.com/photo-1603561591411-07134e71a2a9?auto=format&fit=crop&w=900&q=80",
+    "image": "/products/blue-stone-set/image-1.webp",
+    "hoverImage": "/products/blue-stone-set/image-2.webp",
+    "description": "Blue Stone Set \u2013 an elegant jewelry set crafted in blue stone, finished with a polished, statement-ready look. Handcrafted to perfection with signature Gevariya Jewels fine jewelry detailing.",
+    "metals": [
+      "18K Rose Gold",
+      "18K Yellow Gold",
+      "18K White Gold"
     ],
-    image: "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?auto=format&fit=crop&w=900&q=80",
-    hoverImage: "https://images.unsplash.com/photo-1603561591411-07134e71a2a9?auto=format&fit=crop&w=900&q=80",
-    description: "A center solitaire framed by an ethereal double halo array of brilliant micro-pave diamonds.",
-    metals: ["18K Yellow Gold", "18K White Gold"],
-    sizes: ["16-18 Inch Adjustable"],
-    details: ["Center Stone: 0.50 Carats", "Halo Stones: 0.25 Carats Total", "Lobster Claw Clasp"]
-  },
-  {
-    id: "celestial-rose-pendant",
-    name: "Celestial Rose Pendant",
-    category: "NECKLACES",
-    gender: "WOMEN",
-    subCategory: "PENDANTS",
-    price: 1680,
-    originalPrice: 2100,
-    rating: 4.7,
-    reviewsCount: 34,
-    badge: "NEW",
-    isBestSeller: false,
-    isNew: true,
-    images: [
-      "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?auto=format&fit=crop&w=900&q=80",
-      "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?auto=format&fit=crop&w=900&q=80",
+    "sizes": [
+      "Standard Set (Adjustable Chain & Ring Free Size)"
     ],
-    image: "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?auto=format&fit=crop&w=900&q=80",
-    hoverImage: "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?auto=format&fit=crop&w=900&q=80",
-    description: "Rose gold pendant featuring a delicate celestial star motif inset with pave diamonds.",
-    metals: ["18K Rose Gold", "18K Yellow Gold"],
-    sizes: ["16-18 Inch Adjustable"],
-    details: ["18K Solid Rose Gold", "Pave Diamond Weight: 0.35ct", "Hypoallergenic Finish"]
-  },
-  {
-    id: "royal-imperial-choker-pendant",
-    name: "Royal Imperial Choker Pendant",
-    category: "NECKLACES",
-    gender: "WOMEN",
-    subCategory: "PENDANTS",
-    price: 3200,
-    originalPrice: 3900,
-    rating: 5.0,
-    reviewsCount: 48,
-    badge: "LUXURY",
-    isBestSeller: true,
-    isNew: false,
-    images: [
-      "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?auto=format&fit=crop&w=900&q=80",
-      "https://images.unsplash.com/photo-1611591475281-b1e96497f51e?auto=format&fit=crop&w=900&q=80",
-    ],
-    image: "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?auto=format&fit=crop&w=900&q=80",
-    hoverImage: "https://images.unsplash.com/photo-1611591475281-b1e96497f51e?auto=format&fit=crop&w=900&q=80",
-    description: "Ornate heritage style pendant with cascading pearl drop and uncut polki diamond setting.",
-    metals: ["18K Yellow Gold", "18K Rose Gold"],
-    sizes: ["Standard Choker"],
-    details: ["Hand-selected South Sea Pearl", "Uncut Certified Polki Diamonds", "Custom Velvet Box"]
-  },
-  {
-    id: "diamond-teardrop-pendant",
-    name: "Diamond Teardrop Pendant",
-    category: "NECKLACES",
-    gender: "WOMEN",
-    subCategory: "PENDANTS",
-    price: 1850,
-    originalPrice: 2300,
-    rating: 4.8,
-    reviewsCount: 22,
-    badge: "ELEGANT",
-    isBestSeller: false,
-    isNew: true,
-    images: [
-      "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?auto=format&fit=crop&w=900&q=80",
-      "https://images.unsplash.com/photo-1603561591411-07134e71a2a9?auto=format&fit=crop&w=900&q=80",
-    ],
-    image: "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?auto=format&fit=crop&w=900&q=80",
-    hoverImage: "https://images.unsplash.com/photo-1603561591411-07134e71a2a9?auto=format&fit=crop&w=900&q=80",
-    description: "Fluid teardrop silhouette suspended with a brilliant pear-cut center diamond.",
-    metals: ["18K White Gold", "18K Yellow Gold"],
-    sizes: ["16-18 Inch Adjustable"],
-    details: ["Pear Cut Diamond: 0.60ct", "Micro Pave Frame", "Conflict-Free Certified"]
-  },
-  {
-    id: "emerald-cut-solitaire-pendant",
-    name: "Emerald Cut Solitaire Pendant",
-    category: "NECKLACES",
-    gender: "WOMEN",
-    subCategory: "PENDANTS",
-    price: 2100,
-    originalPrice: 2700,
-    rating: 4.9,
-    reviewsCount: 39,
-    badge: "SIGNATURE",
-    isBestSeller: true,
-    isNew: false,
-    images: [
-      "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?auto=format&fit=crop&w=900&q=80",
-      "https://images.unsplash.com/photo-1605100804763-247f67b3557e?auto=format&fit=crop&w=900&q=80",
-    ],
-    image: "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?auto=format&fit=crop&w=900&q=80",
-    hoverImage: "https://images.unsplash.com/photo-1605100804763-247f67b3557e?auto=format&fit=crop&w=900&q=80",
-    description: "Sleek architectural emerald-cut diamond mounted in a minimal 4-prong solid gold setting.",
-    metals: ["18K Yellow Gold", "18K White Gold", "18K Rose Gold"],
-    sizes: ["18 Inch Chain"],
-    details: ["Emerald Cut Diamond: 0.75ct", "VVS1 Clarity", "Hallmarked Solid 18K Gold"]
-  },
-  {
-    id: "floral-blossom-pendant",
-    name: "Floral Blossom Diamond Pendant",
-    category: "NECKLACES",
-    gender: "WOMEN",
-    subCategory: "PENDANTS",
-    price: 1550,
-    originalPrice: 1950,
-    rating: 4.7,
-    reviewsCount: 19,
-    badge: "POPULAR",
-    isBestSeller: false,
-    isNew: false,
-    images: [
-      "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?auto=format&fit=crop&w=900&q=80",
-      "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?auto=format&fit=crop&w=900&q=80",
-    ],
-    image: "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?auto=format&fit=crop&w=900&q=80",
-    hoverImage: "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?auto=format&fit=crop&w=900&q=80",
-    description: "Petal arrangement of 7 round diamonds forming a blooming floral pendant necklace.",
-    metals: ["18K Yellow Gold", "18K Rose Gold"],
-    sizes: ["16-18 Inch Adjustable"],
-    details: ["7 Diamond Cluster", "Total Carat Weight: 0.45ct", "Delicate Cable Chain"]
-  },
-  {
-    id: "vintage-filigree-pendant",
-    name: "Vintage Filigree Diamond Pendant",
-    category: "NECKLACES",
-    gender: "WOMEN",
-    subCategory: "PENDANTS",
-    price: 2400,
-    originalPrice: 2950,
-    rating: 4.9,
-    reviewsCount: 41,
-    badge: "HERITAGE",
-    isBestSeller: true,
-    isNew: false,
-    images: [
-      "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?auto=format&fit=crop&w=900&q=80",
-      "https://images.unsplash.com/photo-1611591475281-b1e96497f51e?auto=format&fit=crop&w=900&q=80",
-    ],
-    image: "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?auto=format&fit=crop&w=900&q=80",
-    hoverImage: "https://images.unsplash.com/photo-1611591475281-b1e96497f51e?auto=format&fit=crop&w=900&q=80",
-    description: "Hand-engraved filigree lattice work adorned with central solitaire diamond and milgrain edging.",
-    metals: ["18K Yellow Gold", "18K White Gold"],
-    sizes: ["18 Inch Chain"],
-    details: ["Artisan Filigree Detailing", "Milgrain Edges", "0.65ct Diamond Equivalent"]
-  },
-  {
-    id: "pear-cut-solitaire-pendant",
-    name: "Pear Cut Solitaire Pendant",
-    category: "NECKLACES",
-    gender: "WOMEN",
-    subCategory: "PENDANTS",
-    price: 1790,
-    originalPrice: 2200,
-    rating: 4.8,
-    reviewsCount: 27,
-    badge: "NEW",
-    isBestSeller: false,
-    isNew: true,
-    images: [
-      "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?auto=format&fit=crop&w=900&q=80",
-      "https://images.unsplash.com/photo-1603561591411-07134e71a2a9?auto=format&fit=crop&w=900&q=80",
-    ],
-    image: "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?auto=format&fit=crop&w=900&q=80",
-    hoverImage: "https://images.unsplash.com/photo-1603561591411-07134e71a2a9?auto=format&fit=crop&w=900&q=80",
-    description: "Graceful teardrop pear solitaire hanging vertically on a invisible bail.",
-    metals: ["18K Rose Gold", "18K White Gold", "18K Yellow Gold"],
-    sizes: ["16-18 Inch Adjustable"],
-    details: ["Pear Diamond 0.55ct", "Invisible Floating Bail", "High Gloss Polish"]
-  },
-  {
-    id: "majestic-ruby-diamond-pendant",
-    name: "Majestic Ruby & Diamond Pendant",
-    category: "NECKLACES",
-    gender: "WOMEN",
-    subCategory: "PENDANTS",
-    price: 2850,
-    originalPrice: 3500,
-    rating: 5.0,
-    reviewsCount: 53,
-    badge: "ROYAL",
-    isBestSeller: true,
-    isNew: false,
-    images: [
-      "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?auto=format&fit=crop&w=900&q=80",
-      "https://images.unsplash.com/photo-1573408301185-9146fe634ad0?auto=format&fit=crop&w=900&q=80",
-    ],
-    image: "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?auto=format&fit=crop&w=900&q=80",
-    hoverImage: "https://images.unsplash.com/photo-1573408301185-9146fe634ad0?auto=format&fit=crop&w=900&q=80",
-    description: "Vibrant oval Pigeon-Blood Ruby center encircled by two rows of brilliant diamonds.",
-    metals: ["18K Yellow Gold", "18K White Gold"],
-    sizes: ["18 Inch Chain"],
-    details: ["Natural Certified Ruby 1.1ct", "Double Diamond Halo", "Certificate of Origin Included"]
-  },
-
-  // ==========================================
-  // 2. RINGS (20 PRODUCTS: 10 MEN, 10 WOMEN)
-  // ==========================================
-
-  // --- MEN'S RINGS (10) ---
-  {
-    id: "mens-titanium-diamond-band",
-    name: "Men's Titanium Diamond Band",
-    category: "RINGS",
-    gender: "MEN",
-    subCategory: "MEN'S RINGS",
-    price: 1950,
-    originalPrice: 2400,
-    rating: 4.9,
-    reviewsCount: 31,
-    badge: "BESTSELLER",
-    isBestSeller: true,
-    isNew: false,
-    images: [
-      "https://images.unsplash.com/photo-1605100804763-247f67b3557e?auto=format&fit=crop&w=900&q=80",
-      "https://images.unsplash.com/photo-1603561591411-07134e71a2a9?auto=format&fit=crop&w=900&q=80",
-    ],
-    image: "https://images.unsplash.com/photo-1605100804763-247f67b3557e?auto=format&fit=crop&w=900&q=80",
-    hoverImage: "https://images.unsplash.com/photo-1603561591411-07134e71a2a9?auto=format&fit=crop&w=900&q=80",
-    description: "Sleek 6mm masculine band featuring a flush-set solitaire diamond with brushed finish.",
-    metals: ["18K Yellow Gold", "18K White Gold"],
-    sizes: [8, 9, 10, 11, 12],
-    details: ["Band Width: 6mm", "Comfort-Fit Rounded Edge", "Flush Set Solitaire Diamond"]
-  },
-  {
-    id: "mens-signet-solitaire-ring",
-    name: "Men's Signet Solitaire Ring",
-    category: "RINGS",
-    gender: "MEN",
-    subCategory: "MEN'S RINGS",
-    price: 2600,
-    originalPrice: 3200,
-    rating: 4.8,
-    reviewsCount: 26,
-    badge: "LUXURY",
-    isBestSeller: false,
-    isNew: true,
-    images: [
-      "https://images.unsplash.com/photo-1605100804763-247f67b3557e?auto=format&fit=crop&w=900&q=80",
-      "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?auto=format&fit=crop&w=900&q=80",
-    ],
-    image: "https://images.unsplash.com/photo-1605100804763-247f67b3557e?auto=format&fit=crop&w=900&q=80",
-    hoverImage: "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?auto=format&fit=crop&w=900&q=80",
-    description: "Bold classic square signet ring topped with a brilliant round solitaire diamond.",
-    metals: ["18K Yellow Gold", "18K Rose Gold"],
-    sizes: [8, 9, 10, 11, 12],
-    details: ["Solid 18K Gold Weight: 14.2g", "Square Signet Crest", "High Polish Gold"]
-  },
-  {
-    id: "mens-channel-set-gold-band",
-    name: "Men's Channel Set Gold Band",
-    category: "RINGS",
-    gender: "MEN",
-    subCategory: "MEN'S RINGS",
-    price: 2150,
-    originalPrice: 2700,
-    rating: 4.9,
-    reviewsCount: 42,
-    badge: "HOT",
-    isBestSeller: true,
-    isNew: false,
-    images: [
-      "https://images.unsplash.com/photo-1605100804763-247f67b3557e?auto=format&fit=crop&w=900&q=80",
-      "https://images.unsplash.com/photo-1603561591411-07134e71a2a9?auto=format&fit=crop&w=900&q=80",
-    ],
-    image: "https://images.unsplash.com/photo-1605100804763-247f67b3557e?auto=format&fit=crop&w=900&q=80",
-    hoverImage: "https://images.unsplash.com/photo-1603561591411-07134e71a2a9?auto=format&fit=crop&w=900&q=80",
-    description: "Five channel-set princess cut diamonds inlaid along a polished 18k solid gold band.",
-    metals: ["18K Yellow Gold", "18K White Gold"],
-    sizes: [8, 9, 10, 11, 12],
-    details: ["5 Princess Cut Diamonds", "Channel Setting Protection", "Width: 6.5mm"]
-  },
-  {
-    id: "mens-brushed-platinum-band",
-    name: "Men's Brushed Platinum Ring",
-    category: "RINGS",
-    gender: "MEN",
-    subCategory: "MEN'S RINGS",
-    price: 1850,
-    originalPrice: 2300,
-    rating: 4.7,
-    reviewsCount: 18,
-    badge: "NEW",
-    isBestSeller: false,
-    isNew: true,
-    images: [
-      "https://images.unsplash.com/photo-1605100804763-247f67b3557e?auto=format&fit=crop&w=900&q=80",
-      "https://images.unsplash.com/photo-1603561591411-07134e71a2a9?auto=format&fit=crop&w=900&q=80",
-    ],
-    image: "https://images.unsplash.com/photo-1605100804763-247f67b3557e?auto=format&fit=crop&w=900&q=80",
-    hoverImage: "https://images.unsplash.com/photo-1603561591411-07134e71a2a9?auto=format&fit=crop&w=900&q=80",
-    description: "Modern matte satin brushed finish ring with dual polished outer grooves.",
-    metals: ["18K White Gold", "18K Yellow Gold"],
-    sizes: [8, 9, 10, 11, 12],
-    details: ["Satin Finish Center", "Beveled Polished Borders", "Scratch-Resistant Coat"]
-  },
-  {
-    id: "mens-royal-crown-signet-ring",
-    name: "Men's Royal Crown Signet",
-    category: "RINGS",
-    gender: "MEN",
-    subCategory: "MEN'S RINGS",
-    price: 2900,
-    originalPrice: 3600,
-    rating: 5.0,
-    reviewsCount: 50,
-    badge: "HERITAGE",
-    isBestSeller: true,
-    isNew: false,
-    images: [
-      "https://images.unsplash.com/photo-1605100804763-247f67b3557e?auto=format&fit=crop&w=900&q=80",
-      "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?auto=format&fit=crop&w=900&q=80",
-    ],
-    image: "https://images.unsplash.com/photo-1605100804763-247f67b3557e?auto=format&fit=crop&w=900&q=80",
-    hoverImage: "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?auto=format&fit=crop&w=900&q=80",
-    description: "Master artisan engraved crown crest signet ring studded with micro pave diamonds.",
-    metals: ["18K Yellow Gold", "18K Rose Gold"],
-    sizes: [9, 10, 11, 12],
-    details: ["Art Artisan Crown Crest", "Pave Diamond Accents", "15.8g Solid Gold"]
-  },
-  {
-    id: "mens-black-diamond-band",
-    name: "Men's Black Diamond Band",
-    category: "RINGS",
-    gender: "MEN",
-    subCategory: "MEN'S RINGS",
-    price: 2200,
-    originalPrice: 2800,
-    rating: 4.8,
-    reviewsCount: 33,
-    badge: "EDGE",
-    isBestSeller: false,
-    isNew: true,
-    images: [
-      "https://images.unsplash.com/photo-1605100804763-247f67b3557e?auto=format&fit=crop&w=900&q=80",
-      "https://images.unsplash.com/photo-1603561591411-07134e71a2a9?auto=format&fit=crop&w=900&q=80",
-    ],
-    image: "https://images.unsplash.com/photo-1605100804763-247f67b3557e?auto=format&fit=crop&w=900&q=80",
-    hoverImage: "https://images.unsplash.com/photo-1603561591411-07134e71a2a9?auto=format&fit=crop&w=900&q=80",
-    description: "Mystic black pave diamonds set around a dark rhodium plated 18k solid gold band.",
-    metals: ["18K White Gold", "18K Yellow Gold"],
-    sizes: [8, 9, 10, 11, 12],
-    details: ["Natural Treated Black Diamonds", "Continuous Eternity Eternity Pave", "Width: 7mm"]
-  },
-  {
-    id: "mens-grooved-gold-ring",
-    name: "Men's Grooved Gold Ring",
-    category: "RINGS",
-    gender: "MEN",
-    subCategory: "MEN'S RINGS",
-    price: 1750,
-    originalPrice: 2150,
-    rating: 4.7,
-    reviewsCount: 21,
-    badge: "POPULAR",
-    isBestSeller: false,
-    isNew: false,
-    images: [
-      "https://images.unsplash.com/photo-1605100804763-247f67b3557e?auto=format&fit=crop&w=900&q=80",
-      "https://images.unsplash.com/photo-1603561591411-07134e71a2a9?auto=format&fit=crop&w=900&q=80",
-    ],
-    image: "https://images.unsplash.com/photo-1605100804763-247f67b3557e?auto=format&fit=crop&w=900&q=80",
-    hoverImage: "https://images.unsplash.com/photo-1603561591411-07134e71a2a9?auto=format&fit=crop&w=900&q=80",
-    description: "Triple precision CNC grooved band with smooth comfort fit internal lining.",
-    metals: ["18K Yellow Gold", "18K Rose Gold"],
-    sizes: [8, 9, 10, 11, 12],
-    details: ["Triple Center Grooves", "Comfort-Fit Interior", "100% Solid Gold"]
-  },
-  {
-    id: "mens-beveled-edge-solitaire-band",
-    name: "Men's Beveled Edge Solitaire",
-    category: "RINGS",
-    gender: "MEN",
-    subCategory: "MEN'S RINGS",
-    price: 2350,
-    originalPrice: 2900,
-    rating: 4.9,
-    reviewsCount: 37,
-    badge: "SIGNATURE",
-    isBestSeller: true,
-    isNew: false,
-    images: [
-      "https://images.unsplash.com/photo-1605100804763-247f67b3557e?auto=format&fit=crop&w=900&q=80",
-      "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?auto=format&fit=crop&w=900&q=80",
-    ],
-    image: "https://images.unsplash.com/photo-1605100804763-247f67b3557e?auto=format&fit=crop&w=900&q=80",
-    hoverImage: "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?auto=format&fit=crop&w=900&q=80",
-    description: "Beveled mirror-finished edges flanking a central matte band with emerald-cut diamond.",
-    metals: ["18K Yellow Gold", "18K White Gold"],
-    sizes: [8, 9, 10, 11, 12],
-    details: ["Emerald Cut Diamond 0.35ct", "Beveled Polished Angles", "Width: 6mm"]
-  },
-  {
-    id: "mens-vintage-heraldic-ring",
-    name: "Men's Vintage Heraldic Ring",
-    category: "RINGS",
-    gender: "MEN",
-    subCategory: "MEN'S RINGS",
-    price: 2750,
-    originalPrice: 3400,
-    rating: 4.9,
-    reviewsCount: 29,
-    badge: "VINTAGE",
-    isBestSeller: false,
-    isNew: true,
-    images: [
-      "https://images.unsplash.com/photo-1605100804763-247f67b3557e?auto=format&fit=crop&w=900&q=80",
-      "https://images.unsplash.com/photo-1603561591411-07134e71a2a9?auto=format&fit=crop&w=900&q=80",
-    ],
-    image: "https://images.unsplash.com/photo-1605100804763-247f67b3557e?auto=format&fit=crop&w=900&q=80",
-    hoverImage: "https://images.unsplash.com/photo-1603561591411-07134e71a2a9?auto=format&fit=crop&w=900&q=80",
-    description: "Vintage European crest inspired ring with hand engraved side filigree and center diamond.",
-    metals: ["18K Yellow Gold", "18K Rose Gold"],
-    sizes: [9, 10, 11, 12],
-    details: ["Engraved Side Scrolls", "Center Diamond 0.40ct", "Heirloom Grade Craftsmanship"]
-  },
-  {
-    id: "mens-diamond-accent-band",
-    name: "Men's Diamond Accent Band",
-    category: "RINGS",
-    gender: "MEN",
-    subCategory: "MEN'S RINGS",
-    price: 1690,
-    originalPrice: 2100,
-    rating: 4.8,
-    reviewsCount: 24,
-    badge: "CLASSIC",
-    isBestSeller: false,
-    isNew: false,
-    images: [
-      "https://images.unsplash.com/photo-1605100804763-247f67b3557e?auto=format&fit=crop&w=900&q=80",
-      "https://images.unsplash.com/photo-1603561591411-07134e71a2a9?auto=format&fit=crop&w=900&q=80",
-    ],
-    image: "https://images.unsplash.com/photo-1605100804763-247f67b3557e?auto=format&fit=crop&w=900&q=80",
-    hoverImage: "https://images.unsplash.com/photo-1603561591411-07134e71a2a9?auto=format&fit=crop&w=900&q=80",
-    description: "Subtle 3-diamond diagonal inset line on a polished comfort fit gold band.",
-    metals: ["18K Yellow Gold", "18K White Gold"],
-    sizes: [8, 9, 10, 11, 12],
-    details: ["3 Diagonal Set Diamonds", "Width: 5.5mm", "Solid Hallmarked Gold"]
-  },
-
-  // --- WOMEN'S RINGS (10) ---
-  {
-    id: "luna-solitaire-ring",
-    name: "Luna Solitaire Ring",
-    category: "RINGS",
-    gender: "WOMEN",
-    subCategory: "WOMEN'S RINGS",
-    price: 1850,
-    originalPrice: 2400,
-    rating: 4.9,
-    reviewsCount: 38,
-    badge: "NEW",
-    isBestSeller: true,
-    isNew: true,
-    images: [
-      "https://images.unsplash.com/photo-1605100804763-247f67b3557e?auto=format&fit=crop&w=900&q=80",
-      "https://images.unsplash.com/photo-1603561591411-07134e71a2a9?auto=format&fit=crop&w=900&q=80",
-    ],
-    image: "https://images.unsplash.com/photo-1605100804763-247f67b3557e?auto=format&fit=crop&w=900&q=80",
-    hoverImage: "https://images.unsplash.com/photo-1603561591411-07134e71a2a9?auto=format&fit=crop&w=900&q=80",
-    description: "A timeless solitaire ring featuring a brilliant cut diamond set in 18k gold band.",
-    metals: ["18K Yellow Gold", "18K White Gold", "18K Rose Gold"],
-    sizes: [6, 7, 8, 9, 10],
-    details: ["Certified Conflict-Free Diamond", "Band Width: 1.8mm", "Carat Weight: 0.75ct"]
-  },
-  {
-    id: "oval-diamond-ring",
-    name: "Oval Diamond Ring",
-    category: "RINGS",
-    gender: "WOMEN",
-    subCategory: "WOMEN'S RINGS",
-    price: 2150,
-    originalPrice: 2700,
-    rating: 4.9,
-    reviewsCount: 47,
-    badge: "NEW",
-    isBestSeller: true,
-    isNew: true,
-    images: [
-      "https://images.unsplash.com/photo-1603561591411-07134e71a2a9?auto=format&fit=crop&w=900&q=80",
-      "https://images.unsplash.com/photo-1605100804763-247f67b3557e?auto=format&fit=crop&w=900&q=80",
-    ],
-    image: "https://images.unsplash.com/photo-1603561591411-07134e71a2a9?auto=format&fit=crop&w=900&q=80",
-    hoverImage: "https://images.unsplash.com/photo-1605100804763-247f67b3557e?auto=format&fit=crop&w=900&q=80",
-    description: "An elegant oval-cut centerpiece ring mounted on a slender cathedral setting.",
-    metals: ["18K Yellow Gold", "18K White Gold", "18K Rose Gold"],
-    sizes: [6, 7, 8, 9, 10],
-    details: ["Center Oval Cut: 8x6mm", "Conflict-Free Certified", "Comfort-Fit Interior"]
-  },
-  {
-    id: "emerald-cut-diamond-ring",
-    name: "Emerald Cut Diamond Ring",
-    category: "RINGS",
-    gender: "WOMEN",
-    subCategory: "WOMEN'S RINGS",
-    price: 2450,
-    originalPrice: 3100,
-    rating: 5.0,
-    reviewsCount: 52,
-    badge: "LUXURY",
-    isBestSeller: true,
-    isNew: false,
-    images: [
-      "https://images.unsplash.com/photo-1605100804763-247f67b3557e?auto=format&fit=crop&w=900&q=80",
-      "https://images.unsplash.com/photo-1603561591411-07134e71a2a9?auto=format&fit=crop&w=900&q=80",
-    ],
-    image: "https://images.unsplash.com/photo-1605100804763-247f67b3557e?auto=format&fit=crop&w=900&q=80",
-    hoverImage: "https://images.unsplash.com/photo-1603561591411-07134e71a2a9?auto=format&fit=crop&w=900&q=80",
-    description: "Refined step-cut emerald diamond flanked by tapered baguette side stones.",
-    metals: ["18K White Gold", "18K Yellow Gold"],
-    sizes: [5, 6, 7, 8, 9],
-    details: ["1.0ct Emerald Center", "Tapered Baguette Side Stones", "Platinum/Gold Setting"]
-  },
-  {
-    id: "princess-cut-solitaire-ring",
-    name: "Princess Cut Solitaire Ring",
-    category: "RINGS",
-    gender: "WOMEN",
-    subCategory: "WOMEN'S RINGS",
-    price: 1980,
-    originalPrice: 2500,
-    rating: 4.8,
-    reviewsCount: 30,
-    badge: "POPULAR",
-    isBestSeller: false,
-    isNew: false,
-    images: [
-      "https://images.unsplash.com/photo-1603561591411-07134e71a2a9?auto=format&fit=crop&w=900&q=80",
-      "https://images.unsplash.com/photo-1605100804763-247f67b3557e?auto=format&fit=crop&w=900&q=80",
-    ],
-    image: "https://images.unsplash.com/photo-1603561591411-07134e71a2a9?auto=format&fit=crop&w=900&q=80",
-    hoverImage: "https://images.unsplash.com/photo-1605100804763-247f67b3557e?auto=format&fit=crop&w=900&q=80",
-    description: "Crisp geometric princess cut diamond held securely in a v-prong crown band.",
-    metals: ["18K Yellow Gold", "18K Rose Gold", "18K White Gold"],
-    sizes: [6, 7, 8, 9],
-    details: ["0.80ct Princess Cut Diamond", "V-Prong Corner Protection", "Slim Knife-Edge Band"]
-  },
-  {
-    id: "vintage-halo-diamond-ring",
-    name: "Vintage Halo Diamond Ring",
-    category: "RINGS",
-    gender: "WOMEN",
-    subCategory: "WOMEN'S RINGS",
-    price: 2280,
-    originalPrice: 2850,
-    rating: 4.9,
-    reviewsCount: 44,
-    badge: "HERITAGE",
-    isBestSeller: true,
-    isNew: false,
-    images: [
-      "https://images.unsplash.com/photo-1605100804763-247f67b3557e?auto=format&fit=crop&w=900&q=80",
-      "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?auto=format&fit=crop&w=900&q=80",
-    ],
-    image: "https://images.unsplash.com/photo-1605100804763-247f67b3557e?auto=format&fit=crop&w=900&q=80",
-    hoverImage: "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?auto=format&fit=crop&w=900&q=80",
-    description: "Intricate vintage halo adorned with hand-carved milgrain and pave side band.",
-    metals: ["18K Yellow Gold", "18K White Gold"],
-    sizes: [6, 7, 8, 9],
-    details: ["Double Cushion Halo", "Micro-Pave Shank", "Artisan Engraved Details"]
-  },
-  {
-    id: "marquise-diamond-eternity-ring",
-    name: "Marquise Diamond Eternity Ring",
-    category: "RINGS",
-    gender: "WOMEN",
-    subCategory: "WOMEN'S RINGS",
-    price: 2700,
-    originalPrice: 3300,
-    rating: 4.9,
-    reviewsCount: 36,
-    badge: "ETERNITY",
-    isBestSeller: false,
-    isNew: true,
-    images: [
-      "https://images.unsplash.com/photo-1603561591411-07134e71a2a9?auto=format&fit=crop&w=900&q=80",
-      "https://images.unsplash.com/photo-1605100804763-247f67b3557e?auto=format&fit=crop&w=900&q=80",
-    ],
-    image: "https://images.unsplash.com/photo-1603561591411-07134e71a2a9?auto=format&fit=crop&w=900&q=80",
-    hoverImage: "https://images.unsplash.com/photo-1605100804763-247f67b3557e?auto=format&fit=crop&w=900&q=80",
-    description: "Continuous circle of east-west set marquise cut diamonds wrapped in 18k gold.",
-    metals: ["18K Yellow Gold", "18K Rose Gold", "18K White Gold"],
-    sizes: [6, 7, 8, 9],
-    details: ["Full Eternity Band", "Total Carat Weight: 1.85ct", "Smooth Flush Prongs"]
-  },
-  {
-    id: "pear-shaped-solitaire-ring",
-    name: "Pear Shaped Solitaire Ring",
-    category: "RINGS",
-    gender: "WOMEN",
-    subCategory: "WOMEN'S RINGS",
-    price: 1890,
-    originalPrice: 2350,
-    rating: 4.8,
-    reviewsCount: 25,
-    badge: "NEW",
-    isBestSeller: false,
-    isNew: true,
-    images: [
-      "https://images.unsplash.com/photo-1605100804763-247f67b3557e?auto=format&fit=crop&w=900&q=80",
-      "https://images.unsplash.com/photo-1603561591411-07134e71a2a9?auto=format&fit=crop&w=900&q=80",
-    ],
-    image: "https://images.unsplash.com/photo-1605100804763-247f67b3557e?auto=format&fit=crop&w=900&q=80",
-    hoverImage: "https://images.unsplash.com/photo-1603561591411-07134e71a2a9?auto=format&fit=crop&w=900&q=80",
-    description: "Elongating pear solitaire set on a delicate micro pave band.",
-    metals: ["18K Rose Gold", "18K Yellow Gold", "18K White Gold"],
-    sizes: [6, 7, 8, 9],
-    details: ["Pear Center: 0.70ct", "Hidden Halo Accents", "Thin 1.6mm Band"]
-  },
-  {
-    id: "rose-gold-floral-ring",
-    name: "Rose Gold Floral Diamond Ring",
-    category: "RINGS",
-    gender: "WOMEN",
-    subCategory: "WOMEN'S RINGS",
-    price: 1650,
-    originalPrice: 2050,
-    rating: 4.7,
-    reviewsCount: 20,
-    badge: "DELICATE",
-    isBestSeller: false,
-    isNew: false,
-    images: [
-      "https://images.unsplash.com/photo-1603561591411-07134e71a2a9?auto=format&fit=crop&w=900&q=80",
-      "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?auto=format&fit=crop&w=900&q=80",
-    ],
-    image: "https://images.unsplash.com/photo-1603561591411-07134e71a2a9?auto=format&fit=crop&w=900&q=80",
-    hoverImage: "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?auto=format&fit=crop&w=900&q=80",
-    description: "Organic leaf and petal motifs studded with round diamonds in 18k rose gold.",
-    metals: ["18K Rose Gold", "18K Yellow Gold"],
-    sizes: [5, 6, 7, 8, 9],
-    details: ["Handcrafted Floral Vine", "Pave Diamond Weight: 0.40ct", "Silk Smooth Inner Curve"]
-  },
-  {
-    id: "three-stone-diamond-ring",
-    name: "Three-Stone Diamond Ring",
-    category: "RINGS",
-    gender: "WOMEN",
-    subCategory: "WOMEN'S RINGS",
-    price: 2350,
-    originalPrice: 2950,
-    rating: 4.9,
-    reviewsCount: 46,
-    badge: "SIGNATURE",
-    isBestSeller: true,
-    isNew: false,
-    images: [
-      "https://images.unsplash.com/photo-1605100804763-247f67b3557e?auto=format&fit=crop&w=900&q=80",
-      "https://images.unsplash.com/photo-1603561591411-07134e71a2a9?auto=format&fit=crop&w=900&q=80",
-    ],
-    image: "https://images.unsplash.com/photo-1605100804763-247f67b3557e?auto=format&fit=crop&w=900&q=80",
-    hoverImage: "https://images.unsplash.com/photo-1603561591411-07134e71a2a9?auto=format&fit=crop&w=900&q=80",
-    description: "Representing Past, Present, and Future with three brilliant round diamonds.",
-    metals: ["18K Yellow Gold", "18K White Gold"],
-    sizes: [6, 7, 8, 9],
-    details: ["Total Carat Weight: 1.25ct", "Trio Claw Settings", "Solid 18K Yellow Gold"]
-  },
-  {
-    id: "royal-crown-solitaire-ring",
-    name: "Royal Crown Solitaire Ring",
-    category: "RINGS",
-    gender: "WOMEN",
-    subCategory: "WOMEN'S RINGS",
-    price: 2550,
-    originalPrice: 3200,
-    rating: 5.0,
-    reviewsCount: 58,
-    badge: "ROYAL",
-    isBestSeller: true,
-    isNew: false,
-    images: [
-      "https://images.unsplash.com/photo-1605100804763-247f67b3557e?auto=format&fit=crop&w=900&q=80",
-      "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?auto=format&fit=crop&w=900&q=80",
-    ],
-    image: "https://images.unsplash.com/photo-1605100804763-247f67b3557e?auto=format&fit=crop&w=900&q=80",
-    hoverImage: "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?auto=format&fit=crop&w=900&q=80",
-    description: "Regal crown prongs cradling a 1.0ct solitaire diamond with hidden tiara halo.",
-    metals: ["18K Yellow Gold", "18K White Gold", "18K Rose Gold"],
-    sizes: [6, 7, 8, 9],
-    details: ["1.0ct Solitaire Center", "Crown Arch Basket", "Luxury Velvet Presentation Box"]
-  },
-
-  // ==========================================
-  // 3. EARRINGS (15 PRODUCTS: 10 WOMEN, 5 UNISEX)
-  // ==========================================
-
-  // --- WOMEN'S EARRINGS (10) ---
-  {
-    id: "diamond-drop-earrings",
-    name: "Diamond Drop Earrings",
-    category: "EARRINGS",
-    gender: "WOMEN",
-    subCategory: "WOMEN'S EARRINGS",
-    price: 2250,
-    originalPrice: 2800,
-    rating: 5.0,
-    reviewsCount: 42,
-    badge: "SIGNATURE",
-    isBestSeller: true,
-    isNew: false,
-    images: [
-      "https://images.unsplash.com/photo-1630019852942-f89202989a59?auto=format&fit=crop&w=900&q=80",
-      "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?auto=format&fit=crop&w=900&q=80",
-    ],
-    image: "https://images.unsplash.com/photo-1630019852942-f89202989a59?auto=format&fit=crop&w=900&q=80",
-    hoverImage: "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?auto=format&fit=crop&w=900&q=80",
-    description: "Cascading drop earrings with micro-pave diamond halos and glowing teardrop stones.",
-    metals: ["18K Yellow Gold", "18K White Gold"],
-    sizes: ["Standard"],
-    details: ["Drop Length: 32mm", "Secure Friction Push Back Closure", "Anti-tarnish Protective Coat"]
-  },
-  {
-    id: "pearl-drop-earrings",
-    name: "Pearl Drop Earrings",
-    category: "EARRINGS",
-    gender: "WOMEN",
-    subCategory: "WOMEN'S EARRINGS",
-    price: 1650,
-    originalPrice: 2000,
-    rating: 4.8,
-    reviewsCount: 22,
-    badge: "HOT",
-    isBestSeller: false,
-    isNew: false,
-    images: [
-      "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?auto=format&fit=crop&w=900&q=80",
-      "https://images.unsplash.com/photo-1630019852942-f89202989a59?auto=format&fit=crop&w=900&q=80",
-    ],
-    image: "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?auto=format&fit=crop&w=900&q=80",
-    hoverImage: "https://images.unsplash.com/photo-1630019852942-f89202989a59?auto=format&fit=crop&w=900&q=80",
-    description: "Freshwater South Sea cultured pearls suspended from brilliant diamond stud posts.",
-    metals: ["18K Yellow Gold", "18K White Gold"],
-    sizes: ["Standard"],
-    details: ["Lustrous 9mm Natural Pearl", "18K Solid Gold Lever Back Settings", "Hand-selected matching pair"]
-  },
-  {
-    id: "chandelier-diamond-earrings",
-    name: "Chandelier Diamond Earrings",
-    category: "EARRINGS",
-    gender: "WOMEN",
-    subCategory: "WOMEN'S EARRINGS",
-    price: 3400,
-    originalPrice: 4200,
-    rating: 5.0,
-    reviewsCount: 38,
-    badge: "LUXURY",
-    isBestSeller: true,
-    isNew: false,
-    images: [
-      "https://images.unsplash.com/photo-1630019852942-f89202989a59?auto=format&fit=crop&w=900&q=80",
-      "https://images.unsplash.com/photo-1573408301185-9146fe634ad0?auto=format&fit=crop&w=900&q=80",
-    ],
-    image: "https://images.unsplash.com/photo-1630019852942-f89202989a59?auto=format&fit=crop&w=900&q=80",
-    hoverImage: "https://images.unsplash.com/photo-1573408301185-9146fe634ad0?auto=format&fit=crop&w=900&q=80",
-    description: "Multi-tiered red carpet chandelier drops sparkling with over 2.5 carats of diamonds.",
-    metals: ["18K Yellow Gold", "18K White Gold"],
-    sizes: ["Standard Gala"],
-    details: ["Multi-Tier Articulated Drops", "2.5ct Total Diamond Weight", "Heavy Duty Omega Backs"]
-  },
-  {
-    id: "teardrop-halo-earrings",
-    name: "Teardrop Halo Earrings",
-    category: "EARRINGS",
-    gender: "WOMEN",
-    subCategory: "WOMEN'S EARRINGS",
-    price: 1950,
-    originalPrice: 2450,
-    rating: 4.8,
-    reviewsCount: 29,
-    badge: "NEW",
-    isBestSeller: false,
-    isNew: true,
-    images: [
-      "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?auto=format&fit=crop&w=900&q=80",
-      "https://images.unsplash.com/photo-1630019852942-f89202989a59?auto=format&fit=crop&w=900&q=80",
-    ],
-    image: "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?auto=format&fit=crop&w=900&q=80",
-    hoverImage: "https://images.unsplash.com/photo-1630019852942-f89202989a59?auto=format&fit=crop&w=900&q=80",
-    description: "Elegant pear-shaped halos catching light with every movement.",
-    metals: ["18K Rose Gold", "18K Yellow Gold"],
-    sizes: ["Standard"],
-    details: ["Pear Halo Cluster", "Leverback Secure Clasp", "High Clarity Diamonds"]
-  },
-  {
-    id: "rose-gold-floral-earrings",
-    name: "Rose Gold Floral Earrings",
-    category: "EARRINGS",
-    gender: "WOMEN",
-    subCategory: "WOMEN'S EARRINGS",
-    price: 1780,
-    originalPrice: 2200,
-    rating: 4.7,
-    reviewsCount: 19,
-    badge: "POPULAR",
-    isBestSeller: false,
-    isNew: false,
-    images: [
-      "https://images.unsplash.com/photo-1630019852942-f89202989a59?auto=format&fit=crop&w=900&q=80",
-      "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?auto=format&fit=crop&w=900&q=80",
-    ],
-    image: "https://images.unsplash.com/photo-1630019852942-f89202989a59?auto=format&fit=crop&w=900&q=80",
-    hoverImage: "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?auto=format&fit=crop&w=900&q=80",
-    description: "Intricate floral blossom motif in 18k rose gold with diamond center stamen.",
-    metals: ["18K Rose Gold", "18K Yellow Gold"],
-    sizes: ["Standard"],
-    details: ["6-Petal Rose Gold Carving", "0.30ct Center Diamond", "Push Back Posts"]
-  },
-  {
-    id: "emerald-cut-diamond-drops",
-    name: "Emerald Cut Diamond Drops",
-    category: "EARRINGS",
-    gender: "WOMEN",
-    subCategory: "WOMEN'S EARRINGS",
-    price: 2600,
-    originalPrice: 3200,
-    rating: 4.9,
-    reviewsCount: 35,
-    badge: "SIGNATURE",
-    isBestSeller: true,
-    isNew: false,
-    images: [
-      "https://images.unsplash.com/photo-1630019852942-f89202989a59?auto=format&fit=crop&w=900&q=80",
-      "https://images.unsplash.com/photo-1573408301185-9146fe634ad0?auto=format&fit=crop&w=900&q=80",
-    ],
-    image: "https://images.unsplash.com/photo-1630019852942-f89202989a59?auto=format&fit=crop&w=900&q=80",
-    hoverImage: "https://images.unsplash.com/photo-1573408301185-9146fe634ad0?auto=format&fit=crop&w=900&q=80",
-    description: "Modern geometric emerald cut diamonds suspended from delicate pave bars.",
-    metals: ["18K White Gold", "18K Yellow Gold"],
-    sizes: ["Standard"],
-    details: ["1.2ct Total Emerald Cut Weight", "Micro Pave Vertical Bar", "Solid Gold Backs"]
-  },
-  {
-    id: "vintage-lace-diamond-earrings",
-    name: "Vintage Lace Diamond Earrings",
-    category: "EARRINGS",
-    gender: "WOMEN",
-    subCategory: "WOMEN'S EARRINGS",
-    price: 2400,
-    originalPrice: 2950,
-    rating: 4.8,
-    reviewsCount: 26,
-    badge: "VINTAGE",
-    isBestSeller: false,
-    isNew: true,
-    images: [
-      "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?auto=format&fit=crop&w=900&q=80",
-      "https://images.unsplash.com/photo-1630019852942-f89202989a59?auto=format&fit=crop&w=900&q=80",
-    ],
-    image: "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?auto=format&fit=crop&w=900&q=80",
-    hoverImage: "https://images.unsplash.com/photo-1630019852942-f89202989a59?auto=format&fit=crop&w=900&q=80",
-    description: "Lace pattern filigree work with sparkling round diamonds throughout.",
-    metals: ["18K Yellow Gold", "18K Rose Gold"],
-    sizes: ["Standard"],
-    details: ["Milgrain Edged Filigree", "Fine Artisan Metalwork", "Screw-Back Post"]
-  },
-  {
-    id: "ruby-cluster-drop-earrings",
-    name: "Ruby Cluster Drop Earrings",
-    category: "EARRINGS",
-    gender: "WOMEN",
-    subCategory: "WOMEN'S EARRINGS",
-    price: 2850,
-    originalPrice: 3500,
-    rating: 5.0,
-    reviewsCount: 41,
-    badge: "ROYAL",
-    isBestSeller: true,
-    isNew: false,
-    images: [
-      "https://images.unsplash.com/photo-1630019852942-f89202989a59?auto=format&fit=crop&w=900&q=80",
-      "https://images.unsplash.com/photo-1573408301185-9146fe634ad0?auto=format&fit=crop&w=900&q=80",
-    ],
-    image: "https://images.unsplash.com/photo-1630019852942-f89202989a59?auto=format&fit=crop&w=900&q=80",
-    hoverImage: "https://images.unsplash.com/photo-1573408301185-9146fe634ad0?auto=format&fit=crop&w=900&q=80",
-    description: "Vibrant natural Burmese rubies surrounded by floral diamond halos.",
-    metals: ["18K Yellow Gold", "18K White Gold"],
-    sizes: ["Standard"],
-    details: ["Certified Natural Rubies", "Brilliant Diamond Halo", "Safety Lock Leverback"]
-  },
-  {
-    id: "sapphire-halo-earrings",
-    name: "Sapphire Halo Drop Earrings",
-    category: "EARRINGS",
-    gender: "WOMEN",
-    subCategory: "WOMEN'S EARRINGS",
-    price: 2700,
-    originalPrice: 3300,
-    rating: 4.9,
-    reviewsCount: 31,
-    badge: "ELEGANT",
-    isBestSeller: false,
-    isNew: true,
-    images: [
-      "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?auto=format&fit=crop&w=900&q=80",
-      "https://images.unsplash.com/photo-1630019852942-f89202989a59?auto=format&fit=crop&w=900&q=80",
-    ],
-    image: "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?auto=format&fit=crop&w=900&q=80",
-    hoverImage: "https://images.unsplash.com/photo-1630019852942-f89202989a59?auto=format&fit=crop&w=900&q=80",
-    description: "Deep Royal Blue Ceylon Sapphires mounted with brilliant white diamond frames.",
-    metals: ["18K White Gold", "18K Yellow Gold"],
-    sizes: ["Standard"],
-    details: ["Ceylon Blue Sapphire 1.5ctw", "Diamond Halo Frame", "Certificate Included"]
-  },
-  {
-    id: "cascading-diamond-threaders",
-    name: "Cascading Diamond Threaders",
-    category: "EARRINGS",
-    gender: "WOMEN",
-    subCategory: "WOMEN'S EARRINGS",
-    price: 1850,
-    originalPrice: 2300,
-    rating: 4.8,
-    reviewsCount: 23,
-    badge: "MODERN",
-    isBestSeller: false,
-    isNew: false,
-    images: [
-      "https://images.unsplash.com/photo-1630019852942-f89202989a59?auto=format&fit=crop&w=900&q=80",
-      "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?auto=format&fit=crop&w=900&q=80",
-    ],
-    image: "https://images.unsplash.com/photo-1630019852942-f89202989a59?auto=format&fit=crop&w=900&q=80",
-    hoverImage: "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?auto=format&fit=crop&w=900&q=80",
-    description: "Ultra-fine gold chain threaders terminating in floating bezel diamond droplets.",
-    metals: ["18K Yellow Gold", "18K Rose Gold", "18K White Gold"],
-    sizes: ["Standard Threader"],
-    details: ["Length: 65mm", "Bezel Set Floating Diamonds", "Lightweight Comfortable Wear"]
-  },
-
-  // --- UNISEX STUDS (5) ---
-  {
-    id: "classic-solitaire-diamond-studs",
-    name: "Classic Solitaire Diamond Studs",
-    category: "STUDS",
-    gender: "UNISEX",
-    subCategory: "UNISEX STUDS",
-    price: 1450,
-    originalPrice: 1850,
-    rating: 4.9,
-    reviewsCount: 65,
-    badge: "ESSENTIAL",
-    isBestSeller: true,
-    isNew: false,
-    images: [
-      "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?auto=format&fit=crop&w=900&q=80",
-      "https://images.unsplash.com/photo-1630019852942-f89202989a59?auto=format&fit=crop&w=900&q=80",
-    ],
-    image: "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?auto=format&fit=crop&w=900&q=80",
-    hoverImage: "https://images.unsplash.com/photo-1630019852942-f89202989a59?auto=format&fit=crop&w=900&q=80",
-    description: "Timeless 4-prong basket solitaire studs suitable for both men and women.",
-    metals: ["18K Yellow Gold", "18K White Gold"],
-    sizes: ["0.50ct Total", "1.0ct Total", "1.5ct Total"],
-    details: ["4-Prong Basket Setting", "Screw Back Security Post", "Ideal Cut Diamonds"]
-  },
-  {
-    id: "princess-cut-solitaire-studs",
-    name: "Princess Cut Solitaire Studs",
-    category: "STUDS",
-    gender: "UNISEX",
-    subCategory: "UNISEX STUDS",
-    price: 1600,
-    originalPrice: 2000,
-    rating: 4.8,
-    reviewsCount: 38,
-    badge: "POPULAR",
-    isBestSeller: false,
-    isNew: false,
-    images: [
-      "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?auto=format&fit=crop&w=900&q=80",
-      "https://images.unsplash.com/photo-1630019852942-f89202989a59?auto=format&fit=crop&w=900&q=80",
-    ],
-    image: "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?auto=format&fit=crop&w=900&q=80",
-    hoverImage: "https://images.unsplash.com/photo-1630019852942-f89202989a59?auto=format&fit=crop&w=900&q=80",
-    description: "Square princess cut solitaire studs mounted in high polish gold prongs.",
-    metals: ["18K Yellow Gold", "18K White Gold"],
-    sizes: ["0.50ct Total", "1.0ct Total"],
-    details: ["Corner V-Prongs", "Unisex Sharp Geometric Style", "Solid Gold Backings"]
-  },
-  {
-    id: "black-diamond-solitaire-studs",
-    name: "Black Diamond Solitaire Studs",
-    category: "STUDS",
-    gender: "UNISEX",
-    subCategory: "UNISEX STUDS",
-    price: 1350,
-    originalPrice: 1700,
-    rating: 4.9,
-    reviewsCount: 42,
-    badge: "BOLD",
-    isBestSeller: true,
-    isNew: true,
-    images: [
-      "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?auto=format&fit=crop&w=900&q=80",
-      "https://images.unsplash.com/photo-1630019852942-f89202989a59?auto=format&fit=crop&w=900&q=80",
-    ],
-    image: "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?auto=format&fit=crop&w=900&q=80",
-    hoverImage: "https://images.unsplash.com/photo-1630019852942-f89202989a59?auto=format&fit=crop&w=900&q=80",
-    description: "Striking black diamonds in 18k yellow gold martini settings.",
-    metals: ["18K Yellow Gold", "18K White Gold"],
-    sizes: ["1.0ct Total", "2.0ct Total"],
-    details: ["Natural Opaque Black Diamonds", "Martini 3-Prong Setting", "Screw Back Closure"]
-  },
-  {
-    id: "square-micro-pave-studs",
-    name: "Square Micro-Pave Studs",
-    category: "STUDS",
-    gender: "UNISEX",
-    subCategory: "UNISEX STUDS",
-    price: 1250,
-    originalPrice: 1600,
-    rating: 4.7,
-    reviewsCount: 21,
-    badge: "NEW",
-    isBestSeller: false,
-    isNew: true,
-    images: [
-      "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?auto=format&fit=crop&w=900&q=80",
-      "https://images.unsplash.com/photo-1630019852942-f89202989a59?auto=format&fit=crop&w=900&q=80",
-    ],
-    image: "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?auto=format&fit=crop&w=900&q=80",
-    hoverImage: "https://images.unsplash.com/photo-1630019852942-f89202989a59?auto=format&fit=crop&w=900&q=80",
-    description: "Flush square tile set with 9 micro-pave diamonds per stud.",
-    metals: ["18K Yellow Gold", "18K Rose Gold", "18K White Gold"],
-    sizes: ["Standard"],
-    details: ["9-Diamond Grid Array", "Low Profile Surface", "Hypoallergenic 18K Gold"]
-  },
-  {
-    id: "royal-cushion-solitaire-studs",
-    name: "Royal Cushion Solitaire Studs",
-    category: "STUDS",
-    gender: "UNISEX",
-    subCategory: "UNISEX STUDS",
-    price: 1800,
-    originalPrice: 2250,
-    rating: 5.0,
-    reviewsCount: 33,
-    badge: "LUXURY",
-    isBestSeller: true,
-    isNew: false,
-    images: [
-      "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?auto=format&fit=crop&w=900&q=80",
-      "https://images.unsplash.com/photo-1630019852942-f89202989a59?auto=format&fit=crop&w=900&q=80",
-    ],
-    image: "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?auto=format&fit=crop&w=900&q=80",
-    hoverImage: "https://images.unsplash.com/photo-1630019852942-f89202989a59?auto=format&fit=crop&w=900&q=80",
-    description: "Vintage-inspired cushion cut solitaire diamond studs with double claws.",
-    metals: ["18K Yellow Gold", "18K White Gold"],
-    sizes: [ "1.0ct Total", "1.5ct Total"],
-    details: ["Cushion Cut Diamonds", "Double Corner Claws", "Includes Authenticity Certificate"]
-  },
-
-  // ==========================================
-  // 4. BRACELETS (8 PRODUCTS: 4 MEN, 4 WOMEN)
-  // ==========================================
-
-  // --- MEN'S BRACELETS (4) ---
-  {
-    id: "mens-cuban-link-gold-bracelet",
-    name: "Men's Cuban Link Gold Bracelet",
-    category: "BRACELETS",
-    gender: "MEN",
-    subCategory: "MEN'S BRACELETS",
-    price: 3400,
-    originalPrice: 4100,
-    rating: 5.0,
-    reviewsCount: 45,
-    badge: "BESTSELLER",
-    isBestSeller: true,
-    isNew: false,
-    images: [
-      "https://images.unsplash.com/photo-1611591475281-b1e96497f51e?auto=format&fit=crop&w=900&q=80",
-      "https://images.unsplash.com/photo-1605100804763-247f67b3557e?auto=format&fit=crop&w=900&q=80",
-    ],
-    image: "https://images.unsplash.com/photo-1611591475281-b1e96497f51e?auto=format&fit=crop&w=900&q=80",
-    hoverImage: "https://images.unsplash.com/photo-1605100804763-247f67b3557e?auto=format&fit=crop&w=900&q=80",
-    description: "Bold 8mm solid 18k gold curb chain bracelet with custom monogram lock.",
-    metals: ["18K Yellow Gold", "18K White Gold"],
-    sizes: ["8.0 Inch", "8.5 Inch"],
-    details: ["Width: 8mm", "Double Lock Box Clasp", "Solid 18K Gold Weight: 28.5g"]
-  },
-  {
-    id: "mens-leather-diamond-bracelet",
-    name: "Men's Leather & Diamond Bracelet",
-    category: "BRACELETS",
-    gender: "MEN",
-    subCategory: "MEN'S BRACELETS",
-    price: 1850,
-    originalPrice: 2300,
-    rating: 4.8,
-    reviewsCount: 22,
-    badge: "NEW",
-    isBestSeller: false,
-    isNew: true,
-    images: [
-      "https://images.unsplash.com/photo-1611591475281-b1e96497f51e?auto=format&fit=crop&w=900&q=80",
-      "https://images.unsplash.com/photo-1605100804763-247f67b3557e?auto=format&fit=crop&w=900&q=80",
-    ],
-    image: "https://images.unsplash.com/photo-1611591475281-b1e96497f51e?auto=format&fit=crop&w=900&q=80",
-    hoverImage: "https://images.unsplash.com/photo-1605100804763-247f67b3557e?auto=format&fit=crop&w=900&q=80",
-    description: "Braided genuine leather strap with 18k solid gold diamond centerpiece.",
-    metals: ["18K Yellow Gold", "18K White Gold"],
-    sizes: ["7.5 Inch", "8.0 Inch"],
-    details: ["Hand Braided Italian Leather", "Diamond Pave Gold Clasp", "Magnetic Lock"]
-  },
-  {
-    id: "mens-solid-gold-chain-bracelet",
-    name: "Men's Solid Gold Chain Bracelet",
-    category: "BRACELETS",
-    gender: "MEN",
-    subCategory: "MEN'S BRACELETS",
-    price: 2950,
-    originalPrice: 3600,
-    rating: 4.9,
-    reviewsCount: 31,
-    badge: "CLASSIC",
-    isBestSeller: true,
-    isNew: false,
-    images: [
-      "https://images.unsplash.com/photo-1611591475281-b1e96497f51e?auto=format&fit=crop&w=900&q=80",
-      "https://images.unsplash.com/photo-1605100804763-247f67b3557e?auto=format&fit=crop&w=900&q=80",
-    ],
-    image: "https://images.unsplash.com/photo-1611591475281-b1e96497f51e?auto=format&fit=crop&w=900&q=80",
-    hoverImage: "https://images.unsplash.com/photo-1605100804763-247f67b3557e?auto=format&fit=crop&w=900&q=80",
-    description: "Classic Figaro chain link bracelet crafted in heavy polished 18k gold.",
-    metals: ["18K Yellow Gold", "18K Rose Gold"],
-    sizes: ["8.0 Inch", "8.5 Inch"],
-    details: ["Figaro Pattern Links", "Lobster Claw Clasp", "High Mirror Polish"]
-  },
-  {
-    id: "mens-brushed-diamond-bangle",
-    name: "Men's Brushed Diamond Bangle",
-    category: "BRACELETS",
-    gender: "MEN",
-    subCategory: "MEN'S BRACELETS",
-    price: 2700,
-    originalPrice: 3300,
-    rating: 4.9,
-    reviewsCount: 28,
-    badge: "MODERN",
-    isBestSeller: false,
-    isNew: true,
-    images: [
-      "https://images.unsplash.com/photo-1611591475281-b1e96497f51e?auto=format&fit=crop&w=900&q=80",
-      "https://images.unsplash.com/photo-1605100804763-247f67b3557e?auto=format&fit=crop&w=900&q=80",
-    ],
-    image: "https://images.unsplash.com/photo-1611591475281-b1e96497f51e?auto=format&fit=crop&w=900&q=80",
-    hoverImage: "https://images.unsplash.com/photo-1605100804763-247f67b3557e?auto=format&fit=crop&w=900&q=80",
-    description: "Rigid oval hinged bangle in satin gold inset with 3 princess diamonds.",
-    metals: ["18K Yellow Gold", "18K White Gold"],
-    sizes: ["Standard Men's Wrist"],
-    details: ["Hinged Press Clasp", "Width: 7mm", "3 Princess Cut Diamonds"]
-  },
-
-  // --- WOMEN'S BRACELETS (4) ---
-  {
-    id: "tiara-bracelet",
-    name: "Tiara Tennis Bracelet",
-    category: "BRACELETS",
-    gender: "WOMEN",
-    subCategory: "WOMEN'S BRACELETS",
-    price: 2950,
-    originalPrice: 3500,
-    rating: 4.9,
-    reviewsCount: 54,
-    badge: "HOT",
-    isBestSeller: true,
-    isNew: false,
-    images: [
-      "https://images.unsplash.com/photo-1611591475281-b1e96497f51e?auto=format&fit=crop&w=900&q=80",
-      "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?auto=format&fit=crop&w=900&q=80",
-    ],
-    image: "https://images.unsplash.com/photo-1611591475281-b1e96497f51e?auto=format&fit=crop&w=900&q=80",
-    hoverImage: "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?auto=format&fit=crop&w=900&q=80",
-    description: "Refined crown-inspired motif tennis bracelet with individually linked cz stones and custom box clasp.",
-    metals: ["18K Yellow Gold", "18K White Gold"],
-    sizes: [6.5, 7.0, 7.5],
-    details: ["Double Safety Latch Clasp", "Width: 4mm", "Total Weight: 12.4g"]
-  },
-  {
-    id: "stackable-bangle",
-    name: "Stackable Bangle",
-    category: "BRACELETS",
-    gender: "WOMEN",
-    subCategory: "WOMEN'S BRACELETS",
-    price: 1650,
-    originalPrice: 2100,
-    rating: 4.7,
-    reviewsCount: 19,
-    badge: "NEW",
-    isBestSeller: false,
-    isNew: true,
-    images: [
-      "https://images.unsplash.com/photo-1611591475281-b1e96497f51e?auto=format&fit=crop&w=900&q=80",
-      "https://images.unsplash.com/photo-1605100804763-247f67b3557e?auto=format&fit=crop&w=900&q=80",
-    ],
-    image: "https://images.unsplash.com/photo-1611591475281-b1e96497f51e?auto=format&fit=crop&w=900&q=80",
-    hoverImage: "https://images.unsplash.com/photo-1605100804763-247f67b3557e?auto=format&fit=crop&w=900&q=80",
-    description: "Minimalist channel-set bangle tailored for everyday stack styling.",
-    metals: ["18K Yellow Gold", "18K Rose Gold", "18K White Gold"],
-    sizes: ["2.4", "2.6", "2.8"],
-    details: ["Hinged side click lock", "Width: 3mm", "High Polish Gold"]
-  },
-  {
-    id: "diamond-tennis-bracelet",
-    name: "Classic Diamond Tennis Bracelet",
-    category: "BRACELETS",
-    gender: "WOMEN",
-    subCategory: "WOMEN'S BRACELETS",
-    price: 3200,
-    originalPrice: 3900,
-    rating: 5.0,
-    reviewsCount: 62,
-    badge: "BESTSELLER",
-    isBestSeller: true,
-    isNew: false,
-    images: [
-      "https://images.unsplash.com/photo-1611591475281-b1e96497f51e?auto=format&fit=crop&w=900&q=80",
-      "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?auto=format&fit=crop&w=900&q=80",
-    ],
-    image: "https://images.unsplash.com/photo-1611591475281-b1e96497f51e?auto=format&fit=crop&w=900&q=80",
-    hoverImage: "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?auto=format&fit=crop&w=900&q=80",
-    description: "Continuous line of 3.0 Carats of brilliant round diamonds in 4-prong solid gold links.",
-    metals: ["18K Yellow Gold", "18K White Gold"],
-    sizes: [6.5, 7.0, 7.5],
-    details: ["3.0ct Total Diamond Weight", "Double Safety Latch", "Fluid Flexible Links"]
-  },
-  {
-    id: "floral-cluster-charm-bracelet",
-    name: "Floral Cluster Charm Bracelet",
-    category: "BRACELETS",
-    gender: "WOMEN",
-    subCategory: "WOMEN'S BRACELETS",
-    price: 1980,
-    originalPrice: 2450,
-    rating: 4.8,
-    reviewsCount: 27,
-    badge: "DELICATE",
-    isBestSeller: false,
-    isNew: true,
-    images: [
-      "https://images.unsplash.com/photo-1611591475281-b1e96497f51e?auto=format&fit=crop&w=900&q=80",
-      "https://images.unsplash.com/photo-1605100804763-247f67b3557e?auto=format&fit=crop&w=900&q=80",
-    ],
-    image: "https://images.unsplash.com/photo-1611591475281-b1e96497f51e?auto=format&fit=crop&w=900&q=80",
-    hoverImage: "https://images.unsplash.com/photo-1605100804763-247f67b3557e?auto=format&fit=crop&w=900&q=80",
-    description: "5 diamond-studded blossom charms spaced along an 18k solid gold chain.",
-    metals: ["18K Rose Gold", "18K Yellow Gold"],
-    sizes: ["7.0 Inch Adjustable"],
-    details: ["5 Blooming Flower Charms", "Adjustable Extender Chain", "Spring Ring Clasp"]
-  },
-
-  // ==========================================
-  // 5. SETS (4 PRODUCTS: ONLY FOR WOMEN)
-  // ==========================================
-  {
-    id: "royal-bridal-choker-set",
-    name: "Royal Solitaire & Pearl Bridal Set",
-    category: "SETS",
-    gender: "WOMEN",
-    subCategory: "BRIDAL SETS",
-    price: 5850,
-    originalPrice: 6900,
-    rating: 5.0,
-    reviewsCount: 78,
-    badge: "BRIDAL SET",
-    isBestSeller: true,
-    isNew: true,
-    piecesIncluded: ["1x Solitaire Choker Necklace", "1x Pair Teardrop Earrings", "1x Solitaire Statement Ring"],
-    images: [
-      "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?auto=format&fit=crop&w=900&q=80",
-      "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?auto=format&fit=crop&w=900&q=80",
-    ],
-    image: "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?auto=format&fit=crop&w=900&q=80",
-    hoverImage: "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?auto=format&fit=crop&w=900&q=80",
-    description: "A complete grand bridal suite featuring our iconic brilliant diamond choker, matching cascading drop earrings, and a crowned solitaire ring.",
-    metals: ["18K Yellow Gold", "18K Rose Gold", "18K White Gold"],
-    sizes: ["Standard Set (Ring Sz 7)", "Standard Set (Ring Sz 8)", "Standard Set (Ring Sz 9)"],
-    details: [
-      "Complete 3-Piece Coordinated Bridal Suite",
-      "Total Diamond Weight: 3.85 Carats Equivalent",
-      "Includes Certificate of Authenticity & Hallmarking",
-      "Custom Signature Velvet Presentation Chest Included"
+    "details": [
+      "Complete luxury ensemble matching necklace, earrings, and ring",
+      "Handcrafted in 18K solid gold finish over 925 sterling silver",
+      "AAA+ high-grade certified brilliant sparkle stones",
+      "Includes bespoke Gevariya Jewels velvet gift box & authenticity certificate"
     ]
   },
   {
-    id: "celestial-rose-harmony-set",
-    name: "Celestial Rose Pendant & Drop Set",
-    category: "SETS",
-    gender: "WOMEN",
-    subCategory: "BRIDAL SETS",
-    price: 3450,
-    originalPrice: 4200,
-    rating: 4.9,
-    reviewsCount: 34,
-    badge: "SAVE 18%",
-    isBestSeller: true,
-    isNew: false,
-    piecesIncluded: ["1x Halo Diamond Pendant Necklace", "1x Diamond Drop Earrings"],
-    images: [
-      "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?auto=format&fit=crop&w=900&q=80",
-      "https://images.unsplash.com/photo-1630019852942-f89202989a59?auto=format&fit=crop&w=900&q=80",
+    "id": "gold-heart-set",
+    "name": "Gold Heart Set",
+    "category": "SETS",
+    "gender": "WOMEN",
+    "subCategory": "BRIDAL & OCCASION SETS",
+    "price": 5499,
+    "originalPrice": 7249,
+    "rating": 5.0,
+    "reviewsCount": 30,
+    "badge": "",
+    "isBestSeller": false,
+    "isNew": false,
+    "images": [
+      "/products/gold-heart-set/image-1.webp",
+      "/products/gold-heart-set/image-2.webp",
+      "/products/gold-heart-set/image-3.webp",
+      "/products/gold-heart-set/image-4.webp"
     ],
-    image: "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?auto=format&fit=crop&w=900&q=80",
-    hoverImage: "https://images.unsplash.com/photo-1630019852942-f89202989a59?auto=format&fit=crop&w=900&q=80",
-    description: "An ethereal 2-piece duet harmonizing the radiant halo pendant necklace with the cascading micro-pave diamond drop earrings in matching 18k gold tone.",
-    metals: ["18K Rose Gold", "18K Yellow Gold", "18K White Gold"],
-    sizes: ["Standard (18\" Chain)"],
-    details: [
-      "2-Piece Coordinated Pendant & Drop Earring Ensemble",
-      "Micro-Pave Halo Settings with Brilliant Solitaire Centers",
-      "Matching 18K Solid Gold Chain with 2-inch extender"
+    "image": "/products/gold-heart-set/image-1.webp",
+    "hoverImage": "/products/gold-heart-set/image-2.webp",
+    "description": "Gold Heart Set \u2013 an elegant jewelry set crafted in gold, finished with a polished, statement-ready look. Handcrafted to perfection with signature Gevariya Jewels fine jewelry detailing.",
+    "metals": [
+      "18K Rose Gold",
+      "18K Yellow Gold",
+      "18K White Gold"
+    ],
+    "sizes": [
+      "Standard Set (Adjustable Chain & Ring Free Size)"
+    ],
+    "details": [
+      "Complete luxury ensemble matching necklace, earrings, and ring",
+      "Handcrafted in 18K solid gold finish over 925 sterling silver",
+      "AAA+ high-grade certified brilliant sparkle stones",
+      "Includes bespoke Gevariya Jewels velvet gift box & authenticity certificate"
     ]
   },
   {
-    id: "eternal-diamond-ring-bangle-set",
-    name: "Eternal Harmony Ring & Bangle Set",
-    category: "SETS",
-    gender: "WOMEN",
-    subCategory: "BRIDAL SETS",
-    price: 4250,
-    originalPrice: 4900,
-    rating: 4.9,
-    reviewsCount: 51,
-    badge: "HOT DUO",
-    isBestSeller: true,
-    isNew: true,
-    piecesIncluded: ["1x Oval Diamond Solitaire Ring", "1x Stackable Channel-Set Bangle"],
-    images: [
-      "https://images.unsplash.com/photo-1603561591411-07134e71a2a9?auto=format&fit=crop&w=900&q=80",
-      "https://images.unsplash.com/photo-1611591475281-b1e96497f51e?auto=format&fit=crop&w=900&q=80",
+    "id": "pink-pendant-set",
+    "name": "Pink Pendant Set",
+    "category": "SETS",
+    "gender": "WOMEN",
+    "subCategory": "BRIDAL & OCCASION SETS",
+    "price": 4499,
+    "originalPrice": 5949,
+    "rating": 4.9,
+    "reviewsCount": 41,
+    "badge": "",
+    "isBestSeller": false,
+    "isNew": false,
+    "images": [
+      "/products/pink-pendant-set/image-1.webp",
+      "/products/pink-pendant-set/image-2.webp",
+      "/products/pink-pendant-set/image-3.webp",
+      "/products/pink-pendant-set/image-4.webp"
     ],
-    image: "https://images.unsplash.com/photo-1603561591411-07134e71a2a9?auto=format&fit=crop&w=900&q=80",
-    hoverImage: "https://images.unsplash.com/photo-1611591475281-b1e96497f51e?auto=format&fit=crop&w=900&q=80",
-    description: "A seamless pairing of our best-selling cathedral oval solitaire ring with the precision channel-set stacking bangle for effortless wrist and finger glamour.",
-    metals: ["18K Yellow Gold", "18K Rose Gold", "18K White Gold"],
-    sizes: ["Ring 7 / Bangle 2.4", "Ring 7 / Bangle 2.6", "Ring 8 / Bangle 2.6", "Ring 8 / Bangle 2.8"],
-    details: [
-      "Coordinated Hand-Finished Ring & Bangle Pair",
-      "High Polish 18K Solid Gold Craftsmanship",
-      "Includes Luxury Velvet Travel Pouch & Storage Chest"
+    "image": "/products/pink-pendant-set/image-1.webp",
+    "hoverImage": "/products/pink-pendant-set/image-2.webp",
+    "description": "Pink Pendant Set \u2013 an elegant jewelry set crafted in pink stone, finished with a polished, statement-ready look. Handcrafted to perfection with signature Gevariya Jewels fine jewelry detailing.",
+    "metals": [
+      "18K Rose Gold",
+      "18K Yellow Gold",
+      "18K White Gold"
+    ],
+    "sizes": [
+      "Standard Set (Adjustable Chain & Ring Free Size)"
+    ],
+    "details": [
+      "Complete luxury ensemble matching necklace, earrings, and ring",
+      "Handcrafted in 18K solid gold finish over 925 sterling silver",
+      "AAA+ high-grade certified brilliant sparkle stones",
+      "Includes bespoke Gevariya Jewels velvet gift box & authenticity certificate"
     ]
   },
   {
-    id: "heritage-polki-emerald-gala-set",
-    name: "Heritage Polki & Emerald Gala Set",
-    category: "SETS",
-    gender: "WOMEN",
-    subCategory: "BRIDAL SETS",
-    price: 7200,
-    originalPrice: 8500,
-    rating: 5.0,
-    reviewsCount: 63,
-    badge: "LIMITED EDITION",
-    isBestSeller: false,
-    isNew: true,
-    piecesIncluded: ["1x Heritage Polki Choker", "1x Statement Jhumka Earrings", "1x Matching Maang Tikka"],
-    images: [
-      "https://images.unsplash.com/photo-1573408301185-9146fe634ad0?auto=format&fit=crop&w=900&q=80",
-      "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?auto=format&fit=crop&w=900&q=80",
+    "id": "rose-flower-set",
+    "name": "Rose Flower Set",
+    "category": "SETS",
+    "gender": "WOMEN",
+    "subCategory": "BRIDAL & OCCASION SETS",
+    "price": 3999,
+    "originalPrice": 5299,
+    "rating": 4.8,
+    "reviewsCount": 52,
+    "badge": "HOT",
+    "isBestSeller": false,
+    "isNew": false,
+    "images": [
+      "/products/rose-flower-set/image-1.webp",
+      "/products/rose-flower-set/image-2.webp",
+      "/products/rose-flower-set/image-3.webp",
+      "/products/rose-flower-set/image-4.webp"
     ],
-    image: "https://images.unsplash.com/photo-1573408301185-9146fe634ad0?auto=format&fit=crop&w=900&q=80",
-    hoverImage: "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?auto=format&fit=crop&w=900&q=80",
-    description: "Royal heirloom gala set embellished with uncut Polki diamonds, Zambian emerald drops, and South Sea cultured pearl clusters in vintage 18k yellow gold.",
-    metals: ["18K Yellow Gold", "18K Rose Gold"],
-    sizes: ["Standard Gala Size"],
-    details: [
-      "Regal 3-Piece Royal Gala Suite (Choker + Jhumkas + Tikka)",
-      "Natural Zambian Emeralds & Certified Uncut Polki",
-      "Handcrafted by 4th-Generation Artisans"
+    "image": "/products/rose-flower-set/image-1.webp",
+    "hoverImage": "/products/rose-flower-set/image-2.webp",
+    "description": "Rose Flower Set \u2013 an elegant jewelry set crafted in rose gold, finished with a polished, statement-ready look. Handcrafted to perfection with signature Gevariya Jewels fine jewelry detailing.",
+    "metals": [
+      "18K Rose Gold",
+      "18K Yellow Gold",
+      "18K White Gold"
+    ],
+    "sizes": [
+      "Standard Set (Adjustable Chain & Ring Free Size)"
+    ],
+    "details": [
+      "Complete luxury ensemble matching necklace, earrings, and ring",
+      "Handcrafted in 18K solid gold finish over 925 sterling silver",
+      "AAA+ high-grade certified brilliant sparkle stones",
+      "Includes bespoke Gevariya Jewels velvet gift box & authenticity certificate"
+    ]
+  },
+  {
+    "id": "diamond-heart-stud",
+    "name": "Diamond Heart Stud",
+    "category": "EARRINGS",
+    "gender": "WOMEN",
+    "subCategory": "DROP & HOOP EARRINGS",
+    "price": 2249,
+    "originalPrice": 2949,
+    "rating": 4.7,
+    "reviewsCount": 63,
+    "badge": "NEW",
+    "isBestSeller": false,
+    "isNew": true,
+    "images": [
+      "/products/diamond-heart-stud/image-1.webp",
+      "/products/diamond-heart-stud/image-2.webp",
+      "/products/diamond-heart-stud/image-3.webp",
+      "/products/diamond-heart-stud/image-4.webp"
+    ],
+    "image": "/products/diamond-heart-stud/image-1.webp",
+    "hoverImage": "/products/diamond-heart-stud/image-2.webp",
+    "description": "Diamond Heart Stud \u2013 an elegant earring crafted in diamond, finished with a polished, statement-ready look. Handcrafted to perfection with signature Gevariya Jewels fine jewelry detailing.",
+    "metals": [
+      "18K Rose Gold",
+      "18K Yellow Gold",
+      "18K White Gold"
+    ],
+    "sizes": [
+      "One Size"
+    ],
+    "details": [
+      "Secure push-back and french clasp design",
+      "Hypoallergenic and nickel-free finish",
+      "Precision handset accents with maximum light refraction",
+      "Delivered in signature Gevariya Jewels luxury packaging"
+    ]
+  },
+  {
+    "id": "gold-bow-drop",
+    "name": "Gold Bow Drop",
+    "category": "EARRINGS",
+    "gender": "WOMEN",
+    "subCategory": "DROP & HOOP EARRINGS",
+    "price": 2449,
+    "originalPrice": 3249,
+    "rating": 5.0,
+    "reviewsCount": 74,
+    "badge": "BESTSELLER",
+    "isBestSeller": true,
+    "isNew": false,
+    "images": [
+      "/products/gold-bow-drop/image-1.webp",
+      "/products/gold-bow-drop/image-2.webp",
+      "/products/gold-bow-drop/image-3.webp",
+      "/products/gold-bow-drop/image-4.webp"
+    ],
+    "image": "/products/gold-bow-drop/image-1.webp",
+    "hoverImage": "/products/gold-bow-drop/image-2.webp",
+    "description": "Gold Bow Drop \u2013 an elegant earring crafted in gold, finished with a polished, statement-ready look. Handcrafted to perfection with signature Gevariya Jewels fine jewelry detailing.",
+    "metals": [
+      "18K Rose Gold",
+      "18K Yellow Gold",
+      "18K White Gold"
+    ],
+    "sizes": [
+      "One Size"
+    ],
+    "details": [
+      "Secure push-back and french clasp design",
+      "Hypoallergenic and nickel-free finish",
+      "Precision handset accents with maximum light refraction",
+      "Delivered in signature Gevariya Jewels luxury packaging"
+    ]
+  },
+  {
+    "id": "gold-heart-stud",
+    "name": "Gold Heart Stud",
+    "category": "EARRINGS",
+    "gender": "WOMEN",
+    "subCategory": "DROP & HOOP EARRINGS",
+    "price": 2099,
+    "originalPrice": 2749,
+    "rating": 4.9,
+    "reviewsCount": 20,
+    "badge": "HOT",
+    "isBestSeller": false,
+    "isNew": false,
+    "images": [
+      "/products/gold-heart-stud/image-1.webp",
+      "/products/gold-heart-stud/image-2.webp",
+      "/products/gold-heart-stud/image-3.webp",
+      "/products/gold-heart-stud/image-4.webp"
+    ],
+    "image": "/products/gold-heart-stud/image-1.webp",
+    "hoverImage": "/products/gold-heart-stud/image-2.webp",
+    "description": "Gold Heart Stud \u2013 an elegant earring crafted in gold, finished with a polished, statement-ready look. Handcrafted to perfection with signature Gevariya Jewels fine jewelry detailing.",
+    "metals": [
+      "18K Rose Gold",
+      "18K Yellow Gold",
+      "18K White Gold"
+    ],
+    "sizes": [
+      "One Size"
+    ],
+    "details": [
+      "Secure push-back and french clasp design",
+      "Hypoallergenic and nickel-free finish",
+      "Precision handset accents with maximum light refraction",
+      "Delivered in signature Gevariya Jewels luxury packaging"
+    ]
+  },
+  {
+    "id": "gold-wing-stud",
+    "name": "Gold Wing Stud",
+    "category": "EARRINGS",
+    "gender": "WOMEN",
+    "subCategory": "DROP & HOOP EARRINGS",
+    "price": 2449,
+    "originalPrice": 3249,
+    "rating": 4.8,
+    "reviewsCount": 31,
+    "badge": "LUXURY",
+    "isBestSeller": false,
+    "isNew": false,
+    "images": [
+      "/products/gold-wing-stud/image-1.webp",
+      "/products/gold-wing-stud/image-2.webp",
+      "/products/gold-wing-stud/image-3.webp",
+      "/products/gold-wing-stud/image-4.webp"
+    ],
+    "image": "/products/gold-wing-stud/image-1.webp",
+    "hoverImage": "/products/gold-wing-stud/image-2.webp",
+    "description": "Gold Wing Stud \u2013 an elegant earring crafted in gold, finished with a polished, statement-ready look. Handcrafted to perfection with signature Gevariya Jewels fine jewelry detailing.",
+    "metals": [
+      "18K Rose Gold",
+      "18K Yellow Gold",
+      "18K White Gold"
+    ],
+    "sizes": [
+      "One Size"
+    ],
+    "details": [
+      "Secure push-back and french clasp design",
+      "Hypoallergenic and nickel-free finish",
+      "Precision handset accents with maximum light refraction",
+      "Delivered in signature Gevariya Jewels luxury packaging"
+    ]
+  },
+  {
+    "id": "pink-bow-drop",
+    "name": "Pink Bow Drop",
+    "category": "EARRINGS",
+    "gender": "WOMEN",
+    "subCategory": "DROP & HOOP EARRINGS",
+    "price": 2199,
+    "originalPrice": 2899,
+    "rating": 4.7,
+    "reviewsCount": 42,
+    "badge": "NEW",
+    "isBestSeller": false,
+    "isNew": true,
+    "images": [
+      "/products/pink-bow-drop/image-1.webp",
+      "/products/pink-bow-drop/image-2.webp",
+      "/products/pink-bow-drop/image-3.webp",
+      "/products/pink-bow-drop/image-4.webp"
+    ],
+    "image": "/products/pink-bow-drop/image-1.webp",
+    "hoverImage": "/products/pink-bow-drop/image-2.webp",
+    "description": "Pink Bow Drop \u2013 an elegant earring crafted in pink stone, finished with a polished, statement-ready look. Handcrafted to perfection with signature Gevariya Jewels fine jewelry detailing.",
+    "metals": [
+      "18K Rose Gold",
+      "18K Yellow Gold",
+      "18K White Gold"
+    ],
+    "sizes": [
+      "One Size"
+    ],
+    "details": [
+      "Secure push-back and french clasp design",
+      "Hypoallergenic and nickel-free finish",
+      "Precision handset accents with maximum light refraction",
+      "Delivered in signature Gevariya Jewels luxury packaging"
+    ]
+  },
+  {
+    "id": "pink-flower-drop",
+    "name": "Pink Flower Drop",
+    "category": "EARRINGS",
+    "gender": "WOMEN",
+    "subCategory": "DROP & HOOP EARRINGS",
+    "price": 2249,
+    "originalPrice": 2949,
+    "rating": 5.0,
+    "reviewsCount": 53,
+    "badge": "HOT",
+    "isBestSeller": false,
+    "isNew": false,
+    "images": [
+      "/products/pink-flower-drop/image-1.webp",
+      "/products/pink-flower-drop/image-2.webp",
+      "/products/pink-flower-drop/image-3.webp",
+      "/products/pink-flower-drop/image-4.webp"
+    ],
+    "image": "/products/pink-flower-drop/image-1.webp",
+    "hoverImage": "/products/pink-flower-drop/image-2.webp",
+    "description": "Pink Flower Drop \u2013 an elegant earring crafted in pink stone, finished with a polished, statement-ready look. Handcrafted to perfection with signature Gevariya Jewels fine jewelry detailing.",
+    "metals": [
+      "18K Rose Gold",
+      "18K Yellow Gold",
+      "18K White Gold"
+    ],
+    "sizes": [
+      "One Size"
+    ],
+    "details": [
+      "Secure push-back and french clasp design",
+      "Hypoallergenic and nickel-free finish",
+      "Precision handset accents with maximum light refraction",
+      "Delivered in signature Gevariya Jewels luxury packaging"
+    ]
+  },
+  {
+    "id": "red-stone-stud",
+    "name": "Red Stone Stud",
+    "category": "EARRINGS",
+    "gender": "WOMEN",
+    "subCategory": "DROP & HOOP EARRINGS",
+    "price": 2249,
+    "originalPrice": 2949,
+    "rating": 4.9,
+    "reviewsCount": 64,
+    "badge": "BESTSELLER",
+    "isBestSeller": true,
+    "isNew": false,
+    "images": [
+      "/products/red-stone-stud/image-1.webp",
+      "/products/red-stone-stud/image-2.webp",
+      "/products/red-stone-stud/image-3.webp",
+      "/products/red-stone-stud/image-4.webp"
+    ],
+    "image": "/products/red-stone-stud/image-1.webp",
+    "hoverImage": "/products/red-stone-stud/image-2.webp",
+    "description": "Red Stone Stud \u2013 an elegant earring crafted in fine metal, finished with a polished, statement-ready look. Handcrafted to perfection with signature Gevariya Jewels fine jewelry detailing.",
+    "metals": [
+      "18K Rose Gold",
+      "18K Yellow Gold",
+      "18K White Gold"
+    ],
+    "sizes": [
+      "One Size"
+    ],
+    "details": [
+      "Secure push-back and french clasp design",
+      "Hypoallergenic and nickel-free finish",
+      "Precision handset accents with maximum light refraction",
+      "Delivered in signature Gevariya Jewels luxury packaging"
+    ]
+  },
+  {
+    "id": "rose-gold-hoops",
+    "name": "Rose Gold Hoops",
+    "category": "EARRINGS",
+    "gender": "WOMEN",
+    "subCategory": "DROP & HOOP EARRINGS",
+    "price": 2449,
+    "originalPrice": 3249,
+    "rating": 4.8,
+    "reviewsCount": 75,
+    "badge": "",
+    "isBestSeller": false,
+    "isNew": false,
+    "images": [
+      "/products/rose-gold-hoops/image-1.webp",
+      "/products/rose-gold-hoops/image-2.webp",
+      "/products/rose-gold-hoops/image-3.webp",
+      "/products/rose-gold-hoops/image-4.webp"
+    ],
+    "image": "/products/rose-gold-hoops/image-1.webp",
+    "hoverImage": "/products/rose-gold-hoops/image-2.webp",
+    "description": "Rose Gold Hoops \u2013 an elegant earring crafted in gold, rose gold, finished with a polished, statement-ready look. Handcrafted to perfection with signature Gevariya Jewels fine jewelry detailing.",
+    "metals": [
+      "18K Rose Gold",
+      "18K Yellow Gold",
+      "18K White Gold"
+    ],
+    "sizes": [
+      "One Size"
+    ],
+    "details": [
+      "Secure push-back and french clasp design",
+      "Hypoallergenic and nickel-free finish",
+      "Precision handset accents with maximum light refraction",
+      "Delivered in signature Gevariya Jewels luxury packaging"
+    ]
+  },
+  {
+    "id": "topaz-ear-crawler",
+    "name": "Topaz Ear Crawler",
+    "category": "EARRINGS",
+    "gender": "WOMEN",
+    "subCategory": "DROP & HOOP EARRINGS",
+    "price": 2449,
+    "originalPrice": 3249,
+    "rating": 4.7,
+    "reviewsCount": 21,
+    "badge": "NEW",
+    "isBestSeller": false,
+    "isNew": true,
+    "images": [
+      "/products/topaz-ear-crawler/image-1.webp",
+      "/products/topaz-ear-crawler/image-2.webp",
+      "/products/topaz-ear-crawler/image-3.webp",
+      "/products/topaz-ear-crawler/image-4.webp"
+    ],
+    "image": "/products/topaz-ear-crawler/image-1.webp",
+    "hoverImage": "/products/topaz-ear-crawler/image-2.webp",
+    "description": "Topaz Ear Crawler \u2013 an elegant earring crafted in topaz, finished with a polished, statement-ready look. Handcrafted to perfection with signature Gevariya Jewels fine jewelry detailing.",
+    "metals": [
+      "18K Rose Gold",
+      "18K Yellow Gold",
+      "18K White Gold"
+    ],
+    "sizes": [
+      "One Size"
+    ],
+    "details": [
+      "Secure push-back and french clasp design",
+      "Hypoallergenic and nickel-free finish",
+      "Precision handset accents with maximum light refraction",
+      "Delivered in signature Gevariya Jewels luxury packaging"
+    ]
+  },
+  {
+    "id": "topaz-pearl-drop",
+    "name": "Topaz Pearl Drop",
+    "category": "EARRINGS",
+    "gender": "WOMEN",
+    "subCategory": "DROP & HOOP EARRINGS",
+    "price": 2199,
+    "originalPrice": 2899,
+    "rating": 5.0,
+    "reviewsCount": 32,
+    "badge": "",
+    "isBestSeller": false,
+    "isNew": false,
+    "images": [
+      "/products/topaz-pearl-drop/image-1.webp",
+      "/products/topaz-pearl-drop/image-2.webp",
+      "/products/topaz-pearl-drop/image-3.webp",
+      "/products/topaz-pearl-drop/image-4.webp"
+    ],
+    "image": "/products/topaz-pearl-drop/image-1.webp",
+    "hoverImage": "/products/topaz-pearl-drop/image-2.webp",
+    "description": "Topaz Pearl Drop \u2013 an elegant earring crafted in topaz, pearl, finished with a polished, statement-ready look. Handcrafted to perfection with signature Gevariya Jewels fine jewelry detailing.",
+    "metals": [
+      "18K Rose Gold",
+      "18K Yellow Gold",
+      "18K White Gold"
+    ],
+    "sizes": [
+      "One Size"
+    ],
+    "details": [
+      "Secure push-back and french clasp design",
+      "Hypoallergenic and nickel-free finish",
+      "Precision handset accents with maximum light refraction",
+      "Delivered in signature Gevariya Jewels luxury packaging"
+    ]
+  },
+  {
+    "id": "cushion-halo-studs",
+    "name": "Cushion Halo Studs",
+    "category": "STUDS",
+    "gender": "UNISEX",
+    "subCategory": "SOLITAIRE & HALO STUDS",
+    "price": 2999,
+    "originalPrice": 3949,
+    "rating": 4.9,
+    "reviewsCount": 43,
+    "badge": "LUXURY",
+    "isBestSeller": false,
+    "isNew": false,
+    "images": [
+      "/products/cushion-halo-studs/image-1.webp",
+      "/products/cushion-halo-studs/image-2.webp",
+      "/products/cushion-halo-studs/image-3.webp",
+      "/products/cushion-halo-studs/image-4.webp"
+    ],
+    "image": "/products/cushion-halo-studs/image-1.webp",
+    "hoverImage": "/products/cushion-halo-studs/image-2.webp",
+    "description": "Cushion Halo Studs \u2013 an elegant stud crafted in fine metal, finished with a polished, statement-ready look. Handcrafted to perfection with signature Gevariya Jewels fine jewelry detailing.",
+    "metals": [
+      "18K Rose Gold",
+      "18K Yellow Gold",
+      "18K White Gold"
+    ],
+    "sizes": [
+      "Standard Stud"
+    ],
+    "details": [
+      "Classic 4-prong and halo solitaire setting",
+      "Comfort screw-back posts for 24/7 wear",
+      "Ethically sourced precision-cut stones",
+      "Includes certificate of authenticity and velvet travel pouch"
+    ]
+  },
+  {
+    "id": "emerald-cut-studs",
+    "name": "Emerald Cut Studs",
+    "category": "STUDS",
+    "gender": "UNISEX",
+    "subCategory": "SOLITAIRE & HALO STUDS",
+    "price": 2799,
+    "originalPrice": 3699,
+    "rating": 4.8,
+    "reviewsCount": 54,
+    "badge": "BESTSELLER",
+    "isBestSeller": true,
+    "isNew": false,
+    "images": [
+      "/products/emerald-cut-studs/image-1.webp",
+      "/products/emerald-cut-studs/image-2.webp",
+      "/products/emerald-cut-studs/image-3.webp",
+      "/products/emerald-cut-studs/image-4.webp"
+    ],
+    "image": "/products/emerald-cut-studs/image-1.webp",
+    "hoverImage": "/products/emerald-cut-studs/image-2.webp",
+    "description": "Emerald Cut Studs \u2013 an elegant stud crafted in emerald, finished with a polished, statement-ready look. Handcrafted to perfection with signature Gevariya Jewels fine jewelry detailing.",
+    "metals": [
+      "18K Rose Gold",
+      "18K Yellow Gold",
+      "18K White Gold"
+    ],
+    "sizes": [
+      "Standard Stud"
+    ],
+    "details": [
+      "Classic 4-prong and halo solitaire setting",
+      "Comfort screw-back posts for 24/7 wear",
+      "Ethically sourced precision-cut stones",
+      "Includes certificate of authenticity and velvet travel pouch"
+    ]
+  },
+  {
+    "id": "gold-leopard-studs",
+    "name": "Gold Leopard Studs",
+    "category": "STUDS",
+    "gender": "UNISEX",
+    "subCategory": "SOLITAIRE & HALO STUDS",
+    "price": 3999,
+    "originalPrice": 5299,
+    "rating": 4.7,
+    "reviewsCount": 65,
+    "badge": "NEW",
+    "isBestSeller": false,
+    "isNew": true,
+    "images": [
+      "/products/gold-leopard-studs/image-1.webp",
+      "/products/gold-leopard-studs/image-2.webp",
+      "/products/gold-leopard-studs/image-3.webp",
+      "/products/gold-leopard-studs/image-4.webp"
+    ],
+    "image": "/products/gold-leopard-studs/image-1.webp",
+    "hoverImage": "/products/gold-leopard-studs/image-2.webp",
+    "description": "Gold Leopard Studs \u2013 an elegant stud crafted in gold, finished with a polished, statement-ready look. Handcrafted to perfection with signature Gevariya Jewels fine jewelry detailing.",
+    "metals": [
+      "18K Rose Gold",
+      "18K Yellow Gold",
+      "18K White Gold"
+    ],
+    "sizes": [
+      "Standard Stud"
+    ],
+    "details": [
+      "Classic 4-prong and halo solitaire setting",
+      "Comfort screw-back posts for 24/7 wear",
+      "Ethically sourced precision-cut stones",
+      "Includes certificate of authenticity and velvet travel pouch"
+    ]
+  },
+  {
+    "id": "round-diamond-studs",
+    "name": "Round Diamond Studs",
+    "category": "STUDS",
+    "gender": "UNISEX",
+    "subCategory": "SOLITAIRE & HALO STUDS",
+    "price": 2499,
+    "originalPrice": 3299,
+    "rating": 5.0,
+    "reviewsCount": 76,
+    "badge": "",
+    "isBestSeller": false,
+    "isNew": false,
+    "images": [
+      "/products/round-diamond-studs/image-1.webp",
+      "/products/round-diamond-studs/image-2.webp",
+      "/products/round-diamond-studs/image-3.webp",
+      "/products/round-diamond-studs/image-4.webp"
+    ],
+    "image": "/products/round-diamond-studs/image-1.webp",
+    "hoverImage": "/products/round-diamond-studs/image-2.webp",
+    "description": "Round Diamond Studs \u2013 an elegant stud crafted in diamond, finished with a polished, statement-ready look. Handcrafted to perfection with signature Gevariya Jewels fine jewelry detailing.",
+    "metals": [
+      "18K Rose Gold",
+      "18K Yellow Gold",
+      "18K White Gold"
+    ],
+    "sizes": [
+      "Standard Stud"
+    ],
+    "details": [
+      "Classic 4-prong and halo solitaire setting",
+      "Comfort screw-back posts for 24/7 wear",
+      "Ethically sourced precision-cut stones",
+      "Includes certificate of authenticity and velvet travel pouch"
+    ]
+  },
+  {
+    "id": "gold-knot-pendant",
+    "name": "Gold Knot Pendant",
+    "category": "NECKLACES",
+    "gender": "WOMEN",
+    "subCategory": "PENDANTS",
+    "price": 3499,
+    "originalPrice": 4599,
+    "rating": 4.9,
+    "reviewsCount": 22,
+    "badge": "HOT",
+    "isBestSeller": false,
+    "isNew": false,
+    "images": [
+      "/products/gold-knot-pendant/image-1.webp",
+      "/products/gold-knot-pendant/image-2.webp",
+      "/products/gold-knot-pendant/image-3.webp",
+      "/products/gold-knot-pendant/image-4.webp"
+    ],
+    "image": "/products/gold-knot-pendant/image-1.webp",
+    "hoverImage": "/products/gold-knot-pendant/image-2.webp",
+    "description": "Gold Knot Pendant \u2013 an elegant pendant crafted in gold, finished with a polished, statement-ready look. Handcrafted to perfection with signature Gevariya Jewels fine jewelry detailing.",
+    "metals": [
+      "18K Rose Gold",
+      "18K Yellow Gold",
+      "18K White Gold"
+    ],
+    "sizes": [
+      "16-18 Inch Adjustable"
+    ],
+    "details": [
+      "Includes 18-inch delicate cable chain with 2-inch extender",
+      "Sturdy lobster claw clasp closure",
+      "Tarnish-resistant anti-oxidant protective coating",
+      "Packaged in Gevariya Jewels presentation gift box"
+    ]
+  },
+  {
+    "id": "gold-swirl-pendant",
+    "name": "Gold Swirl Pendant",
+    "category": "NECKLACES",
+    "gender": "WOMEN",
+    "subCategory": "PENDANTS",
+    "price": 4499,
+    "originalPrice": 5949,
+    "rating": 4.8,
+    "reviewsCount": 33,
+    "badge": "",
+    "isBestSeller": false,
+    "isNew": false,
+    "images": [
+      "/products/gold-swirl-pendant/image-1.webp",
+      "/products/gold-swirl-pendant/image-2.webp",
+      "/products/gold-swirl-pendant/image-3.webp",
+      "/products/gold-swirl-pendant/image-4.webp"
+    ],
+    "image": "/products/gold-swirl-pendant/image-1.webp",
+    "hoverImage": "/products/gold-swirl-pendant/image-2.webp",
+    "description": "Gold Swirl Pendant \u2013 an elegant pendant crafted in gold, finished with a polished, statement-ready look. Handcrafted to perfection with signature Gevariya Jewels fine jewelry detailing.",
+    "metals": [
+      "18K Rose Gold",
+      "18K Yellow Gold",
+      "18K White Gold"
+    ],
+    "sizes": [
+      "16-18 Inch Adjustable"
+    ],
+    "details": [
+      "Includes 18-inch delicate cable chain with 2-inch extender",
+      "Sturdy lobster claw clasp closure",
+      "Tarnish-resistant anti-oxidant protective coating",
+      "Packaged in Gevariya Jewels presentation gift box"
+    ]
+  },
+  {
+    "id": "gold-teardrop-pendant",
+    "name": "Gold Teardrop Pendant",
+    "category": "NECKLACES",
+    "gender": "WOMEN",
+    "subCategory": "PENDANTS",
+    "price": 3499,
+    "originalPrice": 4599,
+    "rating": 4.7,
+    "reviewsCount": 44,
+    "badge": "BESTSELLER",
+    "isBestSeller": true,
+    "isNew": false,
+    "images": [
+      "/products/gold-teardrop-pendant/image-1.webp",
+      "/products/gold-teardrop-pendant/image-2.webp",
+      "/products/gold-teardrop-pendant/image-3.webp",
+      "/products/gold-teardrop-pendant/image-4.webp"
+    ],
+    "image": "/products/gold-teardrop-pendant/image-1.webp",
+    "hoverImage": "/products/gold-teardrop-pendant/image-2.webp",
+    "description": "Gold Teardrop Pendant \u2013 an elegant pendant crafted in gold, finished with a polished, statement-ready look. Handcrafted to perfection with signature Gevariya Jewels fine jewelry detailing.",
+    "metals": [
+      "18K Rose Gold",
+      "18K Yellow Gold",
+      "18K White Gold"
+    ],
+    "sizes": [
+      "16-18 Inch Adjustable"
+    ],
+    "details": [
+      "Includes 18-inch delicate cable chain with 2-inch extender",
+      "Sturdy lobster claw clasp closure",
+      "Tarnish-resistant anti-oxidant protective coating",
+      "Packaged in Gevariya Jewels presentation gift box"
+    ]
+  },
+  {
+    "id": "gold-wing-pendant",
+    "name": "Gold Wing Pendant",
+    "category": "NECKLACES",
+    "gender": "WOMEN",
+    "subCategory": "PENDANTS",
+    "price": 4499,
+    "originalPrice": 5949,
+    "rating": 5.0,
+    "reviewsCount": 55,
+    "badge": "HOT",
+    "isBestSeller": false,
+    "isNew": false,
+    "images": [
+      "/products/gold-wing-pendant/image-1.webp",
+      "/products/gold-wing-pendant/image-2.webp",
+      "/products/gold-wing-pendant/image-3.webp",
+      "/products/gold-wing-pendant/image-4.webp"
+    ],
+    "image": "/products/gold-wing-pendant/image-1.webp",
+    "hoverImage": "/products/gold-wing-pendant/image-2.webp",
+    "description": "Gold Wing Pendant \u2013 an elegant pendant crafted in gold, finished with a polished, statement-ready look. Handcrafted to perfection with signature Gevariya Jewels fine jewelry detailing.",
+    "metals": [
+      "18K Rose Gold",
+      "18K Yellow Gold",
+      "18K White Gold"
+    ],
+    "sizes": [
+      "16-18 Inch Adjustable"
+    ],
+    "details": [
+      "Includes 18-inch delicate cable chain with 2-inch extender",
+      "Sturdy lobster claw clasp closure",
+      "Tarnish-resistant anti-oxidant protective coating",
+      "Packaged in Gevariya Jewels presentation gift box"
+    ]
+  },
+  {
+    "id": "green-leaf-pendant",
+    "name": "Green Leaf Pendant",
+    "category": "NECKLACES",
+    "gender": "WOMEN",
+    "subCategory": "PENDANTS",
+    "price": 3499,
+    "originalPrice": 4599,
+    "rating": 4.9,
+    "reviewsCount": 66,
+    "badge": "",
+    "isBestSeller": false,
+    "isNew": false,
+    "images": [
+      "/products/green-leaf-pendant/image-1.webp",
+      "/products/green-leaf-pendant/image-2.webp",
+      "/products/green-leaf-pendant/image-3.webp",
+      "/products/green-leaf-pendant/image-4.webp"
+    ],
+    "image": "/products/green-leaf-pendant/image-1.webp",
+    "hoverImage": "/products/green-leaf-pendant/image-2.webp",
+    "description": "Green Leaf Pendant \u2013 an elegant pendant crafted in fine metal, finished with a polished, statement-ready look. Handcrafted to perfection with signature Gevariya Jewels fine jewelry detailing.",
+    "metals": [
+      "18K Rose Gold",
+      "18K Yellow Gold",
+      "18K White Gold"
+    ],
+    "sizes": [
+      "16-18 Inch Adjustable"
+    ],
+    "details": [
+      "Includes 18-inch delicate cable chain with 2-inch extender",
+      "Sturdy lobster claw clasp closure",
+      "Tarnish-resistant anti-oxidant protective coating",
+      "Packaged in Gevariya Jewels presentation gift box"
+    ]
+  },
+  {
+    "id": "pink-butterfly-pendant",
+    "name": "Pink Butterfly Pendant",
+    "category": "NECKLACES",
+    "gender": "WOMEN",
+    "subCategory": "PENDANTS",
+    "price": 3499,
+    "originalPrice": 4599,
+    "rating": 4.8,
+    "reviewsCount": 77,
+    "badge": "",
+    "isBestSeller": false,
+    "isNew": false,
+    "images": [
+      "/products/pink-butterfly-pendant/image-1.webp",
+      "/products/pink-butterfly-pendant/image-2.webp",
+      "/products/pink-butterfly-pendant/image-3.webp",
+      "/products/pink-butterfly-pendant/image-4.webp"
+    ],
+    "image": "/products/pink-butterfly-pendant/image-1.webp",
+    "hoverImage": "/products/pink-butterfly-pendant/image-2.webp",
+    "description": "Pink Butterfly Pendant \u2013 an elegant pendant crafted in pink stone, finished with a polished, statement-ready look. Handcrafted to perfection with signature Gevariya Jewels fine jewelry detailing.",
+    "metals": [
+      "18K Rose Gold",
+      "18K Yellow Gold",
+      "18K White Gold"
+    ],
+    "sizes": [
+      "16-18 Inch Adjustable"
+    ],
+    "details": [
+      "Includes 18-inch delicate cable chain with 2-inch extender",
+      "Sturdy lobster claw clasp closure",
+      "Tarnish-resistant anti-oxidant protective coating",
+      "Packaged in Gevariya Jewels presentation gift box"
+    ]
+  },
+  {
+    "id": "pink-flower-pendant",
+    "name": "Pink Flower Pendant",
+    "category": "NECKLACES",
+    "gender": "WOMEN",
+    "subCategory": "PENDANTS",
+    "price": 2999,
+    "originalPrice": 3949,
+    "rating": 4.7,
+    "reviewsCount": 23,
+    "badge": "NEW",
+    "isBestSeller": false,
+    "isNew": true,
+    "images": [
+      "/products/pink-flower-pendant/image-1.webp",
+      "/products/pink-flower-pendant/image-2.webp",
+      "/products/pink-flower-pendant/image-3.webp",
+      "/products/pink-flower-pendant/image-4.webp"
+    ],
+    "image": "/products/pink-flower-pendant/image-1.webp",
+    "hoverImage": "/products/pink-flower-pendant/image-2.webp",
+    "description": "Pink Flower Pendant \u2013 an elegant pendant crafted in pink stone, finished with a polished, statement-ready look. Handcrafted to perfection with signature Gevariya Jewels fine jewelry detailing.",
+    "metals": [
+      "18K Rose Gold",
+      "18K Yellow Gold",
+      "18K White Gold"
+    ],
+    "sizes": [
+      "16-18 Inch Adjustable"
+    ],
+    "details": [
+      "Includes 18-inch delicate cable chain with 2-inch extender",
+      "Sturdy lobster claw clasp closure",
+      "Tarnish-resistant anti-oxidant protective coating",
+      "Packaged in Gevariya Jewels presentation gift box"
+    ]
+  },
+  {
+    "id": "pink-leaf-pendant",
+    "name": "Pink Leaf Pendant",
+    "category": "NECKLACES",
+    "gender": "WOMEN",
+    "subCategory": "PENDANTS",
+    "price": 3499,
+    "originalPrice": 4599,
+    "rating": 5.0,
+    "reviewsCount": 34,
+    "badge": "BESTSELLER",
+    "isBestSeller": true,
+    "isNew": false,
+    "images": [
+      "/products/pink-leaf-pendant/image-1.webp",
+      "/products/pink-leaf-pendant/image-2.webp",
+      "/products/pink-leaf-pendant/image-3.webp",
+      "/products/pink-leaf-pendant/image-4.webp"
+    ],
+    "image": "/products/pink-leaf-pendant/image-1.webp",
+    "hoverImage": "/products/pink-leaf-pendant/image-2.webp",
+    "description": "Pink Leaf Pendant \u2013 an elegant pendant crafted in pink stone, finished with a polished, statement-ready look. Handcrafted to perfection with signature Gevariya Jewels fine jewelry detailing.",
+    "metals": [
+      "18K Rose Gold",
+      "18K Yellow Gold",
+      "18K White Gold"
+    ],
+    "sizes": [
+      "16-18 Inch Adjustable"
+    ],
+    "details": [
+      "Includes 18-inch delicate cable chain with 2-inch extender",
+      "Sturdy lobster claw clasp closure",
+      "Tarnish-resistant anti-oxidant protective coating",
+      "Packaged in Gevariya Jewels presentation gift box"
+    ]
+  },
+  {
+    "id": "white-flower-pendant",
+    "name": "White Flower Pendant",
+    "category": "NECKLACES",
+    "gender": "WOMEN",
+    "subCategory": "PENDANTS",
+    "price": 2999,
+    "originalPrice": 3949,
+    "rating": 4.9,
+    "reviewsCount": 45,
+    "badge": "",
+    "isBestSeller": false,
+    "isNew": false,
+    "images": [
+      "/products/white-flower-pendant/image-1.webp",
+      "/products/white-flower-pendant/image-2.webp",
+      "/products/white-flower-pendant/image-3.webp",
+      "/products/white-flower-pendant/image-4.webp"
+    ],
+    "image": "/products/white-flower-pendant/image-1.webp",
+    "hoverImage": "/products/white-flower-pendant/image-2.webp",
+    "description": "White Flower Pendant \u2013 an elegant pendant crafted in fine metal, finished with a polished, statement-ready look. Handcrafted to perfection with signature Gevariya Jewels fine jewelry detailing.",
+    "metals": [
+      "18K Rose Gold",
+      "18K Yellow Gold",
+      "18K White Gold"
+    ],
+    "sizes": [
+      "16-18 Inch Adjustable"
+    ],
+    "details": [
+      "Includes 18-inch delicate cable chain with 2-inch extender",
+      "Sturdy lobster claw clasp closure",
+      "Tarnish-resistant anti-oxidant protective coating",
+      "Packaged in Gevariya Jewels presentation gift box"
+    ]
+  },
+  {
+    "id": "white-star-pendant",
+    "name": "White Star Pendant",
+    "category": "NECKLACES",
+    "gender": "WOMEN",
+    "subCategory": "PENDANTS",
+    "price": 3499,
+    "originalPrice": 4599,
+    "rating": 4.8,
+    "reviewsCount": 56,
+    "badge": "HOT",
+    "isBestSeller": false,
+    "isNew": false,
+    "images": [
+      "/products/white-star-pendant/image-1.webp",
+      "/products/white-star-pendant/image-2.webp",
+      "/products/white-star-pendant/image-3.webp",
+      "/products/white-star-pendant/image-4.webp"
+    ],
+    "image": "/products/white-star-pendant/image-1.webp",
+    "hoverImage": "/products/white-star-pendant/image-2.webp",
+    "description": "White Star Pendant \u2013 an elegant pendant crafted in fine metal, finished with a polished, statement-ready look. Handcrafted to perfection with signature Gevariya Jewels fine jewelry detailing.",
+    "metals": [
+      "18K Rose Gold",
+      "18K Yellow Gold",
+      "18K White Gold"
+    ],
+    "sizes": [
+      "16-18 Inch Adjustable"
+    ],
+    "details": [
+      "Includes 18-inch delicate cable chain with 2-inch extender",
+      "Sturdy lobster claw clasp closure",
+      "Tarnish-resistant anti-oxidant protective coating",
+      "Packaged in Gevariya Jewels presentation gift box"
+    ]
+  },
+  {
+    "id": "heart-diamond-ring",
+    "name": "Heart Diamond Ring",
+    "category": "RINGS",
+    "gender": "WOMEN",
+    "subCategory": "ENGAGEMENT & STATEMENT RINGS",
+    "price": 2999,
+    "originalPrice": 3949,
+    "rating": 4.7,
+    "reviewsCount": 67,
+    "badge": "NEW",
+    "isBestSeller": false,
+    "isNew": true,
+    "images": [
+      "/products/heart-diamond-ring/image-1.webp",
+      "/products/heart-diamond-ring/image-2.webp",
+      "/products/heart-diamond-ring/image-3.webp",
+      "/products/heart-diamond-ring/image-4.webp"
+    ],
+    "image": "/products/heart-diamond-ring/image-1.webp",
+    "hoverImage": "/products/heart-diamond-ring/image-2.webp",
+    "description": "Heart Diamond Ring \u2013 an elegant women's ring crafted in diamond, finished with a polished, statement-ready look. Handcrafted to perfection with signature Gevariya Jewels fine jewelry detailing.",
+    "metals": [
+      "18K Rose Gold",
+      "18K Yellow Gold",
+      "18K White Gold"
+    ],
+    "sizes": [
+      "US 5",
+      "US 6",
+      "US 7",
+      "US 8",
+      "US 9"
+    ],
+    "details": [
+      "Comfort-fit inner band engineered for daily luxury",
+      "Flawless precision gemstone handset work",
+      "Certified hallmark quality guarantee",
+      "Delivered with Gevariya Jewels velvet presentation box"
+    ]
+  },
+  {
+    "id": "oval-diamond-ring",
+    "name": "Oval Diamond Ring",
+    "category": "RINGS",
+    "gender": "WOMEN",
+    "subCategory": "ENGAGEMENT & STATEMENT RINGS",
+    "price": 3499,
+    "originalPrice": 4599,
+    "rating": 5.0,
+    "reviewsCount": 78,
+    "badge": "",
+    "isBestSeller": false,
+    "isNew": false,
+    "images": [
+      "/products/oval-diamond-ring/image-1.webp",
+      "/products/oval-diamond-ring/image-2.webp",
+      "/products/oval-diamond-ring/image-3.webp",
+      "/products/oval-diamond-ring/image-4.webp"
+    ],
+    "image": "/products/oval-diamond-ring/image-1.webp",
+    "hoverImage": "/products/oval-diamond-ring/image-2.webp",
+    "description": "Oval Diamond Ring \u2013 an elegant women's ring crafted in diamond, finished with a polished, statement-ready look. Handcrafted to perfection with signature Gevariya Jewels fine jewelry detailing.",
+    "metals": [
+      "18K Rose Gold",
+      "18K Yellow Gold",
+      "18K White Gold"
+    ],
+    "sizes": [
+      "US 5",
+      "US 6",
+      "US 7",
+      "US 8",
+      "US 9"
+    ],
+    "details": [
+      "Comfort-fit inner band engineered for daily luxury",
+      "Flawless precision gemstone handset work",
+      "Certified hallmark quality guarantee",
+      "Delivered with Gevariya Jewels velvet presentation box"
+    ]
+  },
+  {
+    "id": "petite-butterfly-ring",
+    "name": "Petite Butterfly Ring",
+    "category": "RINGS",
+    "gender": "WOMEN",
+    "subCategory": "ENGAGEMENT & STATEMENT RINGS",
+    "price": 3299,
+    "originalPrice": 4349,
+    "rating": 4.9,
+    "reviewsCount": 24,
+    "badge": "BESTSELLER",
+    "isBestSeller": true,
+    "isNew": false,
+    "images": [
+      "/products/petite-butterfly-ring/image-1.webp",
+      "/products/petite-butterfly-ring/image-2.webp",
+      "/products/petite-butterfly-ring/image-3.webp",
+      "/products/petite-butterfly-ring/image-4.webp"
+    ],
+    "image": "/products/petite-butterfly-ring/image-1.webp",
+    "hoverImage": "/products/petite-butterfly-ring/image-2.webp",
+    "description": "Petite Butterfly Ring \u2013 an elegant women's ring crafted in fine metal, finished with a polished, statement-ready look. Handcrafted to perfection with signature Gevariya Jewels fine jewelry detailing.",
+    "metals": [
+      "18K Rose Gold",
+      "18K Yellow Gold",
+      "18K White Gold"
+    ],
+    "sizes": [
+      "US 5",
+      "US 6",
+      "US 7",
+      "US 8",
+      "US 9"
+    ],
+    "details": [
+      "Comfort-fit inner band engineered for daily luxury",
+      "Flawless precision gemstone handset work",
+      "Certified hallmark quality guarantee",
+      "Delivered with Gevariya Jewels velvet presentation box"
+    ]
+  },
+  {
+    "id": "pink-bow-ring",
+    "name": "Pink Bow Ring",
+    "category": "RINGS",
+    "gender": "WOMEN",
+    "subCategory": "ENGAGEMENT & STATEMENT RINGS",
+    "price": 3299,
+    "originalPrice": 4349,
+    "rating": 4.8,
+    "reviewsCount": 35,
+    "badge": "",
+    "isBestSeller": false,
+    "isNew": false,
+    "images": [
+      "/products/pink-bow-ring/image-1.webp",
+      "/products/pink-bow-ring/image-2.webp",
+      "/products/pink-bow-ring/image-3.webp",
+      "/products/pink-bow-ring/image-4.webp"
+    ],
+    "image": "/products/pink-bow-ring/image-1.webp",
+    "hoverImage": "/products/pink-bow-ring/image-2.webp",
+    "description": "Pink Bow Ring \u2013 an elegant women's ring crafted in pink stone, finished with a polished, statement-ready look. Handcrafted to perfection with signature Gevariya Jewels fine jewelry detailing.",
+    "metals": [
+      "18K Rose Gold",
+      "18K Yellow Gold",
+      "18K White Gold"
+    ],
+    "sizes": [
+      "US 5",
+      "US 6",
+      "US 7",
+      "US 8",
+      "US 9"
+    ],
+    "details": [
+      "Comfort-fit inner band engineered for daily luxury",
+      "Flawless precision gemstone handset work",
+      "Certified hallmark quality guarantee",
+      "Delivered with Gevariya Jewels velvet presentation box"
+    ]
+  },
+  {
+    "id": "pink-butterfly-ring",
+    "name": "Pink Butterfly Ring",
+    "category": "RINGS",
+    "gender": "WOMEN",
+    "subCategory": "ENGAGEMENT & STATEMENT RINGS",
+    "price": 3799,
+    "originalPrice": 4999,
+    "rating": 4.7,
+    "reviewsCount": 46,
+    "badge": "NEW",
+    "isBestSeller": false,
+    "isNew": true,
+    "images": [
+      "/products/pink-butterfly-ring/image-1.webp",
+      "/products/pink-butterfly-ring/image-2.webp",
+      "/products/pink-butterfly-ring/image-3.webp",
+      "/products/pink-butterfly-ring/image-4.webp"
+    ],
+    "image": "/products/pink-butterfly-ring/image-1.webp",
+    "hoverImage": "/products/pink-butterfly-ring/image-2.webp",
+    "description": "Pink Butterfly Ring \u2013 an elegant women's ring crafted in pink stone, finished with a polished, statement-ready look. Handcrafted to perfection with signature Gevariya Jewels fine jewelry detailing.",
+    "metals": [
+      "18K Rose Gold",
+      "18K Yellow Gold",
+      "18K White Gold"
+    ],
+    "sizes": [
+      "US 5",
+      "US 6",
+      "US 7",
+      "US 8",
+      "US 9"
+    ],
+    "details": [
+      "Comfort-fit inner band engineered for daily luxury",
+      "Flawless precision gemstone handset work",
+      "Certified hallmark quality guarantee",
+      "Delivered with Gevariya Jewels velvet presentation box"
+    ]
+  },
+  {
+    "id": "pink-floral-ring",
+    "name": "Pink Floral Ring",
+    "category": "RINGS",
+    "gender": "WOMEN",
+    "subCategory": "ENGAGEMENT & STATEMENT RINGS",
+    "price": 3999,
+    "originalPrice": 5299,
+    "rating": 5.0,
+    "reviewsCount": 57,
+    "badge": "HOT",
+    "isBestSeller": false,
+    "isNew": false,
+    "images": [
+      "/products/pink-floral-ring/image-1.webp",
+      "/products/pink-floral-ring/image-2.webp",
+      "/products/pink-floral-ring/image-3.webp",
+      "/products/pink-floral-ring/image-4.webp"
+    ],
+    "image": "/products/pink-floral-ring/image-1.webp",
+    "hoverImage": "/products/pink-floral-ring/image-2.webp",
+    "description": "Pink Floral Ring \u2013 an elegant women's ring crafted in pink stone, finished with a polished, statement-ready look. Handcrafted to perfection with signature Gevariya Jewels fine jewelry detailing.",
+    "metals": [
+      "18K Rose Gold",
+      "18K Yellow Gold",
+      "18K White Gold"
+    ],
+    "sizes": [
+      "US 5",
+      "US 6",
+      "US 7",
+      "US 8",
+      "US 9"
+    ],
+    "details": [
+      "Comfort-fit inner band engineered for daily luxury",
+      "Flawless precision gemstone handset work",
+      "Certified hallmark quality guarantee",
+      "Delivered with Gevariya Jewels velvet presentation box"
+    ]
+  },
+  {
+    "id": "pink-heart-ring",
+    "name": "Pink Heart Ring",
+    "category": "RINGS",
+    "gender": "WOMEN",
+    "subCategory": "ENGAGEMENT & STATEMENT RINGS",
+    "price": 3499,
+    "originalPrice": 4599,
+    "rating": 4.9,
+    "reviewsCount": 68,
+    "badge": "",
+    "isBestSeller": false,
+    "isNew": false,
+    "images": [
+      "/products/pink-heart-ring/image-1.webp",
+      "/products/pink-heart-ring/image-2.webp",
+      "/products/pink-heart-ring/image-3.webp",
+      "/products/pink-heart-ring/image-4.webp"
+    ],
+    "image": "/products/pink-heart-ring/image-1.webp",
+    "hoverImage": "/products/pink-heart-ring/image-2.webp",
+    "description": "Pink Heart Ring \u2013 an elegant women's ring crafted in pink stone, finished with a polished, statement-ready look. Handcrafted to perfection with signature Gevariya Jewels fine jewelry detailing.",
+    "metals": [
+      "18K Rose Gold",
+      "18K Yellow Gold",
+      "18K White Gold"
+    ],
+    "sizes": [
+      "US 5",
+      "US 6",
+      "US 7",
+      "US 8",
+      "US 9"
+    ],
+    "details": [
+      "Comfort-fit inner band engineered for daily luxury",
+      "Flawless precision gemstone handset work",
+      "Certified hallmark quality guarantee",
+      "Delivered with Gevariya Jewels velvet presentation box"
+    ]
+  },
+  {
+    "id": "pink-trillion-ring",
+    "name": "Pink Trillion Ring",
+    "category": "RINGS",
+    "gender": "WOMEN",
+    "subCategory": "ENGAGEMENT & STATEMENT RINGS",
+    "price": 3299,
+    "originalPrice": 4349,
+    "rating": 4.8,
+    "reviewsCount": 79,
+    "badge": "BESTSELLER",
+    "isBestSeller": true,
+    "isNew": false,
+    "images": [
+      "/products/pink-trillion-ring/image-1.webp",
+      "/products/pink-trillion-ring/image-2.webp",
+      "/products/pink-trillion-ring/image-3.webp",
+      "/products/pink-trillion-ring/image-4.webp"
+    ],
+    "image": "/products/pink-trillion-ring/image-1.webp",
+    "hoverImage": "/products/pink-trillion-ring/image-2.webp",
+    "description": "Pink Trillion Ring \u2013 an elegant women's ring crafted in pink stone, finished with a polished, statement-ready look. Handcrafted to perfection with signature Gevariya Jewels fine jewelry detailing.",
+    "metals": [
+      "18K Rose Gold",
+      "18K Yellow Gold",
+      "18K White Gold"
+    ],
+    "sizes": [
+      "US 5",
+      "US 6",
+      "US 7",
+      "US 8",
+      "US 9"
+    ],
+    "details": [
+      "Comfort-fit inner band engineered for daily luxury",
+      "Flawless precision gemstone handset work",
+      "Certified hallmark quality guarantee",
+      "Delivered with Gevariya Jewels velvet presentation box"
+    ]
+  },
+  {
+    "id": "textured-gold-band",
+    "name": "Textured Gold Band",
+    "category": "RINGS",
+    "gender": "WOMEN",
+    "subCategory": "ENGAGEMENT & STATEMENT RINGS",
+    "price": 3499,
+    "originalPrice": 4599,
+    "rating": 4.7,
+    "reviewsCount": 25,
+    "badge": "NEW",
+    "isBestSeller": false,
+    "isNew": true,
+    "images": [
+      "/products/textured-gold-band/image-1.webp",
+      "/products/textured-gold-band/image-2.webp",
+      "/products/textured-gold-band/image-3.webp",
+      "/products/textured-gold-band/image-4.webp"
+    ],
+    "image": "/products/textured-gold-band/image-1.webp",
+    "hoverImage": "/products/textured-gold-band/image-2.webp",
+    "description": "Textured Gold Band \u2013 an elegant women's ring crafted in gold, finished with a polished, statement-ready look. Handcrafted to perfection with signature Gevariya Jewels fine jewelry detailing.",
+    "metals": [
+      "18K Rose Gold",
+      "18K Yellow Gold",
+      "18K White Gold"
+    ],
+    "sizes": [
+      "US 5",
+      "US 6",
+      "US 7",
+      "US 8",
+      "US 9"
+    ],
+    "details": [
+      "Comfort-fit inner band engineered for daily luxury",
+      "Flawless precision gemstone handset work",
+      "Certified hallmark quality guarantee",
+      "Delivered with Gevariya Jewels velvet presentation box"
+    ]
+  },
+  {
+    "id": "yellow-gemstone-ring",
+    "name": "Yellow Gemstone Ring",
+    "category": "RINGS",
+    "gender": "WOMEN",
+    "subCategory": "ENGAGEMENT & STATEMENT RINGS",
+    "price": 3799,
+    "originalPrice": 4999,
+    "rating": 5.0,
+    "reviewsCount": 36,
+    "badge": "",
+    "isBestSeller": false,
+    "isNew": false,
+    "images": [
+      "/products/yellow-gemstone-ring/image-1.webp",
+      "/products/yellow-gemstone-ring/image-2.webp",
+      "/products/yellow-gemstone-ring/image-3.webp",
+      "/products/yellow-gemstone-ring/image-4.webp"
+    ],
+    "image": "/products/yellow-gemstone-ring/image-1.webp",
+    "hoverImage": "/products/yellow-gemstone-ring/image-2.webp",
+    "description": "Yellow Gemstone Ring \u2013 an elegant women's ring crafted in yellow gemstone, finished with a polished, statement-ready look. Handcrafted to perfection with signature Gevariya Jewels fine jewelry detailing.",
+    "metals": [
+      "18K Rose Gold",
+      "18K Yellow Gold",
+      "18K White Gold"
+    ],
+    "sizes": [
+      "US 5",
+      "US 6",
+      "US 7",
+      "US 8",
+      "US 9"
+    ],
+    "details": [
+      "Comfort-fit inner band engineered for daily luxury",
+      "Flawless precision gemstone handset work",
+      "Certified hallmark quality guarantee",
+      "Delivered with Gevariya Jewels velvet presentation box"
+    ]
+  },
+  {
+    "id": "black-onyx-signet",
+    "name": "Black Onyx Signet",
+    "category": "RINGS",
+    "gender": "MEN",
+    "subCategory": "MEN'S SIGNET & BANDS",
+    "price": 3999,
+    "originalPrice": 5299,
+    "rating": 4.9,
+    "reviewsCount": 47,
+    "badge": "",
+    "isBestSeller": false,
+    "isNew": false,
+    "images": [
+      "/products/black-onyx-signet/image-1.webp",
+      "/products/black-onyx-signet/image-2.webp",
+      "/products/black-onyx-signet/image-3.webp",
+      "/products/black-onyx-signet/image-4.webp"
+    ],
+    "image": "/products/black-onyx-signet/image-1.webp",
+    "hoverImage": "/products/black-onyx-signet/image-2.webp",
+    "description": "Black Onyx Signet \u2013 an elegant men's ring crafted in onyx, finished with a polished, statement-ready look. Handcrafted to perfection with signature Gevariya Jewels fine jewelry detailing.",
+    "metals": [
+      "18K Rose Gold",
+      "18K Yellow Gold",
+      "18K White Gold"
+    ],
+    "sizes": [
+      "US 8",
+      "US 9",
+      "US 10",
+      "US 11",
+      "US 12"
+    ],
+    "details": [
+      "Heavyweight solid band with comfort-fit profile",
+      "Satin and mirror-polished dual finish",
+      "Scratch-resistant durable construction",
+      "Includes collector's luxury box and guarantee card"
+    ]
+  },
+  {
+    "id": "blue-cabochon-ring",
+    "name": "Blue Cabochon Ring",
+    "category": "RINGS",
+    "gender": "MEN",
+    "subCategory": "MEN'S SIGNET & BANDS",
+    "price": 4799,
+    "originalPrice": 6349,
+    "rating": 4.8,
+    "reviewsCount": 58,
+    "badge": "HOT",
+    "isBestSeller": false,
+    "isNew": false,
+    "images": [
+      "/products/blue-cabochon-ring/image-1.webp",
+      "/products/blue-cabochon-ring/image-2.webp",
+      "/products/blue-cabochon-ring/image-3.webp",
+      "/products/blue-cabochon-ring/image-4.webp"
+    ],
+    "image": "/products/blue-cabochon-ring/image-1.webp",
+    "hoverImage": "/products/blue-cabochon-ring/image-2.webp",
+    "description": "Blue Cabochon Ring \u2013 an elegant men's ring crafted in blue stone, finished with a polished, statement-ready look. Handcrafted to perfection with signature Gevariya Jewels fine jewelry detailing.",
+    "metals": [
+      "18K Rose Gold",
+      "18K Yellow Gold",
+      "18K White Gold"
+    ],
+    "sizes": [
+      "US 8",
+      "US 9",
+      "US 10",
+      "US 11",
+      "US 12"
+    ],
+    "details": [
+      "Heavyweight solid band with comfort-fit profile",
+      "Satin and mirror-polished dual finish",
+      "Scratch-resistant durable construction",
+      "Includes collector's luxury box and guarantee card"
+    ]
+  },
+  {
+    "id": "blue-topaz-signet",
+    "name": "Blue Topaz Signet",
+    "category": "RINGS",
+    "gender": "MEN",
+    "subCategory": "MEN'S SIGNET & BANDS",
+    "price": 4799,
+    "originalPrice": 6349,
+    "rating": 4.7,
+    "reviewsCount": 69,
+    "badge": "BESTSELLER",
+    "isBestSeller": true,
+    "isNew": false,
+    "images": [
+      "/products/blue-topaz-signet/image-1.webp",
+      "/products/blue-topaz-signet/image-2.webp",
+      "/products/blue-topaz-signet/image-3.webp",
+      "/products/blue-topaz-signet/image-4.webp"
+    ],
+    "image": "/products/blue-topaz-signet/image-1.webp",
+    "hoverImage": "/products/blue-topaz-signet/image-2.webp",
+    "description": "Blue Topaz Signet \u2013 an elegant men's ring crafted in blue stone, topaz, finished with a polished, statement-ready look. Handcrafted to perfection with signature Gevariya Jewels fine jewelry detailing.",
+    "metals": [
+      "18K Rose Gold",
+      "18K Yellow Gold",
+      "18K White Gold"
+    ],
+    "sizes": [
+      "US 8",
+      "US 9",
+      "US 10",
+      "US 11",
+      "US 12"
+    ],
+    "details": [
+      "Heavyweight solid band with comfort-fit profile",
+      "Satin and mirror-polished dual finish",
+      "Scratch-resistant durable construction",
+      "Includes collector's luxury box and guarantee card"
+    ]
+  },
+  {
+    "id": "classic-gold-band",
+    "name": "Classic Gold Band",
+    "category": "RINGS",
+    "gender": "MEN",
+    "subCategory": "MEN'S SIGNET & BANDS",
+    "price": 3999,
+    "originalPrice": 5299,
+    "rating": 5.0,
+    "reviewsCount": 80,
+    "badge": "",
+    "isBestSeller": false,
+    "isNew": false,
+    "images": [
+      "/products/classic-gold-band/image-1.webp",
+      "/products/classic-gold-band/image-2.webp",
+      "/products/classic-gold-band/image-3.webp",
+      "/products/classic-gold-band/image-4.webp"
+    ],
+    "image": "/products/classic-gold-band/image-1.webp",
+    "hoverImage": "/products/classic-gold-band/image-2.webp",
+    "description": "Classic Gold Band \u2013 an elegant men's ring crafted in gold, finished with a polished, statement-ready look. Handcrafted to perfection with signature Gevariya Jewels fine jewelry detailing.",
+    "metals": [
+      "18K Rose Gold",
+      "18K Yellow Gold",
+      "18K White Gold"
+    ],
+    "sizes": [
+      "US 8",
+      "US 9",
+      "US 10",
+      "US 11",
+      "US 12"
+    ],
+    "details": [
+      "Heavyweight solid band with comfort-fit profile",
+      "Satin and mirror-polished dual finish",
+      "Scratch-resistant durable construction",
+      "Includes collector's luxury box and guarantee card"
+    ]
+  },
+  {
+    "id": "gold-diamond-ring",
+    "name": "Gold Diamond Ring",
+    "category": "RINGS",
+    "gender": "MEN",
+    "subCategory": "MEN'S SIGNET & BANDS",
+    "price": 4249,
+    "originalPrice": 5599,
+    "rating": 4.9,
+    "reviewsCount": 26,
+    "badge": "HOT",
+    "isBestSeller": false,
+    "isNew": false,
+    "images": [
+      "/products/gold-diamond-ring/image-1.webp",
+      "/products/gold-diamond-ring/image-2.webp",
+      "/products/gold-diamond-ring/image-3.webp",
+      "/products/gold-diamond-ring/image-4.webp"
+    ],
+    "image": "/products/gold-diamond-ring/image-1.webp",
+    "hoverImage": "/products/gold-diamond-ring/image-2.webp",
+    "description": "Gold Diamond Ring \u2013 an elegant men's ring crafted in gold, diamond, finished with a polished, statement-ready look. Handcrafted to perfection with signature Gevariya Jewels fine jewelry detailing.",
+    "metals": [
+      "18K Rose Gold",
+      "18K Yellow Gold",
+      "18K White Gold"
+    ],
+    "sizes": [
+      "US 8",
+      "US 9",
+      "US 10",
+      "US 11",
+      "US 12"
+    ],
+    "details": [
+      "Heavyweight solid band with comfort-fit profile",
+      "Satin and mirror-polished dual finish",
+      "Scratch-resistant durable construction",
+      "Includes collector's luxury box and guarantee card"
+    ]
+  },
+  {
+    "id": "gold-emerald-ring",
+    "name": "Gold Emerald Ring",
+    "category": "RINGS",
+    "gender": "MEN",
+    "subCategory": "MEN'S SIGNET & BANDS",
+    "price": 4499,
+    "originalPrice": 5949,
+    "rating": 4.8,
+    "reviewsCount": 37,
+    "badge": "",
+    "isBestSeller": false,
+    "isNew": false,
+    "images": [
+      "/products/gold-emerald-ring/image-1.webp",
+      "/products/gold-emerald-ring/image-2.webp",
+      "/products/gold-emerald-ring/image-3.webp",
+      "/products/gold-emerald-ring/image-4.webp"
+    ],
+    "image": "/products/gold-emerald-ring/image-1.webp",
+    "hoverImage": "/products/gold-emerald-ring/image-2.webp",
+    "description": "Gold Emerald Ring \u2013 an elegant men's ring crafted in gold, emerald, finished with a polished, statement-ready look. Handcrafted to perfection with signature Gevariya Jewels fine jewelry detailing.",
+    "metals": [
+      "18K Rose Gold",
+      "18K Yellow Gold",
+      "18K White Gold"
+    ],
+    "sizes": [
+      "US 8",
+      "US 9",
+      "US 10",
+      "US 11",
+      "US 12"
+    ],
+    "details": [
+      "Heavyweight solid band with comfort-fit profile",
+      "Satin and mirror-polished dual finish",
+      "Scratch-resistant durable construction",
+      "Includes collector's luxury box and guarantee card"
+    ]
+  },
+  {
+    "id": "gold-signet-ring",
+    "name": "Gold Signet Ring",
+    "category": "RINGS",
+    "gender": "MEN",
+    "subCategory": "MEN'S SIGNET & BANDS",
+    "price": 4499,
+    "originalPrice": 5949,
+    "rating": 4.7,
+    "reviewsCount": 48,
+    "badge": "NEW",
+    "isBestSeller": false,
+    "isNew": true,
+    "images": [
+      "/products/gold-signet-ring/image-1.webp",
+      "/products/gold-signet-ring/image-2.webp",
+      "/products/gold-signet-ring/image-3.webp",
+      "/products/gold-signet-ring/image-4.webp"
+    ],
+    "image": "/products/gold-signet-ring/image-1.webp",
+    "hoverImage": "/products/gold-signet-ring/image-2.webp",
+    "description": "Gold Signet Ring \u2013 an elegant men's ring crafted in gold, finished with a polished, statement-ready look. Handcrafted to perfection with signature Gevariya Jewels fine jewelry detailing.",
+    "metals": [
+      "18K Rose Gold",
+      "18K Yellow Gold",
+      "18K White Gold"
+    ],
+    "sizes": [
+      "US 8",
+      "US 9",
+      "US 10",
+      "US 11",
+      "US 12"
+    ],
+    "details": [
+      "Heavyweight solid band with comfort-fit profile",
+      "Satin and mirror-polished dual finish",
+      "Scratch-resistant durable construction",
+      "Includes collector's luxury box and guarantee card"
+    ]
+  },
+  {
+    "id": "hammered-gold-band",
+    "name": "Hammered Gold Band",
+    "category": "RINGS",
+    "gender": "MEN",
+    "subCategory": "MEN'S SIGNET & BANDS",
+    "price": 3999,
+    "originalPrice": 5299,
+    "rating": 5.0,
+    "reviewsCount": 59,
+    "badge": "BESTSELLER",
+    "isBestSeller": true,
+    "isNew": false,
+    "images": [
+      "/products/hammered-gold-band/image-1.webp",
+      "/products/hammered-gold-band/image-2.webp",
+      "/products/hammered-gold-band/image-3.webp",
+      "/products/hammered-gold-band/image-4.webp"
+    ],
+    "image": "/products/hammered-gold-band/image-1.webp",
+    "hoverImage": "/products/hammered-gold-band/image-2.webp",
+    "description": "Hammered Gold Band \u2013 an elegant men's ring crafted in gold, finished with a polished, statement-ready look. Handcrafted to perfection with signature Gevariya Jewels fine jewelry detailing.",
+    "metals": [
+      "18K Rose Gold",
+      "18K Yellow Gold",
+      "18K White Gold"
+    ],
+    "sizes": [
+      "US 8",
+      "US 9",
+      "US 10",
+      "US 11",
+      "US 12"
+    ],
+    "details": [
+      "Heavyweight solid band with comfort-fit profile",
+      "Satin and mirror-polished dual finish",
+      "Scratch-resistant durable construction",
+      "Includes collector's luxury box and guarantee card"
+    ]
+  },
+  {
+    "id": "ornate-diamond-ring",
+    "name": "Ornate Diamond Ring",
+    "category": "RINGS",
+    "gender": "MEN",
+    "subCategory": "MEN'S SIGNET & BANDS",
+    "price": 4249,
+    "originalPrice": 5599,
+    "rating": 4.9,
+    "reviewsCount": 70,
+    "badge": "",
+    "isBestSeller": false,
+    "isNew": false,
+    "images": [
+      "/products/ornate-diamond-ring/image-1.webp",
+      "/products/ornate-diamond-ring/image-2.webp",
+      "/products/ornate-diamond-ring/image-3.webp",
+      "/products/ornate-diamond-ring/image-4.webp"
+    ],
+    "image": "/products/ornate-diamond-ring/image-1.webp",
+    "hoverImage": "/products/ornate-diamond-ring/image-2.webp",
+    "description": "Ornate Diamond Ring \u2013 an elegant men's ring crafted in diamond, finished with a polished, statement-ready look. Handcrafted to perfection with signature Gevariya Jewels fine jewelry detailing.",
+    "metals": [
+      "18K Rose Gold",
+      "18K Yellow Gold",
+      "18K White Gold"
+    ],
+    "sizes": [
+      "US 8",
+      "US 9",
+      "US 10",
+      "US 11",
+      "US 12"
+    ],
+    "details": [
+      "Heavyweight solid band with comfort-fit profile",
+      "Satin and mirror-polished dual finish",
+      "Scratch-resistant durable construction",
+      "Includes collector's luxury box and guarantee card"
+    ]
+  },
+  {
+    "id": "sleek-gemstone-ring",
+    "name": "Sleek Gemstone Ring",
+    "category": "RINGS",
+    "gender": "MEN",
+    "subCategory": "MEN'S SIGNET & BANDS",
+    "price": 4799,
+    "originalPrice": 6349,
+    "rating": 4.8,
+    "reviewsCount": 81,
+    "badge": "",
+    "isBestSeller": false,
+    "isNew": false,
+    "images": [
+      "/products/sleek-gemstone-ring/image-1.webp",
+      "/products/sleek-gemstone-ring/image-2.webp",
+      "/products/sleek-gemstone-ring/image-3.webp",
+      "/products/sleek-gemstone-ring/image-4.webp"
+    ],
+    "image": "/products/sleek-gemstone-ring/image-1.webp",
+    "hoverImage": "/products/sleek-gemstone-ring/image-2.webp",
+    "description": "Sleek Gemstone Ring \u2013 an elegant men's ring crafted in fine metal, finished with a polished, statement-ready look. Handcrafted to perfection with signature Gevariya Jewels fine jewelry detailing.",
+    "metals": [
+      "18K Rose Gold",
+      "18K Yellow Gold",
+      "18K White Gold"
+    ],
+    "sizes": [
+      "US 8",
+      "US 9",
+      "US 10",
+      "US 11",
+      "US 12"
+    ],
+    "details": [
+      "Heavyweight solid band with comfort-fit profile",
+      "Satin and mirror-polished dual finish",
+      "Scratch-resistant durable construction",
+      "Includes collector's luxury box and guarantee card"
+    ]
+  },
+  {
+    "id": "blue-flower-bracelet",
+    "name": "Blue Flower Bracelet",
+    "category": "BRACELETS",
+    "gender": "WOMEN",
+    "subCategory": "TENNIS & CHARM BRACELETS",
+    "price": 7099,
+    "originalPrice": 9349,
+    "rating": 4.7,
+    "reviewsCount": 27,
+    "badge": "NEW",
+    "isBestSeller": false,
+    "isNew": true,
+    "images": [
+      "/products/blue-flower-bracelet/image-1.webp",
+      "/products/blue-flower-bracelet/image-2.webp",
+      "/products/blue-flower-bracelet/image-3.webp",
+      "/products/blue-flower-bracelet/image-4.webp"
+    ],
+    "image": "/products/blue-flower-bracelet/image-1.webp",
+    "hoverImage": "/products/blue-flower-bracelet/image-2.webp",
+    "description": "Blue Flower Bracelet \u2013 an elegant women's bracelet crafted in blue stone, finished with a polished, statement-ready look. Handcrafted to perfection with signature Gevariya Jewels fine jewelry detailing.",
+    "metals": [
+      "18K Rose Gold",
+      "18K Yellow Gold",
+      "18K White Gold"
+    ],
+    "sizes": [
+      "6.5 Inch",
+      "7.0 Inch",
+      "7.5 Inch"
+    ],
+    "details": [
+      "Double safety box clasp closure",
+      "Fluid articulated links for effortless wrist movement",
+      "High-luster polished precious metal finish",
+      "Packaged in Gevariya Jewels luxury bracelet box"
+    ]
+  },
+  {
+    "id": "gold-rose-bracelet",
+    "name": "Gold Rose Bracelet",
+    "category": "BRACELETS",
+    "gender": "WOMEN",
+    "subCategory": "TENNIS & CHARM BRACELETS",
+    "price": 7099,
+    "originalPrice": 9349,
+    "rating": 5.0,
+    "reviewsCount": 38,
+    "badge": "LUXURY",
+    "isBestSeller": false,
+    "isNew": false,
+    "images": [
+      "/products/gold-rose-bracelet/image-1.webp",
+      "/products/gold-rose-bracelet/image-2.webp",
+      "/products/gold-rose-bracelet/image-3.webp",
+      "/products/gold-rose-bracelet/image-4.webp"
+    ],
+    "image": "/products/gold-rose-bracelet/image-1.webp",
+    "hoverImage": "/products/gold-rose-bracelet/image-2.webp",
+    "description": "Gold Rose Bracelet \u2013 an elegant women's bracelet crafted in gold, rose gold, finished with a polished, statement-ready look. Handcrafted to perfection with signature Gevariya Jewels fine jewelry detailing.",
+    "metals": [
+      "18K Rose Gold",
+      "18K Yellow Gold",
+      "18K White Gold"
+    ],
+    "sizes": [
+      "6.5 Inch",
+      "7.0 Inch",
+      "7.5 Inch"
+    ],
+    "details": [
+      "Double safety box clasp closure",
+      "Fluid articulated links for effortless wrist movement",
+      "High-luster polished precious metal finish",
+      "Packaged in Gevariya Jewels luxury bracelet box"
+    ]
+  },
+  {
+    "id": "opal-bead-bracelet",
+    "name": "Opal Bead Bracelet",
+    "category": "BRACELETS",
+    "gender": "WOMEN",
+    "subCategory": "TENNIS & CHARM BRACELETS",
+    "price": 7499,
+    "originalPrice": 9899,
+    "rating": 4.9,
+    "reviewsCount": 49,
+    "badge": "BESTSELLER",
+    "isBestSeller": true,
+    "isNew": false,
+    "images": [
+      "/products/opal-bead-bracelet/image-1.webp",
+      "/products/opal-bead-bracelet/image-2.webp",
+      "/products/opal-bead-bracelet/image-3.webp",
+      "/products/opal-bead-bracelet/image-4.webp"
+    ],
+    "image": "/products/opal-bead-bracelet/image-1.webp",
+    "hoverImage": "/products/opal-bead-bracelet/image-2.webp",
+    "description": "Opal Bead Bracelet \u2013 an elegant women's bracelet crafted in opal, finished with a polished, statement-ready look. Handcrafted to perfection with signature Gevariya Jewels fine jewelry detailing.",
+    "metals": [
+      "18K Rose Gold",
+      "18K Yellow Gold",
+      "18K White Gold"
+    ],
+    "sizes": [
+      "6.5 Inch",
+      "7.0 Inch",
+      "7.5 Inch"
+    ],
+    "details": [
+      "Double safety box clasp closure",
+      "Fluid articulated links for effortless wrist movement",
+      "High-luster polished precious metal finish",
+      "Packaged in Gevariya Jewels luxury bracelet box"
+    ]
+  },
+  {
+    "id": "pink-crystal-bracelet",
+    "name": "Pink Crystal Bracelet",
+    "category": "BRACELETS",
+    "gender": "WOMEN",
+    "subCategory": "TENNIS & CHARM BRACELETS",
+    "price": 7499,
+    "originalPrice": 9899,
+    "rating": 4.8,
+    "reviewsCount": 60,
+    "badge": "HOT",
+    "isBestSeller": false,
+    "isNew": false,
+    "images": [
+      "/products/pink-crystal-bracelet/image-1.webp",
+      "/products/pink-crystal-bracelet/image-2.webp",
+      "/products/pink-crystal-bracelet/image-3.webp",
+      "/products/pink-crystal-bracelet/image-4.webp"
+    ],
+    "image": "/products/pink-crystal-bracelet/image-1.webp",
+    "hoverImage": "/products/pink-crystal-bracelet/image-2.webp",
+    "description": "Pink Crystal Bracelet \u2013 an elegant women's bracelet crafted in pink stone, crystal, finished with a polished, statement-ready look. Handcrafted to perfection with signature Gevariya Jewels fine jewelry detailing.",
+    "metals": [
+      "18K Rose Gold",
+      "18K Yellow Gold",
+      "18K White Gold"
+    ],
+    "sizes": [
+      "6.5 Inch",
+      "7.0 Inch",
+      "7.5 Inch"
+    ],
+    "details": [
+      "Double safety box clasp closure",
+      "Fluid articulated links for effortless wrist movement",
+      "High-luster polished precious metal finish",
+      "Packaged in Gevariya Jewels luxury bracelet box"
+    ]
+  },
+  {
+    "id": "diamond-tennis-bracelet",
+    "name": "Diamond Tennis Bracelet",
+    "category": "BRACELETS",
+    "gender": "MEN",
+    "subCategory": "MEN'S STATEMENT BRACELETS",
+    "price": 8549,
+    "originalPrice": 11299,
+    "rating": 4.7,
+    "reviewsCount": 71,
+    "badge": "NEW",
+    "isBestSeller": false,
+    "isNew": true,
+    "images": [
+      "/products/diamond-tennis-bracelet/image-1.webp",
+      "/products/diamond-tennis-bracelet/image-2.webp",
+      "/products/diamond-tennis-bracelet/image-3.webp",
+      "/products/diamond-tennis-bracelet/image-4.webp"
+    ],
+    "image": "/products/diamond-tennis-bracelet/image-1.webp",
+    "hoverImage": "/products/diamond-tennis-bracelet/image-2.webp",
+    "description": "Diamond Tennis Bracelet \u2013 an elegant men's bracelet crafted in diamond, finished with a polished, statement-ready look. Handcrafted to perfection with signature Gevariya Jewels fine jewelry detailing.",
+    "metals": [
+      "18K Rose Gold",
+      "18K Yellow Gold",
+      "18K White Gold"
+    ],
+    "sizes": [
+      "7.5 Inch",
+      "8.0 Inch",
+      "8.5 Inch"
+    ],
+    "details": [
+      "Robust interlocking architectural link architecture",
+      "Reinforced dual safety clasp",
+      "Masculine substantial weight and hand-feel",
+      "Includes Gevariya Jewels luxury presentation case"
+    ]
+  },
+  {
+    "id": "gold-clover-bracelet",
+    "name": "Gold Clover Bracelet",
+    "category": "BRACELETS",
+    "gender": "MEN",
+    "subCategory": "MEN'S STATEMENT BRACELETS",
+    "price": 7099,
+    "originalPrice": 9349,
+    "rating": 5.0,
+    "reviewsCount": 82,
+    "badge": "",
+    "isBestSeller": false,
+    "isNew": false,
+    "images": [
+      "/products/gold-clover-bracelet/image-1.webp",
+      "/products/gold-clover-bracelet/image-2.webp",
+      "/products/gold-clover-bracelet/image-3.webp",
+      "/products/gold-clover-bracelet/image-4.webp"
+    ],
+    "image": "/products/gold-clover-bracelet/image-1.webp",
+    "hoverImage": "/products/gold-clover-bracelet/image-2.webp",
+    "description": "Gold Clover Bracelet \u2013 an elegant men's bracelet crafted in gold, finished with a polished, statement-ready look. Handcrafted to perfection with signature Gevariya Jewels fine jewelry detailing.",
+    "metals": [
+      "18K Rose Gold",
+      "18K Yellow Gold",
+      "18K White Gold"
+    ],
+    "sizes": [
+      "7.5 Inch",
+      "8.0 Inch",
+      "8.5 Inch"
+    ],
+    "details": [
+      "Robust interlocking architectural link architecture",
+      "Reinforced dual safety clasp",
+      "Masculine substantial weight and hand-feel",
+      "Includes Gevariya Jewels luxury presentation case"
+    ]
+  },
+  {
+    "id": "gold-cuff-bangle",
+    "name": "Gold Cuff Bangle",
+    "category": "BRACELETS",
+    "gender": "MEN",
+    "subCategory": "MEN'S STATEMENT BRACELETS",
+    "price": 7099,
+    "originalPrice": 9349,
+    "rating": 4.9,
+    "reviewsCount": 28,
+    "badge": "HOT",
+    "isBestSeller": false,
+    "isNew": false,
+    "images": [
+      "/products/gold-cuff-bangle/image-1.webp",
+      "/products/gold-cuff-bangle/image-2.webp",
+      "/products/gold-cuff-bangle/image-3.webp",
+      "/products/gold-cuff-bangle/image-4.webp"
+    ],
+    "image": "/products/gold-cuff-bangle/image-1.webp",
+    "hoverImage": "/products/gold-cuff-bangle/image-2.webp",
+    "description": "Gold Cuff Bangle \u2013 an elegant men's bracelet crafted in gold, finished with a polished, statement-ready look. Handcrafted to perfection with signature Gevariya Jewels fine jewelry detailing.",
+    "metals": [
+      "18K Rose Gold",
+      "18K Yellow Gold",
+      "18K White Gold"
+    ],
+    "sizes": [
+      "7.5 Inch",
+      "8.0 Inch",
+      "8.5 Inch"
+    ],
+    "details": [
+      "Robust interlocking architectural link architecture",
+      "Reinforced dual safety clasp",
+      "Masculine substantial weight and hand-feel",
+      "Includes Gevariya Jewels luxury presentation case"
+    ]
+  },
+  {
+    "id": "ruby-emerald-bracelet",
+    "name": "Ruby Emerald Bracelet",
+    "category": "BRACELETS",
+    "gender": "MEN",
+    "subCategory": "MEN'S STATEMENT BRACELETS",
+    "price": 8549,
+    "originalPrice": 11299,
+    "rating": 4.8,
+    "reviewsCount": 39,
+    "badge": "BESTSELLER",
+    "isBestSeller": true,
+    "isNew": false,
+    "images": [
+      "/products/ruby-emerald-bracelet/image-1.webp",
+      "/products/ruby-emerald-bracelet/image-2.webp",
+      "/products/ruby-emerald-bracelet/image-3.webp",
+      "/products/ruby-emerald-bracelet/image-4.webp"
+    ],
+    "image": "/products/ruby-emerald-bracelet/image-1.webp",
+    "hoverImage": "/products/ruby-emerald-bracelet/image-2.webp",
+    "description": "Ruby Emerald Bracelet \u2013 an elegant men's bracelet crafted in ruby, emerald, finished with a polished, statement-ready look. Handcrafted to perfection with signature Gevariya Jewels fine jewelry detailing.",
+    "metals": [
+      "18K Rose Gold",
+      "18K Yellow Gold",
+      "18K White Gold"
+    ],
+    "sizes": [
+      "7.5 Inch",
+      "8.0 Inch",
+      "8.5 Inch"
+    ],
+    "details": [
+      "Robust interlocking architectural link architecture",
+      "Reinforced dual safety clasp",
+      "Masculine substantial weight and hand-feel",
+      "Includes Gevariya Jewels luxury presentation case"
     ]
   }
 ];
 
 export const CATEGORIES = [
-  { id: "ALL", name: "ALL" },
-  { id: "RINGS", name: "RINGS", image: "https://images.unsplash.com/photo-1605100804763-247f67b3557e?auto=format&fit=crop&w=600&q=80" },
-  { id: "NECKLACES", name: "PENDANTS", image: "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?auto=format&fit=crop&w=600&q=80" },
-  { id: "EARRINGS", name: "EARRINGS", image: "https://images.unsplash.com/photo-1630019852942-f89202989a59?auto=format&fit=crop&w=600&q=80" },
-  { id: "STUDS", name: "STUDS", image: "https://images.unsplash.com/photo-1598560917505-59a3ad559071?auto=format&fit=crop&w=600&q=80" },
-  { id: "BRACELETS", name: "BRACELETS", image: "https://images.unsplash.com/photo-1599643477877-530eb83abc8e?auto=format&fit=crop&w=600&q=80" },
-  { id: "SETS", name: "SETS", image: "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?auto=format&fit=crop&w=600&q=80" }
+  {
+    id: "RINGS",
+    name: "Rings",
+    count: 20,
+    image: "/products/pink-butterfly-ring/image-1.webp",
+    description: "Engagement, solitaires & handcrafted statement bands",
+    subCategories: ["WOMEN'S RINGS", "MEN'S RINGS", "SOLITAIRES", "ETERNITY BANDS"]
+  },
+  {
+    id: "BRACELETS",
+    name: "Bracelets & Bangles",
+    count: 8,
+    image: "/products/diamond-tennis-bracelet/image-1.webp",
+    description: "Tennis bracelets, architectural cuffs & delicate charm chains",
+    subCategories: ["WOMEN'S BRACELETS", "MEN'S BRACELETS", "TENNIS BRACELETS", "BANGLES"]
+  },
+  {
+    id: "EARRINGS",
+    name: "Earrings",
+    count: 10,
+    image: "/products/gold-bow-drop/image-1.webp",
+    description: "Cascading drops, hoops & chandeliers designed to captivate",
+    subCategories: ["DROP EARRINGS", "HOOPS", "STATEMENT DROPS"]
+  },
+  {
+    id: "STUDS",
+    name: "Solitaire Studs",
+    count: 4,
+    image: "/products/round-diamond-studs/image-1.webp",
+    description: "Timeless brilliant-cut solitaires & halo designs for daily elegance",
+    subCategories: ["ROUND STUDS", "CUSHION HALO", "EMERALD CUT"]
+  },
+  {
+    id: "NECKLACES",
+    name: "Pendants & Necklaces",
+    count: 10,
+    image: "/products/gold-wing-pendant/image-1.webp",
+    description: "Iconic pendants, solitaires & celestial motifs on fine gold chains",
+    subCategories: ["SOLITAIRE PENDANTS", "FLORAL PENDANTS", "STATEMENT PENDANTS"]
+  },
+  {
+    id: "SETS",
+    name: "Jewelry Sets",
+    count: 4,
+    image: "/products/gold-heart-set/image-1.webp",
+    description: "Harmonious bridal & gala sets combining necklace, earrings & ring",
+    subCategories: ["BRIDAL SETS", "OCCASION SETS", "MATCHING SUITES"]
+  }
 ];
+
+export const SIGNATURE_PRODUCT = PRODUCTS.find(p => p.id === "pink-butterfly-ring") || PRODUCTS[0];

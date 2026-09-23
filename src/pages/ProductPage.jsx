@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { useShop } from '../context/ShopContext';
 import { useParams } from 'react-router-dom';
 import { ProductCard } from '../components/ProductCard';
@@ -54,9 +54,15 @@ export const ProductPage = () => {
   const isRingProduct = product.category === 'RINGS';
 
   const [activeImage, setActiveImage]       = useState(product.image);
-  const [selectedPlating, setSelectedPlating] = useState(product.plating?.[0] ?? '18K White Gold');
+  const [selectedPlating, setSelectedPlating] = useState(product.metals?.[0] || product.plating?.[0] || '18K Rose Gold');
   const [selectedSize, setSelectedSize]     = useState('7');
   const [zoomed, setZoomed]                 = useState(false);
+
+  useEffect(() => {
+    setActiveImage(product.image);
+    setSelectedPlating(product.metals?.[0] || product.plating?.[0] || '18K Rose Gold');
+    setZoomed(false);
+  }, [product.id, product.image]);
 
   const handleAddToCart = () => {
     if (mainImgRef.current && (activeImage || product.image)) {
@@ -69,12 +75,9 @@ export const ProductPage = () => {
 
   const isWishlisted = isInWishlist(product.id);
 
-  const thumbnails = [
-    product.image,
-    product.hoverImage || product.image,
-    'https://images.unsplash.com/photo-1605100804763-247f67b3557e?auto=format&fit=crop&w=600&q=80',
-    'https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?auto=format&fit=crop&w=600&q=80',
-  ];
+  const thumbnails = product.images && product.images.length > 0
+    ? product.images
+    : [product.image, product.hoverImage || product.image];
 
   const related = PRODUCTS.filter(p => p.id !== product.id).slice(0, 4);
 
@@ -111,20 +114,21 @@ export const ProductPage = () => {
                       : 'border-[#D8CFC3] opacity-75 hover:opacity-100'
                   }`}
                 >
-                  <img src={img} alt="Thumbnail" className="w-full h-full object-cover" />
+                  <img src={img} alt={`${product.name} shot ${i + 1}`} className="w-full h-full object-cover" />
                 </button>
               ))}
-              <div className="w-16 h-16 sm:w-20 sm:h-20 bg-white border border-[#D8CFC3] flex items-center justify-center text-xs font-bold text-[#5C4038] shrink-0 rounded-xs">
-                +2
-              </div>
             </div>
 
-            {/* Main image stage */}
-            <div ref={mainImgRef} className="relative flex-1 bg-white border border-[#D8CFC3] flex items-center justify-center overflow-hidden min-h-[300px] sm:min-h-[500px] rounded-xs shadow-xs">
+            {/* Main image stage — full-bleed on mobile, contained on desktop */}
+            <div
+              ref={mainImgRef}
+              className="relative flex-1 overflow-hidden rounded-xs shadow-xs border border-[#D8CFC3] bg-[#F5F1EA]"
+              style={{ aspectRatio: '1/1' }}
+            >
               <img
                 src={activeImage}
                 alt={product.name}
-                className={`w-full h-full object-cover transition-transform duration-500 ${zoomed ? 'scale-150 cursor-zoom-out' : 'cursor-zoom-in'}`}
+                className={`absolute inset-0 w-full h-full object-cover object-center transition-transform duration-500 ${zoomed ? 'scale-150 cursor-zoom-out' : 'cursor-zoom-in'}`}
                 onClick={() => setZoomed(!zoomed)}
               />
               <button
@@ -152,11 +156,11 @@ export const ProductPage = () => {
               </p>
             </div>
 
-            {/* ── PLATING Selector ── */}
+            {/* ── METALS & PLATING Selector ── */}
             <div className="space-y-2">
-              <label className="block text-[10.5px] sm:text-[11px] font-sans font-bold text-[#2E2B2B] uppercase tracking-wider">PLATING</label>
+              <label className="block text-[10.5px] sm:text-[11px] font-sans font-bold text-[#2E2B2B] uppercase tracking-wider">METAL / FINISH</label>
               <div className="flex flex-wrap gap-2">
-                {(product.plating || ['18K White Gold', '18K Rose Gold', '18K Gold']).map((plating, i) => (
+                {(product.metals || product.plating || ['18K Rose Gold', '18K Yellow Gold', '18K White Gold']).map((plating, i) => (
                   <button
                     key={i}
                     onClick={() => setSelectedPlating(plating)}

@@ -1,0 +1,1585 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Product Image Classification Inspector</title>
+<style>
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #121212; color: #eee; margin: 0; padding: 20px; }
+  h1, h2, h3 { color: #f4c2c2; }
+  .product-row { background: #1e1e1e; border: 1px solid #333; border-radius: 8px; margin-bottom: 24px; padding: 16px; }
+  .img-grid { display: flex; gap: 12px; flex-wrap: wrap; margin-top: 10px; }
+  .img-card { background: #2a2a2a; border-radius: 6px; padding: 8px; width: 220px; text-align: center; }
+  .img-card img { width: 100%; height: 200px; object-fit: contain; background: #000; border-radius: 4px; }
+  .img-name { font-size: 11px; margin-top: 6px; word-break: break-all; color: #aaa; }
+  .badge { display: inline-block; padding: 2px 6px; font-size: 10px; border-radius: 3px; font-weight: bold; margin-top: 4px; }
+  .badge-plain { background: #2563eb; color: white; }
+  .badge-model { background: #16a34a; color: white; }
+  .badge-angle { background: #d97706; color: white; }
+  .badge-box { background: #db2777; color: white; }
+  .stats { font-size: 10px; color: #777; margin-top: 4px; }
+</style>
+</head>
+<body>
+<h1>Product Image Catalog Inspector (56 Products)</h1>
+<h2>Category: EARRINGS</h2><div class='product-row'><h3>EARRINGS &mdash; Diamond Heart Stud (3 images)</h3><div class='img-grid'>
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/EARRINGS/Diamond Heart Stud/ChatGPT Image Aug 7, 2026, 04_47_01 PM.png' alt='ChatGPT Image Aug 7, 2026, 04_47_01 PM.png'>
+                <div class='img-name'><b>#1</b> ChatGPT Image Aug 7, 2026, 04_47_01 PM.png</div>
+                <div class='stats'>1254x1254 (aspect 1.0)<br>
+                Skin: 0.958 | Box: 0.021</div>
+            </div>
+            
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/EARRINGS/Diamond Heart Stud/ChatGPT Image Aug 7, 2026, 04_49_14 PM.png' alt='ChatGPT Image Aug 7, 2026, 04_49_14 PM.png'>
+                <div class='img-name'><b>#2</b> ChatGPT Image Aug 7, 2026, 04_49_14 PM.png</div>
+                <div class='stats'>1254x1254 (aspect 1.0)<br>
+                Skin: 0.98 | Box: 0.017</div>
+            </div>
+            
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/EARRINGS/Diamond Heart Stud/Gemini_Generated_Image_66afvw66afvw66af.jpeg' alt='Gemini_Generated_Image_66afvw66afvw66af.jpeg'>
+                <div class='img-name'><b>#3</b> Gemini_Generated_Image_66afvw66afvw66af.jpeg</div>
+                <div class='stats'>1280x1145 (aspect 1.12)<br>
+                Skin: 0.859 | Box: 0.336</div>
+            </div>
+            </div></div><div class='product-row'><h3>EARRINGS &mdash; Gold Bow Drop (4 images)</h3><div class='img-grid'>
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/EARRINGS/Gold Bow Drop/ChatGPT Image Aug 5, 2026, 01_42_04 AM.png' alt='ChatGPT Image Aug 5, 2026, 01_42_04 AM.png'>
+                <div class='img-name'><b>#1</b> ChatGPT Image Aug 5, 2026, 01_42_04 AM.png</div>
+                <div class='stats'>1254x1254 (aspect 1.0)<br>
+                Skin: 0.918 | Box: 0.016</div>
+            </div>
+            
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/EARRINGS/Gold Bow Drop/ChatGPT Image Aug 5, 2026, 01_55_13 AM.png' alt='ChatGPT Image Aug 5, 2026, 01_55_13 AM.png'>
+                <div class='img-name'><b>#2</b> ChatGPT Image Aug 5, 2026, 01_55_13 AM.png</div>
+                <div class='stats'>1254x1254 (aspect 1.0)<br>
+                Skin: 0.652 | Box: 0.341</div>
+            </div>
+            
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/EARRINGS/Gold Bow Drop/ChatGPT Image Aug 5, 2026, 02_03_20 AM.png' alt='ChatGPT Image Aug 5, 2026, 02_03_20 AM.png'>
+                <div class='img-name'><b>#3</b> ChatGPT Image Aug 5, 2026, 02_03_20 AM.png</div>
+                <div class='stats'>1254x1254 (aspect 1.0)<br>
+                Skin: 0.973 | Box: 0.493</div>
+            </div>
+            
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/EARRINGS/Gold Bow Drop/ChatGPT Image Aug 5, 2026, 02_19_06 AM.png' alt='ChatGPT Image Aug 5, 2026, 02_19_06 AM.png'>
+                <div class='img-name'><b>#4</b> ChatGPT Image Aug 5, 2026, 02_19_06 AM.png</div>
+                <div class='stats'>1402x1122 (aspect 1.25)<br>
+                Skin: 0.962 | Box: 0.016</div>
+            </div>
+            </div></div><div class='product-row'><h3>EARRINGS &mdash; Gold Heart Stud (4 images)</h3><div class='img-grid'>
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/EARRINGS/Gold Heart Stud/ChatGPT Image Aug 7, 2026, 05_11_47 PM.png' alt='ChatGPT Image Aug 7, 2026, 05_11_47 PM.png'>
+                <div class='img-name'><b>#1</b> ChatGPT Image Aug 7, 2026, 05_11_47 PM.png</div>
+                <div class='stats'>1254x1254 (aspect 1.0)<br>
+                Skin: 0.984 | Box: 0.005</div>
+            </div>
+            
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/EARRINGS/Gold Heart Stud/ChatGPT Image Aug 7, 2026, 05_21_15 PM.png' alt='ChatGPT Image Aug 7, 2026, 05_21_15 PM.png'>
+                <div class='img-name'><b>#2</b> ChatGPT Image Aug 7, 2026, 05_21_15 PM.png</div>
+                <div class='stats'>1402x1122 (aspect 1.25)<br>
+                Skin: 0.972 | Box: 0.658</div>
+            </div>
+            
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/EARRINGS/Gold Heart Stud/wmremove-transformed (1).png' alt='wmremove-transformed (1).png'>
+                <div class='img-name'><b>#3</b> wmremove-transformed (1).png</div>
+                <div class='stats'>2682x1600 (aspect 1.68)<br>
+                Skin: 0.811 | Box: 0.542</div>
+            </div>
+            
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/EARRINGS/Gold Heart Stud/wmremove-transformed (2).png' alt='wmremove-transformed (2).png'>
+                <div class='img-name'><b>#4</b> wmremove-transformed (2).png</div>
+                <div class='stats'>2682x1600 (aspect 1.68)<br>
+                Skin: 0.989 | Box: 0.451</div>
+            </div>
+            </div></div><div class='product-row'><h3>EARRINGS &mdash; Gold Wing Stud (4 images)</h3><div class='img-grid'>
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/EARRINGS/Gold Wing Stud/1.png' alt='1.png'>
+                <div class='img-name'><b>#1</b> 1.png</div>
+                <div class='stats'>1024x1024 (aspect 1.0)<br>
+                Skin: 0.88 | Box: 0.316</div>
+            </div>
+            
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/EARRINGS/Gold Wing Stud/ChatGPT Image Aug 5, 2026, 02_50_55 AM.png' alt='ChatGPT Image Aug 5, 2026, 02_50_55 AM.png'>
+                <div class='img-name'><b>#2</b> ChatGPT Image Aug 5, 2026, 02_50_55 AM.png</div>
+                <div class='stats'>1254x1254 (aspect 1.0)<br>
+                Skin: 0.987 | Box: 0.007</div>
+            </div>
+            
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/EARRINGS/Gold Wing Stud/Gemini_Generated_Image_faymwfaymwfaymwf.jpeg' alt='Gemini_Generated_Image_faymwfaymwfaymwf.jpeg'>
+                <div class='img-name'><b>#3</b> Gemini_Generated_Image_faymwfaymwfaymwf.jpeg</div>
+                <div class='stats'>1280x1023 (aspect 1.25)<br>
+                Skin: 0.987 | Box: 0.29</div>
+            </div>
+            
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/EARRINGS/Gold Wing Stud/wmremove-transformed.png' alt='wmremove-transformed.png'>
+                <div class='img-name'><b>#4</b> wmremove-transformed.png</div>
+                <div class='stats'>1024x1025 (aspect 1.0)<br>
+                Skin: 0.798 | Box: 0.276</div>
+            </div>
+            </div></div><div class='product-row'><h3>EARRINGS &mdash; Pink Bow Drop (4 images)</h3><div class='img-grid'>
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/EARRINGS/Pink Bow Drop/ChatGPT Image Aug 5, 2026, 12_11_49 AM.png' alt='ChatGPT Image Aug 5, 2026, 12_11_49 AM.png'>
+                <div class='img-name'><b>#1</b> ChatGPT Image Aug 5, 2026, 12_11_49 AM.png</div>
+                <div class='stats'>1254x1254 (aspect 1.0)<br>
+                Skin: 0.988 | Box: 0.009</div>
+            </div>
+            
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/EARRINGS/Pink Bow Drop/ChatGPT Image Aug 5, 2026, 12_23_39 AM.png' alt='ChatGPT Image Aug 5, 2026, 12_23_39 AM.png'>
+                <div class='img-name'><b>#2</b> ChatGPT Image Aug 5, 2026, 12_23_39 AM.png</div>
+                <div class='stats'>1254x1254 (aspect 1.0)<br>
+                Skin: 0.788 | Box: 0.279</div>
+            </div>
+            
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/EARRINGS/Pink Bow Drop/ChatGPT Image Aug 5, 2026, 12_29_58 AM.png' alt='ChatGPT Image Aug 5, 2026, 12_29_58 AM.png'>
+                <div class='img-name'><b>#3</b> ChatGPT Image Aug 5, 2026, 12_29_58 AM.png</div>
+                <div class='stats'>1402x1122 (aspect 1.25)<br>
+                Skin: 0.954 | Box: 0.514</div>
+            </div>
+            
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/EARRINGS/Pink Bow Drop/ChatGPT Image Aug 5, 2026, 12_38_59 AM.png' alt='ChatGPT Image Aug 5, 2026, 12_38_59 AM.png'>
+                <div class='img-name'><b>#4</b> ChatGPT Image Aug 5, 2026, 12_38_59 AM.png</div>
+                <div class='stats'>1402x1122 (aspect 1.25)<br>
+                Skin: 0.957 | Box: 0.693</div>
+            </div>
+            </div></div><div class='product-row'><h3>EARRINGS &mdash; Pink Flower Drop (4 images)</h3><div class='img-grid'>
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/EARRINGS/Pink Flower Drop/ChatGPT Image Aug 4, 2026, 10_30_17 PM.png' alt='ChatGPT Image Aug 4, 2026, 10_30_17 PM.png'>
+                <div class='img-name'><b>#1</b> ChatGPT Image Aug 4, 2026, 10_30_17 PM.png</div>
+                <div class='stats'>1254x1254 (aspect 1.0)<br>
+                Skin: 0.667 | Box: 0.301</div>
+            </div>
+            
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/EARRINGS/Pink Flower Drop/ChatGPT Image Aug 4, 2026, 10_43_37 PM.png' alt='ChatGPT Image Aug 4, 2026, 10_43_37 PM.png'>
+                <div class='img-name'><b>#2</b> ChatGPT Image Aug 4, 2026, 10_43_37 PM.png</div>
+                <div class='stats'>1254x1254 (aspect 1.0)<br>
+                Skin: 0.985 | Box: 0.402</div>
+            </div>
+            
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/EARRINGS/Pink Flower Drop/ChatGPT Image Aug 5, 2026, 12_03_34 AM.png' alt='ChatGPT Image Aug 5, 2026, 12_03_34 AM.png'>
+                <div class='img-name'><b>#3</b> ChatGPT Image Aug 5, 2026, 12_03_34 AM.png</div>
+                <div class='stats'>1402x1122 (aspect 1.25)<br>
+                Skin: 0.972 | Box: 0.633</div>
+            </div>
+            
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/EARRINGS/Pink Flower Drop/ChatGPT Image Aug 5, 2026, 12_06_56 AM.png' alt='ChatGPT Image Aug 5, 2026, 12_06_56 AM.png'>
+                <div class='img-name'><b>#4</b> ChatGPT Image Aug 5, 2026, 12_06_56 AM.png</div>
+                <div class='stats'>1254x1254 (aspect 1.0)<br>
+                Skin: 0.986 | Box: 0.048</div>
+            </div>
+            </div></div><div class='product-row'><h3>EARRINGS &mdash; Red Stone Stud (5 images)</h3><div class='img-grid'>
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/EARRINGS/Red Stone Stud/ChatGPT Image Aug 5, 2026, 01_09_23 AM.png' alt='ChatGPT Image Aug 5, 2026, 01_09_23 AM.png'>
+                <div class='img-name'><b>#1</b> ChatGPT Image Aug 5, 2026, 01_09_23 AM.png</div>
+                <div class='stats'>1122x1402 (aspect 0.8)<br>
+                Skin: 0.485 | Box: 0.165</div>
+            </div>
+            
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/EARRINGS/Red Stone Stud/ChatGPT Image Aug 5, 2026, 01_17_07 AM.png' alt='ChatGPT Image Aug 5, 2026, 01_17_07 AM.png'>
+                <div class='img-name'><b>#2</b> ChatGPT Image Aug 5, 2026, 01_17_07 AM.png</div>
+                <div class='stats'>1408x1117 (aspect 1.26)<br>
+                Skin: 0.871 | Box: 0.346</div>
+            </div>
+            
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/EARRINGS/Red Stone Stud/ChatGPT Image Aug 5, 2026, 01_31_52 AM.png' alt='ChatGPT Image Aug 5, 2026, 01_31_52 AM.png'>
+                <div class='img-name'><b>#3</b> ChatGPT Image Aug 5, 2026, 01_31_52 AM.png</div>
+                <div class='stats'>1402x1122 (aspect 1.25)<br>
+                Skin: 0.966 | Box: 0.72</div>
+            </div>
+            
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/EARRINGS/Red Stone Stud/ChatGPT Image Aug 5, 2026, 01_34_48 AM.png' alt='ChatGPT Image Aug 5, 2026, 01_34_48 AM.png'>
+                <div class='img-name'><b>#4</b> ChatGPT Image Aug 5, 2026, 01_34_48 AM.png</div>
+                <div class='stats'>1254x1254 (aspect 1.0)<br>
+                Skin: 0.997 | Box: 0.037</div>
+            </div>
+            
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/EARRINGS/Red Stone Stud/ChatGPT Image Aug 5, 2026, 02_19_41 AM.png' alt='ChatGPT Image Aug 5, 2026, 02_19_41 AM.png'>
+                <div class='img-name'><b>#5</b> ChatGPT Image Aug 5, 2026, 02_19_41 AM.png</div>
+                <div class='stats'>1254x1254 (aspect 1.0)<br>
+                Skin: 0.997 | Box: 0.029</div>
+            </div>
+            </div></div><div class='product-row'><h3>EARRINGS &mdash; Rose Gold Hoops (3 images)</h3><div class='img-grid'>
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/EARRINGS/Rose Gold Hoops/ChatGPT Image Aug 6, 2026, 04_01_00 PM.png' alt='ChatGPT Image Aug 6, 2026, 04_01_00 PM.png'>
+                <div class='img-name'><b>#1</b> ChatGPT Image Aug 6, 2026, 04_01_00 PM.png</div>
+                <div class='stats'>1254x1254 (aspect 1.0)<br>
+                Skin: 0.281 | Box: 0.02</div>
+            </div>
+            
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/EARRINGS/Rose Gold Hoops/wmremove-transformed (1).png' alt='wmremove-transformed (1).png'>
+                <div class='img-name'><b>#2</b> wmremove-transformed (1).png</div>
+                <div class='stats'>2240x1910 (aspect 1.17)<br>
+                Skin: 0.993 | Box: 0.391</div>
+            </div>
+            
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/EARRINGS/Rose Gold Hoops/wmremove-transformed.png' alt='wmremove-transformed.png'>
+                <div class='img-name'><b>#3</b> wmremove-transformed.png</div>
+                <div class='stats'>2240x1910 (aspect 1.17)<br>
+                Skin: 0.729 | Box: 0.245</div>
+            </div>
+            </div></div><div class='product-row'><h3>EARRINGS &mdash; Topaz Ear Crawler (4 images)</h3><div class='img-grid'>
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/EARRINGS/Topaz Ear Crawler/ChatGPT Image Aug 7, 2026, 05_28_06 PM.png' alt='ChatGPT Image Aug 7, 2026, 05_28_06 PM.png'>
+                <div class='img-name'><b>#1</b> ChatGPT Image Aug 7, 2026, 05_28_06 PM.png</div>
+                <div class='stats'>1254x1254 (aspect 1.0)<br>
+                Skin: 0.56 | Box: 0.412</div>
+            </div>
+            
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/EARRINGS/Topaz Ear Crawler/ChatGPT Image Aug 7, 2026, 05_36_05 PM.png' alt='ChatGPT Image Aug 7, 2026, 05_36_05 PM.png'>
+                <div class='img-name'><b>#2</b> ChatGPT Image Aug 7, 2026, 05_36_05 PM.png</div>
+                <div class='stats'>1254x1254 (aspect 1.0)<br>
+                Skin: 0.323 | Box: 0.054</div>
+            </div>
+            
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/EARRINGS/Topaz Ear Crawler/Gemini_Generated_Image_ffnwrqffnwrqffnw.png' alt='Gemini_Generated_Image_ffnwrqffnwrqffnw.png'>
+                <div class='img-name'><b>#3</b> Gemini_Generated_Image_ffnwrqffnwrqffnw.png</div>
+                <div class='stats'>2048x2048 (aspect 1.0)<br>
+                Skin: 0.596 | Box: 0.086</div>
+            </div>
+            
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/EARRINGS/Topaz Ear Crawler/Gemini_Generated_Image_ns9hyqns9hyqns9h.png' alt='Gemini_Generated_Image_ns9hyqns9hyqns9h.png'>
+                <div class='img-name'><b>#4</b> Gemini_Generated_Image_ns9hyqns9hyqns9h.png</div>
+                <div class='stats'>2048x2048 (aspect 1.0)<br>
+                Skin: 0.833 | Box: 0.293</div>
+            </div>
+            </div></div><div class='product-row'><h3>EARRINGS &mdash; Topaz Pearl Drop (4 images)</h3><div class='img-grid'>
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/EARRINGS/Topaz Pearl Drop/ChatGPT Image Aug 6, 2026, 03_24_03 PM.png' alt='ChatGPT Image Aug 6, 2026, 03_24_03 PM.png'>
+                <div class='img-name'><b>#1</b> ChatGPT Image Aug 6, 2026, 03_24_03 PM.png</div>
+                <div class='stats'>1254x1254 (aspect 1.0)<br>
+                Skin: 0.872 | Box: 0.001</div>
+            </div>
+            
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/EARRINGS/Topaz Pearl Drop/ChatGPT Image Aug 6, 2026, 03_38_38 PM.png' alt='ChatGPT Image Aug 6, 2026, 03_38_38 PM.png'>
+                <div class='img-name'><b>#2</b> ChatGPT Image Aug 6, 2026, 03_38_38 PM.png</div>
+                <div class='stats'>1254x1254 (aspect 1.0)<br>
+                Skin: 0.356 | Box: 0.266</div>
+            </div>
+            
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/EARRINGS/Topaz Pearl Drop/ChatGPT Image Aug 6, 2026, 03_54_34 PM.png' alt='ChatGPT Image Aug 6, 2026, 03_54_34 PM.png'>
+                <div class='img-name'><b>#3</b> ChatGPT Image Aug 6, 2026, 03_54_34 PM.png</div>
+                <div class='stats'>1254x1254 (aspect 1.0)<br>
+                Skin: 0.792 | Box: 0.328</div>
+            </div>
+            
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/EARRINGS/Topaz Pearl Drop/wmremove-transformed.png' alt='wmremove-transformed.png'>
+                <div class='img-name'><b>#4</b> wmremove-transformed.png</div>
+                <div class='stats'>2082x2048 (aspect 1.02)<br>
+                Skin: 0.745 | Box: 0.411</div>
+            </div>
+            </div></div><h2>Category: Men's braclet</h2><div class='product-row'><h3>Men's braclet &mdash; Diamond Tennis Bracelet (4 images)</h3><div class='img-grid'>
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/Men's braclet/Diamond Tennis Bracelet/ChatGPT Image Aug 14, 2026, 12_49_01 AM.png' alt='ChatGPT Image Aug 14, 2026, 12_49_01 AM.png'>
+                <div class='img-name'><b>#1</b> ChatGPT Image Aug 14, 2026, 12_49_01 AM.png</div>
+                <div class='stats'>1308x1203 (aspect 1.09)<br>
+                Skin: 0.601 | Box: 0.216</div>
+            </div>
+            
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/Men's braclet/Diamond Tennis Bracelet/WhatsApp Image 2026-09-14 at 8.15.46 PM.jpeg' alt='WhatsApp Image 2026-09-14 at 8.15.46 PM.jpeg'>
+                <div class='img-name'><b>#2</b> WhatsApp Image 2026-09-14 at 8.15.46 PM.jpeg</div>
+                <div class='stats'>1398x1125 (aspect 1.24)<br>
+                Skin: 0.96 | Box: 0.486</div>
+            </div>
+            
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/Men's braclet/Diamond Tennis Bracelet/gemini-watermark-removed.png' alt='gemini-watermark-removed.png'>
+                <div class='img-name'><b>#3</b> gemini-watermark-removed.png</div>
+                <div class='stats'>1024x948 (aspect 1.08)<br>
+                Skin: 0.975 | Box: 0.09</div>
+            </div>
+            
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/Men's braclet/Diamond Tennis Bracelet/watermark-removed-8adf7324-f745-4ae0-8f42-4d24b020bb00.jpg' alt='watermark-removed-8adf7324-f745-4ae0-8f42-4d24b020bb00.jpg'>
+                <div class='img-name'><b>#4</b> watermark-removed-8adf7324-f745-4ae0-8f42-4d24b020bb00.jpg</div>
+                <div class='stats'>1024x942 (aspect 1.09)<br>
+                Skin: 0.98 | Box: 0.132</div>
+            </div>
+            </div></div><div class='product-row'><h3>Men's braclet &mdash; Gold Clover Bracelet (4 images)</h3><div class='img-grid'>
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/Men's braclet/Gold Clover Bracelet/ChatGPT Image Sep 14, 2026, 01_55_01 AM.png' alt='ChatGPT Image Sep 14, 2026, 01_55_01 AM.png'>
+                <div class='img-name'><b>#1</b> ChatGPT Image Sep 14, 2026, 01_55_01 AM.png</div>
+                <div class='stats'>1308x1202 (aspect 1.09)<br>
+                Skin: 0.969 | Box: 0.306</div>
+            </div>
+            
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/Men's braclet/Gold Clover Bracelet/ChatGPT Image Sep 14, 2026, 02_00_26 AM.png' alt='ChatGPT Image Sep 14, 2026, 02_00_26 AM.png'>
+                <div class='img-name'><b>#2</b> ChatGPT Image Sep 14, 2026, 02_00_26 AM.png</div>
+                <div class='stats'>1254x1254 (aspect 1.0)<br>
+                Skin: 0.968 | Box: 0.029</div>
+            </div>
+            
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/Men's braclet/Gold Clover Bracelet/ChatGPT Image Sep 14, 2026, 02_14_51 AM.png' alt='ChatGPT Image Sep 14, 2026, 02_14_51 AM.png'>
+                <div class='img-name'><b>#3</b> ChatGPT Image Sep 14, 2026, 02_14_51 AM.png</div>
+                <div class='stats'>1536x1024 (aspect 1.5)<br>
+                Skin: 0.978 | Box: 0.074</div>
+            </div>
+            
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/Men's braclet/Gold Clover Bracelet/d4f84afe-c58e-4152-b747-2067c3f5c0e4-clean.png' alt='d4f84afe-c58e-4152-b747-2067c3f5c0e4-clean.png'>
+                <div class='img-name'><b>#4</b> d4f84afe-c58e-4152-b747-2067c3f5c0e4-clean.png</div>
+                <div class='stats'>605x1024 (aspect 0.59)<br>
+                Skin: 0.34 | Box: 0.209</div>
+            </div>
+            </div></div><div class='product-row'><h3>Men's braclet &mdash; Gold Cuff Bangle (4 images)</h3><div class='img-grid'>
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/Men's braclet/Gold Cuff Bangle/watermark-removed-1d4cf21e-0fd1-44dc-a956-611e23fd8d75.jpg' alt='watermark-removed-1d4cf21e-0fd1-44dc-a956-611e23fd8d75.jpg'>
+                <div class='img-name'><b>#1</b> watermark-removed-1d4cf21e-0fd1-44dc-a956-611e23fd8d75.jpg</div>
+                <div class='stats'>1024x824 (aspect 1.24)<br>
+                Skin: 0.978 | Box: 0.329</div>
+            </div>
+            
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/Men's braclet/Gold Cuff Bangle/watermark-removed-1f2c658a-3732-4135-9953-240e5d69c759.jpg' alt='watermark-removed-1f2c658a-3732-4135-9953-240e5d69c759.jpg'>
+                <div class='img-name'><b>#2</b> watermark-removed-1f2c658a-3732-4135-9953-240e5d69c759.jpg</div>
+                <div class='stats'>1024x1024 (aspect 1.0)<br>
+                Skin: 0.997 | Box: 0.045</div>
+            </div>
+            
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/Men's braclet/Gold Cuff Bangle/watermark-removed-6da0db17-4138-4958-9a72-9200d96eae7c.jpg' alt='watermark-removed-6da0db17-4138-4958-9a72-9200d96eae7c.jpg'>
+                <div class='img-name'><b>#3</b> watermark-removed-6da0db17-4138-4958-9a72-9200d96eae7c.jpg</div>
+                <div class='stats'>1024x942 (aspect 1.09)<br>
+                Skin: 0.866 | Box: 0.319</div>
+            </div>
+            
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/Men's braclet/Gold Cuff Bangle/watermark-removed-f6599f44-4162-4879-957e-11df46576288.jpg' alt='watermark-removed-f6599f44-4162-4879-957e-11df46576288.jpg'>
+                <div class='img-name'><b>#4</b> watermark-removed-f6599f44-4162-4879-957e-11df46576288.jpg</div>
+                <div class='stats'>1024x1024 (aspect 1.0)<br>
+                Skin: 0.996 | Box: 0.034</div>
+            </div>
+            </div></div><div class='product-row'><h3>Men's braclet &mdash; Ruby Emerald Bracelet (4 images)</h3><div class='img-grid'>
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/Men's braclet/Ruby Emerald Bracelet/1cf5f706-750c-42ad-81a8-fa6449dc96f3-clean.png' alt='1cf5f706-750c-42ad-81a8-fa6449dc96f3-clean.png'>
+                <div class='img-name'><b>#1</b> 1cf5f706-750c-42ad-81a8-fa6449dc96f3-clean.png</div>
+                <div class='stats'>1024x824 (aspect 1.24)<br>
+                Skin: 0.577 | Box: 0.254</div>
+            </div>
+            
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/Men's braclet/Ruby Emerald Bracelet/WhatsApp Image 2026-09-14 at 9.58.01 PM.jpeg' alt='WhatsApp Image 2026-09-14 at 9.58.01 PM.jpeg'>
+                <div class='img-name'><b>#2</b> WhatsApp Image 2026-09-14 at 9.58.01 PM.jpeg</div>
+                <div class='stats'>1536x1536 (aspect 1.0)<br>
+                Skin: 0.965 | Box: 0.102</div>
+            </div>
+            
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/Men's braclet/Ruby Emerald Bracelet/WhatsApp Image 2026-09-14 at 9.59.50 PM.jpeg' alt='WhatsApp Image 2026-09-14 at 9.59.50 PM.jpeg'>
+                <div class='img-name'><b>#3</b> WhatsApp Image 2026-09-14 at 9.59.50 PM.jpeg</div>
+                <div class='stats'>1398x1125 (aspect 1.24)<br>
+                Skin: 0.936 | Box: 0.445</div>
+            </div>
+            
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/Men's braclet/Ruby Emerald Bracelet/b1bfc991-81cf-42f7-bdb8-df240d831284-clean.png' alt='b1bfc991-81cf-42f7-bdb8-df240d831284-clean.png'>
+                <div class='img-name'><b>#4</b> b1bfc991-81cf-42f7-bdb8-df240d831284-clean.png</div>
+                <div class='stats'>1024x1024 (aspect 1.0)<br>
+                Skin: 0.977 | Box: 0.061</div>
+            </div>
+            </div></div><h2>Category: Men's ring</h2><div class='product-row'><h3>Men's ring &mdash; Black Onyx Signet (4 images)</h3><div class='img-grid'>
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/Men's ring/Black Onyx Signet/ChatGPT Image Aug 12, 2026, 09_26_44 PM.png' alt='ChatGPT Image Aug 12, 2026, 09_26_44 PM.png'>
+                <div class='img-name'><b>#1</b> ChatGPT Image Aug 12, 2026, 09_26_44 PM.png</div>
+                <div class='stats'>1317x1194 (aspect 1.1)<br>
+                Skin: 0.615 | Box: 0.418</div>
+            </div>
+            
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/Men's ring/Black Onyx Signet/ChatGPT Image Aug 12, 2026, 09_29_58 PM.png' alt='ChatGPT Image Aug 12, 2026, 09_29_58 PM.png'>
+                <div class='img-name'><b>#2</b> ChatGPT Image Aug 12, 2026, 09_29_58 PM.png</div>
+                <div class='stats'>1312x1199 (aspect 1.09)<br>
+                Skin: 0.971 | Box: 0.494</div>
+            </div>
+            
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/Men's ring/Black Onyx Signet/watermark-removed-1a186267-8281-4570-baa2-2b0cbe95418d.jpg' alt='watermark-removed-1a186267-8281-4570-baa2-2b0cbe95418d.jpg'>
+                <div class='img-name'><b>#3</b> watermark-removed-1a186267-8281-4570-baa2-2b0cbe95418d.jpg</div>
+                <div class='stats'>1024x1024 (aspect 1.0)<br>
+                Skin: 0.893 | Box: 0.052</div>
+            </div>
+            
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/Men's ring/Black Onyx Signet/watermark-removed-78ca0581-2f67-42a9-b075-8bf9cb435066.jpg' alt='watermark-removed-78ca0581-2f67-42a9-b075-8bf9cb435066.jpg'>
+                <div class='img-name'><b>#4</b> watermark-removed-78ca0581-2f67-42a9-b075-8bf9cb435066.jpg</div>
+                <div class='stats'>1024x1024 (aspect 1.0)<br>
+                Skin: 0.911 | Box: 0.044</div>
+            </div>
+            </div></div><div class='product-row'><h3>Men's ring &mdash; Blue Cabochon Ring (4 images)</h3><div class='img-grid'>
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/Men's ring/Blue Cabochon Ring/ChatGPT Image Aug 12, 2026, 09_44_28 PM.png' alt='ChatGPT Image Aug 12, 2026, 09_44_28 PM.png'>
+                <div class='img-name'><b>#1</b> ChatGPT Image Aug 12, 2026, 09_44_28 PM.png</div>
+                <div class='stats'>1310x1201 (aspect 1.09)<br>
+                Skin: 0.971 | Box: 0.461</div>
+            </div>
+            
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/Men's ring/Blue Cabochon Ring/ChatGPT Image Aug 12, 2026, 09_47_52 PM.png' alt='ChatGPT Image Aug 12, 2026, 09_47_52 PM.png'>
+                <div class='img-name'><b>#2</b> ChatGPT Image Aug 12, 2026, 09_47_52 PM.png</div>
+                <div class='stats'>1316x1195 (aspect 1.1)<br>
+                Skin: 0.602 | Box: 0.41</div>
+            </div>
+            
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/Men's ring/Blue Cabochon Ring/watermark-removed-03b29c28-64d8-468d-80b4-f09f1137f5d4.jpg' alt='watermark-removed-03b29c28-64d8-468d-80b4-f09f1137f5d4.jpg'>
+                <div class='img-name'><b>#3</b> watermark-removed-03b29c28-64d8-468d-80b4-f09f1137f5d4.jpg</div>
+                <div class='stats'>1002x1024 (aspect 0.98)<br>
+                Skin: 0.918 | Box: 0.076</div>
+            </div>
+            
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/Men's ring/Blue Cabochon Ring/watermark-removed-5305b354-2cda-4410-b8b5-90015959fa8f.jpg' alt='watermark-removed-5305b354-2cda-4410-b8b5-90015959fa8f.jpg'>
+                <div class='img-name'><b>#4</b> watermark-removed-5305b354-2cda-4410-b8b5-90015959fa8f.jpg</div>
+                <div class='stats'>1002x1024 (aspect 0.98)<br>
+                Skin: 0.985 | Box: 0.136</div>
+            </div>
+            </div></div><div class='product-row'><h3>Men's ring &mdash; Blue Topaz Signet (4 images)</h3><div class='img-grid'>
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/Men's ring/Blue Topaz Signet/ChatGPT Image Aug 12, 2026, 04_00_57 PM.png' alt='ChatGPT Image Aug 12, 2026, 04_00_57 PM.png'>
+                <div class='img-name'><b>#1</b> ChatGPT Image Aug 12, 2026, 04_00_57 PM.png</div>
+                <div class='stats'>1402x1122 (aspect 1.25)<br>
+                Skin: 0.888 | Box: 0.029</div>
+            </div>
+            
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/Men's ring/Blue Topaz Signet/ChatGPT Image Aug 12, 2026, 04_06_35 PM.png' alt='ChatGPT Image Aug 12, 2026, 04_06_35 PM.png'>
+                <div class='img-name'><b>#2</b> ChatGPT Image Aug 12, 2026, 04_06_35 PM.png</div>
+                <div class='stats'>1397x1126 (aspect 1.24)<br>
+                Skin: 0.883 | Box: 0.098</div>
+            </div>
+            
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/Men's ring/Blue Topaz Signet/ChatGPT Image Aug 12, 2026, 04_10_28 PM.png' alt='ChatGPT Image Aug 12, 2026, 04_10_28 PM.png'>
+                <div class='img-name'><b>#3</b> ChatGPT Image Aug 12, 2026, 04_10_28 PM.png</div>
+                <div class='stats'>1316x1195 (aspect 1.1)<br>
+                Skin: 0.615 | Box: 0.424</div>
+            </div>
+            
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/Men's ring/Blue Topaz Signet/ChatGPT Image Aug 12, 2026, 04_14_06 PM.png' alt='ChatGPT Image Aug 12, 2026, 04_14_06 PM.png'>
+                <div class='img-name'><b>#4</b> ChatGPT Image Aug 12, 2026, 04_14_06 PM.png</div>
+                <div class='stats'>1313x1198 (aspect 1.1)<br>
+                Skin: 0.983 | Box: 0.639</div>
+            </div>
+            </div></div><div class='product-row'><h3>Men's ring &mdash; Classic Gold Band (4 images)</h3><div class='img-grid'>
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/Men's ring/Classic Gold Band/ChatGPT Image Aug 12, 2026, 11_42_52 PM.png' alt='ChatGPT Image Aug 12, 2026, 11_42_52 PM.png'>
+                <div class='img-name'><b>#1</b> ChatGPT Image Aug 12, 2026, 11_42_52 PM.png</div>
+                <div class='stats'>1310x1200 (aspect 1.09)<br>
+                Skin: 0.842 | Box: 0.354</div>
+            </div>
+            
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/Men's ring/Classic Gold Band/WhatsApp Image 2026-09-14 at 5.26.58 PM.jpeg' alt='WhatsApp Image 2026-09-14 at 5.26.58 PM.jpeg'>
+                <div class='img-name'><b>#2</b> WhatsApp Image 2026-09-14 at 5.26.58 PM.jpeg</div>
+                <div class='stats'>1254x1254 (aspect 1.0)<br>
+                Skin: 0.588 | Box: 0.446</div>
+            </div>
+            
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/Men's ring/Classic Gold Band/watermark-removed-41b90466-28d4-4c19-9b15-cae3ab9f519f.jpg' alt='watermark-removed-41b90466-28d4-4c19-9b15-cae3ab9f519f.jpg'>
+                <div class='img-name'><b>#3</b> watermark-removed-41b90466-28d4-4c19-9b15-cae3ab9f519f.jpg</div>
+                <div class='stats'>1024x936 (aspect 1.09)<br>
+                Skin: 0.985 | Box: 0.075</div>
+            </div>
+            
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/Men's ring/Classic Gold Band/watermark-removed-ee4aab4a-eccb-4aff-853a-33a4e70c16ab.jpg' alt='watermark-removed-ee4aab4a-eccb-4aff-853a-33a4e70c16ab.jpg'>
+                <div class='img-name'><b>#4</b> watermark-removed-ee4aab4a-eccb-4aff-853a-33a4e70c16ab.jpg</div>
+                <div class='stats'>1024x936 (aspect 1.09)<br>
+                Skin: 0.99 | Box: 0.135</div>
+            </div>
+            </div></div><div class='product-row'><h3>Men's ring &mdash; Gold Diamond Ring (4 images)</h3><div class='img-grid'>
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/Men's ring/Gold Diamond Ring/ChatGPT Image Aug 13, 2026, 01_00_13 AM.png' alt='ChatGPT Image Aug 13, 2026, 01_00_13 AM.png'>
+                <div class='img-name'><b>#1</b> ChatGPT Image Aug 13, 2026, 01_00_13 AM.png</div>
+                <div class='stats'>1122x1402 (aspect 0.8)<br>
+                Skin: 0.969 | Box: 0.56</div>
+            </div>
+            
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/Men's ring/Gold Diamond Ring/ChatGPT Image Aug 13, 2026, 01_10_40 AM.png' alt='ChatGPT Image Aug 13, 2026, 01_10_40 AM.png'>
+                <div class='img-name'><b>#2</b> ChatGPT Image Aug 13, 2026, 01_10_40 AM.png</div>
+                <div class='stats'>1254x1254 (aspect 1.0)<br>
+                Skin: 0.962 | Box: 0.346</div>
+            </div>
+            
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/Men's ring/Gold Diamond Ring/ChatGPT Image Aug 13, 2026, 12_52_11 AM.png' alt='ChatGPT Image Aug 13, 2026, 12_52_11 AM.png'>
+                <div class='img-name'><b>#3</b> ChatGPT Image Aug 13, 2026, 12_52_11 AM.png</div>
+                <div class='stats'>1254x1254 (aspect 1.0)<br>
+                Skin: 0.985 | Box: 0.164</div>
+            </div>
+            
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/Men's ring/Gold Diamond Ring/ChatGPT Image Aug 13, 2026, 12_55_03 AM.png' alt='ChatGPT Image Aug 13, 2026, 12_55_03 AM.png'>
+                <div class='img-name'><b>#4</b> ChatGPT Image Aug 13, 2026, 12_55_03 AM.png</div>
+                <div class='stats'>1254x1254 (aspect 1.0)<br>
+                Skin: 0.985 | Box: 0.098</div>
+            </div>
+            </div></div><div class='product-row'><h3>Men's ring &mdash; Gold Emerald Ring (4 images)</h3><div class='img-grid'>
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/Men's ring/Gold Emerald Ring/WhatsApp Image 2026-09-15 at 1.25.17 PM.jpeg' alt='WhatsApp Image 2026-09-15 at 1.25.17 PM.jpeg'>
+                <div class='img-name'><b>#1</b> WhatsApp Image 2026-09-15 at 1.25.17 PM.jpeg</div>
+                <div class='stats'>1024x938 (aspect 1.09)<br>
+                Skin: 0.596 | Box: 0.457</div>
+            </div>
+            
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/Men's ring/Gold Emerald Ring/WhatsApp Image 2026-09-15 at 1.27.03 PM.jpeg' alt='WhatsApp Image 2026-09-15 at 1.27.03 PM.jpeg'>
+                <div class='img-name'><b>#2</b> WhatsApp Image 2026-09-15 at 1.27.03 PM.jpeg</div>
+                <div class='stats'>1024x938 (aspect 1.09)<br>
+                Skin: 0.983 | Box: 0.152</div>
+            </div>
+            
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/Men's ring/Gold Emerald Ring/WhatsApp Image 2026-09-15 at 1.35.33 PM.jpeg' alt='WhatsApp Image 2026-09-15 at 1.35.33 PM.jpeg'>
+                <div class='img-name'><b>#3</b> WhatsApp Image 2026-09-15 at 1.35.33 PM.jpeg</div>
+                <div class='stats'>1310x1200 (aspect 1.09)<br>
+                Skin: 0.974 | Box: 0.299</div>
+            </div>
+            
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/Men's ring/Gold Emerald Ring/watermark-removed-fa2efd81-d1d1-4a15-9493-1053734fee0b.jpg' alt='watermark-removed-fa2efd81-d1d1-4a15-9493-1053734fee0b.jpg'>
+                <div class='img-name'><b>#4</b> watermark-removed-fa2efd81-d1d1-4a15-9493-1053734fee0b.jpg</div>
+                <div class='stats'>1024x938 (aspect 1.09)<br>
+                Skin: 0.942 | Box: 0.097</div>
+            </div>
+            </div></div><div class='product-row'><h3>Men's ring &mdash; Gold Signet Ring (4 images)</h3><div class='img-grid'>
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/Men's ring/Gold Signet Ring/ChatGPT Image Aug 12, 2026, 10_14_01 PM.png' alt='ChatGPT Image Aug 12, 2026, 10_14_01 PM.png'>
+                <div class='img-name'><b>#1</b> ChatGPT Image Aug 12, 2026, 10_14_01 PM.png</div>
+                <div class='stats'>1310x1200 (aspect 1.09)<br>
+                Skin: 0.826 | Box: 0.337</div>
+            </div>
+            
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/Men's ring/Gold Signet Ring/WhatsApp Image 2026-09-14 at 4.39.38 PM.jpeg' alt='WhatsApp Image 2026-09-14 at 4.39.38 PM.jpeg'>
+                <div class='img-name'><b>#2</b> WhatsApp Image 2026-09-14 at 4.39.38 PM.jpeg</div>
+                <div class='stats'>1280x853 (aspect 1.5)<br>
+                Skin: 0.936 | Box: 0.628</div>
+            </div>
+            
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/Men's ring/Gold Signet Ring/watermark-removed-08ba1a94-a060-4367-99a5-5a66fb263fe9.jpg' alt='watermark-removed-08ba1a94-a060-4367-99a5-5a66fb263fe9.jpg'>
+                <div class='img-name'><b>#3</b> watermark-removed-08ba1a94-a060-4367-99a5-5a66fb263fe9.jpg</div>
+                <div class='stats'>1024x572 (aspect 1.79)<br>
+                Skin: 0.832 | Box: 0.157</div>
+            </div>
+            
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/Men's ring/Gold Signet Ring/watermark-removed-6ad5dc63-45b2-44a3-900f-b0d88ea08b72.jpg' alt='watermark-removed-6ad5dc63-45b2-44a3-900f-b0d88ea08b72.jpg'>
+                <div class='img-name'><b>#4</b> watermark-removed-6ad5dc63-45b2-44a3-900f-b0d88ea08b72.jpg</div>
+                <div class='stats'>1024x572 (aspect 1.79)<br>
+                Skin: 0.999 | Box: 0.048</div>
+            </div>
+            </div></div><div class='product-row'><h3>Men's ring &mdash; Hammered Gold Band (4 images)</h3><div class='img-grid'>
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/Men's ring/Hammered Gold Band/watermark-removed-1145975a-05ce-4dc3-b257-ee3bf5789819.jpg' alt='watermark-removed-1145975a-05ce-4dc3-b257-ee3bf5789819.jpg'>
+                <div class='img-name'><b>#1</b> watermark-removed-1145975a-05ce-4dc3-b257-ee3bf5789819.jpg</div>
+                <div class='stats'>1024x936 (aspect 1.09)<br>
+                Skin: 0.905 | Box: 0.12</div>
+            </div>
+            
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/Men's ring/Hammered Gold Band/watermark-removed-2506fbd0-bc9c-4d97-9727-b3f314a45653.jpg' alt='watermark-removed-2506fbd0-bc9c-4d97-9727-b3f314a45653.jpg'>
+                <div class='img-name'><b>#2</b> watermark-removed-2506fbd0-bc9c-4d97-9727-b3f314a45653.jpg</div>
+                <div class='stats'>1024x936 (aspect 1.09)<br>
+                Skin: 0.455 | Box: 0.325</div>
+            </div>
+            
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/Men's ring/Hammered Gold Band/watermark-removed-506461ff-2e60-4e3c-b6ee-85ff23eb2860.jpg' alt='watermark-removed-506461ff-2e60-4e3c-b6ee-85ff23eb2860.jpg'>
+                <div class='img-name'><b>#3</b> watermark-removed-506461ff-2e60-4e3c-b6ee-85ff23eb2860.jpg</div>
+                <div class='stats'>1024x936 (aspect 1.09)<br>
+                Skin: 0.99 | Box: 0.075</div>
+            </div>
+            
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/Men's ring/Hammered Gold Band/watermark-removed-d79ce92b-35ad-4b54-b079-23ce0563c961.jpg' alt='watermark-removed-d79ce92b-35ad-4b54-b079-23ce0563c961.jpg'>
+                <div class='img-name'><b>#4</b> watermark-removed-d79ce92b-35ad-4b54-b079-23ce0563c961.jpg</div>
+                <div class='stats'>1024x936 (aspect 1.09)<br>
+                Skin: 0.971 | Box: 0.36</div>
+            </div>
+            </div></div><div class='product-row'><h3>Men's ring &mdash; Ornate Diamond Ring (4 images)</h3><div class='img-grid'>
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/Men's ring/Ornate Diamond Ring/WhatsApp Image 2026-09-14 at 4.44.32 PM.jpeg' alt='WhatsApp Image 2026-09-14 at 4.44.32 PM.jpeg'>
+                <div class='img-name'><b>#1</b> WhatsApp Image 2026-09-14 at 4.44.32 PM.jpeg</div>
+                <div class='stats'>1254x1254 (aspect 1.0)<br>
+                Skin: 0.991 | Box: 0.075</div>
+            </div>
+            
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/Men's ring/Ornate Diamond Ring/watermark-removed-095ae6c4-d05d-4258-8378-e30150995992 (1).jpg' alt='watermark-removed-095ae6c4-d05d-4258-8378-e30150995992 (1).jpg'>
+                <div class='img-name'><b>#2</b> watermark-removed-095ae6c4-d05d-4258-8378-e30150995992 (1).jpg</div>
+                <div class='stats'>1024x1024 (aspect 1.0)<br>
+                Skin: 0.96 | Box: 0.054</div>
+            </div>
+            
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/Men's ring/Ornate Diamond Ring/watermark-removed-e47273c5-dbb9-4577-bf14-67253e2e91e5.jpg' alt='watermark-removed-e47273c5-dbb9-4577-bf14-67253e2e91e5.jpg'>
+                <div class='img-name'><b>#3</b> watermark-removed-e47273c5-dbb9-4577-bf14-67253e2e91e5.jpg</div>
+                <div class='stats'>1024x1024 (aspect 1.0)<br>
+                Skin: 0.911 | Box: 0.317</div>
+            </div>
+            
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/Men's ring/Ornate Diamond Ring/watermark-removed-f30af426-6018-41e3-930f-d6ae7e827bf2.jpg' alt='watermark-removed-f30af426-6018-41e3-930f-d6ae7e827bf2.jpg'>
+                <div class='img-name'><b>#4</b> watermark-removed-f30af426-6018-41e3-930f-d6ae7e827bf2.jpg</div>
+                <div class='stats'>1024x1024 (aspect 1.0)<br>
+                Skin: 0.441 | Box: 0.36</div>
+            </div>
+            </div></div><div class='product-row'><h3>Men's ring &mdash; Sleek Gemstone Ring (4 images)</h3><div class='img-grid'>
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/Men's ring/Sleek Gemstone Ring/WhatsApp Image 2026-09-14 at 4.39.38 PM.jpeg' alt='WhatsApp Image 2026-09-14 at 4.39.38 PM.jpeg'>
+                <div class='img-name'><b>#1</b> WhatsApp Image 2026-09-14 at 4.39.38 PM.jpeg</div>
+                <div class='stats'>1280x1177 (aspect 1.09)<br>
+                Skin: 0.988 | Box: 0.361</div>
+            </div>
+            
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/Men's ring/Sleek Gemstone Ring/watermark-removed-87e2c8bd-dfc6-4358-b31b-4e8bfee50cb2.jpg' alt='watermark-removed-87e2c8bd-dfc6-4358-b31b-4e8bfee50cb2.jpg'>
+                <div class='img-name'><b>#2</b> watermark-removed-87e2c8bd-dfc6-4358-b31b-4e8bfee50cb2.jpg</div>
+                <div class='stats'>1024x934 (aspect 1.1)<br>
+                Skin: 0.587 | Box: 0.449</div>
+            </div>
+            
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/Men's ring/Sleek Gemstone Ring/watermark-removed-Gemini_Generated_Image_8f9s608f9s608f9s.png' alt='watermark-removed-Gemini_Generated_Image_8f9s608f9s608f9s.png'>
+                <div class='img-name'><b>#3</b> watermark-removed-Gemini_Generated_Image_8f9s608f9s608f9s.png</div>
+                <div class='stats'>1024x1024 (aspect 1.0)<br>
+                Skin: 0.896 | Box: 0.063</div>
+            </div>
+            
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/Men's ring/Sleek Gemstone Ring/watermark-removed-Gemini_Generated_Image_xxn2jzxxn2jzxxn2.png' alt='watermark-removed-Gemini_Generated_Image_xxn2jzxxn2jzxxn2.png'>
+                <div class='img-name'><b>#4</b> watermark-removed-Gemini_Generated_Image_xxn2jzxxn2jzxxn2.png</div>
+                <div class='stats'>1024x1024 (aspect 1.0)<br>
+                Skin: 0.971 | Box: 0.095</div>
+            </div>
+            </div></div><h2>Category: Sets</h2><div class='product-row'><h3>Sets &mdash; Blue Stone Set (4 images)</h3><div class='img-grid'>
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/Sets/Blue Stone Set/1000052334-no-watermark.png' alt='1000052334-no-watermark.png'>
+                <div class='img-name'><b>#1</b> 1000052334-no-watermark.png</div>
+                <div class='stats'>1024x1024 (aspect 1.0)<br>
+                Skin: 0.9 | Box: 0.289</div>
+            </div>
+            
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/Sets/Blue Stone Set/WhatsApp Image 2026-09-14 at 10.09.35 PM (1).jpeg' alt='WhatsApp Image 2026-09-14 at 10.09.35 PM (1).jpeg'>
+                <div class='img-name'><b>#2</b> WhatsApp Image 2026-09-14 at 10.09.35 PM (1).jpeg</div>
+                <div class='stats'>1148x916 (aspect 1.25)<br>
+                Skin: 0.982 | Box: 0.59</div>
+            </div>
+            
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/Sets/Blue Stone Set/watermark-removed-1000051808.png' alt='watermark-removed-1000051808.png'>
+                <div class='img-name'><b>#3</b> watermark-removed-1000051808.png</div>
+                <div class='stats'>1402x1122 (aspect 1.25)<br>
+                Skin: 0.963 | Box: 0.324</div>
+            </div>
+            
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/Sets/Blue Stone Set/watermark-removed-1000052269.png' alt='watermark-removed-1000052269.png'>
+                <div class='img-name'><b>#4</b> watermark-removed-1000052269.png</div>
+                <div class='stats'>1406x752 (aspect 1.87)<br>
+                Skin: 0.988 | Box: 0.051</div>
+            </div>
+            </div></div><div class='product-row'><h3>Sets &mdash; Gold Heart Set (4 images)</h3><div class='img-grid'>
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/Sets/Gold Heart Set/WhatsApp Image 2026-09-14 at 10.09.34 PM (2).jpeg' alt='WhatsApp Image 2026-09-14 at 10.09.34 PM (2).jpeg'>
+                <div class='img-name'><b>#1</b> WhatsApp Image 2026-09-14 at 10.09.34 PM (2).jpeg</div>
+                <div class='stats'>1016x1020 (aspect 1.0)<br>
+                Skin: 0.901 | Box: 0.453</div>
+            </div>
+            
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/Sets/Gold Heart Set/watermark-removed-1000051949.png' alt='watermark-removed-1000051949.png'>
+                <div class='img-name'><b>#2</b> watermark-removed-1000051949.png</div>
+                <div class='stats'>1067x1008 (aspect 1.06)<br>
+                Skin: 0.256 | Box: 0.008</div>
+            </div>
+            
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/Sets/Gold Heart Set/watermark-removed-1000051950.png' alt='watermark-removed-1000051950.png'>
+                <div class='img-name'><b>#3</b> watermark-removed-1000051950.png</div>
+                <div class='stats'>1152x922 (aspect 1.25)<br>
+                Skin: 0.987 | Box: 0.61</div>
+            </div>
+            
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/Sets/Gold Heart Set/watermark-removed-1000052271.png' alt='watermark-removed-1000052271.png'>
+                <div class='img-name'><b>#4</b> watermark-removed-1000052271.png</div>
+                <div class='stats'>1094x976 (aspect 1.12)<br>
+                Skin: 0.992 | Box: 0.057</div>
+            </div>
+            </div></div><div class='product-row'><h3>Sets &mdash; Pink Pendant Set (4 images)</h3><div class='img-grid'>
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/Sets/Pink Pendant Set/895f0204ec8f4023ba838d9cbfba07ee.png' alt='895f0204ec8f4023ba838d9cbfba07ee.png'>
+                <div class='img-name'><b>#1</b> 895f0204ec8f4023ba838d9cbfba07ee.png</div>
+                <div class='stats'>1024x1024 (aspect 1.0)<br>
+                Skin: 0.901 | Box: 0.419</div>
+            </div>
+            
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/Sets/Pink Pendant Set/WhatsApp Image 2026-09-14 at 10.09.35 PM.jpeg' alt='WhatsApp Image 2026-09-14 at 10.09.35 PM.jpeg'>
+                <div class='img-name'><b>#2</b> WhatsApp Image 2026-09-14 at 10.09.35 PM.jpeg</div>
+                <div class='stats'>1084x968 (aspect 1.12)<br>
+                Skin: 0.998 | Box: 0.081</div>
+            </div>
+            
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/Sets/Pink Pendant Set/watermark-removed-1000051930.png' alt='watermark-removed-1000051930.png'>
+                <div class='img-name'><b>#3</b> watermark-removed-1000051930.png</div>
+                <div class='stats'>1152x922 (aspect 1.25)<br>
+                Skin: 0.947 | Box: 0.599</div>
+            </div>
+            
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/Sets/Pink Pendant Set/watermark-removed-1000051931.png' alt='watermark-removed-1000051931.png'>
+                <div class='img-name'><b>#4</b> watermark-removed-1000051931.png</div>
+                <div class='stats'>1152x922 (aspect 1.25)<br>
+                Skin: 0.987 | Box: 0.616</div>
+            </div>
+            </div></div><div class='product-row'><h3>Sets &mdash; Rose Flower Set (4 images)</h3><div class='img-grid'>
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/Sets/Rose Flower Set/WhatsApp Image 2026-09-14 at 10.09.34 PM (1).jpeg' alt='WhatsApp Image 2026-09-14 at 10.09.34 PM (1).jpeg'>
+                <div class='img-name'><b>#1</b> WhatsApp Image 2026-09-14 at 10.09.34 PM (1).jpeg</div>
+                <div class='stats'>1140x916 (aspect 1.24)<br>
+                Skin: 0.958 | Box: 0.711</div>
+            </div>
+            
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/Sets/Rose Flower Set/WhatsApp Image 2026-09-14 at 10.09.34 PM.jpeg' alt='WhatsApp Image 2026-09-14 at 10.09.34 PM.jpeg'>
+                <div class='img-name'><b>#2</b> WhatsApp Image 2026-09-14 at 10.09.34 PM.jpeg</div>
+                <div class='stats'>1148x916 (aspect 1.25)<br>
+                Skin: 0.988 | Box: 0.642</div>
+            </div>
+            
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/Sets/Rose Flower Set/WhatsApp Image 2026-09-14 at 10.09.35 PM (2).jpeg' alt='WhatsApp Image 2026-09-14 at 10.09.35 PM (2).jpeg'>
+                <div class='img-name'><b>#3</b> WhatsApp Image 2026-09-14 at 10.09.35 PM (2).jpeg</div>
+                <div class='stats'>1148x916 (aspect 1.25)<br>
+                Skin: 0.921 | Box: 0.32</div>
+            </div>
+            
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/Sets/Rose Flower Set/watermark-removed-1000052270.png' alt='watermark-removed-1000052270.png'>
+                <div class='img-name'><b>#4</b> watermark-removed-1000052270.png</div>
+                <div class='stats'>1094x976 (aspect 1.12)<br>
+                Skin: 0.995 | Box: 0.096</div>
+            </div>
+            </div></div><h2>Category: pendant</h2><div class='product-row'><h3>pendant &mdash; Gold Knot Pendant (4 images)</h3><div class='img-grid'>
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/pendant/Gold Knot Pendant/ChatGPT Image Sep 12, 2026, 11_18_13 PM.png' alt='ChatGPT Image Sep 12, 2026, 11_18_13 PM.png'>
+                <div class='img-name'><b>#1</b> ChatGPT Image Sep 12, 2026, 11_18_13 PM.png</div>
+                <div class='stats'>1254x1254 (aspect 1.0)<br>
+                Skin: 0.922 | Box: 0.173</div>
+            </div>
+            
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/pendant/Gold Knot Pendant/WhatsApp Image 2026-09-11 at 11.32.02 PM.jpeg' alt='WhatsApp Image 2026-09-11 at 11.32.02 PM.jpeg'>
+                <div class='img-name'><b>#2</b> WhatsApp Image 2026-09-11 at 11.32.02 PM.jpeg</div>
+                <div class='stats'>1254x1254 (aspect 1.0)<br>
+                Skin: 0.982 | Box: 0.014</div>
+            </div>
+            
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/pendant/Gold Knot Pendant/WhatsApp Image 2026-09-12 at 10.00.17 PM.jpeg' alt='WhatsApp Image 2026-09-12 at 10.00.17 PM.jpeg'>
+                <div class='img-name'><b>#3</b> WhatsApp Image 2026-09-12 at 10.00.17 PM.jpeg</div>
+                <div class='stats'>1254x1254 (aspect 1.0)<br>
+                Skin: 0.988 | Box: 0.517</div>
+            </div>
+            
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/pendant/Gold Knot Pendant/WhatsApp Image 2026-09-14 at 10.12.43 PM.jpeg' alt='WhatsApp Image 2026-09-14 at 10.12.43 PM.jpeg'>
+                <div class='img-name'><b>#4</b> WhatsApp Image 2026-09-14 at 10.12.43 PM.jpeg</div>
+                <div class='stats'>1238x1271 (aspect 0.97)<br>
+                Skin: 0.991 | Box: 0.312</div>
+            </div>
+            </div></div><div class='product-row'><h3>pendant &mdash; Gold Swirl Pendant (4 images)</h3><div class='img-grid'>
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/pendant/Gold Swirl Pendant/ChatGPT Image Sep 12, 2026, 10_33_55 PM.png' alt='ChatGPT Image Sep 12, 2026, 10_33_55 PM.png'>
+                <div class='img-name'><b>#1</b> ChatGPT Image Sep 12, 2026, 10_33_55 PM.png</div>
+                <div class='stats'>1254x1254 (aspect 1.0)<br>
+                Skin: 0.99 | Box: 0.561</div>
+            </div>
+            
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/pendant/Gold Swirl Pendant/ChatGPT Image Sep 12, 2026, 11_02_01 PM.png' alt='ChatGPT Image Sep 12, 2026, 11_02_01 PM.png'>
+                <div class='img-name'><b>#2</b> ChatGPT Image Sep 12, 2026, 11_02_01 PM.png</div>
+                <div class='stats'>1254x1254 (aspect 1.0)<br>
+                Skin: 0.941 | Box: 0.174</div>
+            </div>
+            
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/pendant/Gold Swirl Pendant/ChatGPT Image Sep 13, 2026, 10_41_38 AM.png' alt='ChatGPT Image Sep 13, 2026, 10_41_38 AM.png'>
+                <div class='img-name'><b>#3</b> ChatGPT Image Sep 13, 2026, 10_41_38 AM.png</div>
+                <div class='stats'>1254x1254 (aspect 1.0)<br>
+                Skin: 0.991 | Box: 0.213</div>
+            </div>
+            
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/pendant/Gold Swirl Pendant/WhatsApp Image 2026-09-11 at 10.38.16 PM.jpeg' alt='WhatsApp Image 2026-09-11 at 10.38.16 PM.jpeg'>
+                <div class='img-name'><b>#4</b> WhatsApp Image 2026-09-11 at 10.38.16 PM.jpeg</div>
+                <div class='stats'>1254x1254 (aspect 1.0)<br>
+                Skin: 0.988 | Box: 0.013</div>
+            </div>
+            </div></div><div class='product-row'><h3>pendant &mdash; Gold Teardrop Pendant (4 images)</h3><div class='img-grid'>
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/pendant/Gold Teardrop Pendant/ChatGPT Image Sep 12, 2026, 10_30_19 PM.png' alt='ChatGPT Image Sep 12, 2026, 10_30_19 PM.png'>
+                <div class='img-name'><b>#1</b> ChatGPT Image Sep 12, 2026, 10_30_19 PM.png</div>
+                <div class='stats'>1254x1254 (aspect 1.0)<br>
+                Skin: 0.989 | Box: 0.548</div>
+            </div>
+            
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/pendant/Gold Teardrop Pendant/ChatGPT Image Sep 12, 2026, 11_09_15 PM.png' alt='ChatGPT Image Sep 12, 2026, 11_09_15 PM.png'>
+                <div class='img-name'><b>#2</b> ChatGPT Image Sep 12, 2026, 11_09_15 PM.png</div>
+                <div class='stats'>1254x1254 (aspect 1.0)<br>
+                Skin: 0.932 | Box: 0.158</div>
+            </div>
+            
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/pendant/Gold Teardrop Pendant/ChatGPT Image Sep 13, 2026, 11_53_46 AM.png' alt='ChatGPT Image Sep 13, 2026, 11_53_46 AM.png'>
+                <div class='img-name'><b>#3</b> ChatGPT Image Sep 13, 2026, 11_53_46 AM.png</div>
+                <div class='stats'>1254x1254 (aspect 1.0)<br>
+                Skin: 0.986 | Box: 0.185</div>
+            </div>
+            
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/pendant/Gold Teardrop Pendant/WhatsApp Image 2026-09-11 at 11.21.09 PM.jpeg' alt='WhatsApp Image 2026-09-11 at 11.21.09 PM.jpeg'>
+                <div class='img-name'><b>#4</b> WhatsApp Image 2026-09-11 at 11.21.09 PM.jpeg</div>
+                <div class='stats'>1254x1254 (aspect 1.0)<br>
+                Skin: 0.98 | Box: 0.007</div>
+            </div>
+            </div></div><div class='product-row'><h3>pendant &mdash; Gold Wing Pendant (3 images)</h3><div class='img-grid'>
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/pendant/Gold Wing Pendant/ChatGPT Image Sep 12, 2026, 10_11_42 PM.png' alt='ChatGPT Image Sep 12, 2026, 10_11_42 PM.png'>
+                <div class='img-name'><b>#1</b> ChatGPT Image Sep 12, 2026, 10_11_42 PM.png</div>
+                <div class='stats'>1254x1254 (aspect 1.0)<br>
+                Skin: 0.991 | Box: 0.515</div>
+            </div>
+            
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/pendant/Gold Wing Pendant/ChatGPT Image Sep 12, 2026, 11_16_10 PM.png' alt='ChatGPT Image Sep 12, 2026, 11_16_10 PM.png'>
+                <div class='img-name'><b>#2</b> ChatGPT Image Sep 12, 2026, 11_16_10 PM.png</div>
+                <div class='stats'>1254x1254 (aspect 1.0)<br>
+                Skin: 0.928 | Box: 0.172</div>
+            </div>
+            
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/pendant/Gold Wing Pendant/WhatsApp Image 2026-09-11 at 11.29.49 PM.jpeg' alt='WhatsApp Image 2026-09-11 at 11.29.49 PM.jpeg'>
+                <div class='img-name'><b>#3</b> WhatsApp Image 2026-09-11 at 11.29.49 PM.jpeg</div>
+                <div class='stats'>1254x1254 (aspect 1.0)<br>
+                Skin: 0.981 | Box: 0.019</div>
+            </div>
+            </div></div><div class='product-row'><h3>pendant &mdash; Green Leaf Pendant (3 images)</h3><div class='img-grid'>
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/pendant/Green Leaf Pendant/ChatGPT Image Sep 12, 2026, 10_29_36 PM.png' alt='ChatGPT Image Sep 12, 2026, 10_29_36 PM.png'>
+                <div class='img-name'><b>#1</b> ChatGPT Image Sep 12, 2026, 10_29_36 PM.png</div>
+                <div class='stats'>1254x1254 (aspect 1.0)<br>
+                Skin: 0.983 | Box: 0.541</div>
+            </div>
+            
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/pendant/Green Leaf Pendant/ChatGPT Image Sep 12, 2026, 11_12_09 PM.png' alt='ChatGPT Image Sep 12, 2026, 11_12_09 PM.png'>
+                <div class='img-name'><b>#2</b> ChatGPT Image Sep 12, 2026, 11_12_09 PM.png</div>
+                <div class='stats'>1254x1254 (aspect 1.0)<br>
+                Skin: 0.922 | Box: 0.177</div>
+            </div>
+            
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/pendant/Green Leaf Pendant/WhatsApp Image 2026-09-11 at 11.22.49 PM.jpeg' alt='WhatsApp Image 2026-09-11 at 11.22.49 PM.jpeg'>
+                <div class='img-name'><b>#3</b> WhatsApp Image 2026-09-11 at 11.22.49 PM.jpeg</div>
+                <div class='stats'>1254x1254 (aspect 1.0)<br>
+                Skin: 0.965 | Box: 0.012</div>
+            </div>
+            </div></div><div class='product-row'><h3>pendant &mdash; Pink Butterfly Pendant (4 images)</h3><div class='img-grid'>
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/pendant/Pink Butterfly Pendant/ChatGPT Image Sep 12, 2026, 11_25_11 PM.png' alt='ChatGPT Image Sep 12, 2026, 11_25_11 PM.png'>
+                <div class='img-name'><b>#1</b> ChatGPT Image Sep 12, 2026, 11_25_11 PM.png</div>
+                <div class='stats'>1254x1254 (aspect 1.0)<br>
+                Skin: 0.925 | Box: 0.175</div>
+            </div>
+            
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/pendant/Pink Butterfly Pendant/WhatsApp Image 2026-09-11 at 11.33.38 PM.jpeg' alt='WhatsApp Image 2026-09-11 at 11.33.38 PM.jpeg'>
+                <div class='img-name'><b>#2</b> WhatsApp Image 2026-09-11 at 11.33.38 PM.jpeg</div>
+                <div class='stats'>1254x1254 (aspect 1.0)<br>
+                Skin: 0.979 | Box: 0.008</div>
+            </div>
+            
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/pendant/Pink Butterfly Pendant/WhatsApp Image 2026-09-12 at 9.56.48 PM.jpeg' alt='WhatsApp Image 2026-09-12 at 9.56.48 PM.jpeg'>
+                <div class='img-name'><b>#3</b> WhatsApp Image 2026-09-12 at 9.56.48 PM.jpeg</div>
+                <div class='stats'>1254x1254 (aspect 1.0)<br>
+                Skin: 0.99 | Box: 0.517</div>
+            </div>
+            
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/pendant/Pink Butterfly Pendant/WhatsApp Image 2026-09-14 at 4.00.48 PM.jpeg' alt='WhatsApp Image 2026-09-14 at 4.00.48 PM.jpeg'>
+                <div class='img-name'><b>#4</b> WhatsApp Image 2026-09-14 at 4.00.48 PM.jpeg</div>
+                <div class='stats'>834x1057 (aspect 0.79)<br>
+                Skin: 1.0 | Box: 0.197</div>
+            </div>
+            </div></div><div class='product-row'><h3>pendant &mdash; Pink Flower Pendant (4 images)</h3><div class='img-grid'>
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/pendant/Pink Flower Pendant/ChatGPT Image Sep 12, 2026, 11_04_38 PM.png' alt='ChatGPT Image Sep 12, 2026, 11_04_38 PM.png'>
+                <div class='img-name'><b>#1</b> ChatGPT Image Sep 12, 2026, 11_04_38 PM.png</div>
+                <div class='stats'>1254x1254 (aspect 1.0)<br>
+                Skin: 0.93 | Box: 0.167</div>
+            </div>
+            
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/pendant/Pink Flower Pendant/ChatGPT Image Sep 13, 2026, 10_50_45 AM.png' alt='ChatGPT Image Sep 13, 2026, 10_50_45 AM.png'>
+                <div class='img-name'><b>#2</b> ChatGPT Image Sep 13, 2026, 10_50_45 AM.png</div>
+                <div class='stats'>1254x1254 (aspect 1.0)<br>
+                Skin: 0.998 | Box: 0.234</div>
+            </div>
+            
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/pendant/Pink Flower Pendant/WhatsApp Image 2026-09-11 at 11.02.48 PM.jpeg' alt='WhatsApp Image 2026-09-11 at 11.02.48 PM.jpeg'>
+                <div class='img-name'><b>#3</b> WhatsApp Image 2026-09-11 at 11.02.48 PM.jpeg</div>
+                <div class='stats'>1254x1254 (aspect 1.0)<br>
+                Skin: 0.993 | Box: 0.012</div>
+            </div>
+            
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/pendant/Pink Flower Pendant/WhatsApp Image 2026-09-12 at 12.28.13 AM.jpeg' alt='WhatsApp Image 2026-09-12 at 12.28.13 AM.jpeg'>
+                <div class='img-name'><b>#4</b> WhatsApp Image 2026-09-12 at 12.28.13 AM.jpeg</div>
+                <div class='stats'>1254x1254 (aspect 1.0)<br>
+                Skin: 0.994 | Box: 0.542</div>
+            </div>
+            </div></div><div class='product-row'><h3>pendant &mdash; Pink Leaf Pendant (4 images)</h3><div class='img-grid'>
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/pendant/Pink Leaf Pendant/ChatGPT Image Sep 12, 2026, 11_07_12 PM.png' alt='ChatGPT Image Sep 12, 2026, 11_07_12 PM.png'>
+                <div class='img-name'><b>#1</b> ChatGPT Image Sep 12, 2026, 11_07_12 PM.png</div>
+                <div class='stats'>1254x1254 (aspect 1.0)<br>
+                Skin: 0.93 | Box: 0.155</div>
+            </div>
+            
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/pendant/Pink Leaf Pendant/ChatGPT Image Sep 13, 2026, 11_50_16 AM.png' alt='ChatGPT Image Sep 13, 2026, 11_50_16 AM.png'>
+                <div class='img-name'><b>#2</b> ChatGPT Image Sep 13, 2026, 11_50_16 AM.png</div>
+                <div class='stats'>1254x1254 (aspect 1.0)<br>
+                Skin: 0.981 | Box: 0.192</div>
+            </div>
+            
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/pendant/Pink Leaf Pendant/ChatGPT Image Sep 9, 2026, 08_24_15 AM.png' alt='ChatGPT Image Sep 9, 2026, 08_24_15 AM.png'>
+                <div class='img-name'><b>#3</b> ChatGPT Image Sep 9, 2026, 08_24_15 AM.png</div>
+                <div class='stats'>1087x1447 (aspect 0.75)<br>
+                Skin: 0.983 | Box: 0.033</div>
+            </div>
+            
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/pendant/Pink Leaf Pendant/WhatsApp Image 2026-09-12 at 9.55.46 PM.jpeg' alt='WhatsApp Image 2026-09-12 at 9.55.46 PM.jpeg'>
+                <div class='img-name'><b>#4</b> WhatsApp Image 2026-09-12 at 9.55.46 PM.jpeg</div>
+                <div class='stats'>1254x1254 (aspect 1.0)<br>
+                Skin: 0.988 | Box: 0.532</div>
+            </div>
+            </div></div><div class='product-row'><h3>pendant &mdash; White Flower Pendant (4 images)</h3><div class='img-grid'>
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/pendant/White Flower Pendant/ChatGPT Image Sep 12, 2026, 11_27_48 PM.png' alt='ChatGPT Image Sep 12, 2026, 11_27_48 PM.png'>
+                <div class='img-name'><b>#1</b> ChatGPT Image Sep 12, 2026, 11_27_48 PM.png</div>
+                <div class='stats'>1254x1254 (aspect 1.0)<br>
+                Skin: 0.925 | Box: 0.194</div>
+            </div>
+            
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/pendant/White Flower Pendant/WhatsApp Image 2026-09-11 at 11.41.35 PM.jpeg' alt='WhatsApp Image 2026-09-11 at 11.41.35 PM.jpeg'>
+                <div class='img-name'><b>#2</b> WhatsApp Image 2026-09-11 at 11.41.35 PM.jpeg</div>
+                <div class='stats'>1254x1254 (aspect 1.0)<br>
+                Skin: 0.978 | Box: 0.023</div>
+            </div>
+            
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/pendant/White Flower Pendant/WhatsApp Image 2026-09-12 at 9.58.15 PM.jpeg' alt='WhatsApp Image 2026-09-12 at 9.58.15 PM.jpeg'>
+                <div class='img-name'><b>#3</b> WhatsApp Image 2026-09-12 at 9.58.15 PM.jpeg</div>
+                <div class='stats'>1254x1254 (aspect 1.0)<br>
+                Skin: 0.99 | Box: 0.528</div>
+            </div>
+            
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/pendant/White Flower Pendant/WhatsApp Image 2026-09-14 at 3.50.55 PM.jpeg' alt='WhatsApp Image 2026-09-14 at 3.50.55 PM.jpeg'>
+                <div class='img-name'><b>#4</b> WhatsApp Image 2026-09-14 at 3.50.55 PM.jpeg</div>
+                <div class='stats'>853x1280 (aspect 0.67)<br>
+                Skin: 0.997 | Box: 0.237</div>
+            </div>
+            </div></div><div class='product-row'><h3>pendant &mdash; White Star Pendant (4 images)</h3><div class='img-grid'>
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/pendant/White Star Pendant/WhatsApp Image 2026-09-14 at 02.31.51.jpeg' alt='WhatsApp Image 2026-09-14 at 02.31.51.jpeg'>
+                <div class='img-name'><b>#1</b> WhatsApp Image 2026-09-14 at 02.31.51.jpeg</div>
+                <div class='stats'>1254x1254 (aspect 1.0)<br>
+                Skin: 0.98 | Box: 0.095</div>
+            </div>
+            
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/pendant/White Star Pendant/WhatsApp Image 2026-09-14 at 02.32.23.jpeg' alt='WhatsApp Image 2026-09-14 at 02.32.23.jpeg'>
+                <div class='img-name'><b>#2</b> WhatsApp Image 2026-09-14 at 02.32.23.jpeg</div>
+                <div class='stats'>1044x1280 (aspect 0.82)<br>
+                Skin: 0.695 | Box: 0.126</div>
+            </div>
+            
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/pendant/White Star Pendant/WhatsApp Image 2026-09-14 at 02.42.13.jpeg' alt='WhatsApp Image 2026-09-14 at 02.42.13.jpeg'>
+                <div class='img-name'><b>#3</b> WhatsApp Image 2026-09-14 at 02.42.13.jpeg</div>
+                <div class='stats'>1254x1254 (aspect 1.0)<br>
+                Skin: 0.947 | Box: 0.132</div>
+            </div>
+            
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/pendant/White Star Pendant/WhatsApp Image 2026-09-14 at 3.26.23 PM.jpeg' alt='WhatsApp Image 2026-09-14 at 3.26.23 PM.jpeg'>
+                <div class='img-name'><b>#4</b> WhatsApp Image 2026-09-14 at 3.26.23 PM.jpeg</div>
+                <div class='stats'>1254x1254 (aspect 1.0)<br>
+                Skin: 0.988 | Box: 0.475</div>
+            </div>
+            </div></div><h2>Category: studs</h2><div class='product-row'><h3>studs &mdash; Cushion Halo Studs (4 images)</h3><div class='img-grid'>
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/studs/Cushion Halo Studs/c2cb8320-7d68-4bbd-8ed6-d5fac15410e1-clean.png' alt='c2cb8320-7d68-4bbd-8ed6-d5fac15410e1-clean.png'>
+                <div class='img-name'><b>#1</b> c2cb8320-7d68-4bbd-8ed6-d5fac15410e1-clean.png</div>
+                <div class='stats'>1024x683 (aspect 1.5)<br>
+                Skin: 0.845 | Box: 0.155</div>
+            </div>
+            
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/studs/Cushion Halo Studs/e395ccf1-a70a-4b7b-a513-baba202ec7bf-clean.png' alt='e395ccf1-a70a-4b7b-a513-baba202ec7bf-clean.png'>
+                <div class='img-name'><b>#2</b> e395ccf1-a70a-4b7b-a513-baba202ec7bf-clean.png</div>
+                <div class='stats'>1024x683 (aspect 1.5)<br>
+                Skin: 0.98 | Box: 0.409</div>
+            </div>
+            
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/studs/Cushion Halo Studs/gemini-watermark-removed (3).png' alt='gemini-watermark-removed (3).png'>
+                <div class='img-name'><b>#3</b> gemini-watermark-removed (3).png</div>
+                <div class='stats'>1024x683 (aspect 1.5)<br>
+                Skin: 0.897 | Box: 0.179</div>
+            </div>
+            
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/studs/Cushion Halo Studs/gemini-watermark-removed (4).png' alt='gemini-watermark-removed (4).png'>
+                <div class='img-name'><b>#4</b> gemini-watermark-removed (4).png</div>
+                <div class='stats'>1024x798 (aspect 1.28)<br>
+                Skin: 0.622 | Box: 0.371</div>
+            </div>
+            </div></div><div class='product-row'><h3>studs &mdash; Emerald Cut Studs (6 images)</h3><div class='img-grid'>
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/studs/Emerald Cut Studs/WhatsApp Image 2026-09-14 at 7.36.27 PM.jpeg' alt='WhatsApp Image 2026-09-14 at 7.36.27 PM.jpeg'>
+                <div class='img-name'><b>#1</b> WhatsApp Image 2026-09-14 at 7.36.27 PM.jpeg</div>
+                <div class='stats'>1398x1125 (aspect 1.24)<br>
+                Skin: 0.971 | Box: 0.422</div>
+            </div>
+            
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/studs/Emerald Cut Studs/WhatsApp Image 2026-09-14 at 7.45.15 PM.jpeg' alt='WhatsApp Image 2026-09-14 at 7.45.15 PM.jpeg'>
+                <div class='img-name'><b>#2</b> WhatsApp Image 2026-09-14 at 7.45.15 PM.jpeg</div>
+                <div class='stats'>1398x1125 (aspect 1.24)<br>
+                Skin: 0.93 | Box: 0.183</div>
+            </div>
+            
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/studs/Emerald Cut Studs/a7bb15cf-0023-47ae-ad88-19796d16f94c-clean.png' alt='a7bb15cf-0023-47ae-ad88-19796d16f94c-clean.png'>
+                <div class='img-name'><b>#3</b> a7bb15cf-0023-47ae-ad88-19796d16f94c-clean.png</div>
+                <div class='stats'>1024x683 (aspect 1.5)<br>
+                Skin: 0.977 | Box: 0.458</div>
+            </div>
+            
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/studs/Emerald Cut Studs/gemini-watermark-removed (6).png' alt='gemini-watermark-removed (6).png'>
+                <div class='img-name'><b>#4</b> gemini-watermark-removed (6).png</div>
+                <div class='stats'>1024x684 (aspect 1.5)<br>
+                Skin: 0.928 | Box: 0.359</div>
+            </div>
+            
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/studs/Emerald Cut Studs/gemini-watermark-removed (7).png' alt='gemini-watermark-removed (7).png'>
+                <div class='img-name'><b>#5</b> gemini-watermark-removed (7).png</div>
+                <div class='stats'>1024x684 (aspect 1.5)<br>
+                Skin: 0.402 | Box: 0.051</div>
+            </div>
+            
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/studs/Emerald Cut Studs/gemini-watermark-removed (8).png' alt='gemini-watermark-removed (8).png'>
+                <div class='img-name'><b>#6</b> gemini-watermark-removed (8).png</div>
+                <div class='stats'>1024x798 (aspect 1.28)<br>
+                Skin: 0.619 | Box: 0.427</div>
+            </div>
+            </div></div><div class='product-row'><h3>studs &mdash; Gold Leopard Studs (4 images)</h3><div class='img-grid'>
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/studs/Gold Leopard Studs/3af62380-220b-4ee8-9513-f788a8bd070c-clean.png' alt='3af62380-220b-4ee8-9513-f788a8bd070c-clean.png'>
+                <div class='img-name'><b>#1</b> 3af62380-220b-4ee8-9513-f788a8bd070c-clean.png</div>
+                <div class='stats'>1024x683 (aspect 1.5)<br>
+                Skin: 0.984 | Box: 0.419</div>
+            </div>
+            
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/studs/Gold Leopard Studs/4ebab4a2-7052-49b6-bcdf-63a3e411acb4-clean.png' alt='4ebab4a2-7052-49b6-bcdf-63a3e411acb4-clean.png'>
+                <div class='img-name'><b>#2</b> 4ebab4a2-7052-49b6-bcdf-63a3e411acb4-clean.png</div>
+                <div class='stats'>1024x683 (aspect 1.5)<br>
+                Skin: 0.981 | Box: 0.187</div>
+            </div>
+            
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/studs/Gold Leopard Studs/746ee96b-7763-4e6a-91cf-c23e1eb061f5-clean.png' alt='746ee96b-7763-4e6a-91cf-c23e1eb061f5-clean.png'>
+                <div class='img-name'><b>#3</b> 746ee96b-7763-4e6a-91cf-c23e1eb061f5-clean.png</div>
+                <div class='stats'>1024x684 (aspect 1.5)<br>
+                Skin: 0.979 | Box: 0.341</div>
+            </div>
+            
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/studs/Gold Leopard Studs/gemini-watermark-removed (5).png' alt='gemini-watermark-removed (5).png'>
+                <div class='img-name'><b>#4</b> gemini-watermark-removed (5).png</div>
+                <div class='stats'>1024x798 (aspect 1.28)<br>
+                Skin: 0.625 | Box: 0.401</div>
+            </div>
+            </div></div><div class='product-row'><h3>studs &mdash; Round Diamond Studs (4 images)</h3><div class='img-grid'>
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/studs/Round Diamond Studs/84115cf1-3545-4ac0-90ac-ff23af36a860-clean.png' alt='84115cf1-3545-4ac0-90ac-ff23af36a860-clean.png'>
+                <div class='img-name'><b>#1</b> 84115cf1-3545-4ac0-90ac-ff23af36a860-clean.png</div>
+                <div class='stats'>1024x683 (aspect 1.5)<br>
+                Skin: 0.991 | Box: 0.4</div>
+            </div>
+            
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/studs/Round Diamond Studs/ba9b331d-8f26-46f0-9688-5c7bcdc53ba4-clean.png' alt='ba9b331d-8f26-46f0-9688-5c7bcdc53ba4-clean.png'>
+                <div class='img-name'><b>#2</b> ba9b331d-8f26-46f0-9688-5c7bcdc53ba4-clean.png</div>
+                <div class='stats'>1024x683 (aspect 1.5)<br>
+                Skin: 0.916 | Box: 0.102</div>
+            </div>
+            
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/studs/Round Diamond Studs/gemini-watermark-removed (1).png' alt='gemini-watermark-removed (1).png'>
+                <div class='img-name'><b>#3</b> gemini-watermark-removed (1).png</div>
+                <div class='stats'>1024x798 (aspect 1.28)<br>
+                Skin: 0.628 | Box: 0.323</div>
+            </div>
+            
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/studs/Round Diamond Studs/gemini-watermark-removed (2).png' alt='gemini-watermark-removed (2).png'>
+                <div class='img-name'><b>#4</b> gemini-watermark-removed (2).png</div>
+                <div class='stats'>1024x683 (aspect 1.5)<br>
+                Skin: 0.96 | Box: 0.214</div>
+            </div>
+            </div></div><h2>Category: women's bracelet</h2><div class='product-row'><h3>women's bracelet &mdash; Blue Flower Bracelet (4 images)</h3><div class='img-grid'>
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/women's bracelet/Blue Flower Bracelet/r1.jpeg' alt='r1.jpeg'>
+                <div class='img-name'><b>#1</b> r1.jpeg</div>
+                <div class='stats'>1222x1287 (aspect 0.95)<br>
+                Skin: 0.978 | Box: 0.026</div>
+            </div>
+            
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/women's bracelet/Blue Flower Bracelet/r2.jpeg' alt='r2.jpeg'>
+                <div class='img-name'><b>#2</b> r2.jpeg</div>
+                <div class='stats'>1537x1023 (aspect 1.5)<br>
+                Skin: 0.999 | Box: 0.738</div>
+            </div>
+            
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/women's bracelet/Blue Flower Bracelet/r3.jpeg' alt='r3.jpeg'>
+                <div class='img-name'><b>#3</b> r3.jpeg</div>
+                <div class='stats'>1403x1121 (aspect 1.25)<br>
+                Skin: 0.962 | Box: 0.749</div>
+            </div>
+            
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/women's bracelet/Blue Flower Bracelet/r4.jpeg' alt='r4.jpeg'>
+                <div class='img-name'><b>#4</b> r4.jpeg</div>
+                <div class='stats'>1537x1023 (aspect 1.5)<br>
+                Skin: 0.958 | Box: 0.069</div>
+            </div>
+            </div></div><div class='product-row'><h3>women's bracelet &mdash; Gold Rose Bracelet (4 images)</h3><div class='img-grid'>
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/women's bracelet/Gold Rose Bracelet/t1.jpeg' alt='t1.jpeg'>
+                <div class='img-name'><b>#1</b> t1.jpeg</div>
+                <div class='stats'>1417x1110 (aspect 1.28)<br>
+                Skin: 0.998 | Box: 0.104</div>
+            </div>
+            
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/women's bracelet/Gold Rose Bracelet/t2.jpeg' alt='t2.jpeg'>
+                <div class='img-name'><b>#2</b> t2.jpeg</div>
+                <div class='stats'>1400x1123 (aspect 1.25)<br>
+                Skin: 0.963 | Box: 0.718</div>
+            </div>
+            
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/women's bracelet/Gold Rose Bracelet/t3.jpeg' alt='t3.jpeg'>
+                <div class='img-name'><b>#3</b> t3.jpeg</div>
+                <div class='stats'>1329x1183 (aspect 1.12)<br>
+                Skin: 0.99 | Box: 0.036</div>
+            </div>
+            
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/women's bracelet/Gold Rose Bracelet/t4.jpeg' alt='t4.jpeg'>
+                <div class='img-name'><b>#4</b> t4.jpeg</div>
+                <div class='stats'>1537x1023 (aspect 1.5)<br>
+                Skin: 0.988 | Box: 0.029</div>
+            </div>
+            </div></div><div class='product-row'><h3>women's bracelet &mdash; Opal Bead Bracelet (4 images)</h3><div class='img-grid'>
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/women's bracelet/Opal Bead Bracelet/o1.jpeg' alt='o1.jpeg'>
+                <div class='img-name'><b>#1</b> o1.jpeg</div>
+                <div class='stats'>1122x1402 (aspect 0.8)<br>
+                Skin: 0.999 | Box: 0.34</div>
+            </div>
+            
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/women's bracelet/Opal Bead Bracelet/o2.jpeg' alt='o2.jpeg'>
+                <div class='img-name'><b>#2</b> o2.jpeg</div>
+                <div class='stats'>1402x1122 (aspect 1.25)<br>
+                Skin: 0.958 | Box: 0.701</div>
+            </div>
+            
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/women's bracelet/Opal Bead Bracelet/o3.jpeg' alt='o3.jpeg'>
+                <div class='img-name'><b>#3</b> o3.jpeg</div>
+                <div class='stats'>1537x1023 (aspect 1.5)<br>
+                Skin: 0.975 | Box: 0.057</div>
+            </div>
+            
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/women's bracelet/Opal Bead Bracelet/o4.jpeg' alt='o4.jpeg'>
+                <div class='img-name'><b>#4</b> o4.jpeg</div>
+                <div class='stats'>1526x1030 (aspect 1.48)<br>
+                Skin: 0.966 | Box: 0.027</div>
+            </div>
+            </div></div><div class='product-row'><h3>women's bracelet &mdash; Pink Crystal Bracelet (4 images)</h3><div class='img-grid'>
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/women's bracelet/Pink Crystal Bracelet/u1.jpeg' alt='u1.jpeg'>
+                <div class='img-name'><b>#1</b> u1.jpeg</div>
+                <div class='stats'>1122x1402 (aspect 0.8)<br>
+                Skin: 0.992 | Box: 0.341</div>
+            </div>
+            
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/women's bracelet/Pink Crystal Bracelet/u2.jpeg' alt='u2.jpeg'>
+                <div class='img-name'><b>#2</b> u2.jpeg</div>
+                <div class='stats'>1402x1122 (aspect 1.25)<br>
+                Skin: 0.958 | Box: 0.715</div>
+            </div>
+            
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/women's bracelet/Pink Crystal Bracelet/u3.jpeg' alt='u3.jpeg'>
+                <div class='img-name'><b>#3</b> u3.jpeg</div>
+                <div class='stats'>1537x1023 (aspect 1.5)<br>
+                Skin: 0.99 | Box: 0.197</div>
+            </div>
+            
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/women's bracelet/Pink Crystal Bracelet/u4.jpeg' alt='u4.jpeg'>
+                <div class='img-name'><b>#4</b> u4.jpeg</div>
+                <div class='stats'>1537x1023 (aspect 1.5)<br>
+                Skin: 0.999 | Box: 0.086</div>
+            </div>
+            </div></div><h2>Category: women's ring</h2><div class='product-row'><h3>women's ring &mdash; Heart Diamond Ring (4 images)</h3><div class='img-grid'>
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/women's ring/Heart Diamond Ring/ring b1.jpeg' alt='ring b1.jpeg'>
+                <div class='img-name'><b>#1</b> ring b1.jpeg</div>
+                <div class='stats'>1388x1133 (aspect 1.23)<br>
+                Skin: 0.968 | Box: 0.029</div>
+            </div>
+            
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/women's ring/Heart Diamond Ring/ring b2.png' alt='ring b2.png'>
+                <div class='img-name'><b>#2</b> ring b2.png</div>
+                <div class='stats'>1536x1024 (aspect 1.5)<br>
+                Skin: 0.874 | Box: 0.081</div>
+            </div>
+            
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/women's ring/Heart Diamond Ring/ring b3.png' alt='ring b3.png'>
+                <div class='img-name'><b>#3</b> ring b3.png</div>
+                <div class='stats'>1402x1122 (aspect 1.25)<br>
+                Skin: 0.962 | Box: 0.68</div>
+            </div>
+            
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/women's ring/Heart Diamond Ring/ring b4.png' alt='ring b4.png'>
+                <div class='img-name'><b>#4</b> ring b4.png</div>
+                <div class='stats'>1122x1402 (aspect 0.8)<br>
+                Skin: 0.999 | Box: 0.211</div>
+            </div>
+            </div></div><div class='product-row'><h3>women's ring &mdash; Oval Diamond Ring (4 images)</h3><div class='img-grid'>
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/women's ring/Oval Diamond Ring/ring e1.png' alt='ring e1.png'>
+                <div class='img-name'><b>#1</b> ring e1.png</div>
+                <div class='stats'>1313x1198 (aspect 1.1)<br>
+                Skin: 0.945 | Box: 0.052</div>
+            </div>
+            
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/women's ring/Oval Diamond Ring/ring e2.png' alt='ring e2.png'>
+                <div class='img-name'><b>#2</b> ring e2.png</div>
+                <div class='stats'>1537x1023 (aspect 1.5)<br>
+                Skin: 0.972 | Box: 0.042</div>
+            </div>
+            
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/women's ring/Oval Diamond Ring/ring e3.png' alt='ring e3.png'>
+                <div class='img-name'><b>#3</b> ring e3.png</div>
+                <div class='stats'>1402x1122 (aspect 1.25)<br>
+                Skin: 0.958 | Box: 0.729</div>
+            </div>
+            
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/women's ring/Oval Diamond Ring/ring e4.png' alt='ring e4.png'>
+                <div class='img-name'><b>#4</b> ring e4.png</div>
+                <div class='stats'>1448x1086 (aspect 1.33)<br>
+                Skin: 0.993 | Box: 0.212</div>
+            </div>
+            </div></div><div class='product-row'><h3>women's ring &mdash; Petite Butterfly Ring (4 images)</h3><div class='img-grid'>
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/women's ring/Petite Butterfly Ring/WhatsApp Image 2026-09-14 at 10.11.23 PM.jpeg' alt='WhatsApp Image 2026-09-14 at 10.11.23 PM.jpeg'>
+                <div class='img-name'><b>#1</b> WhatsApp Image 2026-09-14 at 10.11.23 PM.jpeg</div>
+                <div class='stats'>1398x1125 (aspect 1.24)<br>
+                Skin: 0.975 | Box: 0.407</div>
+            </div>
+            
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/women's ring/Petite Butterfly Ring/ring i1.jpeg' alt='ring i1.jpeg'>
+                <div class='img-name'><b>#2</b> ring i1.jpeg</div>
+                <div class='stats'>1116x1409 (aspect 0.79)<br>
+                Skin: 0.998 | Box: 0.435</div>
+            </div>
+            
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/women's ring/Petite Butterfly Ring/ring i2.png' alt='ring i2.png'>
+                <div class='img-name'><b>#3</b> ring i2.png</div>
+                <div class='stats'>1116x1409 (aspect 0.79)<br>
+                Skin: 0.992 | Box: 0.34</div>
+            </div>
+            
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/women's ring/Petite Butterfly Ring/ring i4.png' alt='ring i4.png'>
+                <div class='img-name'><b>#4</b> ring i4.png</div>
+                <div class='stats'>1448x1086 (aspect 1.33)<br>
+                Skin: 0.969 | Box: 0.501</div>
+            </div>
+            </div></div><div class='product-row'><h3>women's ring &mdash; Pink Bow Ring (4 images)</h3><div class='img-grid'>
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/women's ring/Pink Bow Ring/WhatsApp Image 2026-09-15 at 2.01.14 PM.jpeg' alt='WhatsApp Image 2026-09-15 at 2.01.14 PM.jpeg'>
+                <div class='img-name'><b>#1</b> WhatsApp Image 2026-09-15 at 2.01.14 PM.jpeg</div>
+                <div class='stats'>1145x1374 (aspect 0.83)<br>
+                Skin: 0.716 | Box: 0.297</div>
+            </div>
+            
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/women's ring/Pink Bow Ring/ring f1.jpeg' alt='ring f1.jpeg'>
+                <div class='img-name'><b>#2</b> ring f1.jpeg</div>
+                <div class='stats'>1412x1114 (aspect 1.27)<br>
+                Skin: 1.0 | Box: 0.083</div>
+            </div>
+            
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/women's ring/Pink Bow Ring/ring f2.png' alt='ring f2.png'>
+                <div class='img-name'><b>#3</b> ring f2.png</div>
+                <div class='stats'>1312x1199 (aspect 1.09)<br>
+                Skin: 0.989 | Box: 0.099</div>
+            </div>
+            
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/women's ring/Pink Bow Ring/ring f3.png' alt='ring f3.png'>
+                <div class='img-name'><b>#4</b> ring f3.png</div>
+                <div class='stats'>1402x1122 (aspect 1.25)<br>
+                Skin: 0.963 | Box: 0.727</div>
+            </div>
+            </div></div><div class='product-row'><h3>women's ring &mdash; Pink Butterfly Ring (4 images)</h3><div class='img-grid'>
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/women's ring/Pink Butterfly Ring/WhatsApp Image 2026-09-15 at 10.49.54 PM.jpeg' alt='WhatsApp Image 2026-09-15 at 10.49.54 PM.jpeg'>
+                <div class='img-name'><b>#1</b> WhatsApp Image 2026-09-15 at 10.49.54 PM.jpeg</div>
+                <div class='stats'>1324x1188 (aspect 1.11)<br>
+                Skin: 0.94 | Box: 0.512</div>
+            </div>
+            
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/women's ring/Pink Butterfly Ring/WhatsApp Image 2026-09-15 at 3.32.12 PM.jpeg' alt='WhatsApp Image 2026-09-15 at 3.32.12 PM.jpeg'>
+                <div class='img-name'><b>#2</b> WhatsApp Image 2026-09-15 at 3.32.12 PM.jpeg</div>
+                <div class='stats'>768x1024 (aspect 0.75)<br>
+                Skin: 0.997 | Box: 0.347</div>
+            </div>
+            
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/women's ring/Pink Butterfly Ring/ring h1.jpeg' alt='ring h1.jpeg'>
+                <div class='img-name'><b>#3</b> ring h1.jpeg</div>
+                <div class='stats'>1254x1254 (aspect 1.0)<br>
+                Skin: 0.996 | Box: 0.38</div>
+            </div>
+            
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/women's ring/Pink Butterfly Ring/ring h2.png' alt='ring h2.png'>
+                <div class='img-name'><b>#4</b> ring h2.png</div>
+                <div class='stats'>1313x1198 (aspect 1.1)<br>
+                Skin: 0.979 | Box: 0.188</div>
+            </div>
+            </div></div><div class='product-row'><h3>women's ring &mdash; Pink Floral Ring (4 images)</h3><div class='img-grid'>
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/women's ring/Pink Floral Ring/05.jpeg' alt='05.jpeg'>
+                <div class='img-name'><b>#1</b> 05.jpeg</div>
+                <div class='stats'>1398x1125 (aspect 1.24)<br>
+                Skin: 0.975 | Box: 0.421</div>
+            </div>
+            
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/women's ring/Pink Floral Ring/WhatsApp Image 2026-09-14 at 10.11.24 PM.jpeg' alt='WhatsApp Image 2026-09-14 at 10.11.24 PM.jpeg'>
+                <div class='img-name'><b>#2</b> WhatsApp Image 2026-09-14 at 10.11.24 PM.jpeg</div>
+                <div class='stats'>1130x1392 (aspect 0.81)<br>
+                Skin: 0.999 | Box: 0.477</div>
+            </div>
+            
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/women's ring/Pink Floral Ring/ring j1.png' alt='ring j1.png'>
+                <div class='img-name'><b>#3</b> ring j1.png</div>
+                <div class='stats'>1254x1254 (aspect 1.0)<br>
+                Skin: 0.981 | Box: 0.169</div>
+            </div>
+            
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/women's ring/Pink Floral Ring/ring j4.jpeg' alt='ring j4.jpeg'>
+                <div class='img-name'><b>#4</b> ring j4.jpeg</div>
+                <div class='stats'>1254x1254 (aspect 1.0)<br>
+                Skin: 0.995 | Box: 0.067</div>
+            </div>
+            </div></div><div class='product-row'><h3>women's ring &mdash; Pink Heart Ring (4 images)</h3><div class='img-grid'>
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/women's ring/Pink Heart Ring/WhatsApp Image 2026-09-14 at 8.50.42 PM.jpeg' alt='WhatsApp Image 2026-09-14 at 8.50.42 PM.jpeg'>
+                <div class='img-name'><b>#1</b> WhatsApp Image 2026-09-14 at 8.50.42 PM.jpeg</div>
+                <div class='stats'>1398x1125 (aspect 1.24)<br>
+                Skin: 0.967 | Box: 0.43</div>
+            </div>
+            
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/women's ring/Pink Heart Ring/ring k1.png' alt='ring k1.png'>
+                <div class='img-name'><b>#2</b> ring k1.png</div>
+                <div class='stats'>1254x1254 (aspect 1.0)<br>
+                Skin: 0.991 | Box: 0.071</div>
+            </div>
+            
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/women's ring/Pink Heart Ring/ring k2.png' alt='ring k2.png'>
+                <div class='img-name'><b>#3</b> ring k2.png</div>
+                <div class='stats'>1254x1254 (aspect 1.0)<br>
+                Skin: 0.981 | Box: 0.099</div>
+            </div>
+            
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/women's ring/Pink Heart Ring/ring k4.png' alt='ring k4.png'>
+                <div class='img-name'><b>#4</b> ring k4.png</div>
+                <div class='stats'>1402x1122 (aspect 1.25)<br>
+                Skin: 0.99 | Box: 0.367</div>
+            </div>
+            </div></div><div class='product-row'><h3>women's ring &mdash; Pink Trillion Ring (4 images)</h3><div class='img-grid'>
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/women's ring/Pink Trillion Ring/WhatsApp Image 2026-09-15 at 1.06.59 PM.jpeg' alt='WhatsApp Image 2026-09-15 at 1.06.59 PM.jpeg'>
+                <div class='img-name'><b>#1</b> WhatsApp Image 2026-09-15 at 1.06.59 PM.jpeg</div>
+                <div class='stats'>1024x820 (aspect 1.25)<br>
+                Skin: 0.948 | Box: 0.47</div>
+            </div>
+            
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/women's ring/Pink Trillion Ring/WhatsApp Image 2026-09-15 at 3.09.12 PM.jpeg' alt='WhatsApp Image 2026-09-15 at 3.09.12 PM.jpeg'>
+                <div class='img-name'><b>#2</b> WhatsApp Image 2026-09-15 at 3.09.12 PM.jpeg</div>
+                <div class='stats'>1012x908 (aspect 1.11)<br>
+                Skin: 0.964 | Box: 0.473</div>
+            </div>
+            
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/women's ring/Pink Trillion Ring/ring d1.jpeg' alt='ring d1.jpeg'>
+                <div class='img-name'><b>#3</b> ring d1.jpeg</div>
+                <div class='stats'>1331x1181 (aspect 1.13)<br>
+                Skin: 0.96 | Box: 0.094</div>
+            </div>
+            
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/women's ring/Pink Trillion Ring/ring d2.png' alt='ring d2.png'>
+                <div class='img-name'><b>#4</b> ring d2.png</div>
+                <div class='stats'>1448x1086 (aspect 1.33)<br>
+                Skin: 0.901 | Box: 0.109</div>
+            </div>
+            </div></div><div class='product-row'><h3>women's ring &mdash; Textured Gold Band (4 images)</h3><div class='img-grid'>
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/women's ring/Textured Gold Band/ring c1.png' alt='ring c1.png'>
+                <div class='img-name'><b>#1</b> ring c1.png</div>
+                <div class='stats'>1543x1019 (aspect 1.51)<br>
+                Skin: 0.984 | Box: 0.019</div>
+            </div>
+            
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/women's ring/Textured Gold Band/ring c2.png' alt='ring c2.png'>
+                <div class='img-name'><b>#2</b> ring c2.png</div>
+                <div class='stats'>1537x1023 (aspect 1.5)<br>
+                Skin: 0.857 | Box: 0.021</div>
+            </div>
+            
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/women's ring/Textured Gold Band/ring c3.png' alt='ring c3.png'>
+                <div class='img-name'><b>#3</b> ring c3.png</div>
+                <div class='stats'>1402x1122 (aspect 1.25)<br>
+                Skin: 0.973 | Box: 0.329</div>
+            </div>
+            
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/women's ring/Textured Gold Band/ring c4.png' alt='ring c4.png'>
+                <div class='img-name'><b>#4</b> ring c4.png</div>
+                <div class='stats'>1449x1086 (aspect 1.33)<br>
+                Skin: 0.993 | Box: 0.155</div>
+            </div>
+            </div></div><div class='product-row'><h3>women's ring &mdash; Yellow Gemstone Ring (4 images)</h3><div class='img-grid'>
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/women's ring/Yellow Gemstone Ring/ring a1.png' alt='ring a1.png'>
+                <div class='img-name'><b>#1</b> ring a1.png</div>
+                <div class='stats'>1254x1254 (aspect 1.0)<br>
+                Skin: 0.942 | Box: 0.13</div>
+            </div>
+            
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/women's ring/Yellow Gemstone Ring/ring a2.png' alt='ring a2.png'>
+                <div class='img-name'><b>#2</b> ring a2.png</div>
+                <div class='stats'>1536x1024 (aspect 1.5)<br>
+                Skin: 0.885 | Box: 0.21</div>
+            </div>
+            
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/women's ring/Yellow Gemstone Ring/ring a3.jpeg' alt='ring a3.jpeg'>
+                <div class='img-name'><b>#3</b> ring a3.jpeg</div>
+                <div class='stats'>1280x1024 (aspect 1.25)<br>
+                Skin: 0.965 | Box: 0.675</div>
+            </div>
+            
+            <div class='img-card'>
+                <img src='file:///C:/Users/vigneshwaran/Downloads/GJ ALL FILES 5/GJ ALL FILES 5/women's ring/Yellow Gemstone Ring/ring a4.jpeg' alt='ring a4.jpeg'>
+                <div class='img-name'><b>#4</b> ring a4.jpeg</div>
+                <div class='stats'>1024x1280 (aspect 0.8)<br>
+                Skin: 0.998 | Box: 0.211</div>
+            </div>
+            </div></div></body></html>

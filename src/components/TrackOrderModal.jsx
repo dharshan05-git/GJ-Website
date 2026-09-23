@@ -251,10 +251,10 @@ export const TrackOrderModal = ({ isOpen, onClose }) => {
                 </div>
 
                 <a
-                  href="https://wa.me/919876543210?text=Hello%20Gevariya%20team,%20I%20would%20like%20to%20check%20my%20order%20status."
+                  href="https://wa.me/917041677500?text=Hello%20Gevariya%20team,%20I%20would%20like%20to%20check%20my%20order%20status."
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="bg-[#2E2B2B] hover:bg-[#7B3F42] text-white text-[10.5px] font-bold uppercase tracking-wider px-3.5 py-2 rounded-xl transition-colors shrink-0 flex items-center gap-1.5 shadow-xs"
+                  className="bg-[#25D366] hover:bg-[#1ebe5b] text-white text-[10.5px] font-bold uppercase tracking-wider px-3.5 py-2 rounded-xl transition-colors shrink-0 flex items-center gap-1.5 shadow-xs"
                 >
                   <span>WhatsApp Us</span>
                   <ExternalLink size={11} />

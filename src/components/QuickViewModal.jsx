@@ -17,7 +17,7 @@ export const QuickViewModal = () => {
 
   if (!quickViewProduct) return null;
 
-  const [selectedPlating, setSelectedPlating] = useState(quickViewProduct.plating?.[0] || '18K White Gold');
+  const [selectedPlating, setSelectedPlating] = useState(quickViewProduct.metals?.[0] || quickViewProduct.plating?.[0] || '18K Rose Gold');
   const [selectedSize, setSelectedSize] = useState(quickViewProduct.sizes[0] || "7");
   const [quantity, setQuantity] = useState(1);
 
@@ -115,7 +115,7 @@ export const QuickViewModal = () => {
               Plating: <span className="font-normal text-[#7B3F42]">{selectedPlating}</span>
             </label>
             <div className="flex gap-1.5 sm:gap-2 flex-wrap">
-              {(quickViewProduct.plating || ['18K White Gold', '18K Rose Gold', '18K Gold']).map((plating, i) => (
+              {(quickViewProduct.metals || quickViewProduct.plating || ['18K Rose Gold', '18K Yellow Gold', '18K White Gold']).map((plating, i) => (
                 <button
                   key={i}
                   onClick={() => setSelectedPlating(plating)}

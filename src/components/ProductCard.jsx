@@ -103,8 +103,8 @@ export const ProductCard = ({ product }) => {
           </div>
         )}
 
-        {/* Desktop Hover Quick Actions / Mobile Tap Bar */}
-        <div className="absolute inset-x-0 bottom-0 flex gap-0 sm:opacity-0 sm:group-hover:opacity-100 transition-all duration-300 sm:translate-y-2 sm:group-hover:translate-y-0">
+        {/* Desktop Hover Quick Actions (Hidden on mobile view) */}
+        <div className="hidden sm:flex absolute inset-x-0 bottom-0 gap-0 sm:opacity-0 sm:group-hover:opacity-100 transition-all duration-300 sm:translate-y-2 sm:group-hover:translate-y-0">
           <button
             onClick={e => { e.stopPropagation(); setQuickViewProduct(product); }}
             className="flex-1 bg-white/95 hover:bg-white text-[#2E2B2B] hover:text-[#7B3F42] text-[9px] sm:text-[10px] font-bold tracking-wider uppercase py-2 flex items-center justify-center gap-1 transition-colors border-t border-[#D8CFC3] shadow-xs active:bg-[#F5F1EA]"

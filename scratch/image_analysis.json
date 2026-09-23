@@ -1,0 +1,3252 @@
+{
+  "EARRINGS": {
+    "Diamond Heart Stud": [
+      {
+        "width": 1254,
+        "height": 1254,
+        "aspect": 1.0,
+        "skin_ratio": 0.958,
+        "box_ratio": 0.021,
+        "edge_std": 10.3,
+        "mean_rgb": [
+          240.3,
+          218.0,
+          216.3
+        ],
+        "filename": "ChatGPT Image Aug 7, 2026, 04_47_01 PM.png"
+      },
+      {
+        "width": 1254,
+        "height": 1254,
+        "aspect": 1.0,
+        "skin_ratio": 0.98,
+        "box_ratio": 0.017,
+        "edge_std": 11.8,
+        "mean_rgb": [
+          242.1,
+          217.9,
+          218.1
+        ],
+        "filename": "ChatGPT Image Aug 7, 2026, 04_49_14 PM.png"
+      },
+      {
+        "width": 1280,
+        "height": 1145,
+        "aspect": 1.12,
+        "skin_ratio": 0.859,
+        "box_ratio": 0.336,
+        "edge_std": 57.5,
+        "mean_rgb": [
+          176.0,
+          134.9,
+          109.3
+        ],
+        "filename": "Gemini_Generated_Image_66afvw66afvw66af.jpeg"
+      }
+    ],
+    "Gold Bow Drop": [
+      {
+        "width": 1254,
+        "height": 1254,
+        "aspect": 1.0,
+        "skin_ratio": 0.918,
+        "box_ratio": 0.016,
+        "edge_std": 11.2,
+        "mean_rgb": [
+          240.0,
+          216.2,
+          210.9
+        ],
+        "filename": "ChatGPT Image Aug 5, 2026, 01_42_04 AM.png"
+      },
+      {
+        "width": 1254,
+        "height": 1254,
+        "aspect": 1.0,
+        "skin_ratio": 0.652,
+        "box_ratio": 0.341,
+        "edge_std": 63.0,
+        "mean_rgb": [
+          129.8,
+          91.8,
+          71.4
+        ],
+        "filename": "ChatGPT Image Aug 5, 2026, 01_55_13 AM.png"
+      },
+      {
+        "width": 1254,
+        "height": 1254,
+        "aspect": 1.0,
+        "skin_ratio": 0.973,
+        "box_ratio": 0.493,
+        "edge_std": 50.0,
+        "mean_rgb": [
+          189.2,
+          134.0,
+          112.8
+        ],
+        "filename": "ChatGPT Image Aug 5, 2026, 02_03_20 AM.png"
+      },
+      {
+        "width": 1402,
+        "height": 1122,
+        "aspect": 1.25,
+        "skin_ratio": 0.962,
+        "box_ratio": 0.016,
+        "edge_std": 13.9,
+        "mean_rgb": [
+          238.7,
+          208.5,
+          200.1
+        ],
+        "filename": "ChatGPT Image Aug 5, 2026, 02_19_06 AM.png"
+      }
+    ],
+    "Gold Heart Stud": [
+      {
+        "width": 1254,
+        "height": 1254,
+        "aspect": 1.0,
+        "skin_ratio": 0.984,
+        "box_ratio": 0.005,
+        "edge_std": 10.6,
+        "mean_rgb": [
+          248.1,
+          222.9,
+          217.0
+        ],
+        "filename": "ChatGPT Image Aug 7, 2026, 05_11_47 PM.png"
+      },
+      {
+        "width": 1402,
+        "height": 1122,
+        "aspect": 1.25,
+        "skin_ratio": 0.972,
+        "box_ratio": 0.658,
+        "edge_std": 54.3,
+        "mean_rgb": [
+          196.6,
+          122.8,
+          116.7
+        ],
+        "filename": "ChatGPT Image Aug 7, 2026, 05_21_15 PM.png"
+      },
+      {
+        "width": 2682,
+        "height": 1600,
+        "aspect": 1.68,
+        "skin_ratio": 0.811,
+        "box_ratio": 0.542,
+        "edge_std": 41.2,
+        "mean_rgb": [
+          140.7,
+          102.8,
+          81.3
+        ],
+        "filename": "wmremove-transformed (1).png"
+      },
+      {
+        "width": 2682,
+        "height": 1600,
+        "aspect": 1.68,
+        "skin_ratio": 0.989,
+        "box_ratio": 0.451,
+        "edge_std": 54.0,
+        "mean_rgb": [
+          180.8,
+          153.8,
+          130.1
+        ],
+        "filename": "wmremove-transformed (2).png"
+      }
+    ],
+    "Gold Wing Stud": [
+      {
+        "width": 1024,
+        "height": 1024,
+        "aspect": 1.0,
+        "skin_ratio": 0.88,
+        "box_ratio": 0.316,
+        "edge_std": 46.6,
+        "mean_rgb": [
+          187.7,
+          162.8,
+          137.2
+        ],
+        "filename": "1.png"
+      },
+      {
+        "width": 1254,
+        "height": 1254,
+        "aspect": 1.0,
+        "skin_ratio": 0.987,
+        "box_ratio": 0.007,
+        "edge_std": 9.4,
+        "mean_rgb": [
+          244.7,
+          218.8,
+          211.1
+        ],
+        "filename": "ChatGPT Image Aug 5, 2026, 02_50_55 AM.png"
+      },
+      {
+        "width": 1280,
+        "height": 1023,
+        "aspect": 1.25,
+        "skin_ratio": 0.987,
+        "box_ratio": 0.29,
+        "edge_std": 45.9,
+        "mean_rgb": [
+          212.4,
+          150.9,
+          125.1
+        ],
+        "filename": "Gemini_Generated_Image_faymwfaymwfaymwf.jpeg"
+      },
+      {
+        "width": 1024,
+        "height": 1025,
+        "aspect": 1.0,
+        "skin_ratio": 0.798,
+        "box_ratio": 0.276,
+        "edge_std": 52.7,
+        "mean_rgb": [
+          149.1,
+          114.6,
+          92.3
+        ],
+        "filename": "wmremove-transformed.png"
+      }
+    ],
+    "Pink Bow Drop": [
+      {
+        "width": 1254,
+        "height": 1254,
+        "aspect": 1.0,
+        "skin_ratio": 0.988,
+        "box_ratio": 0.009,
+        "edge_std": 18.4,
+        "mean_rgb": [
+          246.8,
+          208.2,
+          212.4
+        ],
+        "filename": "ChatGPT Image Aug 5, 2026, 12_11_49 AM.png"
+      },
+      {
+        "width": 1254,
+        "height": 1254,
+        "aspect": 1.0,
+        "skin_ratio": 0.788,
+        "box_ratio": 0.279,
+        "edge_std": 60.1,
+        "mean_rgb": [
+          161.7,
+          120.2,
+          95.5
+        ],
+        "filename": "ChatGPT Image Aug 5, 2026, 12_23_39 AM.png"
+      },
+      {
+        "width": 1402,
+        "height": 1122,
+        "aspect": 1.25,
+        "skin_ratio": 0.954,
+        "box_ratio": 0.514,
+        "edge_std": 48.8,
+        "mean_rgb": [
+          203.6,
+          139.9,
+          124.3
+        ],
+        "filename": "ChatGPT Image Aug 5, 2026, 12_29_58 AM.png"
+      },
+      {
+        "width": 1402,
+        "height": 1122,
+        "aspect": 1.25,
+        "skin_ratio": 0.957,
+        "box_ratio": 0.693,
+        "edge_std": 56.5,
+        "mean_rgb": [
+          199.4,
+          127.4,
+          132.0
+        ],
+        "filename": "ChatGPT Image Aug 5, 2026, 12_38_59 AM.png"
+      }
+    ],
+    "Pink Flower Drop": [
+      {
+        "width": 1254,
+        "height": 1254,
+        "aspect": 1.0,
+        "skin_ratio": 0.667,
+        "box_ratio": 0.301,
+        "edge_std": 67.3,
+        "mean_rgb": [
+          147.4,
+          104.6,
+          79.5
+        ],
+        "filename": "ChatGPT Image Aug 4, 2026, 10_30_17 PM.png"
+      },
+      {
+        "width": 1254,
+        "height": 1254,
+        "aspect": 1.0,
+        "skin_ratio": 0.985,
+        "box_ratio": 0.402,
+        "edge_std": 44.6,
+        "mean_rgb": [
+          219.8,
+          147.2,
+          153.5
+        ],
+        "filename": "ChatGPT Image Aug 4, 2026, 10_43_37 PM.png"
+      },
+      {
+        "width": 1402,
+        "height": 1122,
+        "aspect": 1.25,
+        "skin_ratio": 0.972,
+        "box_ratio": 0.633,
+        "edge_std": 54.5,
+        "mean_rgb": [
+          196.1,
+          124.3,
+          120.0
+        ],
+        "filename": "ChatGPT Image Aug 5, 2026, 12_03_34 AM.png"
+      },
+      {
+        "width": 1254,
+        "height": 1254,
+        "aspect": 1.0,
+        "skin_ratio": 0.986,
+        "box_ratio": 0.048,
+        "edge_std": 12.9,
+        "mean_rgb": [
+          246.9,
+          209.6,
+          213.5
+        ],
+        "filename": "ChatGPT Image Aug 5, 2026, 12_06_56 AM.png"
+      }
+    ],
+    "Red Stone Stud": [
+      {
+        "width": 1122,
+        "height": 1402,
+        "aspect": 0.8,
+        "skin_ratio": 0.485,
+        "box_ratio": 0.165,
+        "edge_std": 75.0,
+        "mean_rgb": [
+          125.4,
+          92.2,
+          71.6
+        ],
+        "filename": "ChatGPT Image Aug 5, 2026, 01_09_23 AM.png"
+      },
+      {
+        "width": 1408,
+        "height": 1117,
+        "aspect": 1.26,
+        "skin_ratio": 0.871,
+        "box_ratio": 0.346,
+        "edge_std": 37.0,
+        "mean_rgb": [
+          177.5,
+          149.9,
+          122.9
+        ],
+        "filename": "ChatGPT Image Aug 5, 2026, 01_17_07 AM.png"
+      },
+      {
+        "width": 1402,
+        "height": 1122,
+        "aspect": 1.25,
+        "skin_ratio": 0.966,
+        "box_ratio": 0.72,
+        "edge_std": 55.1,
+        "mean_rgb": [
+          192.8,
+          109.4,
+          103.1
+        ],
+        "filename": "ChatGPT Image Aug 5, 2026, 01_31_52 AM.png"
+      },
+      {
+        "width": 1254,
+        "height": 1254,
+        "aspect": 1.0,
+        "skin_ratio": 0.997,
+        "box_ratio": 0.037,
+        "edge_std": 14.0,
+        "mean_rgb": [
+          244.5,
+          214.6,
+          212.5
+        ],
+        "filename": "ChatGPT Image Aug 5, 2026, 01_34_48 AM.png"
+      },
+      {
+        "width": 1254,
+        "height": 1254,
+        "aspect": 1.0,
+        "skin_ratio": 0.997,
+        "box_ratio": 0.029,
+        "edge_std": 13.5,
+        "mean_rgb": [
+          248.3,
+          218.8,
+          216.0
+        ],
+        "filename": "ChatGPT Image Aug 5, 2026, 02_19_41 AM.png"
+      }
+    ],
+    "Rose Gold Hoops": [
+      {
+        "width": 1254,
+        "height": 1254,
+        "aspect": 1.0,
+        "skin_ratio": 0.281,
+        "box_ratio": 0.02,
+        "edge_std": 6.7,
+        "mean_rgb": [
+          243.1,
+          223.9,
+          220.3
+        ],
+        "filename": "ChatGPT Image Aug 6, 2026, 04_01_00 PM.png"
+      },
+      {
+        "width": 2240,
+        "height": 1910,
+        "aspect": 1.17,
+        "skin_ratio": 0.993,
+        "box_ratio": 0.391,
+        "edge_std": 53.1,
+        "mean_rgb": [
+          204.4,
+          149.9,
+          103.2
+        ],
+        "filename": "wmremove-transformed (1).png"
+      },
+      {
+        "width": 2240,
+        "height": 1910,
+        "aspect": 1.17,
+        "skin_ratio": 0.729,
+        "box_ratio": 0.245,
+        "edge_std": 75.9,
+        "mean_rgb": [
+          138.3,
+          105.4,
+          86.2
+        ],
+        "filename": "wmremove-transformed.png"
+      }
+    ],
+    "Topaz Ear Crawler": [
+      {
+        "width": 1254,
+        "height": 1254,
+        "aspect": 1.0,
+        "skin_ratio": 0.56,
+        "box_ratio": 0.412,
+        "edge_std": 67.3,
+        "mean_rgb": [
+          142.4,
+          110.0,
+          71.9
+        ],
+        "filename": "ChatGPT Image Aug 7, 2026, 05_28_06 PM.png"
+      },
+      {
+        "width": 1254,
+        "height": 1254,
+        "aspect": 1.0,
+        "skin_ratio": 0.323,
+        "box_ratio": 0.054,
+        "edge_std": 59.8,
+        "mean_rgb": [
+          113.6,
+          107.0,
+          77.1
+        ],
+        "filename": "ChatGPT Image Aug 7, 2026, 05_36_05 PM.png"
+      },
+      {
+        "width": 2048,
+        "height": 2048,
+        "aspect": 1.0,
+        "skin_ratio": 0.596,
+        "box_ratio": 0.086,
+        "edge_std": 41.6,
+        "mean_rgb": [
+          200.5,
+          184.3,
+          168.8
+        ],
+        "filename": "Gemini_Generated_Image_ffnwrqffnwrqffnw.png"
+      },
+      {
+        "width": 2048,
+        "height": 2048,
+        "aspect": 1.0,
+        "skin_ratio": 0.833,
+        "box_ratio": 0.293,
+        "edge_std": 70.1,
+        "mean_rgb": [
+          183.2,
+          153.9,
+          140.6
+        ],
+        "filename": "Gemini_Generated_Image_ns9hyqns9hyqns9h.png"
+      }
+    ],
+    "Topaz Pearl Drop": [
+      {
+        "width": 1254,
+        "height": 1254,
+        "aspect": 1.0,
+        "skin_ratio": 0.872,
+        "box_ratio": 0.001,
+        "edge_std": 7.1,
+        "mean_rgb": [
+          245.1,
+          230.5,
+          232.9
+        ],
+        "filename": "ChatGPT Image Aug 6, 2026, 03_24_03 PM.png"
+      },
+      {
+        "width": 1254,
+        "height": 1254,
+        "aspect": 1.0,
+        "skin_ratio": 0.356,
+        "box_ratio": 0.266,
+        "edge_std": 38.7,
+        "mean_rgb": [
+          179.8,
+          164.5,
+          161.4
+        ],
+        "filename": "ChatGPT Image Aug 6, 2026, 03_38_38 PM.png"
+      },
+      {
+        "width": 1254,
+        "height": 1254,
+        "aspect": 1.0,
+        "skin_ratio": 0.792,
+        "box_ratio": 0.328,
+        "edge_std": 44.4,
+        "mean_rgb": [
+          187.8,
+          165.7,
+          147.8
+        ],
+        "filename": "ChatGPT Image Aug 6, 2026, 03_54_34 PM.png"
+      },
+      {
+        "width": 2082,
+        "height": 2048,
+        "aspect": 1.02,
+        "skin_ratio": 0.745,
+        "box_ratio": 0.411,
+        "edge_std": 52.6,
+        "mean_rgb": [
+          140.3,
+          105.8,
+          89.1
+        ],
+        "filename": "wmremove-transformed.png"
+      }
+    ]
+  },
+  "Men's braclet": {
+    "Diamond Tennis Bracelet": [
+      {
+        "width": 1308,
+        "height": 1203,
+        "aspect": 1.09,
+        "skin_ratio": 0.601,
+        "box_ratio": 0.216,
+        "edge_std": 63.2,
+        "mean_rgb": [
+          115.3,
+          79.7,
+          58.3
+        ],
+        "filename": "ChatGPT Image Aug 14, 2026, 12_49_01 AM.png"
+      },
+      {
+        "width": 1398,
+        "height": 1125,
+        "aspect": 1.24,
+        "skin_ratio": 0.96,
+        "box_ratio": 0.486,
+        "edge_std": 56.3,
+        "mean_rgb": [
+          191.1,
+          120.5,
+          94.1
+        ],
+        "filename": "WhatsApp Image 2026-09-14 at 8.15.46 PM.jpeg"
+      },
+      {
+        "width": 1024,
+        "height": 948,
+        "aspect": 1.08,
+        "skin_ratio": 0.975,
+        "box_ratio": 0.09,
+        "edge_std": 26.0,
+        "mean_rgb": [
+          224.7,
+          191.0,
+          183.7
+        ],
+        "filename": "gemini-watermark-removed.png"
+      },
+      {
+        "width": 1024,
+        "height": 942,
+        "aspect": 1.09,
+        "skin_ratio": 0.98,
+        "box_ratio": 0.132,
+        "edge_std": 52.7,
+        "mean_rgb": [
+          220.7,
+          164.7,
+          125.8
+        ],
+        "filename": "watermark-removed-8adf7324-f745-4ae0-8f42-4d24b020bb00.jpg"
+      }
+    ],
+    "Gold Clover Bracelet": [
+      {
+        "width": 1308,
+        "height": 1202,
+        "aspect": 1.09,
+        "skin_ratio": 0.969,
+        "box_ratio": 0.306,
+        "edge_std": 51.1,
+        "mean_rgb": [
+          198.7,
+          143.7,
+          112.0
+        ],
+        "filename": "ChatGPT Image Sep 14, 2026, 01_55_01 AM.png"
+      },
+      {
+        "width": 1254,
+        "height": 1254,
+        "aspect": 1.0,
+        "skin_ratio": 0.968,
+        "box_ratio": 0.029,
+        "edge_std": 24.5,
+        "mean_rgb": [
+          234.2,
+          197.4,
+          196.9
+        ],
+        "filename": "ChatGPT Image Sep 14, 2026, 02_00_26 AM.png"
+      },
+      {
+        "width": 1536,
+        "height": 1024,
+        "aspect": 1.5,
+        "skin_ratio": 0.978,
+        "box_ratio": 0.074,
+        "edge_std": 37.8,
+        "mean_rgb": [
+          230.7,
+          184.5,
+          182.9
+        ],
+        "filename": "ChatGPT Image Sep 14, 2026, 02_14_51 AM.png"
+      },
+      {
+        "width": 605,
+        "height": 1024,
+        "aspect": 0.59,
+        "skin_ratio": 0.34,
+        "box_ratio": 0.209,
+        "edge_std": 33.2,
+        "mean_rgb": [
+          111.1,
+          91.0,
+          81.5
+        ],
+        "filename": "d4f84afe-c58e-4152-b747-2067c3f5c0e4-clean.png"
+      }
+    ],
+    "Gold Cuff Bangle": [
+      {
+        "width": 1024,
+        "height": 824,
+        "aspect": 1.24,
+        "skin_ratio": 0.978,
+        "box_ratio": 0.329,
+        "edge_std": 53.0,
+        "mean_rgb": [
+          205.7,
+          143.6,
+          110.4
+        ],
+        "filename": "watermark-removed-1d4cf21e-0fd1-44dc-a956-611e23fd8d75.jpg"
+      },
+      {
+        "width": 1024,
+        "height": 1024,
+        "aspect": 1.0,
+        "skin_ratio": 0.997,
+        "box_ratio": 0.045,
+        "edge_std": 25.9,
+        "mean_rgb": [
+          240.3,
+          204.8,
+          202.9
+        ],
+        "filename": "watermark-removed-1f2c658a-3732-4135-9953-240e5d69c759.jpg"
+      },
+      {
+        "width": 1024,
+        "height": 942,
+        "aspect": 1.09,
+        "skin_ratio": 0.866,
+        "box_ratio": 0.319,
+        "edge_std": 49.3,
+        "mean_rgb": [
+          147.8,
+          80.8,
+          55.2
+        ],
+        "filename": "watermark-removed-6da0db17-4138-4958-9a72-9200d96eae7c.jpg"
+      },
+      {
+        "width": 1024,
+        "height": 1024,
+        "aspect": 1.0,
+        "skin_ratio": 0.996,
+        "box_ratio": 0.034,
+        "edge_std": 25.4,
+        "mean_rgb": [
+          240.6,
+          200.6,
+          198.9
+        ],
+        "filename": "watermark-removed-f6599f44-4162-4879-957e-11df46576288.jpg"
+      }
+    ],
+    "Ruby Emerald Bracelet": [
+      {
+        "width": 1024,
+        "height": 824,
+        "aspect": 1.24,
+        "skin_ratio": 0.577,
+        "box_ratio": 0.254,
+        "edge_std": 57.9,
+        "mean_rgb": [
+          116.8,
+          81.8,
+          61.5
+        ],
+        "filename": "1cf5f706-750c-42ad-81a8-fa6449dc96f3-clean.png"
+      },
+      {
+        "width": 1536,
+        "height": 1536,
+        "aspect": 1.0,
+        "skin_ratio": 0.965,
+        "box_ratio": 0.102,
+        "edge_std": 30.1,
+        "mean_rgb": [
+          230.1,
+          176.3,
+          173.1
+        ],
+        "filename": "WhatsApp Image 2026-09-14 at 9.58.01 PM.jpeg"
+      },
+      {
+        "width": 1398,
+        "height": 1125,
+        "aspect": 1.24,
+        "skin_ratio": 0.936,
+        "box_ratio": 0.445,
+        "edge_std": 59.6,
+        "mean_rgb": [
+          189.2,
+          112.6,
+          86.5
+        ],
+        "filename": "WhatsApp Image 2026-09-14 at 9.59.50 PM.jpeg"
+      },
+      {
+        "width": 1024,
+        "height": 1024,
+        "aspect": 1.0,
+        "skin_ratio": 0.977,
+        "box_ratio": 0.061,
+        "edge_std": 27.9,
+        "mean_rgb": [
+          232.5,
+          195.5,
+          193.2
+        ],
+        "filename": "b1bfc991-81cf-42f7-bdb8-df240d831284-clean.png"
+      }
+    ]
+  },
+  "Men's ring": {
+    "Black Onyx Signet": [
+      {
+        "width": 1317,
+        "height": 1194,
+        "aspect": 1.1,
+        "skin_ratio": 0.615,
+        "box_ratio": 0.418,
+        "edge_std": 63.7,
+        "mean_rgb": [
+          116.1,
+          72.4,
+          50.8
+        ],
+        "filename": "ChatGPT Image Aug 12, 2026, 09_26_44 PM.png"
+      },
+      {
+        "width": 1312,
+        "height": 1199,
+        "aspect": 1.09,
+        "skin_ratio": 0.971,
+        "box_ratio": 0.494,
+        "edge_std": 57.5,
+        "mean_rgb": [
+          175.7,
+          119.3,
+          91.9
+        ],
+        "filename": "ChatGPT Image Aug 12, 2026, 09_29_58 PM.png"
+      },
+      {
+        "width": 1024,
+        "height": 1024,
+        "aspect": 1.0,
+        "skin_ratio": 0.893,
+        "box_ratio": 0.052,
+        "edge_std": 28.0,
+        "mean_rgb": [
+          222.4,
+          187.9,
+          191.7
+        ],
+        "filename": "watermark-removed-1a186267-8281-4570-baa2-2b0cbe95418d.jpg"
+      },
+      {
+        "width": 1024,
+        "height": 1024,
+        "aspect": 1.0,
+        "skin_ratio": 0.911,
+        "box_ratio": 0.044,
+        "edge_std": 27.9,
+        "mean_rgb": [
+          228.3,
+          193.8,
+          197.6
+        ],
+        "filename": "watermark-removed-78ca0581-2f67-42a9-b075-8bf9cb435066.jpg"
+      }
+    ],
+    "Blue Cabochon Ring": [
+      {
+        "width": 1310,
+        "height": 1201,
+        "aspect": 1.09,
+        "skin_ratio": 0.971,
+        "box_ratio": 0.461,
+        "edge_std": 56.0,
+        "mean_rgb": [
+          179.7,
+          120.3,
+          91.9
+        ],
+        "filename": "ChatGPT Image Aug 12, 2026, 09_44_28 PM.png"
+      },
+      {
+        "width": 1316,
+        "height": 1195,
+        "aspect": 1.1,
+        "skin_ratio": 0.602,
+        "box_ratio": 0.41,
+        "edge_std": 59.6,
+        "mean_rgb": [
+          111.8,
+          67.6,
+          45.1
+        ],
+        "filename": "ChatGPT Image Aug 12, 2026, 09_47_52 PM.png"
+      },
+      {
+        "width": 1002,
+        "height": 1024,
+        "aspect": 0.98,
+        "skin_ratio": 0.918,
+        "box_ratio": 0.076,
+        "edge_std": 28.7,
+        "mean_rgb": [
+          230.2,
+          192.2,
+          187.9
+        ],
+        "filename": "watermark-removed-03b29c28-64d8-468d-80b4-f09f1137f5d4.jpg"
+      },
+      {
+        "width": 1002,
+        "height": 1024,
+        "aspect": 0.98,
+        "skin_ratio": 0.985,
+        "box_ratio": 0.136,
+        "edge_std": 34.6,
+        "mean_rgb": [
+          231.1,
+          186.0,
+          187.4
+        ],
+        "filename": "watermark-removed-5305b354-2cda-4410-b8b5-90015959fa8f.jpg"
+      }
+    ],
+    "Blue Topaz Signet": [
+      {
+        "width": 1402,
+        "height": 1122,
+        "aspect": 1.25,
+        "skin_ratio": 0.888,
+        "box_ratio": 0.029,
+        "edge_std": 33.7,
+        "mean_rgb": [
+          232.2,
+          178.7,
+          182.4
+        ],
+        "filename": "ChatGPT Image Aug 12, 2026, 04_00_57 PM.png"
+      },
+      {
+        "width": 1397,
+        "height": 1126,
+        "aspect": 1.24,
+        "skin_ratio": 0.883,
+        "box_ratio": 0.098,
+        "edge_std": 34.1,
+        "mean_rgb": [
+          226.8,
+          166.1,
+          169.8
+        ],
+        "filename": "ChatGPT Image Aug 12, 2026, 04_06_35 PM.png"
+      },
+      {
+        "width": 1316,
+        "height": 1195,
+        "aspect": 1.1,
+        "skin_ratio": 0.615,
+        "box_ratio": 0.424,
+        "edge_std": 62.8,
+        "mean_rgb": [
+          116.6,
+          77.2,
+          57.7
+        ],
+        "filename": "ChatGPT Image Aug 12, 2026, 04_10_28 PM.png"
+      },
+      {
+        "width": 1313,
+        "height": 1198,
+        "aspect": 1.1,
+        "skin_ratio": 0.983,
+        "box_ratio": 0.639,
+        "edge_std": 50.2,
+        "mean_rgb": [
+          201.8,
+          119.1,
+          111.5
+        ],
+        "filename": "ChatGPT Image Aug 12, 2026, 04_14_06 PM.png"
+      }
+    ],
+    "Classic Gold Band": [
+      {
+        "width": 1310,
+        "height": 1200,
+        "aspect": 1.09,
+        "skin_ratio": 0.842,
+        "box_ratio": 0.354,
+        "edge_std": 57.3,
+        "mean_rgb": [
+          149.9,
+          88.8,
+          59.4
+        ],
+        "filename": "ChatGPT Image Aug 12, 2026, 11_42_52 PM.png"
+      },
+      {
+        "width": 1254,
+        "height": 1254,
+        "aspect": 1.0,
+        "skin_ratio": 0.588,
+        "box_ratio": 0.446,
+        "edge_std": 63.2,
+        "mean_rgb": [
+          129.0,
+          98.1,
+          78.1
+        ],
+        "filename": "WhatsApp Image 2026-09-14 at 5.26.58 PM.jpeg"
+      },
+      {
+        "width": 1024,
+        "height": 936,
+        "aspect": 1.09,
+        "skin_ratio": 0.985,
+        "box_ratio": 0.075,
+        "edge_std": 32.8,
+        "mean_rgb": [
+          236.1,
+          191.2,
+          191.5
+        ],
+        "filename": "watermark-removed-41b90466-28d4-4c19-9b15-cae3ab9f519f.jpg"
+      },
+      {
+        "width": 1024,
+        "height": 936,
+        "aspect": 1.09,
+        "skin_ratio": 0.99,
+        "box_ratio": 0.135,
+        "edge_std": 31.8,
+        "mean_rgb": [
+          229.3,
+          181.5,
+          178.1
+        ],
+        "filename": "watermark-removed-ee4aab4a-eccb-4aff-853a-33a4e70c16ab.jpg"
+      }
+    ],
+    "Gold Diamond Ring": [
+      {
+        "width": 1122,
+        "height": 1402,
+        "aspect": 0.8,
+        "skin_ratio": 0.969,
+        "box_ratio": 0.56,
+        "edge_std": 47.0,
+        "mean_rgb": [
+          200.4,
+          123.8,
+          111.6
+        ],
+        "filename": "ChatGPT Image Aug 13, 2026, 01_00_13 AM.png"
+      },
+      {
+        "width": 1254,
+        "height": 1254,
+        "aspect": 1.0,
+        "skin_ratio": 0.962,
+        "box_ratio": 0.346,
+        "edge_std": 36.1,
+        "mean_rgb": [
+          172.6,
+          137.1,
+          113.0
+        ],
+        "filename": "ChatGPT Image Aug 13, 2026, 01_10_40 AM.png"
+      },
+      {
+        "width": 1254,
+        "height": 1254,
+        "aspect": 1.0,
+        "skin_ratio": 0.985,
+        "box_ratio": 0.164,
+        "edge_std": 43.3,
+        "mean_rgb": [
+          237.1,
+          169.2,
+          166.6
+        ],
+        "filename": "ChatGPT Image Aug 13, 2026, 12_52_11 AM.png"
+      },
+      {
+        "width": 1254,
+        "height": 1254,
+        "aspect": 1.0,
+        "skin_ratio": 0.985,
+        "box_ratio": 0.098,
+        "edge_std": 43.0,
+        "mean_rgb": [
+          238.5,
+          168.8,
+          169.2
+        ],
+        "filename": "ChatGPT Image Aug 13, 2026, 12_55_03 AM.png"
+      }
+    ],
+    "Gold Emerald Ring": [
+      {
+        "width": 1024,
+        "height": 938,
+        "aspect": 1.09,
+        "skin_ratio": 0.596,
+        "box_ratio": 0.457,
+        "edge_std": 61.3,
+        "mean_rgb": [
+          136.3,
+          108.9,
+          98.4
+        ],
+        "filename": "WhatsApp Image 2026-09-15 at 1.25.17 PM.jpeg"
+      },
+      {
+        "width": 1024,
+        "height": 938,
+        "aspect": 1.09,
+        "skin_ratio": 0.983,
+        "box_ratio": 0.152,
+        "edge_std": 43.0,
+        "mean_rgb": [
+          220.2,
+          179.0,
+          173.2
+        ],
+        "filename": "WhatsApp Image 2026-09-15 at 1.27.03 PM.jpeg"
+      },
+      {
+        "width": 1310,
+        "height": 1200,
+        "aspect": 1.09,
+        "skin_ratio": 0.974,
+        "box_ratio": 0.299,
+        "edge_std": 50.6,
+        "mean_rgb": [
+          205.6,
+          147.6,
+          119.3
+        ],
+        "filename": "WhatsApp Image 2026-09-15 at 1.35.33 PM.jpeg"
+      },
+      {
+        "width": 1024,
+        "height": 938,
+        "aspect": 1.09,
+        "skin_ratio": 0.942,
+        "box_ratio": 0.097,
+        "edge_std": 35.9,
+        "mean_rgb": [
+          227.9,
+          182.9,
+          181.4
+        ],
+        "filename": "watermark-removed-fa2efd81-d1d1-4a15-9493-1053734fee0b.jpg"
+      }
+    ],
+    "Gold Signet Ring": [
+      {
+        "width": 1310,
+        "height": 1200,
+        "aspect": 1.09,
+        "skin_ratio": 0.826,
+        "box_ratio": 0.337,
+        "edge_std": 63.6,
+        "mean_rgb": [
+          151.6,
+          100.4,
+          73.8
+        ],
+        "filename": "ChatGPT Image Aug 12, 2026, 10_14_01 PM.png"
+      },
+      {
+        "width": 1280,
+        "height": 853,
+        "aspect": 1.5,
+        "skin_ratio": 0.936,
+        "box_ratio": 0.628,
+        "edge_std": 53.0,
+        "mean_rgb": [
+          156.1,
+          102.8,
+          76.0
+        ],
+        "filename": "WhatsApp Image 2026-09-14 at 4.39.38 PM.jpeg"
+      },
+      {
+        "width": 1024,
+        "height": 572,
+        "aspect": 1.79,
+        "skin_ratio": 0.832,
+        "box_ratio": 0.157,
+        "edge_std": 62.9,
+        "mean_rgb": [
+          178.9,
+          149.3,
+          124.0
+        ],
+        "filename": "watermark-removed-08ba1a94-a060-4367-99a5-5a66fb263fe9.jpg"
+      },
+      {
+        "width": 1024,
+        "height": 572,
+        "aspect": 1.79,
+        "skin_ratio": 0.999,
+        "box_ratio": 0.048,
+        "edge_std": 24.8,
+        "mean_rgb": [
+          238.3,
+          199.8,
+          198.8
+        ],
+        "filename": "watermark-removed-6ad5dc63-45b2-44a3-900f-b0d88ea08b72.jpg"
+      }
+    ],
+    "Hammered Gold Band": [
+      {
+        "width": 1024,
+        "height": 936,
+        "aspect": 1.09,
+        "skin_ratio": 0.905,
+        "box_ratio": 0.12,
+        "edge_std": 29.5,
+        "mean_rgb": [
+          194.2,
+          168.3,
+          137.7
+        ],
+        "filename": "watermark-removed-1145975a-05ce-4dc3-b257-ee3bf5789819.jpg"
+      },
+      {
+        "width": 1024,
+        "height": 936,
+        "aspect": 1.09,
+        "skin_ratio": 0.455,
+        "box_ratio": 0.325,
+        "edge_std": 30.2,
+        "mean_rgb": [
+          96.4,
+          64.9,
+          49.7
+        ],
+        "filename": "watermark-removed-2506fbd0-bc9c-4d97-9727-b3f314a45653.jpg"
+      },
+      {
+        "width": 1024,
+        "height": 936,
+        "aspect": 1.09,
+        "skin_ratio": 0.99,
+        "box_ratio": 0.075,
+        "edge_std": 32.4,
+        "mean_rgb": [
+          236.4,
+          192.3,
+          191.1
+        ],
+        "filename": "watermark-removed-506461ff-2e60-4e3c-b6ee-85ff23eb2860.jpg"
+      },
+      {
+        "width": 1024,
+        "height": 936,
+        "aspect": 1.09,
+        "skin_ratio": 0.971,
+        "box_ratio": 0.36,
+        "edge_std": 35.9,
+        "mean_rgb": [
+          188.5,
+          140.5,
+          118.5
+        ],
+        "filename": "watermark-removed-d79ce92b-35ad-4b54-b079-23ce0563c961.jpg"
+      }
+    ],
+    "Ornate Diamond Ring": [
+      {
+        "width": 1254,
+        "height": 1254,
+        "aspect": 1.0,
+        "skin_ratio": 0.991,
+        "box_ratio": 0.075,
+        "edge_std": 42.0,
+        "mean_rgb": [
+          236.0,
+          174.3,
+          161.3
+        ],
+        "filename": "WhatsApp Image 2026-09-14 at 4.44.32 PM.jpeg"
+      },
+      {
+        "width": 1024,
+        "height": 1024,
+        "aspect": 1.0,
+        "skin_ratio": 0.96,
+        "box_ratio": 0.054,
+        "edge_std": 16.5,
+        "mean_rgb": [
+          226.7,
+          196.0,
+          188.3
+        ],
+        "filename": "watermark-removed-095ae6c4-d05d-4258-8378-e30150995992 (1).jpg"
+      },
+      {
+        "width": 1024,
+        "height": 1024,
+        "aspect": 1.0,
+        "skin_ratio": 0.911,
+        "box_ratio": 0.317,
+        "edge_std": 26.8,
+        "mean_rgb": [
+          181.4,
+          148.4,
+          127.5
+        ],
+        "filename": "watermark-removed-e47273c5-dbb9-4577-bf14-67253e2e91e5.jpg"
+      },
+      {
+        "width": 1024,
+        "height": 1024,
+        "aspect": 1.0,
+        "skin_ratio": 0.441,
+        "box_ratio": 0.36,
+        "edge_std": 24.3,
+        "mean_rgb": [
+          93.2,
+          64.4,
+          49.5
+        ],
+        "filename": "watermark-removed-f30af426-6018-41e3-930f-d6ae7e827bf2.jpg"
+      }
+    ],
+    "Sleek Gemstone Ring": [
+      {
+        "width": 1280,
+        "height": 1177,
+        "aspect": 1.09,
+        "skin_ratio": 0.988,
+        "box_ratio": 0.361,
+        "edge_std": 34.5,
+        "mean_rgb": [
+          214.8,
+          144.1,
+          137.8
+        ],
+        "filename": "WhatsApp Image 2026-09-14 at 4.39.38 PM.jpeg"
+      },
+      {
+        "width": 1024,
+        "height": 934,
+        "aspect": 1.1,
+        "skin_ratio": 0.587,
+        "box_ratio": 0.449,
+        "edge_std": 57.7,
+        "mean_rgb": [
+          106.8,
+          73.0,
+          54.3
+        ],
+        "filename": "watermark-removed-87e2c8bd-dfc6-4358-b31b-4e8bfee50cb2.jpg"
+      },
+      {
+        "width": 1024,
+        "height": 1024,
+        "aspect": 1.0,
+        "skin_ratio": 0.896,
+        "box_ratio": 0.063,
+        "edge_std": 26.9,
+        "mean_rgb": [
+          227.5,
+          196.1,
+          196.1
+        ],
+        "filename": "watermark-removed-Gemini_Generated_Image_8f9s608f9s608f9s.png"
+      },
+      {
+        "width": 1024,
+        "height": 1024,
+        "aspect": 1.0,
+        "skin_ratio": 0.971,
+        "box_ratio": 0.095,
+        "edge_std": 31.0,
+        "mean_rgb": [
+          233.5,
+          197.9,
+          198.7
+        ],
+        "filename": "watermark-removed-Gemini_Generated_Image_xxn2jzxxn2jzxxn2.png"
+      }
+    ]
+  },
+  "Sets": {
+    "Blue Stone Set": [
+      {
+        "width": 1024,
+        "height": 1024,
+        "aspect": 1.0,
+        "skin_ratio": 0.9,
+        "box_ratio": 0.289,
+        "edge_std": 52.2,
+        "mean_rgb": [
+          177.9,
+          134.0,
+          107.0
+        ],
+        "filename": "1000052334-no-watermark.png"
+      },
+      {
+        "width": 1148,
+        "height": 916,
+        "aspect": 1.25,
+        "skin_ratio": 0.982,
+        "box_ratio": 0.59,
+        "edge_std": 48.9,
+        "mean_rgb": [
+          194.5,
+          134.7,
+          118.1
+        ],
+        "filename": "WhatsApp Image 2026-09-14 at 10.09.35 PM (1).jpeg"
+      },
+      {
+        "width": 1402,
+        "height": 1122,
+        "aspect": 1.25,
+        "skin_ratio": 0.963,
+        "box_ratio": 0.324,
+        "edge_std": 47.7,
+        "mean_rgb": [
+          220.8,
+          151.6,
+          141.3
+        ],
+        "filename": "watermark-removed-1000051808.png"
+      },
+      {
+        "width": 1406,
+        "height": 752,
+        "aspect": 1.87,
+        "skin_ratio": 0.988,
+        "box_ratio": 0.051,
+        "edge_std": 35.4,
+        "mean_rgb": [
+          241.6,
+          166.0,
+          175.7
+        ],
+        "filename": "watermark-removed-1000052269.png"
+      }
+    ],
+    "Gold Heart Set": [
+      {
+        "width": 1016,
+        "height": 1020,
+        "aspect": 1.0,
+        "skin_ratio": 0.901,
+        "box_ratio": 0.453,
+        "edge_std": 50.9,
+        "mean_rgb": [
+          174.4,
+          127.3,
+          101.6
+        ],
+        "filename": "WhatsApp Image 2026-09-14 at 10.09.34 PM (2).jpeg"
+      },
+      {
+        "width": 1067,
+        "height": 1008,
+        "aspect": 1.06,
+        "skin_ratio": 0.256,
+        "box_ratio": 0.008,
+        "edge_std": 23.8,
+        "mean_rgb": [
+          231.2,
+          216.5,
+          193.8
+        ],
+        "filename": "watermark-removed-1000051949.png"
+      },
+      {
+        "width": 1152,
+        "height": 922,
+        "aspect": 1.25,
+        "skin_ratio": 0.987,
+        "box_ratio": 0.61,
+        "edge_std": 50.2,
+        "mean_rgb": [
+          193.5,
+          131.4,
+          114.4
+        ],
+        "filename": "watermark-removed-1000051950.png"
+      },
+      {
+        "width": 1094,
+        "height": 976,
+        "aspect": 1.12,
+        "skin_ratio": 0.992,
+        "box_ratio": 0.057,
+        "edge_std": 35.9,
+        "mean_rgb": [
+          233.2,
+          158.4,
+          155.6
+        ],
+        "filename": "watermark-removed-1000052271.png"
+      }
+    ],
+    "Pink Pendant Set": [
+      {
+        "width": 1024,
+        "height": 1024,
+        "aspect": 1.0,
+        "skin_ratio": 0.901,
+        "box_ratio": 0.419,
+        "edge_std": 52.6,
+        "mean_rgb": [
+          177.1,
+          128.6,
+          101.2
+        ],
+        "filename": "895f0204ec8f4023ba838d9cbfba07ee.png"
+      },
+      {
+        "width": 1084,
+        "height": 968,
+        "aspect": 1.12,
+        "skin_ratio": 0.998,
+        "box_ratio": 0.081,
+        "edge_std": 35.1,
+        "mean_rgb": [
+          239.5,
+          161.8,
+          168.4
+        ],
+        "filename": "WhatsApp Image 2026-09-14 at 10.09.35 PM.jpeg"
+      },
+      {
+        "width": 1152,
+        "height": 922,
+        "aspect": 1.25,
+        "skin_ratio": 0.947,
+        "box_ratio": 0.599,
+        "edge_std": 50.8,
+        "mean_rgb": [
+          195.2,
+          120.9,
+          129.1
+        ],
+        "filename": "watermark-removed-1000051930.png"
+      },
+      {
+        "width": 1152,
+        "height": 922,
+        "aspect": 1.25,
+        "skin_ratio": 0.987,
+        "box_ratio": 0.616,
+        "edge_std": 50.8,
+        "mean_rgb": [
+          193.9,
+          130.4,
+          113.8
+        ],
+        "filename": "watermark-removed-1000051931.png"
+      }
+    ],
+    "Rose Flower Set": [
+      {
+        "width": 1140,
+        "height": 916,
+        "aspect": 1.24,
+        "skin_ratio": 0.958,
+        "box_ratio": 0.711,
+        "edge_std": 57.8,
+        "mean_rgb": [
+          194.1,
+          120.3,
+          123.2
+        ],
+        "filename": "WhatsApp Image 2026-09-14 at 10.09.34 PM (1).jpeg"
+      },
+      {
+        "width": 1148,
+        "height": 916,
+        "aspect": 1.25,
+        "skin_ratio": 0.988,
+        "box_ratio": 0.642,
+        "edge_std": 51.8,
+        "mean_rgb": [
+          192.6,
+          126.8,
+          110.0
+        ],
+        "filename": "WhatsApp Image 2026-09-14 at 10.09.34 PM.jpeg"
+      },
+      {
+        "width": 1148,
+        "height": 916,
+        "aspect": 1.25,
+        "skin_ratio": 0.921,
+        "box_ratio": 0.32,
+        "edge_std": 46.5,
+        "mean_rgb": [
+          177.4,
+          134.9,
+          109.6
+        ],
+        "filename": "WhatsApp Image 2026-09-14 at 10.09.35 PM (2).jpeg"
+      },
+      {
+        "width": 1094,
+        "height": 976,
+        "aspect": 1.12,
+        "skin_ratio": 0.995,
+        "box_ratio": 0.096,
+        "edge_std": 37.3,
+        "mean_rgb": [
+          237.6,
+          156.1,
+          160.8
+        ],
+        "filename": "watermark-removed-1000052270.png"
+      }
+    ]
+  },
+  "pendant": {
+    "Gold Knot Pendant": [
+      {
+        "width": 1254,
+        "height": 1254,
+        "aspect": 1.0,
+        "skin_ratio": 0.922,
+        "box_ratio": 0.173,
+        "edge_std": 57.4,
+        "mean_rgb": [
+          197.4,
+          147.1,
+          117.2
+        ],
+        "filename": "ChatGPT Image Sep 12, 2026, 11_18_13 PM.png"
+      },
+      {
+        "width": 1254,
+        "height": 1254,
+        "aspect": 1.0,
+        "skin_ratio": 0.982,
+        "box_ratio": 0.014,
+        "edge_std": 38.7,
+        "mean_rgb": [
+          241.6,
+          168.0,
+          181.0
+        ],
+        "filename": "WhatsApp Image 2026-09-11 at 11.32.02 PM.jpeg"
+      },
+      {
+        "width": 1254,
+        "height": 1254,
+        "aspect": 1.0,
+        "skin_ratio": 0.988,
+        "box_ratio": 0.517,
+        "edge_std": 44.2,
+        "mean_rgb": [
+          193.6,
+          134.6,
+          122.1
+        ],
+        "filename": "WhatsApp Image 2026-09-12 at 10.00.17 PM.jpeg"
+      },
+      {
+        "width": 1238,
+        "height": 1271,
+        "aspect": 0.97,
+        "skin_ratio": 0.991,
+        "box_ratio": 0.312,
+        "edge_std": 43.4,
+        "mean_rgb": [
+          225.7,
+          146.1,
+          152.3
+        ],
+        "filename": "WhatsApp Image 2026-09-14 at 10.12.43 PM.jpeg"
+      }
+    ],
+    "Gold Swirl Pendant": [
+      {
+        "width": 1254,
+        "height": 1254,
+        "aspect": 1.0,
+        "skin_ratio": 0.99,
+        "box_ratio": 0.561,
+        "edge_std": 44.7,
+        "mean_rgb": [
+          190.7,
+          131.7,
+          116.8
+        ],
+        "filename": "ChatGPT Image Sep 12, 2026, 10_33_55 PM.png"
+      },
+      {
+        "width": 1254,
+        "height": 1254,
+        "aspect": 1.0,
+        "skin_ratio": 0.941,
+        "box_ratio": 0.174,
+        "edge_std": 54.2,
+        "mean_rgb": [
+          202.8,
+          151.3,
+          124.0
+        ],
+        "filename": "ChatGPT Image Sep 12, 2026, 11_02_01 PM.png"
+      },
+      {
+        "width": 1254,
+        "height": 1254,
+        "aspect": 1.0,
+        "skin_ratio": 0.991,
+        "box_ratio": 0.213,
+        "edge_std": 42.8,
+        "mean_rgb": [
+          228.4,
+          152.8,
+          160.9
+        ],
+        "filename": "ChatGPT Image Sep 13, 2026, 10_41_38 AM.png"
+      },
+      {
+        "width": 1254,
+        "height": 1254,
+        "aspect": 1.0,
+        "skin_ratio": 0.988,
+        "box_ratio": 0.013,
+        "edge_std": 36.4,
+        "mean_rgb": [
+          243.3,
+          177.2,
+          179.4
+        ],
+        "filename": "WhatsApp Image 2026-09-11 at 10.38.16 PM.jpeg"
+      }
+    ],
+    "Gold Teardrop Pendant": [
+      {
+        "width": 1254,
+        "height": 1254,
+        "aspect": 1.0,
+        "skin_ratio": 0.989,
+        "box_ratio": 0.548,
+        "edge_std": 45.4,
+        "mean_rgb": [
+          193.1,
+          132.3,
+          117.4
+        ],
+        "filename": "ChatGPT Image Sep 12, 2026, 10_30_19 PM.png"
+      },
+      {
+        "width": 1254,
+        "height": 1254,
+        "aspect": 1.0,
+        "skin_ratio": 0.932,
+        "box_ratio": 0.158,
+        "edge_std": 60.1,
+        "mean_rgb": [
+          205.3,
+          150.9,
+          121.3
+        ],
+        "filename": "ChatGPT Image Sep 12, 2026, 11_09_15 PM.png"
+      },
+      {
+        "width": 1254,
+        "height": 1254,
+        "aspect": 1.0,
+        "skin_ratio": 0.986,
+        "box_ratio": 0.185,
+        "edge_std": 42.2,
+        "mean_rgb": [
+          230.6,
+          157.0,
+          166.3
+        ],
+        "filename": "ChatGPT Image Sep 13, 2026, 11_53_46 AM.png"
+      },
+      {
+        "width": 1254,
+        "height": 1254,
+        "aspect": 1.0,
+        "skin_ratio": 0.98,
+        "box_ratio": 0.007,
+        "edge_std": 37.8,
+        "mean_rgb": [
+          240.6,
+          169.2,
+          182.1
+        ],
+        "filename": "WhatsApp Image 2026-09-11 at 11.21.09 PM.jpeg"
+      }
+    ],
+    "Gold Wing Pendant": [
+      {
+        "width": 1254,
+        "height": 1254,
+        "aspect": 1.0,
+        "skin_ratio": 0.991,
+        "box_ratio": 0.515,
+        "edge_std": 45.9,
+        "mean_rgb": [
+          195.4,
+          134.0,
+          119.5
+        ],
+        "filename": "ChatGPT Image Sep 12, 2026, 10_11_42 PM.png"
+      },
+      {
+        "width": 1254,
+        "height": 1254,
+        "aspect": 1.0,
+        "skin_ratio": 0.928,
+        "box_ratio": 0.172,
+        "edge_std": 56.4,
+        "mean_rgb": [
+          202.3,
+          148.9,
+          117.6
+        ],
+        "filename": "ChatGPT Image Sep 12, 2026, 11_16_10 PM.png"
+      },
+      {
+        "width": 1254,
+        "height": 1254,
+        "aspect": 1.0,
+        "skin_ratio": 0.981,
+        "box_ratio": 0.019,
+        "edge_std": 40.2,
+        "mean_rgb": [
+          240.5,
+          163.3,
+          177.6
+        ],
+        "filename": "WhatsApp Image 2026-09-11 at 11.29.49 PM.jpeg"
+      }
+    ],
+    "Green Leaf Pendant": [
+      {
+        "width": 1254,
+        "height": 1254,
+        "aspect": 1.0,
+        "skin_ratio": 0.983,
+        "box_ratio": 0.541,
+        "edge_std": 45.1,
+        "mean_rgb": [
+          190.3,
+          132.0,
+          119.5
+        ],
+        "filename": "ChatGPT Image Sep 12, 2026, 10_29_36 PM.png"
+      },
+      {
+        "width": 1254,
+        "height": 1254,
+        "aspect": 1.0,
+        "skin_ratio": 0.922,
+        "box_ratio": 0.177,
+        "edge_std": 57.2,
+        "mean_rgb": [
+          200.5,
+          148.3,
+          115.9
+        ],
+        "filename": "ChatGPT Image Sep 12, 2026, 11_12_09 PM.png"
+      },
+      {
+        "width": 1254,
+        "height": 1254,
+        "aspect": 1.0,
+        "skin_ratio": 0.965,
+        "box_ratio": 0.012,
+        "edge_std": 38.3,
+        "mean_rgb": [
+          237.0,
+          169.3,
+          181.0
+        ],
+        "filename": "WhatsApp Image 2026-09-11 at 11.22.49 PM.jpeg"
+      }
+    ],
+    "Pink Butterfly Pendant": [
+      {
+        "width": 1254,
+        "height": 1254,
+        "aspect": 1.0,
+        "skin_ratio": 0.925,
+        "box_ratio": 0.175,
+        "edge_std": 57.9,
+        "mean_rgb": [
+          200.0,
+          148.6,
+          119.2
+        ],
+        "filename": "ChatGPT Image Sep 12, 2026, 11_25_11 PM.png"
+      },
+      {
+        "width": 1254,
+        "height": 1254,
+        "aspect": 1.0,
+        "skin_ratio": 0.979,
+        "box_ratio": 0.008,
+        "edge_std": 38.0,
+        "mean_rgb": [
+          241.4,
+          167.1,
+          183.2
+        ],
+        "filename": "WhatsApp Image 2026-09-11 at 11.33.38 PM.jpeg"
+      },
+      {
+        "width": 1254,
+        "height": 1254,
+        "aspect": 1.0,
+        "skin_ratio": 0.99,
+        "box_ratio": 0.517,
+        "edge_std": 44.3,
+        "mean_rgb": [
+          194.1,
+          134.5,
+          121.3
+        ],
+        "filename": "WhatsApp Image 2026-09-12 at 9.56.48 PM.jpeg"
+      },
+      {
+        "width": 834,
+        "height": 1057,
+        "aspect": 0.79,
+        "skin_ratio": 1.0,
+        "box_ratio": 0.197,
+        "edge_std": 40.8,
+        "mean_rgb": [
+          229.5,
+          148.1,
+          159.3
+        ],
+        "filename": "WhatsApp Image 2026-09-14 at 4.00.48 PM.jpeg"
+      }
+    ],
+    "Pink Flower Pendant": [
+      {
+        "width": 1254,
+        "height": 1254,
+        "aspect": 1.0,
+        "skin_ratio": 0.93,
+        "box_ratio": 0.167,
+        "edge_std": 58.9,
+        "mean_rgb": [
+          200.7,
+          149.2,
+          120.0
+        ],
+        "filename": "ChatGPT Image Sep 12, 2026, 11_04_38 PM.png"
+      },
+      {
+        "width": 1254,
+        "height": 1254,
+        "aspect": 1.0,
+        "skin_ratio": 0.998,
+        "box_ratio": 0.234,
+        "edge_std": 42.6,
+        "mean_rgb": [
+          227.6,
+          152.0,
+          161.4
+        ],
+        "filename": "ChatGPT Image Sep 13, 2026, 10_50_45 AM.png"
+      },
+      {
+        "width": 1254,
+        "height": 1254,
+        "aspect": 1.0,
+        "skin_ratio": 0.993,
+        "box_ratio": 0.012,
+        "edge_std": 39.1,
+        "mean_rgb": [
+          239.4,
+          167.4,
+          177.0
+        ],
+        "filename": "WhatsApp Image 2026-09-11 at 11.02.48 PM.jpeg"
+      },
+      {
+        "width": 1254,
+        "height": 1254,
+        "aspect": 1.0,
+        "skin_ratio": 0.994,
+        "box_ratio": 0.542,
+        "edge_std": 43.1,
+        "mean_rgb": [
+          194.9,
+          134.3,
+          119.5
+        ],
+        "filename": "WhatsApp Image 2026-09-12 at 12.28.13 AM.jpeg"
+      }
+    ],
+    "Pink Leaf Pendant": [
+      {
+        "width": 1254,
+        "height": 1254,
+        "aspect": 1.0,
+        "skin_ratio": 0.93,
+        "box_ratio": 0.155,
+        "edge_std": 57.9,
+        "mean_rgb": [
+          202.4,
+          152.3,
+          125.4
+        ],
+        "filename": "ChatGPT Image Sep 12, 2026, 11_07_12 PM.png"
+      },
+      {
+        "width": 1254,
+        "height": 1254,
+        "aspect": 1.0,
+        "skin_ratio": 0.981,
+        "box_ratio": 0.192,
+        "edge_std": 42.0,
+        "mean_rgb": [
+          227.9,
+          156.3,
+          169.0
+        ],
+        "filename": "ChatGPT Image Sep 13, 2026, 11_50_16 AM.png"
+      },
+      {
+        "width": 1087,
+        "height": 1447,
+        "aspect": 0.75,
+        "skin_ratio": 0.983,
+        "box_ratio": 0.033,
+        "edge_std": 38.6,
+        "mean_rgb": [
+          241.7,
+          182.1,
+          182.9
+        ],
+        "filename": "ChatGPT Image Sep 9, 2026, 08_24_15 AM.png"
+      },
+      {
+        "width": 1254,
+        "height": 1254,
+        "aspect": 1.0,
+        "skin_ratio": 0.988,
+        "box_ratio": 0.532,
+        "edge_std": 44.3,
+        "mean_rgb": [
+          192.6,
+          131.8,
+          118.4
+        ],
+        "filename": "WhatsApp Image 2026-09-12 at 9.55.46 PM.jpeg"
+      }
+    ],
+    "White Flower Pendant": [
+      {
+        "width": 1254,
+        "height": 1254,
+        "aspect": 1.0,
+        "skin_ratio": 0.925,
+        "box_ratio": 0.194,
+        "edge_std": 59.7,
+        "mean_rgb": [
+          200.0,
+          147.5,
+          116.5
+        ],
+        "filename": "ChatGPT Image Sep 12, 2026, 11_27_48 PM.png"
+      },
+      {
+        "width": 1254,
+        "height": 1254,
+        "aspect": 1.0,
+        "skin_ratio": 0.978,
+        "box_ratio": 0.023,
+        "edge_std": 38.1,
+        "mean_rgb": [
+          238.6,
+          164.0,
+          178.6
+        ],
+        "filename": "WhatsApp Image 2026-09-11 at 11.41.35 PM.jpeg"
+      },
+      {
+        "width": 1254,
+        "height": 1254,
+        "aspect": 1.0,
+        "skin_ratio": 0.99,
+        "box_ratio": 0.528,
+        "edge_std": 44.7,
+        "mean_rgb": [
+          195.4,
+          134.5,
+          121.5
+        ],
+        "filename": "WhatsApp Image 2026-09-12 at 9.58.15 PM.jpeg"
+      },
+      {
+        "width": 853,
+        "height": 1280,
+        "aspect": 0.67,
+        "skin_ratio": 0.997,
+        "box_ratio": 0.237,
+        "edge_std": 44.6,
+        "mean_rgb": [
+          230.5,
+          149.9,
+          165.9
+        ],
+        "filename": "WhatsApp Image 2026-09-14 at 3.50.55 PM.jpeg"
+      }
+    ],
+    "White Star Pendant": [
+      {
+        "width": 1254,
+        "height": 1254,
+        "aspect": 1.0,
+        "skin_ratio": 0.98,
+        "box_ratio": 0.095,
+        "edge_std": 34.3,
+        "mean_rgb": [
+          228.8,
+          162.8,
+          167.0
+        ],
+        "filename": "WhatsApp Image 2026-09-14 at 02.31.51.jpeg"
+      },
+      {
+        "width": 1044,
+        "height": 1280,
+        "aspect": 0.82,
+        "skin_ratio": 0.695,
+        "box_ratio": 0.126,
+        "edge_std": 76.2,
+        "mean_rgb": [
+          169.4,
+          130.7,
+          108.5
+        ],
+        "filename": "WhatsApp Image 2026-09-14 at 02.32.23.jpeg"
+      },
+      {
+        "width": 1254,
+        "height": 1254,
+        "aspect": 1.0,
+        "skin_ratio": 0.947,
+        "box_ratio": 0.132,
+        "edge_std": 42.3,
+        "mean_rgb": [
+          196.3,
+          163.3,
+          126.5
+        ],
+        "filename": "WhatsApp Image 2026-09-14 at 02.42.13.jpeg"
+      },
+      {
+        "width": 1254,
+        "height": 1254,
+        "aspect": 1.0,
+        "skin_ratio": 0.988,
+        "box_ratio": 0.475,
+        "edge_std": 45.5,
+        "mean_rgb": [
+          198.1,
+          136.2,
+          122.1
+        ],
+        "filename": "WhatsApp Image 2026-09-14 at 3.26.23 PM.jpeg"
+      }
+    ]
+  },
+  "studs": {
+    "Cushion Halo Studs": [
+      {
+        "width": 1024,
+        "height": 683,
+        "aspect": 1.5,
+        "skin_ratio": 0.845,
+        "box_ratio": 0.155,
+        "edge_std": 39.0,
+        "mean_rgb": [
+          216.7,
+          169.4,
+          170.7
+        ],
+        "filename": "c2cb8320-7d68-4bbd-8ed6-d5fac15410e1-clean.png"
+      },
+      {
+        "width": 1024,
+        "height": 683,
+        "aspect": 1.5,
+        "skin_ratio": 0.98,
+        "box_ratio": 0.409,
+        "edge_std": 51.2,
+        "mean_rgb": [
+          200.3,
+          131.8,
+          103.6
+        ],
+        "filename": "e395ccf1-a70a-4b7b-a513-baba202ec7bf-clean.png"
+      },
+      {
+        "width": 1024,
+        "height": 683,
+        "aspect": 1.5,
+        "skin_ratio": 0.897,
+        "box_ratio": 0.179,
+        "edge_std": 37.6,
+        "mean_rgb": [
+          216.4,
+          170.2,
+          168.8
+        ],
+        "filename": "gemini-watermark-removed (3).png"
+      },
+      {
+        "width": 1024,
+        "height": 798,
+        "aspect": 1.28,
+        "skin_ratio": 0.622,
+        "box_ratio": 0.371,
+        "edge_std": 78.7,
+        "mean_rgb": [
+          171.9,
+          144.9,
+          131.6
+        ],
+        "filename": "gemini-watermark-removed (4).png"
+      }
+    ],
+    "Emerald Cut Studs": [
+      {
+        "width": 1398,
+        "height": 1125,
+        "aspect": 1.24,
+        "skin_ratio": 0.971,
+        "box_ratio": 0.422,
+        "edge_std": 49.2,
+        "mean_rgb": [
+          195.0,
+          130.6,
+          105.4
+        ],
+        "filename": "WhatsApp Image 2026-09-14 at 7.36.27 PM.jpeg"
+      },
+      {
+        "width": 1398,
+        "height": 1125,
+        "aspect": 1.24,
+        "skin_ratio": 0.93,
+        "box_ratio": 0.183,
+        "edge_std": 46.8,
+        "mean_rgb": [
+          199.8,
+          166.3,
+          135.6
+        ],
+        "filename": "WhatsApp Image 2026-09-14 at 7.45.15 PM.jpeg"
+      },
+      {
+        "width": 1024,
+        "height": 683,
+        "aspect": 1.5,
+        "skin_ratio": 0.977,
+        "box_ratio": 0.458,
+        "edge_std": 52.3,
+        "mean_rgb": [
+          195.4,
+          124.0,
+          97.7
+        ],
+        "filename": "a7bb15cf-0023-47ae-ad88-19796d16f94c-clean.png"
+      },
+      {
+        "width": 1024,
+        "height": 684,
+        "aspect": 1.5,
+        "skin_ratio": 0.928,
+        "box_ratio": 0.359,
+        "edge_std": 48.1,
+        "mean_rgb": [
+          211.7,
+          143.4,
+          141.6
+        ],
+        "filename": "gemini-watermark-removed (6).png"
+      },
+      {
+        "width": 1024,
+        "height": 684,
+        "aspect": 1.5,
+        "skin_ratio": 0.402,
+        "box_ratio": 0.051,
+        "edge_std": 31.5,
+        "mean_rgb": [
+          230.5,
+          206.5,
+          189.3
+        ],
+        "filename": "gemini-watermark-removed (7).png"
+      },
+      {
+        "width": 1024,
+        "height": 798,
+        "aspect": 1.28,
+        "skin_ratio": 0.619,
+        "box_ratio": 0.427,
+        "edge_std": 81.3,
+        "mean_rgb": [
+          170.4,
+          139.2,
+          126.4
+        ],
+        "filename": "gemini-watermark-removed (8).png"
+      }
+    ],
+    "Gold Leopard Studs": [
+      {
+        "width": 1024,
+        "height": 683,
+        "aspect": 1.5,
+        "skin_ratio": 0.984,
+        "box_ratio": 0.419,
+        "edge_std": 53.0,
+        "mean_rgb": [
+          199.5,
+          126.5,
+          98.2
+        ],
+        "filename": "3af62380-220b-4ee8-9513-f788a8bd070c-clean.png"
+      },
+      {
+        "width": 1024,
+        "height": 683,
+        "aspect": 1.5,
+        "skin_ratio": 0.981,
+        "box_ratio": 0.187,
+        "edge_std": 40.2,
+        "mean_rgb": [
+          219.3,
+          162.4,
+          153.0
+        ],
+        "filename": "4ebab4a2-7052-49b6-bcdf-63a3e411acb4-clean.png"
+      },
+      {
+        "width": 1024,
+        "height": 684,
+        "aspect": 1.5,
+        "skin_ratio": 0.979,
+        "box_ratio": 0.341,
+        "edge_std": 47.1,
+        "mean_rgb": [
+          212.0,
+          144.9,
+          138.9
+        ],
+        "filename": "746ee96b-7763-4e6a-91cf-c23e1eb061f5-clean.png"
+      },
+      {
+        "width": 1024,
+        "height": 798,
+        "aspect": 1.28,
+        "skin_ratio": 0.625,
+        "box_ratio": 0.401,
+        "edge_std": 79.7,
+        "mean_rgb": [
+          170.9,
+          141.8,
+          128.4
+        ],
+        "filename": "gemini-watermark-removed (5).png"
+      }
+    ],
+    "Round Diamond Studs": [
+      {
+        "width": 1024,
+        "height": 683,
+        "aspect": 1.5,
+        "skin_ratio": 0.991,
+        "box_ratio": 0.4,
+        "edge_std": 50.0,
+        "mean_rgb": [
+          201.5,
+          135.9,
+          106.6
+        ],
+        "filename": "84115cf1-3545-4ac0-90ac-ff23af36a860-clean.png"
+      },
+      {
+        "width": 1024,
+        "height": 683,
+        "aspect": 1.5,
+        "skin_ratio": 0.916,
+        "box_ratio": 0.102,
+        "edge_std": 36.6,
+        "mean_rgb": [
+          224.6,
+          176.3,
+          168.0
+        ],
+        "filename": "ba9b331d-8f26-46f0-9688-5c7bcdc53ba4-clean.png"
+      },
+      {
+        "width": 1024,
+        "height": 798,
+        "aspect": 1.28,
+        "skin_ratio": 0.628,
+        "box_ratio": 0.323,
+        "edge_std": 84.5,
+        "mean_rgb": [
+          176.6,
+          151.6,
+          137.8
+        ],
+        "filename": "gemini-watermark-removed (1).png"
+      },
+      {
+        "width": 1024,
+        "height": 683,
+        "aspect": 1.5,
+        "skin_ratio": 0.96,
+        "box_ratio": 0.214,
+        "edge_std": 41.0,
+        "mean_rgb": [
+          217.3,
+          169.4,
+          166.6
+        ],
+        "filename": "gemini-watermark-removed (2).png"
+      }
+    ]
+  },
+  "women's bracelet": {
+    "Blue Flower Bracelet": [
+      {
+        "width": 1222,
+        "height": 1287,
+        "aspect": 0.95,
+        "skin_ratio": 0.978,
+        "box_ratio": 0.026,
+        "edge_std": 25.8,
+        "mean_rgb": [
+          242.6,
+          187.7,
+          190.6
+        ],
+        "filename": "r1.jpeg"
+      },
+      {
+        "width": 1537,
+        "height": 1023,
+        "aspect": 1.5,
+        "skin_ratio": 0.999,
+        "box_ratio": 0.738,
+        "edge_std": 49.9,
+        "mean_rgb": [
+          218.1,
+          124.3,
+          114.7
+        ],
+        "filename": "r2.jpeg"
+      },
+      {
+        "width": 1403,
+        "height": 1121,
+        "aspect": 1.25,
+        "skin_ratio": 0.962,
+        "box_ratio": 0.749,
+        "edge_std": 55.8,
+        "mean_rgb": [
+          187.2,
+          102.8,
+          95.7
+        ],
+        "filename": "r3.jpeg"
+      },
+      {
+        "width": 1537,
+        "height": 1023,
+        "aspect": 1.5,
+        "skin_ratio": 0.958,
+        "box_ratio": 0.069,
+        "edge_std": 40.1,
+        "mean_rgb": [
+          238.6,
+          157.3,
+          164.4
+        ],
+        "filename": "r4.jpeg"
+      }
+    ],
+    "Gold Rose Bracelet": [
+      {
+        "width": 1417,
+        "height": 1110,
+        "aspect": 1.28,
+        "skin_ratio": 0.998,
+        "box_ratio": 0.104,
+        "edge_std": 50.0,
+        "mean_rgb": [
+          236.9,
+          147.5,
+          143.7
+        ],
+        "filename": "t1.jpeg"
+      },
+      {
+        "width": 1400,
+        "height": 1123,
+        "aspect": 1.25,
+        "skin_ratio": 0.963,
+        "box_ratio": 0.718,
+        "edge_std": 57.5,
+        "mean_rgb": [
+          198.7,
+          104.2,
+          99.4
+        ],
+        "filename": "t2.jpeg"
+      },
+      {
+        "width": 1329,
+        "height": 1183,
+        "aspect": 1.12,
+        "skin_ratio": 0.99,
+        "box_ratio": 0.036,
+        "edge_std": 32.6,
+        "mean_rgb": [
+          245.6,
+          173.6,
+          178.3
+        ],
+        "filename": "t3.jpeg"
+      },
+      {
+        "width": 1537,
+        "height": 1023,
+        "aspect": 1.5,
+        "skin_ratio": 0.988,
+        "box_ratio": 0.029,
+        "edge_std": 43.3,
+        "mean_rgb": [
+          242.9,
+          150.1,
+          154.1
+        ],
+        "filename": "t4.jpeg"
+      }
+    ],
+    "Opal Bead Bracelet": [
+      {
+        "width": 1122,
+        "height": 1402,
+        "aspect": 0.8,
+        "skin_ratio": 0.999,
+        "box_ratio": 0.34,
+        "edge_std": 50.3,
+        "mean_rgb": [
+          223.7,
+          131.0,
+          123.8
+        ],
+        "filename": "o1.jpeg"
+      },
+      {
+        "width": 1402,
+        "height": 1122,
+        "aspect": 1.25,
+        "skin_ratio": 0.958,
+        "box_ratio": 0.701,
+        "edge_std": 57.3,
+        "mean_rgb": [
+          193.6,
+          103.2,
+          94.9
+        ],
+        "filename": "o2.jpeg"
+      },
+      {
+        "width": 1537,
+        "height": 1023,
+        "aspect": 1.5,
+        "skin_ratio": 0.975,
+        "box_ratio": 0.057,
+        "edge_std": 41.9,
+        "mean_rgb": [
+          242.1,
+          158.3,
+          174.4
+        ],
+        "filename": "o3.jpeg"
+      },
+      {
+        "width": 1526,
+        "height": 1030,
+        "aspect": 1.48,
+        "skin_ratio": 0.966,
+        "box_ratio": 0.027,
+        "edge_std": 32.7,
+        "mean_rgb": [
+          245.8,
+          175.8,
+          190.5
+        ],
+        "filename": "o4.jpeg"
+      }
+    ],
+    "Pink Crystal Bracelet": [
+      {
+        "width": 1122,
+        "height": 1402,
+        "aspect": 0.8,
+        "skin_ratio": 0.992,
+        "box_ratio": 0.341,
+        "edge_std": 53.2,
+        "mean_rgb": [
+          221.2,
+          131.0,
+          128.3
+        ],
+        "filename": "u1.jpeg"
+      },
+      {
+        "width": 1402,
+        "height": 1122,
+        "aspect": 1.25,
+        "skin_ratio": 0.958,
+        "box_ratio": 0.715,
+        "edge_std": 54.4,
+        "mean_rgb": [
+          192.5,
+          107.7,
+          98.6
+        ],
+        "filename": "u2.jpeg"
+      },
+      {
+        "width": 1537,
+        "height": 1023,
+        "aspect": 1.5,
+        "skin_ratio": 0.99,
+        "box_ratio": 0.197,
+        "edge_std": 46.2,
+        "mean_rgb": [
+          234.2,
+          139.8,
+          139.2
+        ],
+        "filename": "u3.jpeg"
+      },
+      {
+        "width": 1537,
+        "height": 1023,
+        "aspect": 1.5,
+        "skin_ratio": 0.999,
+        "box_ratio": 0.086,
+        "edge_std": 33.9,
+        "mean_rgb": [
+          245.2,
+          167.8,
+          176.9
+        ],
+        "filename": "u4.jpeg"
+      }
+    ]
+  },
+  "women's ring": {
+    "Heart Diamond Ring": [
+      {
+        "width": 1388,
+        "height": 1133,
+        "aspect": 1.23,
+        "skin_ratio": 0.968,
+        "box_ratio": 0.029,
+        "edge_std": 43.6,
+        "mean_rgb": [
+          242.0,
+          151.3,
+          168.0
+        ],
+        "filename": "ring b1.jpeg"
+      },
+      {
+        "width": 1536,
+        "height": 1024,
+        "aspect": 1.5,
+        "skin_ratio": 0.874,
+        "box_ratio": 0.081,
+        "edge_std": 46.1,
+        "mean_rgb": [
+          234.0,
+          148.2,
+          161.6
+        ],
+        "filename": "ring b2.png"
+      },
+      {
+        "width": 1402,
+        "height": 1122,
+        "aspect": 1.25,
+        "skin_ratio": 0.962,
+        "box_ratio": 0.68,
+        "edge_std": 57.8,
+        "mean_rgb": [
+          198.9,
+          110.2,
+          105.1
+        ],
+        "filename": "ring b3.png"
+      },
+      {
+        "width": 1122,
+        "height": 1402,
+        "aspect": 0.8,
+        "skin_ratio": 0.999,
+        "box_ratio": 0.211,
+        "edge_std": 42.9,
+        "mean_rgb": [
+          225.9,
+          140.0,
+          136.7
+        ],
+        "filename": "ring b4.png"
+      }
+    ],
+    "Oval Diamond Ring": [
+      {
+        "width": 1313,
+        "height": 1198,
+        "aspect": 1.1,
+        "skin_ratio": 0.945,
+        "box_ratio": 0.052,
+        "edge_std": 42.3,
+        "mean_rgb": [
+          237.3,
+          156.4,
+          165.2
+        ],
+        "filename": "ring e1.png"
+      },
+      {
+        "width": 1537,
+        "height": 1023,
+        "aspect": 1.5,
+        "skin_ratio": 0.972,
+        "box_ratio": 0.042,
+        "edge_std": 49.4,
+        "mean_rgb": [
+          243.1,
+          147.7,
+          152.4
+        ],
+        "filename": "ring e2.png"
+      },
+      {
+        "width": 1402,
+        "height": 1122,
+        "aspect": 1.25,
+        "skin_ratio": 0.958,
+        "box_ratio": 0.729,
+        "edge_std": 55.4,
+        "mean_rgb": [
+          194.8,
+          105.4,
+          101.7
+        ],
+        "filename": "ring e3.png"
+      },
+      {
+        "width": 1448,
+        "height": 1086,
+        "aspect": 1.33,
+        "skin_ratio": 0.993,
+        "box_ratio": 0.212,
+        "edge_std": 55.7,
+        "mean_rgb": [
+          232.6,
+          131.5,
+          111.7
+        ],
+        "filename": "ring e4.png"
+      }
+    ],
+    "Petite Butterfly Ring": [
+      {
+        "width": 1398,
+        "height": 1125,
+        "aspect": 1.24,
+        "skin_ratio": 0.975,
+        "box_ratio": 0.407,
+        "edge_std": 54.5,
+        "mean_rgb": [
+          206.5,
+          135.9,
+          108.6
+        ],
+        "filename": "WhatsApp Image 2026-09-14 at 10.11.23 PM.jpeg"
+      },
+      {
+        "width": 1116,
+        "height": 1409,
+        "aspect": 0.79,
+        "skin_ratio": 0.998,
+        "box_ratio": 0.435,
+        "edge_std": 52.1,
+        "mean_rgb": [
+          216.8,
+          135.0,
+          152.4
+        ],
+        "filename": "ring i1.jpeg"
+      },
+      {
+        "width": 1116,
+        "height": 1409,
+        "aspect": 0.79,
+        "skin_ratio": 0.992,
+        "box_ratio": 0.34,
+        "edge_std": 51.0,
+        "mean_rgb": [
+          228.1,
+          137.6,
+          150.0
+        ],
+        "filename": "ring i2.png"
+      },
+      {
+        "width": 1448,
+        "height": 1086,
+        "aspect": 1.33,
+        "skin_ratio": 0.969,
+        "box_ratio": 0.501,
+        "edge_std": 62.1,
+        "mean_rgb": [
+          219.0,
+          105.7,
+          93.9
+        ],
+        "filename": "ring i4.png"
+      }
+    ],
+    "Pink Bow Ring": [
+      {
+        "width": 1145,
+        "height": 1374,
+        "aspect": 0.83,
+        "skin_ratio": 0.716,
+        "box_ratio": 0.297,
+        "edge_std": 71.9,
+        "mean_rgb": [
+          152.7,
+          107.1,
+          88.5
+        ],
+        "filename": "WhatsApp Image 2026-09-15 at 2.01.14 PM.jpeg"
+      },
+      {
+        "width": 1412,
+        "height": 1114,
+        "aspect": 1.27,
+        "skin_ratio": 1.0,
+        "box_ratio": 0.083,
+        "edge_std": 38.5,
+        "mean_rgb": [
+          230.2,
+          167.4,
+          183.6
+        ],
+        "filename": "ring f1.jpeg"
+      },
+      {
+        "width": 1312,
+        "height": 1199,
+        "aspect": 1.09,
+        "skin_ratio": 0.989,
+        "box_ratio": 0.099,
+        "edge_std": 46.7,
+        "mean_rgb": [
+          241.9,
+          139.7,
+          153.8
+        ],
+        "filename": "ring f2.png"
+      },
+      {
+        "width": 1402,
+        "height": 1122,
+        "aspect": 1.25,
+        "skin_ratio": 0.963,
+        "box_ratio": 0.727,
+        "edge_std": 57.9,
+        "mean_rgb": [
+          196.0,
+          106.5,
+          99.7
+        ],
+        "filename": "ring f3.png"
+      }
+    ],
+    "Pink Butterfly Ring": [
+      {
+        "width": 1324,
+        "height": 1188,
+        "aspect": 1.11,
+        "skin_ratio": 0.94,
+        "box_ratio": 0.512,
+        "edge_std": 65.3,
+        "mean_rgb": [
+          205.6,
+          100.4,
+          98.1
+        ],
+        "filename": "WhatsApp Image 2026-09-15 at 10.49.54 PM.jpeg"
+      },
+      {
+        "width": 768,
+        "height": 1024,
+        "aspect": 0.75,
+        "skin_ratio": 0.997,
+        "box_ratio": 0.347,
+        "edge_std": 50.2,
+        "mean_rgb": [
+          205.4,
+          142.2,
+          120.9
+        ],
+        "filename": "WhatsApp Image 2026-09-15 at 3.32.12 PM.jpeg"
+      },
+      {
+        "width": 1254,
+        "height": 1254,
+        "aspect": 1.0,
+        "skin_ratio": 0.996,
+        "box_ratio": 0.38,
+        "edge_std": 46.3,
+        "mean_rgb": [
+          231.6,
+          146.5,
+          154.5
+        ],
+        "filename": "ring h1.jpeg"
+      },
+      {
+        "width": 1313,
+        "height": 1198,
+        "aspect": 1.1,
+        "skin_ratio": 0.979,
+        "box_ratio": 0.188,
+        "edge_std": 54.6,
+        "mean_rgb": [
+          232.5,
+          138.7,
+          143.9
+        ],
+        "filename": "ring h2.png"
+      }
+    ],
+    "Pink Floral Ring": [
+      {
+        "width": 1398,
+        "height": 1125,
+        "aspect": 1.24,
+        "skin_ratio": 0.975,
+        "box_ratio": 0.421,
+        "edge_std": 54.9,
+        "mean_rgb": [
+          206.0,
+          133.6,
+          106.0
+        ],
+        "filename": "05.jpeg"
+      },
+      {
+        "width": 1130,
+        "height": 1392,
+        "aspect": 0.81,
+        "skin_ratio": 0.999,
+        "box_ratio": 0.477,
+        "edge_std": 50.0,
+        "mean_rgb": [
+          207.6,
+          134.4,
+          113.6
+        ],
+        "filename": "WhatsApp Image 2026-09-14 at 10.11.24 PM.jpeg"
+      },
+      {
+        "width": 1254,
+        "height": 1254,
+        "aspect": 1.0,
+        "skin_ratio": 0.981,
+        "box_ratio": 0.169,
+        "edge_std": 37.7,
+        "mean_rgb": [
+          213.1,
+          165.1,
+          134.7
+        ],
+        "filename": "ring j1.png"
+      },
+      {
+        "width": 1254,
+        "height": 1254,
+        "aspect": 1.0,
+        "skin_ratio": 0.995,
+        "box_ratio": 0.067,
+        "edge_std": 19.1,
+        "mean_rgb": [
+          214.4,
+          180.8,
+          156.7
+        ],
+        "filename": "ring j4.jpeg"
+      }
+    ],
+    "Pink Heart Ring": [
+      {
+        "width": 1398,
+        "height": 1125,
+        "aspect": 1.24,
+        "skin_ratio": 0.967,
+        "box_ratio": 0.43,
+        "edge_std": 55.8,
+        "mean_rgb": [
+          203.0,
+          130.1,
+          101.8
+        ],
+        "filename": "WhatsApp Image 2026-09-14 at 8.50.42 PM.jpeg"
+      },
+      {
+        "width": 1254,
+        "height": 1254,
+        "aspect": 1.0,
+        "skin_ratio": 0.991,
+        "box_ratio": 0.071,
+        "edge_std": 26.1,
+        "mean_rgb": [
+          241.9,
+          177.2,
+          179.0
+        ],
+        "filename": "ring k1.png"
+      },
+      {
+        "width": 1254,
+        "height": 1254,
+        "aspect": 1.0,
+        "skin_ratio": 0.981,
+        "box_ratio": 0.099,
+        "edge_std": 33.7,
+        "mean_rgb": [
+          237.4,
+          161.6,
+          161.2
+        ],
+        "filename": "ring k2.png"
+      },
+      {
+        "width": 1402,
+        "height": 1122,
+        "aspect": 1.25,
+        "skin_ratio": 0.99,
+        "box_ratio": 0.367,
+        "edge_std": 40.3,
+        "mean_rgb": [
+          224.1,
+          142.5,
+          134.8
+        ],
+        "filename": "ring k4.png"
+      }
+    ],
+    "Pink Trillion Ring": [
+      {
+        "width": 1024,
+        "height": 820,
+        "aspect": 1.25,
+        "skin_ratio": 0.948,
+        "box_ratio": 0.47,
+        "edge_std": 66.4,
+        "mean_rgb": [
+          212.0,
+          100.6,
+          100.2
+        ],
+        "filename": "WhatsApp Image 2026-09-15 at 1.06.59 PM.jpeg"
+      },
+      {
+        "width": 1012,
+        "height": 908,
+        "aspect": 1.11,
+        "skin_ratio": 0.964,
+        "box_ratio": 0.473,
+        "edge_std": 39.4,
+        "mean_rgb": [
+          180.9,
+          131.4,
+          112.1
+        ],
+        "filename": "WhatsApp Image 2026-09-15 at 3.09.12 PM.jpeg"
+      },
+      {
+        "width": 1331,
+        "height": 1181,
+        "aspect": 1.13,
+        "skin_ratio": 0.96,
+        "box_ratio": 0.094,
+        "edge_std": 42.3,
+        "mean_rgb": [
+          236.4,
+          147.1,
+          163.7
+        ],
+        "filename": "ring d1.jpeg"
+      },
+      {
+        "width": 1448,
+        "height": 1086,
+        "aspect": 1.33,
+        "skin_ratio": 0.901,
+        "box_ratio": 0.109,
+        "edge_std": 42.7,
+        "mean_rgb": [
+          235.4,
+          150.5,
+          164.9
+        ],
+        "filename": "ring d2.png"
+      }
+    ],
+    "Textured Gold Band": [
+      {
+        "width": 1543,
+        "height": 1019,
+        "aspect": 1.51,
+        "skin_ratio": 0.984,
+        "box_ratio": 0.019,
+        "edge_std": 27.7,
+        "mean_rgb": [
+          246.1,
+          188.9,
+          176.6
+        ],
+        "filename": "ring c1.png"
+      },
+      {
+        "width": 1537,
+        "height": 1023,
+        "aspect": 1.5,
+        "skin_ratio": 0.857,
+        "box_ratio": 0.021,
+        "edge_std": 56.6,
+        "mean_rgb": [
+          222.7,
+          161.5,
+          109.3
+        ],
+        "filename": "ring c2.png"
+      },
+      {
+        "width": 1402,
+        "height": 1122,
+        "aspect": 1.25,
+        "skin_ratio": 0.973,
+        "box_ratio": 0.329,
+        "edge_std": 55.6,
+        "mean_rgb": [
+          223.8,
+          131.2,
+          127.8
+        ],
+        "filename": "ring c3.png"
+      },
+      {
+        "width": 1449,
+        "height": 1086,
+        "aspect": 1.33,
+        "skin_ratio": 0.993,
+        "box_ratio": 0.155,
+        "edge_std": 53.6,
+        "mean_rgb": [
+          235.7,
+          153.9,
+          134.7
+        ],
+        "filename": "ring c4.png"
+      }
+    ],
+    "Yellow Gemstone Ring": [
+      {
+        "width": 1254,
+        "height": 1254,
+        "aspect": 1.0,
+        "skin_ratio": 0.942,
+        "box_ratio": 0.13,
+        "edge_std": 32.6,
+        "mean_rgb": [
+          236.4,
+          164.1,
+          157.6
+        ],
+        "filename": "ring a1.png"
+      },
+      {
+        "width": 1536,
+        "height": 1024,
+        "aspect": 1.5,
+        "skin_ratio": 0.885,
+        "box_ratio": 0.21,
+        "edge_std": 45.8,
+        "mean_rgb": [
+          223.1,
+          141.6,
+          121.4
+        ],
+        "filename": "ring a2.png"
+      },
+      {
+        "width": 1280,
+        "height": 1024,
+        "aspect": 1.25,
+        "skin_ratio": 0.965,
+        "box_ratio": 0.675,
+        "edge_std": 57.4,
+        "mean_rgb": [
+          205.3,
+          114.0,
+          109.5
+        ],
+        "filename": "ring a3.jpeg"
+      },
+      {
+        "width": 1024,
+        "height": 1280,
+        "aspect": 0.8,
+        "skin_ratio": 0.998,
+        "box_ratio": 0.211,
+        "edge_std": 49.3,
+        "mean_rgb": [
+          234.0,
+          151.8,
+          128.1
+        ],
+        "filename": "ring a4.jpeg"
+      }
+    ]
+  }
+}

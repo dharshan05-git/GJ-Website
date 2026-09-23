@@ -10,7 +10,6 @@ export const Navbar = () => {
     cartCount,
     setCartOpen,
     cartIconRef,
-    setTrackOrderOpen,
   } = useShop();
 
   const [scrolled, setScrolled]           = useState(false);
@@ -381,16 +380,16 @@ export const Navbar = () => {
           </span>
         </button>
 
-        {/* 2. Orders — opens Track Order modal */}
-        <button
-          onClick={() => { setMobileOpen(false); setTrackOrderOpen(true); }}
+        {/* 2. Orders — opens WhatsApp directly */}
+        <a
+          href="https://wa.me/917041677500?text=Hello%20Gevariya%20team,%20I%20would%20like%20to%20check%20my%20order%20status."
+          target="_blank"
+          rel="noopener noreferrer"
           className="flex flex-col items-center justify-center min-w-[56px] py-0.5 transition-all cursor-pointer text-[#5C4038] hover:text-[#7B3F42]"
         >
           <User size={19} strokeWidth={1.7} />
-          <span className="text-[10px] tracking-wide mt-0.5 font-medium">
-            Orders
-          </span>
-        </button>
+          <span className="text-[10px] tracking-wide mt-0.5 font-medium">Orders</span>
+        </a>
 
         {/* 3. Customise */}
         <button

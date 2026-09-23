@@ -8,8 +8,8 @@ import { useShop } from '../context/ShopContext';
 
 const SLIDES = [
   {
-    image: 'https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?auto=format&fit=crop&w=2000&q=90',
-    tag: 'New Collection',
+    image: '/products/pink-butterfly-ring/image-2.webp',
+    tag: 'Flagship Collection',
     titleLine1: 'TIMELESS',
     titleLine2: 'ELEGANCE,',
     titleLine3: 'CRAFTED FOR YOU',
@@ -18,23 +18,23 @@ const SLIDES = [
     ctaCategory: 'ALL',
   },
   {
-    image: 'https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?auto=format&fit=crop&w=2000&q=90',
-    tag: 'Signature Pieces',
+    image: '/products/gold-swirl-pendant/image-2.webp',
+    tag: 'Signature Pendants',
     titleLine1: 'RADIANT',
     titleLine2: 'BRILLIANCE,',
     titleLine3: 'MADE TO ENDURE',
     subtitle: '925 Sterling Silver with premium gold plating — crafted to endure.',
-    cta: 'SHOP NECKLACES',
+    cta: 'SHOP PENDANTS',
     ctaCategory: 'NECKLACES',
   },
   {
-    image: 'https://images.unsplash.com/photo-1605100804763-247f67b3557e?auto=format&fit=crop&w=2000&q=90',
+    image: '/products/blue-stone-set/image-2.webp',
     tag: 'Bridal Suites',
     titleLine1: 'CURATED',
     titleLine2: 'SUITES,',
     titleLine3: 'FOR BRIDAL MOMENTS',
     subtitle: "Complete bespoke ensembles tailored for life's grandest celebrations.",
-    cta: 'VIEW BRIDAL SETS',
+    cta: 'VIEW JEWELRY SETS',
     ctaCategory: 'SETS',
   },
 ];

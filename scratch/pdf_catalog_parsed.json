@@ -1,0 +1,394 @@
+[
+  {
+    "page": 2,
+    "category_header": "Jewelry Sets",
+    "name": "Blue Stone Set",
+    "price": 4499,
+    "description": "-B-l-u-e- -S-t-o-n-e- -S-e-t- -\u2014- -a-n- -e-l-e-g-a-n-t- -j-e-w-e-l-r-y- -s-e-t- -c-r-a-f-t-e-d- -i-n- -b-l-u-e- -s-t-o-n-e-,- -f-i-n-i-s-h-e-d- -w-i-t-h- -a- -p-o-l-i-s-h-e-d-,- -s-t-a-t-e-m-e-n-t---r-e-a-d-y- -l-o-o-k-.-"
+  },
+  {
+    "page": 2,
+    "category_header": "Jewelry Sets",
+    "name": "Gold Heart Set",
+    "price": 5499,
+    "description": "-G-o-l-d- -H-e-a-r-t- -S-e-t- -\u2014- -a-n- -e-l-e-g-a-n-t- -j-e-w-e-l-r-y- -s-e-t- -c-r-a-f-t-e-d- -i-n- -g-o-l-d-,- -f-i-n-i-s-h-e-d- -w-i-t-h- -a- -p-o-l-i-s-h-e-d-,- -s-t-a-t-e-m-e-n-t---r-e-a-d-y- -l-o-o-k-.-"
+  },
+  {
+    "page": 2,
+    "category_header": "Jewelry Sets",
+    "name": "Pink Pendant Set",
+    "price": 4499,
+    "description": "-P-i-n-k- -P-e-n-d-a-n-t- -S-e-t- -\u2014- -a-n- -e-l-e-g-a-n-t- -j-e-w-e-l-r-y- -s-e-t- -c-r-a-f-t-e-d- -i-n- -p-i-n-k- -s-t-o-n-e-,- -f-i-n-i-s-h-e-d- -w-i-t-h- -a- -p-o-l-i-s-h-e-d-,- -s-t-a-t-e-m-e-n-t---r-e-a-d-y- -l-o-o-k-.-"
+  },
+  {
+    "page": 2,
+    "category_header": "Jewelry Sets",
+    "name": "Rose Flower Set",
+    "price": 3999,
+    "description": "-R-o-s-e- -F-l-o-w-e-r- -S-e-t- -\u2014- -a-n- -e-l-e-g-a-n-t- -j-e-w-e-l-r-y- -s-e-t- -c-r-a-f-t-e-d- -i-n- -r-o-s-e- -g-o-l-d-,- -f-i-n-i-s-h-e-d- -w-i-t-h- -a- -p-o-l-i-s-h-e-d-,- -s-t-a-t-e-m-e-n-t---r-e-a-d-y- -l-o-o-k-.-"
+  },
+  {
+    "page": 3,
+    "category_header": "Earrings",
+    "name": "Diamond Heart Stud",
+    "price": 2249,
+    "description": "-D-i-a-m-o-n-d- -H-e-a-r-t- -S-t-u-d- -\u2014- -a-n- -e-l-e-g-a-n-t- -e-a-r-r-i-n-g- -c-r-a-f-t-e-d- -i-n- -d-i-a-m-o-n-d-,- -f-i-n-i-s-h-e-d- -w-i-t-h- -a- -p-o-l-i-s-h-e-d-,- -s-t-a-t-e-m-e-n-t---r-e-a-d-y- -l-o-o-k-.-"
+  },
+  {
+    "page": 3,
+    "category_header": "Earrings",
+    "name": "Gold Bow Drop",
+    "price": 2449,
+    "description": "-G-o-l-d- -B-o-w- -D-r-o-p- -\u2014- -a-n- -e-l-e-g-a-n-t- -e-a-r-r-i-n-g- -c-r-a-f-t-e-d- -i-n- -g-o-l-d-,- -f-i-n-i-s-h-e-d- -w-i-t-h- -a- -p-o-l-i-s-h-e-d-,- -s-t-a-t-e-m-e-n-t---r-e-a-d-y- -l-o-o-k-.-"
+  },
+  {
+    "page": 3,
+    "category_header": "Earrings",
+    "name": "Gold Heart Stud",
+    "price": 2099,
+    "description": "-G-o-l-d- -H-e-a-r-t- -S-t-u-d- -\u2014- -a-n- -e-l-e-g-a-n-t- -e-a-r-r-i-n-g- -c-r-a-f-t-e-d- -i-n- -g-o-l-d-,- -f-i-n-i-s-h-e-d- -w-i-t-h- -a- -p-o-l-i-s-h-e-d-,- -s-t-a-t-e-m-e-n-t---r-e-a-d-y- -l-o-o-k-.-"
+  },
+  {
+    "page": 4,
+    "category_header": null,
+    "name": "Gold Wing Stud",
+    "price": 2449,
+    "description": "-G-o-l-d- -W-i-n-g- -S-t-u-d- -\u2014- -a-n- -e-l-e-g-a-n-t- -e-a-r-r-i-n-g- -c-r-a-f-t-e-d- -i-n- -g-o-l-d-,- -f-i-n-i-s-h-e-d- -w-i-t-h- -a- -p-o-l-i-s-h-e-d-,- -s-t-a-t-e-m-e-n-t---r-e-a-d-y- -l-o-o-k-.-"
+  },
+  {
+    "page": 4,
+    "category_header": null,
+    "name": "Pink Bow Drop",
+    "price": 2199,
+    "description": "-P-i-n-k- -B-o-w- -D-r-o-p- -\u2014- -a-n- -e-l-e-g-a-n-t- -e-a-r-r-i-n-g- -c-r-a-f-t-e-d- -i-n- -p-i-n-k- -s-t-o-n-e-,- -f-i-n-i-s-h-e-d- -w-i-t-h- -a- -p-o-l-i-s-h-e-d-,- -s-t-a-t-e-m-e-n-t---r-e-a-d-y- -l-o-o-k-.-"
+  },
+  {
+    "page": 4,
+    "category_header": null,
+    "name": "Pink Flower Drop",
+    "price": 2249,
+    "description": "-P-i-n-k- -F-l-o-w-e-r- -D-r-o-p- -\u2014- -a-n- -e-l-e-g-a-n-t- -e-a-r-r-i-n-g- -c-r-a-f-t-e-d- -i-n- -p-i-n-k- -s-t-o-n-e-,- -f-i-n-i-s-h-e-d- -w-i-t-h- -a- -p-o-l-i-s-h-e-d-,- -s-t-a-t-e-m-e-n-t---r-e-a-d-y- -l-o-o-k-.-"
+  },
+  {
+    "page": 4,
+    "category_header": null,
+    "name": "Red Stone Stud",
+    "price": 2249,
+    "description": "-R-e-d- -S-t-o-n-e- -S-t-u-d- -\u2014- -a-n- -e-l-e-g-a-n-t- -e-a-r-r-i-n-g- -c-r-a-f-t-e-d- -i-n- -f-i-n-e- -m-e-t-a-l-,- -f-i-n-i-s-h-e-d- -w-i-t-h- -a- -p-o-l-i-s-h-e-d-,- -s-t-a-t-e-m-e-n-t---r-e-a-d-y- -l-o-o-k-.-"
+  },
+  {
+    "page": 5,
+    "category_header": null,
+    "name": "Rose Gold Hoops",
+    "price": 2449,
+    "description": "-R-o-s-e- -G-o-l-d- -H-o-o-p-s- -\u2014- -a-n- -e-l-e-g-a-n-t- -e-a-r-r-i-n-g- -c-r-a-f-t-e-d- -i-n- -g-o-l-d-,- -r-o-s-e- -g-o-l-d-,- -f-i-n-i-s-h-e-d- -w-i-t-h- -a- -p-o-l-i-s-h-e-d-,- -s-t-a-t-e-m-e-n-t---r-e-a-d-y- -l-o-o-k-.-"
+  },
+  {
+    "page": 5,
+    "category_header": null,
+    "name": "Topaz Ear Crawler",
+    "price": 2449,
+    "description": "-T-o-p-a-z- -E-a-r- -C-r-a-w-l-e-r- -\u2014- -a-n- -e-l-e-g-a-n-t- -e-a-r-r-i-n-g- -c-r-a-f-t-e-d- -i-n- -t-o-p-a-z-,- -f-i-n-i-s-h-e-d- -w-i-t-h- -a- -p-o-l-i-s-h-e-d-,- -s-t-a-t-e-m-e-n-t---r-e-a-d-y- -l-o-o-k-.-"
+  },
+  {
+    "page": 5,
+    "category_header": null,
+    "name": "Topaz Pearl Drop",
+    "price": 2199,
+    "description": "-T-o-p-a-z- -P-e-a-r-l- -D-r-o-p- -\u2014- -a-n- -e-l-e-g-a-n-t- -e-a-r-r-i-n-g- -c-r-a-f-t-e-d- -i-n- -t-o-p-a-z-,- -p-e-a-r-l-,- -f-i-n-i-s-h-e-d- -w-i-t-h- -a- -p-o-l-i-s-h-e-d-,- -s-t-a-t-e-m-e-n-t---r-e-a-d-y- -l-o-o-k-.-"
+  },
+  {
+    "page": 6,
+    "category_header": "Studs",
+    "name": "Cushion Halo Studs",
+    "price": 2999,
+    "description": "-C-u-s-h-i-o-n- -H-a-l-o- -S-t-u-d-s- -\u2014- -a-n- -e-l-e-g-a-n-t- -s-t-u-d- -c-r-a-f-t-e-d- -i-n- -f-i-n-e- -m-e-t-a-l-,- -f-i-n-i-s-h-e-d- -w-i-t-h- -a- -p-o-l-i-s-h-e-d-,- -s-t-a-t-e-m-e-n-t---r-e-a-d-y- -l-o-o-k-.-"
+  },
+  {
+    "page": 6,
+    "category_header": "Studs",
+    "name": "Emerald Cut Studs",
+    "price": 2799,
+    "description": "-E-m-e-r-a-l-d- -C-u-t- -S-t-u-d-s- -\u2014- -a-n- -e-l-e-g-a-n-t- -s-t-u-d- -c-r-a-f-t-e-d- -i-n- -e-m-e-r-a-l-d-,- -f-i-n-i-s-h-e-d- -w-i-t-h- -a- -p-o-l-i-s-h-e-d-,- -s-t-a-t-e-m-e-n-t---r-e-a-d-y- -l-o-o-k-.-"
+  },
+  {
+    "page": 6,
+    "category_header": "Studs",
+    "name": "Gold Leopard Studs",
+    "price": 3999,
+    "description": "-G-o-l-d- -L-e-o-p-a-r-d- -S-t-u-d-s- -\u2014- -a-n- -e-l-e-g-a-n-t- -s-t-u-d- -c-r-a-f-t-e-d- -i-n- -g-o-l-d-,- -f-i-n-i-s-h-e-d- -w-i-t-h- -a- -p-o-l-i-s-h-e-d-,- -s-t-a-t-e-m-e-n-t---r-e-a-d-y- -l-o-o-k-.-"
+  },
+  {
+    "page": 6,
+    "category_header": "Studs",
+    "name": "Round Diamond Studs",
+    "price": 2499,
+    "description": "-R-o-u-n-d- -D-i-a-m-o-n-d- -S-t-u-d-s- -\u2014- -a-n- -e-l-e-g-a-n-t- -s-t-u-d- -c-r-a-f-t-e-d- -i-n- -d-i-a-m-o-n-d-,- -f-i-n-i-s-h-e-d- -w-i-t-h- -a- -p-o-l-i-s-h-e-d-,- -s-t-a-t-e-m-e-n-t---r-e-a-d-y- -l-o-o-k-.-"
+  },
+  {
+    "page": 7,
+    "category_header": "Pendants",
+    "name": "Gold Knot Pendant",
+    "price": 3499,
+    "description": "-G-o-l-d- -K-n-o-t- -P-e-n-d-a-n-t- -\u2014- -a-n- -e-l-e-g-a-n-t- -p-e-n-d-a-n-t- -c-r-a-f-t-e-d- -i-n- -g-o-l-d-,- -f-i-n-i-s-h-e-d- -w-i-t-h- -a- -p-o-l-i-s-h-e-d-,- -s-t-a-t-e-m-e-n-t---r-e-a-d-y- -l-o-o-k-.-"
+  },
+  {
+    "page": 7,
+    "category_header": "Pendants",
+    "name": "Gold Swirl Pendant",
+    "price": 4499,
+    "description": "-G-o-l-d- -S-w-i-r-l- -P-e-n-d-a-n-t- -\u2014- -a-n- -e-l-e-g-a-n-t- -p-e-n-d-a-n-t- -c-r-a-f-t-e-d- -i-n- -g-o-l-d-,- -f-i-n-i-s-h-e-d- -w-i-t-h- -a- -p-o-l-i-s-h-e-d-,- -s-t-a-t-e-m-e-n-t---r-e-a-d-y- -l-o-o-k-.-"
+  },
+  {
+    "page": 7,
+    "category_header": "Pendants",
+    "name": "Gold Teardrop Pendant",
+    "price": 3499,
+    "description": "-G-o-l-d- -T-e-a-r-d-r-o-p- -P-e-n-d-a-n-t- -\u2014- -a-n- -e-l-e-g-a-n-t- -p-e-n-d-a-n-t- -c-r-a-f-t-e-d- -i-n- -g-o-l-d-,- -f-i-n-i-s-h-e-d- -w-i-t-h- -a- -p-o-l-i-s-h-e-d-,- -s-t-a-t-e-m-e-n-t---r-e-a-d-y- -l-o-o-k-.-"
+  },
+  {
+    "page": 8,
+    "category_header": null,
+    "name": "Gold Wing Pendant",
+    "price": 4499,
+    "description": "-G-o-l-d- -W-i-n-g- -P-e-n-d-a-n-t- -\u2014- -a-n- -e-l-e-g-a-n-t- -p-e-n-d-a-n-t- -c-r-a-f-t-e-d- -i-n- -g-o-l-d-,- -f-i-n-i-s-h-e-d- -w-i-t-h- -a- -p-o-l-i-s-h-e-d-,- -s-t-a-t-e-m-e-n-t---r-e-a-d-y- -l-o-o-k-.-"
+  },
+  {
+    "page": 8,
+    "category_header": null,
+    "name": "Green Leaf Pendant",
+    "price": 3499,
+    "description": "-G-r-e-e-n- -L-e-a-f- -P-e-n-d-a-n-t- -\u2014- -a-n- -e-l-e-g-a-n-t- -p-e-n-d-a-n-t- -c-r-a-f-t-e-d- -i-n- -f-i-n-e- -m-e-t-a-l-,- -f-i-n-i-s-h-e-d- -w-i-t-h- -a- -p-o-l-i-s-h-e-d-,- -s-t-a-t-e-m-e-n-t---r-e-a-d-y- -l-o-o-k-.-"
+  },
+  {
+    "page": 8,
+    "category_header": null,
+    "name": "Pink Butterfly Pendant",
+    "price": 3499,
+    "description": "-P-i-n-k- -B-u-t-t-e-r-f-l-y- -P-e-n-d-a-n-t- -\u2014- -a-n- -e-l-e-g-a-n-t- -p-e-n-d-a-n-t- -c-r-a-f-t-e-d- -i-n- -p-i-n-k- -s-t-o-n-e-,- -f-i-n-i-s-h-e-d- -w-i-t-h- -a- -p-o-l-i-s-h-e-d-,- -s-t-a-t-e-m-e-n-t---r-e-a-d-y- -l-o-o-k-.-"
+  },
+  {
+    "page": 8,
+    "category_header": null,
+    "name": "Pink Flower Pendant",
+    "price": 2999,
+    "description": "-P-i-n-k- -F-l-o-w-e-r- -P-e-n-d-a-n-t- -\u2014- -a-n- -e-l-e-g-a-n-t- -p-e-n-d-a-n-t- -c-r-a-f-t-e-d- -i-n- -p-i-n-k- -s-t-o-n-e-,- -f-i-n-i-s-h-e-d- -w-i-t-h- -a- -p-o-l-i-s-h-e-d-,- -s-t-a-t-e-m-e-n-t---r-e-a-d-y- -l-o-o-k-.-"
+  },
+  {
+    "page": 9,
+    "category_header": null,
+    "name": "Pink Leaf Pendant",
+    "price": 3499,
+    "description": "-P-i-n-k- -L-e-a-f- -P-e-n-d-a-n-t- -\u2014- -a-n- -e-l-e-g-a-n-t- -p-e-n-d-a-n-t- -c-r-a-f-t-e-d- -i-n- -p-i-n-k- -s-t-o-n-e-,- -f-i-n-i-s-h-e-d- -w-i-t-h- -a- -p-o-l-i-s-h-e-d-,- -s-t-a-t-e-m-e-n-t---r-e-a-d-y- -l-o-o-k-.-"
+  },
+  {
+    "page": 9,
+    "category_header": null,
+    "name": "White Flower Pendant",
+    "price": 2999,
+    "description": "-W-h-i-t-e- -F-l-o-w-e-r- -P-e-n-d-a-n-t- -\u2014- -a-n- -e-l-e-g-a-n-t- -p-e-n-d-a-n-t- -c-r-a-f-t-e-d- -i-n- -f-i-n-e- -m-e-t-a-l-,- -f-i-n-i-s-h-e-d- -w-i-t-h- -a- -p-o-l-i-s-h-e-d-,- -s-t-a-t-e-m-e-n-t---r-e-a-d-y- -l-o-o-k-.-"
+  },
+  {
+    "page": 9,
+    "category_header": null,
+    "name": "White Star Pendant",
+    "price": 3499,
+    "description": "-W-h-i-t-e- -S-t-a-r- -P-e-n-d-a-n-t- -\u2014- -a-n- -e-l-e-g-a-n-t- -p-e-n-d-a-n-t- -c-r-a-f-t-e-d- -i-n- -f-i-n-e- -m-e-t-a-l-,- -f-i-n-i-s-h-e-d- -w-i-t-h- -a- -p-o-l-i-s-h-e-d-,- -s-t-a-t-e-m-e-n-t---r-e-a-d-y- -l-o-o-k-.-"
+  },
+  {
+    "page": 10,
+    "category_header": "Women's Rings",
+    "name": "Heart Diamond Ring",
+    "price": 2999,
+    "description": "-H-e-a-r-t- -D-i-a-m-o-n-d- -R-i-n-g- -\u2014- -a-n- -e-l-e-g-a-n-t- -w-o-m-e-n-'-s- -r-i-n-g- -c-r-a-f-t-e-d- -i-n- -d-i-a-m-o-n-d-,- -f-i-n-i-s-h-e-d- -w-i-t-h- -a- -p-o-l-i-s-h-e-d-,- -s-t-a-t-e-m-e-n-t---r-e-a-d-y- -l-o-o-k-.-"
+  },
+  {
+    "page": 10,
+    "category_header": "Women's Rings",
+    "name": "Oval Diamond Ring",
+    "price": 3499,
+    "description": "-O-v-a-l- -D-i-a-m-o-n-d- -R-i-n-g- -\u2014- -a-n- -e-l-e-g-a-n-t- -w-o-m-e-n-'-s- -r-i-n-g- -c-r-a-f-t-e-d- -i-n- -d-i-a-m-o-n-d-,- -f-i-n-i-s-h-e-d- -w-i-t-h- -a- -p-o-l-i-s-h-e-d-,- -s-t-a-t-e-m-e-n-t---r-e-a-d-y- -l-o-o-k-.-"
+  },
+  {
+    "page": 10,
+    "category_header": "Women's Rings",
+    "name": "Petite Butterfly Ring",
+    "price": 3299,
+    "description": "-P-e-t-i-t-e- -B-u-t-t-e-r-f-l-y- -R-i-n-g- -\u2014- -a-n- -e-l-e-g-a-n-t- -w-o-m-e-n-'-s- -r-i-n-g- -c-r-a-f-t-e-d- -i-n- -f-i-n-e- -m-e-t-a-l-,- -f-i-n-i-s-h-e-d- -w-i-t-h- -a- -p-o-l-i-s-h-e-d-,- -s-t-a-t-e-m-e-n-t---r-e-a-d-y- -l-o-o-k-.-"
+  },
+  {
+    "page": 10,
+    "category_header": "Women's Rings",
+    "name": "Pink Bow Ring",
+    "price": 3299,
+    "description": "-P-i-n-k- -B-o-w- -R-i-n-g- -\u2014- -a-n- -e-l-e-g-a-n-t- -w-o-m-e-n-'-s- -r-i-n-g- -c-r-a-f-t-e-d- -i-n- -p-i-n-k- -s-t-o-n-e-,- -f-i-n-i-s-h-e-d- -w-i-t-h- -a- -p-o-l-i-s-h-e-d-,- -s-t-a-t-e-m-e-n-t---r-e-a-d-y- -l-o-o-k-.-"
+  },
+  {
+    "page": 11,
+    "category_header": null,
+    "name": "Pink Butterfly Ring",
+    "price": 3799,
+    "description": "-P-i-n-k- -B-u-t-t-e-r-f-l-y- -R-i-n-g- -\u2014- -a-n- -e-l-e-g-a-n-t- -w-o-m-e-n-'-s- -r-i-n-g- -c-r-a-f-t-e-d- -i-n- -p-i-n-k- -s-t-o-n-e-,- -f-i-n-i-s-h-e-d- -w-i-t-h- -a- -p-o-l-i-s-h-e-d-,- -s-t-a-t-e-m-e-n-t---r-e-a-d-y- -l-o-o-k-.-"
+  },
+  {
+    "page": 11,
+    "category_header": null,
+    "name": "Pink Floral Ring",
+    "price": 3999,
+    "description": "-P-i-n-k- -F-l-o-r-a-l- -R-i-n-g- -\u2014- -a-n- -e-l-e-g-a-n-t- -w-o-m-e-n-'-s- -r-i-n-g- -c-r-a-f-t-e-d- -i-n- -p-i-n-k- -s-t-o-n-e-,- -f-i-n-i-s-h-e-d- -w-i-t-h- -a- -p-o-l-i-s-h-e-d-,- -s-t-a-t-e-m-e-n-t---r-e-a-d-y- -l-o-o-k-.-"
+  },
+  {
+    "page": 11,
+    "category_header": null,
+    "name": "Pink Heart Ring",
+    "price": 3499,
+    "description": "-P-i-n-k- -H-e-a-r-t- -R-i-n-g- -\u2014- -a-n- -e-l-e-g-a-n-t- -w-o-m-e-n-'-s- -r-i-n-g- -c-r-a-f-t-e-d- -i-n- -p-i-n-k- -s-t-o-n-e-,- -f-i-n-i-s-h-e-d- -w-i-t-h- -a- -p-o-l-i-s-h-e-d-,- -s-t-a-t-e-m-e-n-t---r-e-a-d-y- -l-o-o-k-.-"
+  },
+  {
+    "page": 11,
+    "category_header": null,
+    "name": "Pink Trillion Ring",
+    "price": 3299,
+    "description": "-P-i-n-k- -T-r-i-l-l-i-o-n- -R-i-n-g- -\u2014- -a-n- -e-l-e-g-a-n-t- -w-o-m-e-n-'-s- -r-i-n-g- -c-r-a-f-t-e-d- -i-n- -p-i-n-k- -s-t-o-n-e-,- -f-i-n-i-s-h-e-d- -w-i-t-h- -a- -p-o-l-i-s-h-e-d-,- -s-t-a-t-e-m-e-n-t---r-e-a-d-y- -l-o-o-k-.-"
+  },
+  {
+    "page": 12,
+    "category_header": null,
+    "name": "Textured Gold Band",
+    "price": 3499,
+    "description": "-T-e-x-t-u-r-e-d- -G-o-l-d- -B-a-n-d- -\u2014- -a-n- -e-l-e-g-a-n-t- -w-o-m-e-n-'-s- -r-i-n-g- -c-r-a-f-t-e-d- -i-n- -g-o-l-d-,- -f-i-n-i-s-h-e-d- -w-i-t-h- -a- -p-o-l-i-s-h-e-d-,- -s-t-a-t-e-m-e-n-t---r-e-a-d-y- -l-o-o-k-.-"
+  },
+  {
+    "page": 12,
+    "category_header": null,
+    "name": "Yellow Gemstone Ring",
+    "price": 3799,
+    "description": "-Y-e-l-l-o-w- -G-e-m-s-t-o-n-e- -R-i-n-g- -\u2014- -a-n- -e-l-e-g-a-n-t- -w-o-m-e-n-'-s- -r-i-n-g- -c-r-a-f-t-e-d- -i-n- -y-e-l-l-o-w- -g-e-m-s-t-o-n-e-,- -f-i-n-i-s-h-e-d- -w-i-t-h- -a- -p-o-l-i-s-h-e-d-,- -s-t-a-t-e-m-e-n-t---r-e-a-d-y- -l-o-o-k-.-"
+  },
+  {
+    "page": 13,
+    "category_header": "Men's Rings",
+    "name": "Black Onyx Signet",
+    "price": 3999,
+    "description": "-B-l-a-c-k- -O-n-y-x- -S-i-g-n-e-t- -\u2014- -a-n- -e-l-e-g-a-n-t- -m-e-n-'-s- -r-i-n-g- -c-r-a-f-t-e-d- -i-n- -o-n-y-x-,- -f-i-n-i-s-h-e-d- -w-i-t-h- -a- -p-o-l-i-s-h-e-d-,- -s-t-a-t-e-m-e-n-t---r-e-a-d-y- -l-o-o-k-.-"
+  },
+  {
+    "page": 13,
+    "category_header": "Men's Rings",
+    "name": "Blue Cabochon Ring",
+    "price": 4799,
+    "description": "-B-l-u-e- -C-a-b-o-c-h-o-n- -R-i-n-g- -\u2014- -a-n- -e-l-e-g-a-n-t- -m-e-n-'-s- -r-i-n-g- -c-r-a-f-t-e-d- -i-n- -b-l-u-e- -s-t-o-n-e-,- -f-i-n-i-s-h-e-d- -w-i-t-h- -a- -p-o-l-i-s-h-e-d-,- -s-t-a-t-e-m-e-n-t---r-e-a-d-y- -l-o-o-k-.-"
+  },
+  {
+    "page": 13,
+    "category_header": "Men's Rings",
+    "name": "Blue Topaz Signet",
+    "price": 4799,
+    "description": "-B-l-u-e- -T-o-p-a-z- -S-i-g-n-e-t- -\u2014- -a-n- -e-l-e-g-a-n-t- -m-e-n-'-s- -r-i-n-g- -c-r-a-f-t-e-d- -i-n- -b-l-u-e- -s-t-o-n-e-,- -t-o-p-a-z-,- -f-i-n-i-s-h-e-d- -w-i-t-h- -a- -p-o-l-i-s-h-e-d-,- -s-t-a-t-e-m-e-n-t---r-e-a-d-y- -l-o-o-k-.-"
+  },
+  {
+    "page": 13,
+    "category_header": "Men's Rings",
+    "name": "Classic Gold Band",
+    "price": 3999,
+    "description": "-C-l-a-s-s-i-c- -G-o-l-d- -B-a-n-d- -\u2014- -a-n- -e-l-e-g-a-n-t- -m-e-n-'-s- -r-i-n-g- -c-r-a-f-t-e-d- -i-n- -g-o-l-d-,- -f-i-n-i-s-h-e-d- -w-i-t-h- -a- -p-o-l-i-s-h-e-d-,- -s-t-a-t-e-m-e-n-t---r-e-a-d-y- -l-o-o-k-.-"
+  },
+  {
+    "page": 14,
+    "category_header": null,
+    "name": "Gold Diamond Ring",
+    "price": 4249,
+    "description": "-G-o-l-d- -D-i-a-m-o-n-d- -R-i-n-g- -\u2014- -a-n- -e-l-e-g-a-n-t- -m-e-n-'-s- -r-i-n-g- -c-r-a-f-t-e-d- -i-n- -g-o-l-d-,- -d-i-a-m-o-n-d-,- -f-i-n-i-s-h-e-d- -w-i-t-h- -a- -p-o-l-i-s-h-e-d-,- -s-t-a-t-e-m-e-n-t---r-e-a-d-y- -l-o-o-k-.-"
+  },
+  {
+    "page": 14,
+    "category_header": null,
+    "name": "Gold Emerald Ring",
+    "price": 4499,
+    "description": "-G-o-l-d- -E-m-e-r-a-l-d- -R-i-n-g- -\u2014- -a-n- -e-l-e-g-a-n-t- -m-e-n-'-s- -r-i-n-g- -c-r-a-f-t-e-d- -i-n- -g-o-l-d-,- -e-m-e-r-a-l-d-,- -f-i-n-i-s-h-e-d- -w-i-t-h- -a- -p-o-l-i-s-h-e-d-,- -s-t-a-t-e-m-e-n-t---r-e-a-d-y- -l-o-o-k-.-"
+  },
+  {
+    "page": 14,
+    "category_header": null,
+    "name": "Gold Signet Ring",
+    "price": 4499,
+    "description": "-G-o-l-d- -S-i-g-n-e-t- -R-i-n-g- -\u2014- -a-n- -e-l-e-g-a-n-t- -m-e-n-'-s- -r-i-n-g- -c-r-a-f-t-e-d- -i-n- -g-o-l-d-,- -f-i-n-i-s-h-e-d- -w-i-t-h- -a- -p-o-l-i-s-h-e-d-,- -s-t-a-t-e-m-e-n-t---r-e-a-d-y- -l-o-o-k-.-"
+  },
+  {
+    "page": 14,
+    "category_header": null,
+    "name": "Hammered Gold Band",
+    "price": 3999,
+    "description": "-H-a-m-m-e-r-e-d- -G-o-l-d- -B-a-n-d- -\u2014- -a-n- -e-l-e-g-a-n-t- -m-e-n-'-s- -r-i-n-g- -c-r-a-f-t-e-d- -i-n- -g-o-l-d-,- -f-i-n-i-s-h-e-d- -w-i-t-h- -a- -p-o-l-i-s-h-e-d-,- -s-t-a-t-e-m-e-n-t---r-e-a-d-y- -l-o-o-k-.-"
+  },
+  {
+    "page": 15,
+    "category_header": null,
+    "name": "Ornate Diamond Ring",
+    "price": 4249,
+    "description": "-O-r-n-a-t-e- -D-i-a-m-o-n-d- -R-i-n-g- -\u2014- -a-n- -e-l-e-g-a-n-t- -m-e-n-'-s- -r-i-n-g- -c-r-a-f-t-e-d- -i-n- -d-i-a-m-o-n-d-,- -f-i-n-i-s-h-e-d- -w-i-t-h- -a- -p-o-l-i-s-h-e-d-,- -s-t-a-t-e-m-e-n-t---r-e-a-d-y- -l-o-o-k-.-"
+  },
+  {
+    "page": 15,
+    "category_header": null,
+    "name": "Product 2",
+    "price": 4799,
+    "description": "-P-r-o-d-u-c-t- -2- -\u2014- -a-n- -e-l-e-g-a-n-t- -m-e-n-'-s- -r-i-n-g- -c-r-a-f-t-e-d- -i-n- -f-i-n-e- -m-e-t-a-l-,- -f-i-n-i-s-h-e-d- -w-i-t-h- -a- -p-o-l-i-s-h-e-d-,- -s-t-a-t-e-m-e-n-t---r-e-a-d-y- -l-o-o-k-.-"
+  },
+  {
+    "page": 16,
+    "category_header": "Women's Bracelets",
+    "name": "Blue Flower Bracelet",
+    "price": 7099,
+    "description": "-B-l-u-e- -F-l-o-w-e-r- -B-r-a-c-e-l-e-t- -\u2014- -a-n- -e-l-e-g-a-n-t- -w-o-m-e-n-'-s- -b-r-a-c-e-l-e-t- -c-r-a-f-t-e-d- -i-n- -b-l-u-e- -s-t-o-n-e-,- -f-i-n-i-s-h-e-d- -w-i-t-h- -a- -p-o-l-i-s-h-e-d-,- -s-t-a-t-e-m-e-n-t---r-e-a-d-y- -l-o-o-k-.-"
+  },
+  {
+    "page": 16,
+    "category_header": "Women's Bracelets",
+    "name": "Gold Rose Bracelet",
+    "price": 7099,
+    "description": "-G-o-l-d- -R-o-s-e- -B-r-a-c-e-l-e-t- -\u2014- -a-n- -e-l-e-g-a-n-t- -w-o-m-e-n-'-s- -b-r-a-c-e-l-e-t- -c-r-a-f-t-e-d- -i-n- -g-o-l-d-,- -r-o-s-e- -g-o-l-d-,- -f-i-n-i-s-h-e-d- -w-i-t-h- -a- -p-o-l-i-s-h-e-d-,- -s-t-a-t-e-m-e-n-t---r-e-a-d-y- -l-o-o-k-.-"
+  },
+  {
+    "page": 16,
+    "category_header": "Women's Bracelets",
+    "name": "Opal Bead Bracelet",
+    "price": 7499,
+    "description": "-O-p-a-l- -B-e-a-d- -B-r-a-c-e-l-e-t- -\u2014- -a-n- -e-l-e-g-a-n-t- -w-o-m-e-n-'-s- -b-r-a-c-e-l-e-t- -c-r-a-f-t-e-d- -i-n- -o-p-a-l-,- -f-i-n-i-s-h-e-d- -w-i-t-h- -a- -p-o-l-i-s-h-e-d-,- -s-t-a-t-e-m-e-n-t---r-e-a-d-y- -l-o-o-k-.-"
+  },
+  {
+    "page": 16,
+    "category_header": "Women's Bracelets",
+    "name": "Pink Crystal Bracelet",
+    "price": 7499,
+    "description": "-P-i-n-k- -C-r-y-s-t-a-l- -B-r-a-c-e-l-e-t- -\u2014- -a-n- -e-l-e-g-a-n-t- -w-o-m-e-n-'-s- -b-r-a-c-e-l-e-t- -c-r-a-f-t-e-d- -i-n- -p-i-n-k- -s-t-o-n-e-,- -c-r-y-s-t-a-l-,- -f-i-n-i-s-h-e-d- -w-i-t-h- -a- -p-o-l-i-s-h-e-d-,- -s-t-a-t-e-m-e-n-t---r-e-a-d-y- -l-o-o-k-.-"
+  },
+  {
+    "page": 17,
+    "category_header": "Men's Bracelets",
+    "name": "Diamond Tennis Bracelet",
+    "price": 8549,
+    "description": "-D-i-a-m-o-n-d- -T-e-n-n-i-s- -B-r-a-c-e-l-e-t- -\u2014- -a-n- -e-l-e-g-a-n-t- -m-e-n-'-s- -b-r-a-c-e-l-e-t- -c-r-a-f-t-e-d- -i-n- -d-i-a-m-o-n-d-,- -f-i-n-i-s-h-e-d- -w-i-t-h- -a- -p-o-l-i-s-h-e-d-,- -s-t-a-t-e-m-e-n-t---r-e-a-d-y- -l-o-o-k-.-"
+  },
+  {
+    "page": 17,
+    "category_header": "Men's Bracelets",
+    "name": "Gold Clover Bracelet",
+    "price": 7099,
+    "description": "-G-o-l-d- -C-l-o-v-e-r- -B-r-a-c-e-l-e-t- -\u2014- -a-n- -e-l-e-g-a-n-t- -m-e-n-'-s- -b-r-a-c-e-l-e-t- -c-r-a-f-t-e-d- -i-n- -g-o-l-d-,- -f-i-n-i-s-h-e-d- -w-i-t-h- -a- -p-o-l-i-s-h-e-d-,- -s-t-a-t-e-m-e-n-t---r-e-a-d-y- -l-o-o-k-.-"
+  },
+  {
+    "page": 17,
+    "category_header": "Men's Bracelets",
+    "name": "Gold Cuff Bangle",
+    "price": 7099,
+    "description": "-G-o-l-d- -C-u-f-f- -B-a-n-g-l-e- -\u2014- -a-n- -e-l-e-g-a-n-t- -m-e-n-'-s- -b-r-a-c-e-l-e-t- -c-r-a-f-t-e-d- -i-n- -g-o-l-d-,- -f-i-n-i-s-h-e-d- -w-i-t-h- -a- -p-o-l-i-s-h-e-d-,- -s-t-a-t-e-m-e-n-t---r-e-a-d-y- -l-o-o-k-.-"
+  },
+  {
+    "page": 17,
+    "category_header": "Men's Bracelets",
+    "name": "Ruby Emerald Bracelet",
+    "price": 8549,
+    "description": "-R-u-b-y- -E-m-e-r-a-l-d- -B-r-a-c-e-l-e-t- -\u2014- -a-n- -e-l-e-g-a-n-t- -m-e-n-'-s- -b-r-a-c-e-l-e-t- -c-r-a-f-t-e-d- -i-n- -r-u-b-y-,- -e-m-e-r-a-l-d-,- -f-i-n-i-s-h-e-d- -w-i-t-h- -a- -p-o-l-i-s-h-e-d-,- -s-t-a-t-e-m-e-n-t---r-e-a-d-y- -l-o-o-k-.-"
+  }
+]

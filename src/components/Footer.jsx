@@ -5,7 +5,7 @@ import { GevariyaLogo } from './GevariyaLogo';
 import * as api from '../services/api';
 
 export const Footer = () => {
-  const { navigateToPage, setSizeGuideOpen, showToast, setTrackOrderOpen } = useShop();
+  const { navigateToPage, setSizeGuideOpen, showToast } = useShop();
 
   const [email, setEmail] = useState('');
   const [subscribing, setSubscribing] = useState(false);
@@ -32,8 +32,7 @@ export const Footer = () => {
   ];
 
   const careLinks = [
-    { label: 'Track My Order',              action: () => setTrackOrderOpen(true) },
-    { label: 'Book Private Consultation',   action: () => navigateToPage('contact') },
+    { label: 'Track My Order',              action: () => window.open('https://wa.me/917041677500?text=Hello%20Gevariya%20team,%20I%20would%20like%20to%20check%20my%20order%20status.', '_blank') },
     { label: 'Ring Size & Fitting Guide',   action: () => setSizeGuideOpen(true) },
     { label: 'Shipping & Delivery',         action: () => navigateToPage('delivery') },
     { label: 'Returns & Exchange',          action: () => navigateToPage('returns') },

@@ -306,13 +306,7 @@ input:focus, textarea:focus, select:focus {
   position: absolute;
   inset: 0;
   /* Cushion cut: square with concave-curved sides — each side bows inward ~12% */
-  clip-path: path(
-    'M 50,2
-     C 65,2  98,35  98,50
-     C 98,65  65,98  50,98
-     C 35,98  2,65   2,50
-     C 2,35   35,2   50,2 Z'
-  );
+  clip-path: path('M 50,2 C 65,2 98,35 98,50 C 98,65 65,98 50,98 C 35,98 2,65 2,50 C 2,35 35,2 50,2 Z');
   /* Fallback for browsers that don't fully support path() */
   border-radius: 38% 38% 38% 38% / 38% 38% 38% 38%;
   overflow: hidden;
@@ -322,13 +316,7 @@ input:focus, textarea:focus, select:focus {
 
 /* True cushion cut via SVG clip-path (most accurate) */
 .cushion-cut-clip {
-  clip-path: path(
-    'M 50,4
-     C 62,4 96,36 96,50
-     C 96,64 62,96 50,96
-     C 38,96 4,64  4,50
-     C 4,36 38,4  50,4 Z'
-  );
+  clip-path: path('M 50,4 C 62,4 96,36 96,50 C 96,64 62,96 50,96 C 38,96 4,64 4,50 C 4,36 38,4 50,4 Z');
 }
 
 .cushion-cut-img {
@@ -368,13 +356,7 @@ input:focus, textarea:focus, select:focus {
 .cushion-cut-ring {
   position: absolute;
   inset: -4px;
-  clip-path: path(
-    'M 50,0
-     C 64,0 100,34 100,50
-     C 100,66 64,100 50,100
-     C 36,100 0,66  0,50
-     C 0,34 36,0  50,0 Z'
-  );
+  clip-path: path('M 50,0 C 64,0 100,34 100,50 C 100,66 64,100 50,100 C 36,100 0,66 0,50 C 0,34 36,0 50,0 Z');
   background: linear-gradient(135deg, #C6A46A 0%, #7B3F42 50%, #C6A46A 100%);
   opacity: 0;
   transition: opacity 0.4s ease;

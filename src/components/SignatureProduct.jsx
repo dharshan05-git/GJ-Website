@@ -20,11 +20,11 @@ export const SignatureProduct = () => {
   const [popHeart, setPopHeart] = useState(false);
 
   // Single signature product
-  const product = PRODUCTS.find(p => p.badge === 'SIGNATURE' && p.category === 'EARRINGS') ||
-                  PRODUCTS.find(p => p.badge === 'SIGNATURE') ||
+  const product = PRODUCTS.find(p => p.id === 'pink-butterfly-ring') ||
+                  PRODUCTS.find(p => p.isBestSeller) ||
                   PRODUCTS[0];
 
-  const [selectedMetal, setSelectedMetal] = useState(product?.metals?.[0] || '925 Sterling Silver');
+  const [selectedMetal, setSelectedMetal] = useState(product?.metals?.[0] || '18K Rose Gold');
   const isWishlisted = product ? isInWishlist(product.id) : false;
 
   if (!product) return null;
